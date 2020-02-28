@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,8 +11,30 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <title>Información sobre el congreso</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+
+      .parallax {
+        /* The image used */
+        background-image: url("assets/images/congreso.jpg");
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      @media only screen and (max-device-width: 1000px) {
+        .parallax {
+          background-attachment: scroll;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -19,7 +42,24 @@
 
     <!-- Content -->
     <section class="container">INFO</section>
+    <!-- Body -->
+    <p>
+      <a href="https://www.elmundo.es/">El mundo</a><br />
+      <a href="https://www.larazon.es/">La razón</a><br />
+      <a href="https://www.abc.es/">ABC</a><br />
+      <a href="https://elpais.com/">El país</a><br />
+      <a href="https://www.elconfidencial.com/">El confidencial</a><br />
+      <a href="https://www.lavanguardia.com/">La Vanguardia</a><br />
+      <br />
+    </p>
 
+    <div class="parallax"></div>
+
+    <div style="height:1000px;font-size:12px">
+      El congreso.
+    </div>
+
+    <div class="parallax"></div>
     <!-- Footer -->
     <footer class="footer"></footer>
 
@@ -41,6 +81,6 @@
     ></script>
 
     <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>

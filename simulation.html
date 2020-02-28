@@ -10,7 +10,8 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
     <title>Simulación</title>
   </head>
   <body>
@@ -18,7 +19,7 @@
     <header class="header"></header>
 
     <!-- Content -->
-    <section class="container">
+    <section class="container container-simular">
       <div id="simulation-header">
         <div class="progress">
           <div
@@ -54,6 +55,79 @@
           >Simular</a
         >
       </div>
+
+      <div id="asignar-voto">
+        <!-- #########   PSOE   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">PSOE [120 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="PSOE1" class="radio">
+              <input type="radio" name="PSOE" id="PSOE1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PSOE2" class="radio">
+              <input type="radio" name="PSOE" id="PSOE2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PSOE3" class="radio">
+              <input type="radio" name="PSOE" id="PSOE3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- #########   PP   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">PP [88 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="PP1" class="radio">
+              <input type="radio" name="PP" id="PP1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PP2" class="radio">
+              <input type="radio" name="PP" id="PP2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PP3" class="radio">
+              <input type="radio" name="PP" id="PP3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- #########   VOX   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">VOX [52 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="VOX1" class="radio">
+              <input type="radio" name="VOX" id="VOX1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="VOX2" class="radio">
+              <input type="radio" name="VOX" id="VOX2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="VOX3" class="radio">
+              <input type="radio" name="VOX" id="VOX3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- ANTES DE PONERLOS TODOS, VAMOS A DEJAR DEFINITIVO EL ESTILO DE 1, PARA NO TENER QUE CAMBIAR TODOS -->
+      </div>
     </section>
 
     <!-- Footer -->
@@ -77,6 +151,6 @@
     ></script>
 
     <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>

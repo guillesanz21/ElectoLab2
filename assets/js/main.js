@@ -1,11 +1,12 @@
 // Load the header
 $(document).ready(function() {
-  $(".header").load("/partials/header.html");
+ // $(".header").load("partials/header.html");
+ $(".header").load("./partials/header.html");
 });
 
 // Load the footer
 $(document).ready(function() {
-  $(".footer").load("/partials/footer.html");
+  $(".footer").load("./partials/footer.html");
 });
 
 // Check current page (so the navbar changes its selected page)

@@ -10,32 +10,45 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <title>ElectoLab</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header"></header>
+    <!-- Information page -->
 
     <!-- Content -->
     <section class="container container-index">
       <h1 class="display-2">ElectoLab Parte II</h1>
+
       <img
         id="resultados"
-        src="/assets/images/resultados.png"
+        src="assets/images/resultados.png"
         alt="resultados de las elecciones generales de 2019"
       />
-      <a
-        role="button"
-        id="simular-btn-main"
-        class="btn btn-info"
-        href="simulation.html"
-        >Simular</a
-      >
+      <div id="btns-home">
+        <a role="button" id="btn-home" class="btn btn-info disabled" href="#"
+          >Simulación Avanzada</a
+        >
+        <a
+          role="button"
+          id="btn-home"
+          class="btn btn-info"
+          href="simulation.html"
+          >Simulación Sencilla</a
+        >
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <a role="button" class="btn info" href="information.html">
+        Information
+      </a>
+    </footer>
+
+    <!-- Information page -->
 
     <!-- Bootstrap required JS -->
     <script
@@ -55,6 +68,16 @@
     ></script>
 
     <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>
+
+<!-- Information page -->
+<style>
+  .info {
+    background-color: #2196f3;
+  } /* Blue */
+  .info:hover {
+    background: #0b7dda;
+  }
+</style>
