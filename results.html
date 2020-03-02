@@ -1,114 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Task", "Hours per Day"],
+          ["A favor", 230],
+          ["En contra", 100],
+          ["Abstención", 45]
+        ]);
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-  <title>Resultados de la simulación</title>
+        var options = {
+          title: "Resultado votación",
+          is3D: false
+        };
 
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script type="text/javascript">
-    google.charts.load("current", { packages: ["corechart"] });
-    google.charts.setOnLoadCallback(drawChart);
-    function drawChart() {
-      var data = google.visualization.arrayToDataTable([
-        ['Task', 'Hours per Day'],
-        ['A favor', 230],
-        ['En contra', 100],
-        ['Abstención', 45 ]
+        var chart = new google.visualization.PieChart(
+          document.getElementById("piechart_3d")
+        );
+        chart.draw(data, options);
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-      ]);
+    <title>Resultados de la simulación</title>
+  </head>
 
-      var options = {
-        title: 'Resultado votación',
-        is3D: false,
-      };
+  <body style="background-color: navajowhite;">
+    <!-- Header -->
+    <header class="header"></header>
 
-      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
-      chart.draw(data, options);
-    }
-  </script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Content -->
+    <section class="container">
+      <h1 class="display-4" style="text-align: center;">
+        Resultado de su simulación
+      </h1>
+      <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+      <table class="table table-hover" id="results-table">
+        <thead>
+          <tr>
+            <th>Decisión</th>
+            <th>Total votos</th>
+            <th>Porcentaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A favor</td>
+            <td>230</td>
+            <td>230/375</td>
+          </tr>
+          <tr>
+            <td>En contra</td>
+            <td>100</td>
+            <td>100/375</td>
+          </tr>
+          <tr>
+            <td>Abstención</td>
+            <td>45</td>
+            <td>45/375</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--Save simulation-->
+      <h2>Guarde su simulación</h2>
 
-</head>
+      <form>
+        <label for="title">Título:</label><br />
+        <input
+          type="text"
+          id="title"
+          name="title"
+          placeholder="Ley Mordaza"
+          required
+        /><br />
+        <label for="fname">First name:</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Leandro"
+          required
+        /><br />
+        <label for="lname">Last name:</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Diaz"
+          required
+        />
+        <br />
+        <a role="button" id="save-results-btn" class="btn btn-info">Guardar</a>
+      </form>
+      <br /><br /><br /><br /><br /><br />
+    </section>
+    <!-- Footer -->
+    <footer class="footer"></footer>
 
-<body style="background-color: navajowhite; margin-right: 50px; margin-left: 30px;">
-  <!-- Header -->
-  <header class="header"></header>
+    <!-- Bootstrap required JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Content -->
-  <section class="container">Resultado de su simulación</section>
-  <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
-  <table class="table table-hover" style ="margin: 3%; width: 90%" >
-    <thead>
-      <tr>
-        <th>Decisión</th>
-        <th>Total votos</th>
-        <th>Porcentaje</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>A favor</td>
-        <td>230</td>
-        <td>230/375</td>
-      </tr>
-      <tr>
-        <td>En contra</td>
-        <td>100</td>
-        <td>100/375</td>
-      </tr>
-      <tr>
-        <td>Abstención</td>
-        <td>45</td>
-        <td>45/375</td>
-      </tr>
-    </tbody>
-    
-  </table>
-   <!--Save simulation-->
-   <h2>Guarde su simulación</h2>
-   
-   <form>
-      <label for="lname">Título:</label><br>
-      <input type="text" id="lname" name="lname" value="ley sobre las aceras"><br>
-     <label for="fname">First name:</label><br>
-     <input type="text" id="fname" name="fname" value="Leandro"><br>
-     <label for="lname">Last name:</label><br>
-     <input type="text" id="lname" name="lname" value="Diaz">
-     <br>
-     <a
-     role="button"
-     id="simular-btn-simulation"
-     class="btn btn-info"
-     style="align-self: auto;"
-     >Guardar</a
-   >
-   </form>
-   <br><br><br><br><br><br>
-   
-  
-  <!-- Footer -->
-  <footer class="footer"></footer>
-
-  <!-- Bootstrap required JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-
-  <!-- JS file responsible for load the partials -->
-  <script type="text/javascript" src="assets/js/main.js"></script>
-</body>
-
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
 </html>

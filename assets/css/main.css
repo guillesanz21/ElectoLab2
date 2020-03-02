@@ -59,21 +59,12 @@ body {
   margin-top: 0.5em;
 }
 
-/* ESTO ES LO DEL BOTON DE INFO QUE CREASTE JAIME, MIRA A VER SI LO QUIERES QUITAR */
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  float: right;
-  bottom: 0 px;
-  flex: 0%;
+/*  ###################   RESULTADOS   ##################  */
+#results-table {
+  margin: 3% 0;
+  width: 90%;
 }
-
-.info {
-  background-color: #2196f3;
-} /* Blue */
-.info:hover {
-  background: #0b7dda;
+#save-results-btn {
+  align-self: auto;
+  margin-top: 1%;
 }
