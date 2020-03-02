@@ -3,8 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link type="text/css" rel="stylesheet" href="css/styl.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
     <title>Simulación</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header"></header>
+
+    <!-- Content -->
+    <section class="container container-simular">
+      <div id="simulation-header">
+        <div class="progress">
+          <div
+            class="progress-bar"
+            role="progressbar"
+            style="width: 15%"
+            aria-valuenow="15"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+          <div
+            class="progress-bar bg-success"
+            role="progressbar"
+            style="width: 30%"
+            aria-valuenow="30"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+          <div
+            class="progress-bar bg-info"
+            role="progressbar"
+            style="width: 20%"
+            aria-valuenow="20"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          ></div>
+        </div>
+        <a
+          role="button"
+          id="simular-btn-simulation"
+          class="btn btn-info"
+          href="results.html"
+          >Simular</a
+        >
+      </div>
+
+      <div id="asignar-voto">
+        <!-- #########   PSOE   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">PSOE [120 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="PSOE1" class="radio">
+              <input type="radio" name="PSOE" id="PSOE1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PSOE2" class="radio">
+              <input type="radio" name="PSOE" id="PSOE2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PSOE3" class="radio">
+              <input type="radio" name="PSOE" id="PSOE3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- #########   PP   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">PP [88 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="PP1" class="radio">
+              <input type="radio" name="PP" id="PP1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PP2" class="radio">
+              <input type="radio" name="PP" id="PP2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PP3" class="radio">
+              <input type="radio" name="PP" id="PP3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- #########   VOX   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido">VOX [52 escaños]</p>
+          <!-- Aqui los radio buttons -->
+          <div>
+            <label for="VOX1" class="radio">
+              <input type="radio" name="VOX" id="VOX1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="VOX2" class="radio">
+              <input type="radio" name="VOX" id="VOX2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="VOX3" class="radio">
+              <input type="radio" name="VOX" id="VOX3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+
+        <!-- ANTES DE PONERLOS TODOS, VAMOS A DEJAR DEFINITIVO EL ESTILO DE 1, PARA NO TENER QUE CAMBIAR TODOS -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
+
+    <!-- Bootstrap required JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
 </html>

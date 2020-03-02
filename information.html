@@ -1,10 +1,86 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link type="text/css" rel="stylesheet" href="css/styl.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <title>Información sobre el congreso</title>
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+
+      .parallax {
+        /* The image used */
+        background-image: url("assets/images/congreso.jpg");
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      @media only screen and (max-device-width: 1000px) {
+        .parallax {
+          background-attachment: scroll;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header"></header>
+
+    <!-- Content -->
+    <section class="container">INFO</section>
+    <!-- Body -->
+    <p>
+      <a href="https://www.elmundo.es/">El mundo</a><br />
+      <a href="https://www.larazon.es/">La razón</a><br />
+      <a href="https://www.abc.es/">ABC</a><br />
+      <a href="https://elpais.com/">El país</a><br />
+      <a href="https://www.elconfidencial.com/">El confidencial</a><br />
+      <a href="https://www.lavanguardia.com/">La Vanguardia</a><br />
+      <br />
+    </p>
+
+    <div class="parallax"></div>
+
+    <div style="height:1000px;font-size:12px">
+      El congreso.
+    </div>
+
+    <div class="parallax"></div>
+    <!-- Footer -->
+    <footer class="footer"></footer>
+
+    <!-- Bootstrap required JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
 </html>
