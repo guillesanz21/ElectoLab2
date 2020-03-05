@@ -26,7 +26,7 @@
 1. [x] Barra de progreso estético
 2. [x] Boton de simulación
 3. [ ] Lista de todos los partidos, con información de número de escaños y su logo
-4. [ ] Radio buttons
+4. [X] Radio buttons
 5. [ ] Barra de progreso funcional
 
 ### Página: RESULTS
