@@ -59,6 +59,18 @@ body {
   margin-top: 0.5em;
 }
 
+#simular-btn-simulation {
+  float: right;
+  flex: 0%;
+  border: none;
+  padding: 10px 20px;
+}
+
+.progress {
+  margin-top: 2%;
+  width: 84%;
+}
+
 /*  ###################   RESULTADOS   ##################  */
 #results-table {
   margin: 3% 0;
