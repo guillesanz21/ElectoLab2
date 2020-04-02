@@ -11,4 +11,5 @@ public interface UsuarioRegistradoDAO {
 	public void update(UsuarioRegistrado user);
 	public void delete(UsuarioRegistrado user);
 	public Collection<UsuarioRegistrado> readAll();
+	public UsuarioRegistrado login(String email, String password);
 }
