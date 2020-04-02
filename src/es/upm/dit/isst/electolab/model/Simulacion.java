@@ -1,6 +1,7 @@
 package es.upm.dit.isst.electolab.model;
 
 import java.io.Serializable;
+import java.util.Collection;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -20,6 +21,9 @@ public class Simulacion implements Serializable {
 	
 	private String tituloLey;
 	private boolean ley_aprobada;
+	private Diputado diputado;
+	private Collection<Diputado> diputados;
+
 	
 	@ManyToOne
 	private UsuarioRegistrado autor;
@@ -83,9 +87,23 @@ public class Simulacion implements Serializable {
 	public void setAutor(UsuarioRegistrado autor) {
 		this.autor = autor;
 	}
+	
+	public Diputado getDiputado() {
+		return diputado;
+	}
 
-	
-	
+	public void setDiputado(Diputado diputado) {
+		this.diputado = diputado;
+	}
+
+	public Collection<Diputado> getDiputados() {
+		return diputados;
+	}
+
+	public void setDiputados(Collection<Diputado> diputados) {
+		this.diputados = diputados;
+	}
+
 	@Override
 	public String toString() {
 		return "Simulacion [idSimulacion=" + idSimulacion + ", votos_favor=" + votos_favor + ", votos_contra="

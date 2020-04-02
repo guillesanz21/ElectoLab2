@@ -15,84 +15,124 @@ public class Diputado implements Serializable {
 	private int idDiputado;
 	
 	private String nombre;
-	//Tags
-	private int edad;
-	private String genero;
-	private String provincia;
-	private String customTags;
 	
-	@ManyToOne
+	//Tags
 	private String partido;
+	private int edad;
+	private String provincia;
+	private String genero;
+	private String customTags;
+	private int voto;   //-1 contra, 0 abs, 1 a favor
+	
 
 	public Diputado() {
 		super();
 	}
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 
 	public int getIdDiputado() {
 		return idDiputado;
 	}
 
-	public String getNombre() {
-		return nombre;
-	}
-
-	public int getEdad() {
-		return edad;
-	}
-
-	public String getGenero() {
-		return genero;
-	}
-
-	public String getProvincia() {
-		return provincia;
-	}
-
-	public String getCustomTags() {
-		return customTags;
-	}
-
-	public String getPartido() {
-		return partido;
-	}
 
 	public void setIdDiputado(int idDiputado) {
 		this.idDiputado = idDiputado;
 	}
 
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
 
-	public void setEdad(int edad) {
-		this.edad = edad;
+
+	public String getPartido() {
+		return partido;
 	}
 
-	public void setGenero(String genero) {
-		this.genero = genero;
-	}
-
-	public void setProvincia(String provincia) {
-		this.provincia = provincia;
-	}
-
-	public void setCustomTags(String customTags) {
-		this.customTags = customTags;
-	}
 
 	public void setPartido(String partido) {
 		this.partido = partido;
 	}
 
-	@Override
-	public String toString() {
-		return "Diputado [idDiputado=" + idDiputado + ", nombre=" + nombre + ", edad=" + edad + ", genero=" + genero
-				+ ", provincia=" + provincia + ", customTags=" + customTags + ", partido=" + partido + "]";
+
+	public int getEdad() {
+		return edad;
 	}
+
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+
+	public String getProvincia() {
+		return provincia;
+	}
+
+
+	public void setProvincia(String provincia) {
+		this.provincia = provincia;
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public String getCustomTags() {
+		return customTags;
+	}
+
+
+	public void setCustomTags(String customTags) {
+		this.customTags = customTags;
+	}
+
+
+	public int getVoto() {
+		return voto;
+	}
+
+
+	public void setVoto(int voto) {
+		this.voto = voto;
+	}
+
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + idDiputado;
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Diputado other = (Diputado) obj;
+		if (idDiputado != other.idDiputado)
+			return false;
+		return true;
+	}
+
 	
 	
 
