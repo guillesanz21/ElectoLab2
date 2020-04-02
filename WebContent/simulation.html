@@ -12,6 +12,15 @@
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
+    <!-- No me odieis por poner un poco de css aqui -->
+    <style>
+        #imgRedonda {
+    width:30px;
+    height:30px;
+    border-radius:160px;
+    border:2px solid #666;
+    }
+    </style>
     <title>Simulación</title>
   </head>
   <body>
@@ -59,7 +68,8 @@
       <div id="asignar-voto">
         <!-- #########   PSOE   ########## -->
         <div class="asignar-voto-partido">
-          <p class="partido">PSOE [120 escaños]</p>
+       	 <img id = "imgRedonda" src= "assets/images/PSOE.png" > </img>
+          <p class="partido"><b>PSOE </b> <i>[120 escaños]</i></p>
           <!-- Aqui los radio buttons -->
           <div class="botones">
             <label for="PSOE1" class="radio">
@@ -82,7 +92,7 @@
 
         <!-- #########   PP   ########## -->
         <div class="asignar-voto-partido">
-          <p class="partido">PP [88 escaños]</p>
+          <p class="partido"><b>PP</b> <i>[88 escaños]</i></p>
           <!-- Aqui los radio buttons -->
           <div class="botones">
             <label for="PP1" class="radio">
@@ -105,7 +115,7 @@
 
         <!-- #########   VOX   ########## -->
         <div class="asignar-voto-partido">
-          <p class="partido">VOX [52 escaños]</p>
+          <p class="partido"><b>VOX </b><i>[52 escaños]</i></p>
           <!-- Aqui los radio buttons -->
           <div class="botones">
             <label for="VOX1" class="radio">
@@ -125,8 +135,306 @@
           </div>
           <!-- Aqui terminan los radio buttons -->
         </div>
+        <!-- #########   PODEMOS   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>PODEMOS-UI </b><i>[35 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="PODEMOS1" class="radio">
+              <input type="radio" name="PODEMOS" id="PODEMOS1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="VOX2" class="radio">
+              <input type="radio" name="PODEMOS" id="PODEMOS2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="VOX3" class="radio">
+              <input type="radio" name="PODEMOS" id="PODEMOS3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+         <!-- #########   ERC   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>ERC-SOBIRANISTES </b><i>[13 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="ERC1" class="radio">
+              <input type="radio" name="ERC" id="ERC1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="ERC2" class="radio">
+              <input type="radio" name="ERC" id="ERC2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="ERC3" class="radio">
+              <input type="radio" name="ERC" id="ERC3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+         <!-- #########   Cs   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>CS</b> <i>[10 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="CS1" class="radio">
+              <input type="radio" name="CS" id="CS1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="CS2" class="radio">
+              <input type="radio" name="CS" id="CS2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="CS3" class="radio">
+              <input type="radio" name="CS" id="CS3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+         <!-- #########   JxCat   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>JxCAT-JUNTS</b> <i>[8 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="Jx1" class="radio">
+              <input type="radio" name="Jx" id="Jx1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="Jx2" class="radio">
+              <input type="radio" name="Jx" id="Jx2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="Jx3" class="radio">
+              <input type="radio" name="Jx" id="Jx3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+         <!-- #########   PNV   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>PNV </b> <i>[7 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="PNV1" class="radio">
+              <input type="radio" name="PNV" id="PNV1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PNV2" class="radio">
+              <input type="radio" name="PNV" id="PNV2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PNV3" class="radio">
+              <input type="radio" name="PNV" id="PNV3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        <!-- #########   BILDU   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>EH Bildu</b> <i>[5 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="BILDU1" class="radio">
+              <input type="radio" name="BILDU" id="BILDU1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="BILDU2" class="radio">
+              <input type="radio" name="BILDU" id="BILDU2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="BILDU3" class="radio">
+              <input type="radio" name="BILDU" id="BILDU3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        
+         <!-- #########   Mas Pais   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>MASPAIS</b> <i>[3 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="MASPAIS1" class="radio">
+              <input type="radio" name="MASPAIS" id="MASPAIS1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="MASPAIS2" class="radio">
+              <input type="radio" name="MASPAIS" id="MASPAIS2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="MASPAIS3" class="radio">
+              <input type="radio" name="MASPAIS3" id="MASPAIS3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        <!-- #########   CUP  ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>CUP-PR</b> <i>[2 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="CUP1" class="radio">
+              <input type="radio" name="CUP" id="CUP1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="CUP2" class="radio">
+              <input type="radio" name="CUP" id="CUP2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="CUP3" class="radio">
+              <input type="radio" name="CUP" id="CUP3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        
+         <!-- #########   CCa   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>CCa-PNC-NC</b> <i>[2 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="CCa1" class="radio">
+              <input type="radio" name="CCa" id="CCa1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="CCa2" class="radio">
+              <input type="radio" name="CCa" id="CCa2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="CCa3" class="radio">
+              <input type="radio" name="CCa" id="CCa3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        <!-- #########  NA+   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>NA+</b> <i>[2 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="NA+1" class="radio">
+              <input type="radio" name="NA+" id="NA+1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="NA+2" class="radio">
+              <input type="radio" name="NA+" id="NA+2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="NA+3" class="radio">
+              <input type="radio" name="NA+" id="NA+3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        
+         <!-- #########   BNG   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>BNG</b> <i>[1 escaños]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="BNG1" class="radio">
+              <input type="radio" name="BNG" id="BNG1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="BNG2" class="radio">
+              <input type="radio" name="BNG" id="BNG2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="BNG3" class="radio">
+              <input type="radio" name="BNG" id="BNG3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        <!-- #########   PRC   ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>PRC</b> <i>[1 escaño]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="PRC1" class="radio">
+              <input type="radio" name="PRC" id="PRC1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="PRC2" class="radio">
+              <input type="radio" name="PRC" id="PRC2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="PRC3" class="radio">
+              <input type="radio" name="PRC" id="PRC3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
+        
+         <!-- #########   Teruel Existe  ########## -->
+        <div class="asignar-voto-partido">
+          <p class="partido"><b>Teruel Existe</b> <i>[1 escaño]</i></p>
+          <!-- Aqui los radio buttons -->
+          <div class="botones">
+            <label for="TE1" class="radio">
+              <input type="radio" name="TE" id="TE1" class="hidden" />
+              <span class="label"></span>A Favor
+            </label>
+
+            <label for="TE2" class="radio">
+              <input type="radio" name="TE" id="TE2" class="hidden" />
+              <span class="label"></span>En Contra
+            </label>
+
+            <label for="TE3" class="radio">
+              <input type="radio" name="TE" id="TE3" class="hidden" />
+              <span class="label"></span>Abstención
+            </label>
+          </div>
+          <!-- Aqui terminan los radio buttons -->
+        </div>
       </div>
     </section>
+    
+   <br>
+     <br>
+     <br>
+    
+         
+   
+     
 
     <!-- Footer -->
     <footer class="footer"></footer>
@@ -150,5 +458,8 @@
 
     <!-- JS file responsible for load the partials -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+    
+
+ 
   </body>
 </html>
