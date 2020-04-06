@@ -13,7 +13,7 @@
   position: relative;
   float: left;
 }
-.botones{
+.botones {
   margin-top: 1.2rem;
   margin-left: 35%;
 }
@@ -45,39 +45,15 @@
 .radio:hover .label:after {
   transform: scale(3.6);
 }
-input[type="radio"][id="PSOE1"]:checked + .label:after {
+input[type="radio"].aFavor + .label:after {
   border-color: forestgreen; /* Radio de fuera del botón */
   background: forestgreen; /* Círculo interior del botón */
 }
-input[type="radio"][id="PSOE2"]:checked + .label:after {
+input[type="radio"].enContra + .label:after {
   border-color: crimson; /* Radio de fuera del botón */
   background: crimson; /* Círculo interior del botón */
 }
-input[type="radio"][id="PSOE3"]:checked + .label:after {
-  border-color: coral; /* Radio de fuera del botón */
-  background: coral; /* Círculo interior del botón */
-}
-input[type="radio"][id="PP1"] + .label:after {
-  border-color: forestgreen; /* Radio de fuera del botón */
-  background: forestgreen; /* Círculo interior del botón */
-}
-input[type="radio"][id="PP2"] + .label:after {
-  border-color: crimson; /* Radio de fuera del botón */
-  background: crimson; /* Círculo interior del botón */
-}
-input[type="radio"][id="PP3"] + .label:after {
-  border-color: coral; /* Radio de fuera del botón */
-  background: coral; /* Círculo interior del botón */
-}
-input[type="radio"][id="VOX1"] + .label:after {
-  border-color: forestgreen; /* Radio de fuera del botón */
-  background: forestgreen; /* Círculo interior del botón */
-}
-input[type="radio"][id="VOX2"] + .label:after {
-  border-color: crimson; /* Radio de fuera del botón */
-  background: crimson; /* Círculo interior del botón */
-}
-input[type="radio"][id="VOX3"] + .label:after {
+input[type="radio"].abstencion + .label:after {
   border-color: coral; /* Radio de fuera del botón */
   background: coral; /* Círculo interior del botón */
 }

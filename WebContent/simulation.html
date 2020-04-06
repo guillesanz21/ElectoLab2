@@ -1,437 +1,76 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<!-- Bootstrap CSS -->
-<link rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	crossorigin="anonymous" />
-<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-<link rel="stylesheet" type="text/css"
-	href="assets/css/radioButtons.css" />
-<!-- No me odieis por poner un poco de css aqui -->
-<style>
-#imgRedonda {
-	width: 30px;
-	height: 30px;
-	border-radius: 160px;
-	border: 2px solid #666;
-	margin-top: 20px;
-}
-</style>
-<title>Simulación</title>
-</head>
-<body>
-	<!-- Header -->
-	<header class="header"></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
+    <script type="text/javascript" src="assets/js/simulation.js"></script>
+    <!-- No me odieis por poner un poco de css aqui.. TE ODIO JAIME -->
+    <style>
+      #imgRedonda {
+        width: 30px;
+        height: 30px;
+        border-radius: 160px;
+        border: 2px solid #666;
+        margin-top: 20px;
+      }
+    </style>
+    <title>Simulación</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header"></header>
 
-	<!-- Content -->
-	<section class="container container-simular">
-		<h3 id="results">
-		total: 350
-		afavor: 0
-		abstencion: 0
-		contra: 0
-		</h3>
-		<form action="FormSimulationServlet">
-			<button id="simular-btn-simulation" class="btn btn-info">
-				Simular</button>
-			<div id="simulation-header">
+    <!-- Content -->
+    <section class="container container-simular">
+      <form action="FormSimulationServlet">
+        <button id="simular-btn-simulation" class="btn btn-info">
+          Simular
+        </button>
 
-				<div class="progress">
-					<div class="progress-bar" role="progressbar"
-						style="width: (afavor/350); background-color: forestgreen"
-						aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-					<div class="progress-bar " role="progressbar"
-						style="width: abstencion/350; background-color: crimson" aria-valuenow="30"
-						aria-valuemin="0" aria-valuemax="100"></div>
-					<div class="progress-bar " role="progressbar"
-						style="width: contra/350; background-color: coral" aria-valuenow="20"
-						aria-valuemin="0" aria-valuemax="100"></div>
-				</div>
-			</div>
+        <!-- Las dos siguientes vistas se implementan en "Simulation.js" mediante MVC -->
+        <div id="barra-view">
+          <!-- La vista se incluye aquí -->
+        </div>
+        <div id="listaPartidos-view">
+          <!-- La vista se incluye aquí -->
+        </div>
+      </form>
+    </section>
 
-			<div id="asignar-voto">
-				<!-- #########   PSOE   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/PSOE.png"> </img>
-					<p class="partido">
-						<b>PSOE </b> <i>[120 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="PSOE1" class="radio" onclick="refreshResults()" > 
-						<input type="radio"
-							name="PSOE" id="PSOE1" class="hidden afavor" /> <span class="label"></span>A
-							Favor
-						</label>
-						 <label for="PSOE2" class="radio" onclick="refreshResults()" > <input type="radio"
-							name="PSOE" id="PSOE2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> 
-						<label for="PSOE3" class="radio" onclick="refreshResults()" > <input type="radio"
-							name="PSOE" id="PSOE3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
+    <br />
+    <br />
+    <br />
 
-				<!-- #########   PP   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/PP.jpeg"> </img>
-					<p class="partido">
-						<b>PP</b> <i>[88 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="PP1" class="radio"> <input type="radio"
-							name="PP" id="PP1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="PP2" class="radio"> <input type="radio"
-							name="PP" id="PP2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="PP3" class="radio"> <input type="radio"
-							name="PP" id="PP3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
+    <!-- Footer -->
+    <footer class="footer"></footer>
 
-				<!-- #########   VOX   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/VOX.jpg"> </img>
-					<p class="partido">
-						<b>VOX </b><i>[52 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="VOX1" class="radio"> <input type="radio"
-							name="VOX" id="VOX1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="VOX2" class="radio"> <input type="radio"
-							name="VOX" id="VOX2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="VOX3" class="radio"> <input type="radio"
-							name="VOX" id="VOX3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   PODEMOS   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/POD.png"> </img>
-					<p class="partido">
-						<b>PODEMOS-UI </b><i>[35 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="PODEMOS1" class="radio"> <input type="radio"
-							name="PODEMOS" id="PODEMOS1" class="hidden" /> <span
-							class="label"></span>A Favor
-						</label> <label for="VOX2" class="radio"> <input type="radio"
-							name="PODEMOS" id="PODEMOS2" class="hidden" /> <span
-							class="label"></span>En Contra
-						</label> <label for="VOX3" class="radio"> <input type="radio"
-							name="PODEMOS" id="PODEMOS3" class="hidden" /> <span
-							class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   ERC   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/ERC.jpg"> </img>
-					<p class="partido">
-						<b>ERC-SOBIRANISTES </b><i>[13 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="ERC1" class="radio"> <input type="radio"
-							name="ERC" id="ERC1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="ERC2" class="radio"> <input type="radio"
-							name="ERC" id="ERC2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="ERC3" class="radio"> <input type="radio"
-							name="ERC" id="ERC3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   Cs   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/CS.png"> </img>
+    <!-- Bootstrap required JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
 
-					<p class="partido">
-						<b>CS</b> <i>[10 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="CS1" class="radio"> <input type="radio"
-							name="CS" id="CS1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="CS2" class="radio"> <input type="radio"
-							name="CS" id="CS2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="CS3" class="radio"> <input type="radio"
-							name="CS" id="CS3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   JxCat   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/JPC.png"> </img>
-					<p class="partido">
-						<b>JxCAT-JUNTS</b> <i>[8 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="Jx1" class="radio"> <input type="radio"
-							name="Jx" id="Jx1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="Jx2" class="radio"> <input type="radio"
-							name="Jx" id="Jx2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="Jx3" class="radio"> <input type="radio"
-							name="Jx" id="Jx3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   PNV   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/PNV.png"> </img>
-
-					<p class="partido">
-						<b>PNV </b> <i>[7 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="PNV1" class="radio"> <input type="radio"
-							name="PNV" id="PNV1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="PNV2" class="radio"> <input type="radio"
-							name="PNV" id="PNV2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="PNV3" class="radio"> <input type="radio"
-							name="PNV" id="PNV3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   BILDU   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/BILDU.png"> </img>
-
-					<p class="partido">
-						<b>EH Bildu</b> <i>[5 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="BILDU1" class="radio"> <input type="radio"
-							name="BILDU" id="BILDU1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="BILDU2" class="radio"> <input type="radio"
-							name="BILDU" id="BILDU2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="BILDU3" class="radio"> <input type="radio"
-							name="BILDU" id="BILDU3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-
-				<!-- #########   Mas Pais   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/MP.png"> </img>
-
-					<p class="partido">
-						<b>MASPAIS</b> <i>[3 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="MASPAIS1" class="radio"> <input type="radio"
-							name="MASPAIS" id="MASPAIS1" class="hidden" /> <span
-							class="label"></span>A Favor
-						</label> <label for="MASPAIS2" class="radio"> <input type="radio"
-							name="MASPAIS" id="MASPAIS2" class="hidden" /> <span
-							class="label"></span>En Contra
-						</label> <label for="MASPAIS3" class="radio"> <input type="radio"
-							name="MASPAIS3" id="MASPAIS3" class="hidden" /> <span
-							class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   CUP  ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/CUP.png"> </img>
-
-					<p class="partido">
-						<b>CUP-PR</b> <i>[2 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="CUP1" class="radio"> <input type="radio"
-							name="CUP" id="CUP1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="CUP2" class="radio"> <input type="radio"
-							name="CUP" id="CUP2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="CUP3" class="radio"> <input type="radio"
-							name="CUP" id="CUP3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-
-				<!-- #########   CCa   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/CCa.jpg"> </img>
-
-					<p class="partido">
-						<b>CCa-PNC-NC</b> <i>[2 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="CCa1" class="radio"> <input type="radio"
-							name="CCa" id="CCa1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="CCa2" class="radio"> <input type="radio"
-							name="CCa" id="CCa2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="CCa3" class="radio"> <input type="radio"
-							name="CCa" id="CCa3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########  NA+   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/NA.png"> </img>
-
-					<p class="partido">
-						<b>NA+</b> <i>[2 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="NA+1" class="radio"> <input type="radio"
-							name="NA+" id="NA+1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="NA+2" class="radio"> <input type="radio"
-							name="NA+" id="NA+2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="NA+3" class="radio"> <input type="radio"
-							name="NA+" id="NA+3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-
-				<!-- #########   BNG   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/BNG.jpeg"> </img>
-
-					<p class="partido">
-						<b>BNG</b> <i>[1 escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="BNG1" class="radio"> <input type="radio"
-							name="BNG" id="BNG1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="BNG2" class="radio"> <input type="radio"
-							name="BNG" id="BNG2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="BNG3" class="radio"> <input type="radio"
-							name="BNG" id="BNG3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-				<!-- #########   PRC   ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/PRC.png"> </img>
-
-					<p class="partido">
-						<b>PRC</b> <i>[1 escaño]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="PRC1" class="radio"> <input type="radio"
-							name="PRC" id="PRC1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> 
-						<label for="PRC2" class="radio"> <input type="radio"
-							name="PRC" id="PRC2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> 
-						<label for="PRC3" class="radio" onclick="refreshResults();"> <input type="radio"
-							name="PRC" id="PRC3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-
-				<!-- #########   Teruel Existe  ########## -->
-				<div class="asignar-voto-partido">
-					<img id="imgRedonda" src="assets/images/TE.png"> </img>
-
-					<p class="partido">
-						<b>Teruel Existe</b> <i>[1 escaño]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-						<label for="TE1" class="radio"> <input type="radio"
-							name="TE" id="TE1" class="hidden" /> <span class="label"></span>A
-							Favor
-						</label> <label for="TE2" class="radio"> <input type="radio"
-							name="TE" id="TE2" class="hidden" /> <span class="label"></span>En
-							Contra
-						</label> <label for="TE3" class="radio"> <input type="radio"
-							name="TE" id="TE3" class="hidden" /> <span class="label"></span>Abstención
-						</label>
-					</div>
-					<!-- Aqui terminan los radio buttons -->
-				</div>
-			</div>
-		</form>
-	</section>
-
-	<br>
-	<br>
-	<br>
-
-
-
-
-
-	<!-- Footer -->
-	<footer class="footer"></footer>
-
-	<!-- Bootstrap required JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
-
-	<!-- JS file responsible for load the partials -->
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script type="text/javascript" src="assets/js/simulation.js"></script>
-
-
-
-</body>
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
 </html>
