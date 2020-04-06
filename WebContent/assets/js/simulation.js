@@ -3,6 +3,9 @@ var afavor= 0;
 var contra= 0;
 var abstencion =0;
 var diputados = 350;
+var psoe = 120;
+var votos = 0;
+var psoeC = 0;
 
 
 function refreshResults () {
@@ -14,19 +17,41 @@ function refreshResults () {
 	results.innerHTML += '<br> Abstencion: ' + abstencion;
 }
 
-document.getElementById('PSOE1').addEventListener('click', function () {
-	  afavor = afavor + 120;
+let partidos = 
+
+for (clave) {
+	// favor
+	document.getElementByClass(clave + '1').addEventListener('click', function () {
+		afavor = afavor + valor;
+	}
+	// contra
+	document.getElementByClass(clave + '2').addEventListener('click', function () {
+		contra = contra + valor;
+	}
+	// abs
+	document.getElementByClass(clave + '3').addEventListener('click', function () {
+		abs = abs + valor;
+	}
+}
+
+document.getElementByClass('PSOE1').addEventListener('click', function () {
+	  votos = psoe *1;
+	
+	  
+	  
 	  refreshResults();
 	});
 
 
 document.getElementById('PSOE2').addEventListener('click', function () {
-	  contra = contra + 120;
+	votos = psoe *(-1);
+	psoeC = 120; 
+	
 	  refreshResults();
 	});
 
 document.getElementById('PSOE3').addEventListener('click', function () {
-	  abstecion = abstencion + 120;
+	  votos = psoe *0;
 	  refreshResults();
 	});
 /*

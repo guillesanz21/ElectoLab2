@@ -1,4 +1,4 @@
-package es.upm.dit.isst.electolab.sevlets;
+package es.upm.dit.isst.electolab.servlets;
 
 import java.io.Console;
 import java.io.IOException;
