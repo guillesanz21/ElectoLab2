@@ -1,11 +1,20 @@
 package es.upm.dit.isst.electolab.model;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.Serializable;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collection;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 @Entity
 public class Simulacion implements Serializable {
@@ -15,36 +24,38 @@ public class Simulacion implements Serializable {
 	@Id
 	private int idSimulacion;
 	
-	private int votos_favor;
-	private int votos_contra;
-	private int votos_abstencion;
+	private long votos_favor;
+	private long votos_contra;
+	private long votos_abstencion;
 	
 	private String tituloLey;
 	private boolean ley_aprobada;
 	private Diputado diputado;
-	private Collection<Diputado> diputados;
-
+	//private Collection<Diputado> diputados;
+	private ArrayList<Diputado> diputados;
 	
 	@ManyToOne
 	private UsuarioRegistrado autor;
 
 	public Simulacion() {
 		super();
+		this.diputados = new ArrayList<Diputado>();
+		rellenaDiputados();
 	}
 
 	public int getIdSimulacion() {
 		return idSimulacion;
 	}
 
-	public int getVotos_favor() {
+	public long getVotos_favor() {
 		return votos_favor;
 	}
 
-	public int getVotos_contra() {
+	public long getVotos_contra() {
 		return votos_contra;
 	}
 
-	public int getVotos_abstencion() {
+	public long getVotos_abstencion() {
 		return votos_abstencion;
 	}
 
@@ -64,15 +75,15 @@ public class Simulacion implements Serializable {
 		this.idSimulacion = idSimulacion;
 	}
 
-	public void setVotos_favor(int votos_favor) {
+	public void setVotos_favor(long votos_favor) {
 		this.votos_favor = votos_favor;
 	}
 
-	public void setVotos_contra(int votos_contra) {
+	public void setVotos_contra(long votos_contra) {
 		this.votos_contra = votos_contra;
 	}
 
-	public void setVotos_abstencion(int votos_abstencion) {
+	public void setVotos_abstencion(long votos_abstencion) {
 		this.votos_abstencion = votos_abstencion;
 	}
 
@@ -96,13 +107,14 @@ public class Simulacion implements Serializable {
 		this.diputado = diputado;
 	}
 
-	public Collection<Diputado> getDiputados() {
+	public 	ArrayList<Diputado> getDiputados() {
 		return diputados;
 	}
-
-	public void setDiputados(Collection<Diputado> diputados) {
-		this.diputados = diputados;
+	
+	public void setDiputados(ArrayList<Diputado> diputados) {
+	this.diputados = diputados;
 	}
+
 
 	@Override
 	public String toString() {
@@ -132,6 +144,62 @@ public class Simulacion implements Serializable {
 		if (idSimulacion != other.idSimulacion)
 			return false;
 		return true;
+	}
+	/*
+	 * Método que convierte el json de diputados.json en un array de diputados y lo mete en el atributo diputados.
+	 * (He tenido que cambiar el atributo diputados de Collection a ArrayList)
+	 */
+	private void rellenaDiputados() {
+		JSONParser parser = new JSONParser();
+        try
+        {           
+        	System.out.println("\t"+ "Simulacion.java , log, rellenarDiputados");
+
+            URL url = getClass().getResource("diputados.json");
+            Object object = parser
+                    .parse(new FileReader(url.getPath()));
+            System.out.println(url.getPath());
+
+            
+            //convert Object to JSONObject
+            JSONObject jsonObject = (JSONObject)object;
+            //Reading the String
+            //String name = (String) jsonObject.get("nombre");
+            //String age = (String) jsonObject.get("edad");
+            
+            //Reading the array
+            JSONArray diputadosJSON = (JSONArray)jsonObject.get("diputados");
+
+            //Printing all the values
+            //JSONObject diputado = ((JSONArray) diputados).getJSONObject(0);
+          
+            JSONObject diputadoJSON;
+            int year = Calendar.getInstance().get(Calendar.YEAR);
+
+            for(int i = 0; i<diputadosJSON.size(); i++)
+            {
+            	Diputado d = new Diputado();
+            	diputadoJSON = (JSONObject)diputadosJSON.get(i);
+            	d.setIdDiputado(i);
+            	d.setNombre((String)diputadoJSON.get("nombre"));
+            	d.setPartido((String)diputadoJSON.get("partido"));
+            	d.setGenero((String)diputadoJSON.get("sexo"));
+            	d.setProvincia((String)diputadoJSON.get("provincia"));
+            	d.setEdad(year-(Long)diputadoJSON.get("nacimiento"));
+            	
+            	this.diputados.add(d);
+
+            }
+        }
+        catch(FileNotFoundException fe)
+        {
+            fe.printStackTrace();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    
 	}
 	
 }

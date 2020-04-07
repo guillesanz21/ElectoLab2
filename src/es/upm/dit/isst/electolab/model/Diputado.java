@@ -18,7 +18,7 @@ public class Diputado implements Serializable {
 	
 	//Tags
 	private String partido;
-	private int edad;
+	private long edad;
 	private String provincia;
 	private String genero;
 	private String customTags;
@@ -60,13 +60,13 @@ public class Diputado implements Serializable {
 	}
 
 
-	public int getEdad() {
+	public long getEdad() {
 		return edad;
 	}
 
 
-	public void setEdad(int edad) {
-		this.edad = edad;
+	public void setEdad(long l) {
+		this.edad = l;
 	}
 
 

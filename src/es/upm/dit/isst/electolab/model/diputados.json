@@ -1,0 +1,19 @@
+{"diputados":[
+	{
+		"nombre":"José Luis Ábalos Meco",
+		"sexo": "Hombre",
+		"nacimiento":1959,
+		"estado civil": "casado",
+		"partido":"PSOE",
+		"provincia":"Valencia"
+	},
+	{	
+		"nombre":"Santiago Abascal Conde",
+		"sexo": "Hombre",
+		"nacimiento":1976,
+		"estado civil": "casado",
+		"partido":"VOX",
+		"provincia":"Madrid"
+	}]
+	
+}

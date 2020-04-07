@@ -238,6 +238,16 @@ const loadEvents = () => {
         barraContr();
       });
   }
+  /*
+   * Crea un SON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet
+   */
+  document
+  .getElementById("simular-btn-simulation")
+  .addEventListener("click", function () {
+	  let json = JSON.stringify(partidos);
+	 
+	  document.getElementById('partidos').value = json;
+  });
 };
 
 document.addEventListener("DOMContentLoaded", loadEvents);
