@@ -11,13 +11,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script
       type="text/javascript"
       src="https://www.gstatic.com/charts/loader.js"
     ></script>
     <script type="text/javascript">
-    
-
       google.charts.load("current", { packages: ["corechart"] });
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -25,12 +25,12 @@
           ["Task", "Hours per Day"],
           ["A favor", 230],
           ["En contra", 100],
-          ["Abstención", 45]
+          ["Abstención", 45],
         ]);
 
         var options = {
           title: "Resultado votación",
-          is3D: false
+          is3D: false,
         };
 
         var chart = new google.visualization.PieChart(
@@ -46,39 +46,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title >Resultados de la simulación</title>
+    <title>Resultados de la simulación</title>
   </head>
 
-  <body style="background-color:rgb(60, 65, 60);">
+  <body style="background-color: rgb(60, 65, 60);">
     <!-- Header -->
     <header class="header"></header>
 
     <!-- Content -->
     <section class="container">
-      <h1 class="display-4" style="text-align: center; color : white">
+      <h1 class="display-4" style="text-align: center; color: white;">
         Resultado de su simulación
       </h1>
       <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
       <table class="table table-hover" id="results-table">
         <thead>
-          <tr style="color:white">
+          <tr style="color: white;">
             <th>Decisión</th>
             <th>Total votos</th>
             <th>Porcentaje</th>
           </tr>
         </thead>
         <tbody>
-          <tr style="color:green">
+          <tr style="color: green;">
             <td>A favor</td>
             <td>230</td>
             <td>230/375</td>
           </tr>
-          <tr style="color:rgb(139,0,0)">
+          <tr style="color: rgb(139, 0, 0);">
             <td>En contra</td>
             <td>100</td>
             <td>100/375</td>
           </tr>
-          <tr style="color: rgb(255,140,0)">
+          <tr style="color: rgb(255, 140, 0);">
             <td>Abstención</td>
             <td>45</td>
             <td>45/375</td>
@@ -86,10 +86,10 @@
         </tbody>
       </table>
       <!--Save simulation-->
-      <h2 style="color:white">Guarde su simulación</h2>
+      <h2 style="color: white;">Guarde su simulación</h2>
 
       <form>
-        <label for="title" style="color:white">Título:</label><br />
+        <label for="title" style="color: white;">Título:</label><br />
         <input
           type="text"
           id="title"
@@ -97,7 +97,7 @@
           placeholder="Ley Mordaza"
           required
         /><br />
-        <label for="fname" style="color:white">First name:</label><br />
+        <label for="fname" style="color: white;">First name:</label><br />
         <input
           type="text"
           id="fname"
@@ -105,7 +105,7 @@
           placeholder="Leandro"
           required
         /><br />
-        <label for="lname" style="color:white">Last name:</label><br />
+        <label for="lname" style="color: white;">Last name:</label><br />
         <input
           type="text"
           id="lname"
@@ -137,8 +137,5 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-
-    <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>

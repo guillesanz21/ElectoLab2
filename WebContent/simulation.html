@@ -12,17 +12,9 @@
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
+    <!-- JS file responsible for load the partials -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/simulation.js"></script>
-    <!-- No me odieis por poner un poco de css aqui.. TE ODIO JAIME -->
-    <style>
-      #imgRedonda {
-        width: 30px;
-        height: 30px;
-        border-radius: 160px;
-        border: 2px solid #666;
-        margin-top: 20px;
-      }
-    </style>
     <title>Simulación</title>
   </head>
   <body>
@@ -32,8 +24,8 @@
     <!-- Content -->
     <section class="container container-simular">
       <form action="FormSimulationServlet">
-      <input type="hidden" name="partidos" id="partidos" value="" />
-      
+        <input type="hidden" name="partidos" id="partidos" value="" />
+
         <button id="simular-btn-simulation" class="btn btn-info">
           Simular
         </button>
@@ -71,8 +63,5 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-
-    <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
 </html>

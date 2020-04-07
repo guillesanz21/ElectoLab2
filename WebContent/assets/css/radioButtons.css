@@ -5,18 +5,7 @@
   font-size: 0.9em;
   margin: 8px;
 }
-.partido {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-left: 1.5rem;
-  width: 30%;
-  position: relative;
-  float: left;
-}
-.botones {
-  margin-top: 1.2rem;
-  margin-left: 35%;
-}
+
 .radio .label {
   position: relative;
   display: block;
@@ -28,6 +17,7 @@
   border-radius: 100%;
   -webkit-tap-highlight-color: transparent;
 }
+
 .radio .label:after {
   content: "";
   position: absolute;
@@ -42,6 +32,7 @@
   opacity: 0.08;
   pointer-events: none;
 }
+
 .radio:hover .label:after {
   transform: scale(3.6);
 }

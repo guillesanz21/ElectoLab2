@@ -1,13 +1,17 @@
-// Load the header
-$(document).ready(function() {
- // $(".header").load("partials/header.html");
- $(".header").load("./partials/header.html");
-});
+const loadPartials = () => {
+  // Load the header
+  $(document).ready(function () {
+    // $(".header").load("partials/header.html");
+    $(".header").load("./partials/header.html");
+  });
 
-// Load the footer
-$(document).ready(function() {
-  $(".footer").load("./partials/footer.html");
-});
+  // Load the footer
+  $(document).ready(function () {
+    $(".footer").load("./partials/footer.html");
+  });
+};
+
+document.addEventListener("DOMContentLoaded", loadPartials);
 
 // Check current page (so the navbar changes its selected page)
 // NO FUNCIONA: la cosa es que al cambiar de pagina, en el nav se ilumine la pagina actual, no siempre HOME
