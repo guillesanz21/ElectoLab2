@@ -53,7 +53,7 @@ public class FormLoginServlet extends HttpServlet {
     	if( ADMIN_EMAIL.equals(email) && ADMIN_PASSWORD.equals(password) ) {
     		req.getSession().setAttribute("admin", true);
     		req.getSession().setAttribute("UsuarioRegistrado", usuarios);
-    		req.getSession().setAttribute("simulacion", simulaciones);			     
+    		//req.getSession().setAttribute("simulacion", simulaciones);			     
     		getServletContext().getRequestDispatcher("/Admin.jsp")
     		.forward(req,resp);
     		/*
@@ -63,10 +63,10 @@ public class FormLoginServlet extends HttpServlet {
     		.forward(req,resp);
     		*/
     	} else if ( null != usuario ) {
-    		req.getSession().setAttribute("profesor", 
+    		req.getSession().setAttribute("usuario", 
     				UsuarioRegistradoDAOImplementation.getInstancia()
     				.read(usuario.getEmail()));
-    		getServletContext().getRequestDispatcher("/Profesor.jsp")
+    		getServletContext().getRequestDispatcher("/index.html")
     		.forward(req,resp);
     	} else	{
     		getServletContext().getRequestDispatcher("/index.html")
