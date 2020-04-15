@@ -62,7 +62,7 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 
 		// ARRAY CON TODOS LOS DIPUTADOS
-
+//kjsadkjfhsadjhfkjhsdaf
 		Simulacion simulacion = new Simulacion();
 		ArrayList<Diputado> diputados = simulacion.getDiputados();
 
