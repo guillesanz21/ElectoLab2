@@ -14,13 +14,13 @@ import es.upm.dit.isst.electolab.model.UsuarioRegistrado;
  * Servlet implementation class Form1UsuarioAvanzadoServlet
  */
 @WebServlet("/Form1UsuarioAvanzadoServlet")
-public class Form1UsuarioAvanzadoServlet extends HttpServlet {
+public class FormRegistroServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Form1UsuarioAvanzadoServlet() {
+    public FormRegistroServlet() {
         super();
         // TODO Auto-generated constructor stub
     }

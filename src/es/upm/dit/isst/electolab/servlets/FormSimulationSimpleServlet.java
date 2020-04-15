@@ -40,13 +40,13 @@ import es.upm.dit.isst.electolab.model.Simulacion;
  * Servlet implementation class FormSimulationServlet
  */
 @WebServlet("/FormSimulationServlet")
-public class FormSimulationServlet extends HttpServlet {
+public class FormSimulationSimpleServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-	public FormSimulationServlet() {
+	public FormSimulationSimpleServlet() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
