@@ -1,20 +1,11 @@
 package es.upm.dit.isst.electolab.model;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.Serializable;
-import java.net.URL;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collection;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 @Entity
 public class Simulacion implements Serializable {
@@ -39,8 +30,6 @@ public class Simulacion implements Serializable {
 
 	public Simulacion() {
 		super();
-		this.diputados = new ArrayList<Diputado>();
-		rellenaDiputados();
 	}
 
 	public int getIdSimulacion() {
@@ -144,62 +133,6 @@ public class Simulacion implements Serializable {
 		if (idSimulacion != other.idSimulacion)
 			return false;
 		return true;
-	}
-	/*
-	 * Método que convierte el json de diputados.json en un array de diputados y lo mete en el atributo diputados.
-	 * (He tenido que cambiar el atributo diputados de Collection a ArrayList)
-	 */
-	private void rellenaDiputados() {
-		JSONParser parser = new JSONParser();
-        try
-        {           
-        	System.out.println("\t"+ "Simulacion.java , log, rellenarDiputados");
-
-            URL url = getClass().getResource("diputados.json");
-            Object object = parser
-                    .parse(new FileReader(url.getPath()));
-            System.out.println(url.getPath());
-
-            
-            //convert Object to JSONObject
-            JSONObject jsonObject = (JSONObject)object;
-            //Reading the String
-            //String name = (String) jsonObject.get("nombre");
-            //String age = (String) jsonObject.get("edad");
-            
-            //Reading the array
-            JSONArray diputadosJSON = (JSONArray)jsonObject.get("diputados");
-
-            //Printing all the values
-            //JSONObject diputado = ((JSONArray) diputados).getJSONObject(0);
-          
-            JSONObject diputadoJSON;
-            int year = Calendar.getInstance().get(Calendar.YEAR);
-
-            for(int i = 0; i<diputadosJSON.size(); i++)
-            {
-            	Diputado d = new Diputado();
-            	diputadoJSON = (JSONObject)diputadosJSON.get(i);
-            	d.setIdDiputado(i);
-            	d.setNombre((String)diputadoJSON.get("nombre"));
-            	d.setPartido((String)diputadoJSON.get("partido"));
-            	d.setGenero((String)diputadoJSON.get("sexo"));
-            	d.setProvincia((String)diputadoJSON.get("provincia"));
-            	d.setEdad(year-(Long)diputadoJSON.get("nacimiento"));
-            	
-            	this.diputados.add(d);
-
-            }
-        }
-        catch(FileNotFoundException fe)
-        {
-            fe.printStackTrace();
-        }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
-    
 	}
 	
 }
