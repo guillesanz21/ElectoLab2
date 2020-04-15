@@ -89,6 +89,8 @@
         </tbody>
       </table>
       <!--Save simulation-->
+      <%@ include file="FormGuardaSimulacion.jsp"%>
+      
       <h2 style="color: white;">Guarde su simulación</h2>
 
       <form>

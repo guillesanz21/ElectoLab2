@@ -1,9 +1,22 @@
-<form action="FormLoginServlet" method="" >
+<c:choose>
+<c:when test="${UsuarioRegistrado == false }">
 
-        <input type="hidden" name="tfgemail" value="${tfg.email}" />
+	<p> Muchas gracias por simular </p>
 
-       <input type="file" name="file" />
+</c:when>
 
-        <button type="submit">Subir memoria</button>
 
+<c:when test="${UsuarioRegistrado == true }">
+
+<p> Guarde su simulación aquí </p>
+
+<form action="FormGuardaSimulacionServlet" >
+
+        <input type="text" name="simName" />
+        <button type="submit"> Guardar simulacion </button>
+        
+      
 </form>
+  
+</c:when>
+</c:choose>
