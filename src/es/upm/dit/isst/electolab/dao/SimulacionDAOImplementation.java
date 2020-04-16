@@ -11,6 +11,9 @@ public class SimulacionDAOImplementation implements SimulacionDAO {
 	
 	private static SimulacionDAOImplementation instancia = null;
 	
+	private SimulacionDAOImplementation () {
+	}
+	
 	public static SimulacionDAOImplementation getInstancia() {
 		if (instancia == null)	// Comprueba si no existe todavia una instancia de la clase
 			instancia = new SimulacionDAOImplementation();	// La crea

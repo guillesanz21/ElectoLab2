@@ -23,7 +23,7 @@ public class UsuarioRegistrado implements Serializable {
 	private String nombre;
 	private String password;
 	
-	@OneToMany(mappedBy = "simulacion", fetch = FetchType.EAGER)
+	@OneToMany(mappedBy = "autor", fetch = FetchType.EAGER)
 	private Collection<Simulacion> simulaciones;
 	
 	

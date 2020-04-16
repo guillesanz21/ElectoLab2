@@ -21,9 +21,9 @@ public class Simulacion implements Serializable {
 	
 	private String tituloLey;
 	private boolean ley_aprobada;
-	private Diputado diputado;
-	//private Collection<Diputado> diputados;
-	private ArrayList<Diputado> diputados;
+	
+	
+	
 	
 	@ManyToOne
 	private UsuarioRegistrado autor;
@@ -88,22 +88,7 @@ public class Simulacion implements Serializable {
 		this.autor = autor;
 	}
 	
-	public Diputado getDiputado() {
-		return diputado;
-	}
-
-	public void setDiputado(Diputado diputado) {
-		this.diputado = diputado;
-	}
-
-	public 	ArrayList<Diputado> getDiputados() {
-		return diputados;
-	}
 	
-	public void setDiputados(ArrayList<Diputado> diputados) {
-	this.diputados = diputados;
-	}
-
 
 	@Override
 	public String toString() {

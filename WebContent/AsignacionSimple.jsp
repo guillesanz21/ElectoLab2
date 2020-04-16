@@ -27,7 +27,7 @@
 
     <!-- Content -->
     <section class="container container-simular">
-      <form action="FormSimulationServlet">
+      <form action="FormSimulationSimpleServlet">
         <input type="hidden" name="partidos" id="partidos" value="" />
 
         <button id="simular-btn-simulation" class="btn btn-info">

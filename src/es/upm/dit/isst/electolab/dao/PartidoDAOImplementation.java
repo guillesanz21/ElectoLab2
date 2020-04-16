@@ -11,6 +11,10 @@ public class PartidoDAOImplementation implements PartidoDAO {
 
 	private static PartidoDAOImplementation instancia = null;
 	
+	
+	private PartidoDAOImplementation () {
+	}
+	
 	public static PartidoDAOImplementation getInstancia() {
 		if (instancia == null)	// Comprueba si no existe todavia una instancia de la clase
 			instancia = new PartidoDAOImplementation();	// La crea

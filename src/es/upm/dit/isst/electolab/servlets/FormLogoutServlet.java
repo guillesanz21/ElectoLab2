@@ -25,9 +25,14 @@ public class FormLogoutServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		resp.getWriter().append("Served at: ").append(req.getContextPath());
+		req.getSession().removeAttribute("admin");
+		req.getSession().removeAttribute("UsuarioRegistrado");
+		req.getSession().removeAttribute("usuario");
+		req.getSession().invalidate();
+		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
 	}
 
 	/**

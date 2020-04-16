@@ -46,7 +46,7 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 		
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
-		
+		Diputado diputado = null;
 		
 		String name = request.getParameter("simName");
 		
@@ -54,53 +54,24 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 		
 		boolean ley_aprobada = true;
 		int id = SimulacionDAOImplementation.getInstancia().readAll().size() ;
-		Simulacion simulacion = new Simulacion();
-		ArrayList<Diputado> diputados = simulacion.getDiputados();
+		
+		Simulacion simulacion = (Simulacion) request.getSession().getAttribute("simulacion");		
 
-		long voto = 5;
-		System.out.println(request.getParameter("partidos"));
-		JSONParser parser = new JSONParser();
-
-		/*
-		 * Coge el parametro partidos de simulacion.js y va contando los votos
-		 */
-		Object object;
-		try {
-			object = parser.parse(request.getParameter("partidos"));
-
-			// convert Object to JSONObject
-			JSONArray jsonArray = (JSONArray) object;
-
-			JSONObject diputadoJSON;
-			for (int i = 0; i < jsonArray.size(); i++) {
-				diputadoJSON = (JSONObject) jsonArray.get(i);
-				System.out.println("FormSimulationServlet, log, diputadoJSON: " + diputadoJSON);
-				voto = (Long) diputadoJSON.get("vote");
-
-				if (voto == 1)
-					simulacion.setVotos_favor(simulacion.getVotos_favor() + (long) diputadoJSON.get("seats"));
-				else if (voto == -1)
-					simulacion.setVotos_contra(simulacion.getVotos_contra() + (long) diputadoJSON.get("seats"));
-				else
-					simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + (long) diputadoJSON.get("seats"));
-
-			}
-		} catch (ParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
+		
 		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra()+ simulacion.getVotos_abstencion())) {
 			ley_aprobada = true;
 		}
 		else {
 			ley_aprobada = false;
 		}
+
 		
 		simulacion.setTituloLey(name);
 		simulacion.setAutor(autor);
 		simulacion.setLey_aprobada(ley_aprobada);
 		simulacion.setIdSimulacion(id);
-		simulacion.setDiputados(diputados);
+		
 		SimulacionDAOImplementation.getInstancia().create(simulacion);
 		
 		List<Simulacion> sim = new ArrayList<Simulacion>();
@@ -111,16 +82,7 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 		
 		request.getRequestDispatcher("/index.jsp").forward(request, response);
 
-		/*
-		long afavor = (simulacion.getVotos_favor());
-		long contra = (simulacion.getVotos_contra());
-		long abstencion = (simulacion.getVotos_abstencion());
-		long datos[]= {afavor, contra, abstencion};
-		
-		context.setAttribute("list", datos );
-		
-		request.setAttribute("simulacion", simulacion);
-		*/
+	
 		
 	}
 

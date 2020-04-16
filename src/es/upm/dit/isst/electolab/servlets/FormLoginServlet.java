@@ -66,10 +66,10 @@ public class FormLoginServlet extends HttpServlet {
     		req.getSession().setAttribute("usuario", 
     				UsuarioRegistradoDAOImplementation.getInstancia()
     				.read(usuario.getEmail()));
-    		getServletContext().getRequestDispatcher("/index.html")
+    		getServletContext().getRequestDispatcher("/index.jsp")
     		.forward(req,resp);
     	} else	{
-    		getServletContext().getRequestDispatcher("/index.html")
+    		getServletContext().getRequestDispatcher("/index.jsp")
     		.forward(req,resp);
     	}
     }

@@ -35,24 +35,22 @@
 				estándar del Congreso dividido por partidos políticos.</p>
 			<p class="index-text">Tras registrarse y acceder, pulse
 				simulación avanzada para votaciones más complejas.</p>
+			
 			<h2>Registrar analista</h2>
-			<form action="Form1UsuarioAvanzadoServlet">
-				<input type="text" name="email" placeholder="Email"> <input
-					type="password" name="password" placeholder="Password"> <input
-					type="text" name="name" placeholder="Nombre y apellidos">
-				<button type="submit">Registrar</button>
-			</form>
+		<%@ include file="FormRegistro.jsp"%>
+		
 			<h2>Acceder a cuenta existente</h2>
 			<form action="FormLoginServlet">
-				<input type="text" name="email" placeholder="Email"> <input
-					type="password" name="password" placeholder="Password">
+				<input type="text" name="email" placeholder="Email"> 
+				<input type="password" name="password" placeholder="Password">
 				<button type="submit">Login</button>
 			</form>
+			
 		</div>
 		<img id="resultados" src="assets/images/resultados.png"
 			alt="resultados de las elecciones generales de 2019" />
 		<div id="btns-home">
-			<a role="button" class="btn btn-info btn-home" href="simulation.html">Simulación
+			<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación
 				Sencilla</a> <a role="button" class="btn btn-info btn-home disabled"
 				href="#">Simulación Avanzada</a>
 		</div>
