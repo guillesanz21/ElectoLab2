@@ -36,26 +36,41 @@
 			<p class="index-text">Tras registrarse y acceder, pulse
 				simulación avanzada para votaciones más complejas.</p>
 			
-			<h2>Registrar analista</h2>
-		<%@ include file="FormRegistro.jsp"%>
-		
-			<h2>Acceder a cuenta existente</h2>
-			<form action="FormLoginServlet">
-				<input type="text" name="email" placeholder="Email"> 
-				<input type="password" name="password" placeholder="Password">
-				<button type="submit">Login</button>
-			</form>
+			<c:choose>
+				<c:when test="${usuarioActivo != true}">
+					<h2>Registrar analista</h2>
+					<%@ include file = "FormRegistro.jsp" %>
+					<h2>Acceder a cuenta existente</h2>
+						<form action="FormLoginServlet">
+						<input type="text" name="email" placeholder="Email"> 
+						<input type="password" name="password" placeholder="Password">
+						<button type="submit">Login</button>
+					</form>
+				</c:when>
+				<c:when test="${usuarioActivo == true}">
+					<h2>Bienvenido ${usuario.nombre}</h2>
+				</c:when>
+			</c:choose>
 			
 		</div>
+		
 		<img id="resultados" src="assets/images/resultados.png"
 			alt="resultados de las elecciones generales de 2019" />
-		<div id="btns-home">
-		
-			<%@ include file="FormAsignaVotoSimple.jsp"%>
-			
-			<a role="button" class="btn btn-info btn-home disabled"
-				href="#">Simulación Avanzada</a>
-		</div>
+
+		<c:choose>
+			<c:when test="${usuarioActivo != true}">
+				<div id="btns-home">
+					<%@ include file="FormAsignaVotoSimple.jsp"%>
+					<a role="button" class="btn btn-info btn-home disabled" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
+				</div>
+			</c:when>
+			<c:when test="${usuarioActivo == true}">
+				<div id="btns-home">
+					<%@ include file="FormAsignaVotoSimple.jsp"%>
+					<a role="button" class="btn btn-info btn-home" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
+				</div>
+			</c:when>
+		</c:choose>	
 
 		<div class="ver-simul">
 			<p class="index-text">¿Prefiere ver simulaciones realizadas por

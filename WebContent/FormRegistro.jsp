@@ -1,9 +1,6 @@
-<form action="FormLoginServlet" method="" >
-
-        <input type="hidden" name="tfgemail" value="${tfg.email}" />
-
-       <input type="file" name="file" />
-
-        <button type="submit">Subir memoria</button>
-
+<form action="FormRegistroServlet">
+	<input type="text" name="email" placeholder="Email"> 
+	<input type="password" name="password" placeholder="Password"> 
+	<input type="text" name="name" placeholder="Nombre y apellidos">
+	<button type="submit">Registrar</button>
 </form>

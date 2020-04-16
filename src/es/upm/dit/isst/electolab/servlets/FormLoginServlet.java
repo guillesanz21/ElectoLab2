@@ -38,21 +38,22 @@ public class FormLoginServlet extends HttpServlet {
 	 */
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
     		throws ServletException, IOException {
+    	
     	String email = req.getParameter("email");
     	String password = req.getParameter("password");
     	
-    	List<UsuarioRegistrado> usuarios =  
-    			(List<UsuarioRegistrado>) UsuarioRegistradoDAOImplementation.getInstancia().readAll();
+    	List<UsuarioRegistrado> usuarios =  (List<UsuarioRegistrado>) UsuarioRegistradoDAOImplementation.getInstancia().readAll();
     	List<Simulacion> simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();
-    	UsuarioRegistrado usuario =UsuarioRegistradoDAOImplementation.getInstancia()
-    			.login(email, password);
+    	
+    	UsuarioRegistrado usuario = UsuarioRegistradoDAOImplementation.getInstancia().login(email, password);
+    	
     	/*
-    	Simulacion simulacion =SimulacionDAOImplementation.getInstancia()
-    			.login(email, password);
-    			*/
+    	 * Simulacion simulacion =SimulacionDAOImplementation.getInstancia().login(email, password);
+    	*/
+    	
     	if( ADMIN_EMAIL.equals(email) && ADMIN_PASSWORD.equals(password) ) {
     		req.getSession().setAttribute("admin", true);
-    		req.getSession().setAttribute("UsuarioRegistrado", usuarios);
+    		req.getSession().setAttribute("UsuariosRegistrados", usuarios);
     		//req.getSession().setAttribute("simulacion", simulaciones);			     
     		getServletContext().getRequestDispatcher("/Admin.jsp")
     		.forward(req,resp);
@@ -63,14 +64,11 @@ public class FormLoginServlet extends HttpServlet {
     		.forward(req,resp);
     		*/
     	} else if ( null != usuario ) {
-    		req.getSession().setAttribute("usuario", 
-    				UsuarioRegistradoDAOImplementation.getInstancia()
-    				.read(usuario.getEmail()));
-    		getServletContext().getRequestDispatcher("/index.jsp")
-    		.forward(req,resp);
+    		req.getSession().setAttribute("usuarioActivo", true);
+    		req.getSession().setAttribute("usuario", UsuarioRegistradoDAOImplementation.getInstancia().read(usuario.getEmail()));
+    		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
     	} else	{
-    		getServletContext().getRequestDispatcher("/index.jsp")
-    		.forward(req,resp);
+    		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
     	}
     }
 

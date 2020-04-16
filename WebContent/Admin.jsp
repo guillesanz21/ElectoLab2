@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -11,12 +10,11 @@
 </head>
 <body>
 <h2>Admin</h2>
-<p><b>Numero de Usuarios: </b>${fn:length(usuarios)}</p>
-<p><b>Numero de UsuariosRegistrados: </b>${fn:length(UsuarioRegistrado)}</p>
+<p><b>Número de UsuariosRegistrados: </b>${fn:length(UsuariosRegistrados)}</p>
 
 <h2>Usuarios</h2>
 <table border="1">
-<c:forEach items="${usuarios}" var="usuarioi">
+<c:forEach items="${UsuariosRegistrados}" var="usuarioi">
 <tr>
 <td>${usuarioi.nombre}</td>
 <td>${usuarioi.email}</td>
@@ -24,19 +22,10 @@
 </c:forEach>
 </table>
 
-<h2>Usuarios</h2>
-<table border="1">
-<c:forEach items="${UsuarioRegistrado}" var="usuarioi">
-<tr>
-<td>${usuarioi.nombre}</td>
-<td>${usuarioi.email}</td>
-</tr>
-</c:forEach>
-</table>
-<h2>Reiniciar la BBDD</h2>
+<h2>Registrar analista</h2>
+<%@ include file = "FormRegistro.jsp" %>
 
-<%@ include file="FormSeedBBDD.jsp"%>
-<h2>Salir de la aplicacion</h2>
+<h2>Salir de la aplicación</h2>
 <%@ include file = "FormLogout.jsp" %>
 
 </body>

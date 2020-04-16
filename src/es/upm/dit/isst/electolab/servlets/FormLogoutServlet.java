@@ -22,19 +22,17 @@ public class FormLogoutServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
+    @Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		resp.getWriter().append("Served at: ").append(req.getContextPath());
 		req.getSession().removeAttribute("admin");
 		req.getSession().removeAttribute("UsuarioRegistrado");
 		req.getSession().removeAttribute("usuario");
+		req.getSession().removeAttribute("usuarioActivo");
 		req.getSession().invalidate();
 		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
 	}
-
+    
+    
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
