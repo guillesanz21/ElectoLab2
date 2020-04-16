@@ -50,8 +50,10 @@
 		<img id="resultados" src="assets/images/resultados.png"
 			alt="resultados de las elecciones generales de 2019" />
 		<div id="btns-home">
-			<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación
-				Sencilla</a> <a role="button" class="btn btn-info btn-home disabled"
+		
+			<%@ include file="FormAsignaVotoSimple.jsp"%>
+			
+			<a role="button" class="btn btn-info btn-home disabled"
 				href="#">Simulación Avanzada</a>
 		</div>
 

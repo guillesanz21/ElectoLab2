@@ -48,6 +48,11 @@ body {
   padding: 3rem 0;
 }
 
+#btns-home {
+	display: flex;
+	flex-direction: row;
+}
+
 .btn-home {
   padding: 1em 5rem;
   margin: 0 1rem;
