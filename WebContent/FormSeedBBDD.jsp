@@ -1,4 +1,4 @@
-<form action="FormPartidoSeedDBServlet">
+<form action="FormSeedBBDDServlet">
 
 	<button type="submit">Reset</button>
 </form>

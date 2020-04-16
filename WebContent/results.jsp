@@ -28,9 +28,9 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ["Task", "Hours per Day"],
-          ["A favor", 230],
-          ["En contra", 100],
-          ["Abstención", 45],
+          ["A favor", ${simulacion.votos_favor}],
+          ["En contra", ${simulacion.votos_contra}],
+          ["Abstención", ${simulacion.votos_abstencion}],
         ]);
 
         var options = {

@@ -75,13 +75,12 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		}
 		
 		// Guarda la simulación en la base de datos para asignarle luego un usuario (?)
-		
 		//SimulacionDAOImplementation.getInstancia().create(simulacion);
 		
 		// Mete en la sesión el objeto simulación y devuelve la vista a results.jsp
 		
 		request.getSession().setAttribute("simulacion", simulacion);
-		getServletContext().getRequestDispatcher("/results.html").forward(request, response);
+		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 
 	}
 

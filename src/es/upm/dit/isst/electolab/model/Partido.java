@@ -10,9 +10,9 @@ public class Partido implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	
-	@Id
-	private int idPartido;
 	
+
+	@Id
 	private String nameCode;
 	private String fullName;
 	private int seats;
@@ -24,12 +24,7 @@ public class Partido implements Serializable{
 	}
 	
 	
-	public int getIdPartido() {
-		return idPartido;
-	}
-	public void setIdPartido(int idPartido) {
-		this.idPartido = idPartido;
-	}
+	
 	public String getNameCode() {
 		return nameCode;
 	}
@@ -58,7 +53,7 @@ public class Partido implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Partido [idPartido=" + idPartido + ", nameCode=" + nameCode + ", fullName=" + fullName + ", seats="
+		return "Partido [ nameCode=" + nameCode + ", fullName=" + fullName + ", seats="
 				+ seats + ", vote=" + vote + "]";
 	}
 
@@ -68,7 +63,7 @@ public class Partido implements Serializable{
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
-		result = prime * result + idPartido;
+	
 		result = prime * result + ((nameCode == null) ? 0 : nameCode.hashCode());
 		result = prime * result + seats;
 		result = prime * result + vote;
@@ -90,8 +85,7 @@ public class Partido implements Serializable{
 				return false;
 		} else if (!fullName.equals(other.fullName))
 			return false;
-		if (idPartido != other.idPartido)
-			return false;
+	
 		if (nameCode == null) {
 			if (other.nameCode != null)
 				return false;
