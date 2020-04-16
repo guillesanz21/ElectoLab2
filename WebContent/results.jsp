@@ -73,18 +73,18 @@
         <tbody>
           <tr style="color: green;">
             <td>A favor</td>
-            <td>230</td>
-            <td>230/375</td>
+            <td>${simulacion.votos_favor}</td>
+            <td>${simulacion.votos_favor}/350</td>
           </tr>
           <tr style="color: rgb(139, 0, 0);">
             <td>En contra</td>
-            <td>100</td>
-            <td>100/375</td>
+            <td>${simulacion.votos_contra}</td>
+            <td>${simulacion.votos_contra}/350</td>
           </tr>
           <tr style="color: rgb(255, 140, 0);">
             <td>Abstención</td>
-            <td>45</td>
-            <td>45/375</td>
+            <td>${simulacion.votos_abstencion}</td>
+            <td>${simulacion.votos_abstencion}/350</td>
           </tr>
         </tbody>
       </table>

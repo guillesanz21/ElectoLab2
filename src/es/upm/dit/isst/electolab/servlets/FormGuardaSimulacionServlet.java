@@ -44,9 +44,10 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		String email = request.getParameter("email");
-		String password = request.getParameter("password");
-		Diputado diputado = null;
+		String email = (String) request.getParameter("email");
+		String password = (String) request.getParameter("password");
+		System.out.println("FormGuardaSimulacionServlet, doGet, usuario: " + email + " passw: " + password);
+
 		
 		String name = request.getParameter("simName");
 		
@@ -73,12 +74,7 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 		simulacion.setIdSimulacion(id);
 		
 		SimulacionDAOImplementation.getInstancia().create(simulacion);
-		
-		List<Simulacion> sim = new ArrayList<Simulacion>();
-		
-		sim.addAll((List<Simulacion>) request.getSession().getAttribute("simulaciones"));
-		sim.add(simulacion);
-		request.getSession().setAttribute("simulaciones", sim);
+		System.out.println("FormGuardaSimulacionServlet, doGet, Autor: " + UsuarioRegistradoDAOImplementation.getInstancia().login(email,password));
 		
 		request.getRequestDispatcher("/index.jsp").forward(request, response);
 

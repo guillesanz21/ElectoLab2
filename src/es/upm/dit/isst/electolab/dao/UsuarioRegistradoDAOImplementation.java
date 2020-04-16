@@ -92,6 +92,8 @@ public class UsuarioRegistradoDAOImplementation implements UsuarioRegistradoDAO 
 		q.setParameter("email", email);
 		q.setParameter("password", password);
 		List<UsuarioRegistrado> users = q.getResultList();
+		System.out.println("UsuarioRegistradoDAOImplementation, login, users: " + users);
+
 		if (users.size() > 0)
 			usuario = (UsuarioRegistrado) (q.getResultList().get(0));
 		session.getTransaction().commit();

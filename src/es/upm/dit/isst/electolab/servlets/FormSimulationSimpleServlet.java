@@ -46,15 +46,13 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		// Crea una nueva simulación para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
 		
-		// Inicia la variable voto a 5 apra evitar problemas en caso 
-		// de que alguno de los partidos de la base de datos no tenga asignado un voto
-		int voto = 5;
-
+		// Inicia la variable voto a 0 
+		int voto = 0;
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo 
 		// de simulación que corresponde
 		for (Partido partido : partidos) {
 			
-			System.out.println("FormSimulationServlet, log, partido: " + partido);
+//			System.out.println("FormSimulationServlet, log, partido: " + partido);
 			voto =  partido.getVote();
 
 			if (voto == 1)
@@ -64,8 +62,8 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 			else
 				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats());
 		
-			// Reinicia la variable voto para evitar errores
-			voto = 5;
+			// Reinicia la variable voto 
+			voto = 0;
 			
 			// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
 			partido.setVote(voto);

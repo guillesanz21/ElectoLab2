@@ -60,13 +60,14 @@
 		<c:choose>
 			<c:when test="${usuarioActivo != true}">
 				<div id="btns-home">
-					<%@ include file="FormAsignaVotoSimple.jsp"%>
+					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
 					<a role="button" class="btn btn-info btn-home disabled" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
 				</div>
 			</c:when>
 			<c:when test="${usuarioActivo == true}">
 				<div id="btns-home">
-					<%@ include file="FormAsignaVotoSimple.jsp"%>
+					<%@ include file = "FormLogout.jsp" %>
+					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
 					<a role="button" class="btn btn-info btn-home" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
 				</div>
 			</c:when>
