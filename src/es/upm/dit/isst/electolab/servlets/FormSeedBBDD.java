@@ -146,7 +146,7 @@ public class FormSeedBBDD extends HttpServlet {
         {
             e.printStackTrace();
         }
-        getServletContext().getRequestDispatcher("/index.jsp")
+        getServletContext().getRequestDispatcher("/Admin.jsp")
       		.forward(request,response);
 	}
 
