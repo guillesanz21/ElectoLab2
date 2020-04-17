@@ -17,13 +17,15 @@ public class Diputado implements Serializable {
 	private String nombre;
 	
 	//Tags
-	private String partido;
+	//private String partido;
 	private long edad;
 	private String provincia;
 	private String genero;
 	private String customTags;
 	private int voto;   //-1 contra, 0 abs, 1 a favor
 	
+	@ManyToOne
+	private Partido partido;
 
 	public Diputado() {
 		super();
@@ -50,12 +52,12 @@ public class Diputado implements Serializable {
 	}
 
 
-	public String getPartido() {
+	public Partido getPartido() {
 		return partido;
 	}
 
 
-	public void setPartido(String partido) {
+	public void setPartido(Partido partido) {
 		this.partido = partido;
 	}
 

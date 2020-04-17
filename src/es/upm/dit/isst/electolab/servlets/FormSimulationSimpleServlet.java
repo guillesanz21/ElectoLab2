@@ -52,7 +52,6 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		// de simulación que corresponde
 		for (Partido partido : partidos) {
 			
-//			System.out.println("FormSimulationServlet, log, partido: " + partido);
 			voto =  partido.getVote();
 
 			if (voto == 1)
@@ -73,7 +72,6 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		}
 		
 		// Guarda la simulación en la base de datos para asignarle luego un usuario (?)
-		//SimulacionDAOImplementation.getInstancia().create(simulacion);
 		
 		// Mete en la sesión el objeto simulación y devuelve la vista a results.jsp
 		

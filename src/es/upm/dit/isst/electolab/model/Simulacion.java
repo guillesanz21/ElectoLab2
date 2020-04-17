@@ -23,8 +23,7 @@ public class Simulacion implements Serializable {
 	private boolean ley_aprobada;
 	
 	
-	
-	
+
 	@ManyToOne
 	private UsuarioRegistrado autor;
 

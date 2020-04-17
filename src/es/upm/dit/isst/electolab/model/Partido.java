@@ -1,16 +1,16 @@
 package es.upm.dit.isst.electolab.model;
 
 import java.io.Serializable;
+import java.util.Collection;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Partido implements Serializable{
 	private static final long serialVersionUID = 1L;
-
-	
-	
 
 	@Id
 	private String nameCode;
@@ -18,44 +18,64 @@ public class Partido implements Serializable{
 	private int seats;
 	private int vote;
 	
+	@OneToMany(mappedBy = "partido", fetch = FetchType.EAGER)
+	private Collection<Diputado> diputados;
 	
 	public Partido() {
 		super();
 	}
 	
 	
-	
+	public Collection<Diputado> getDiputados() {
+		return diputados;
+	}
+
+	public void setDiputados(Collection<Diputado> diputados) {
+		this.diputados = diputados;
+	}
+
 	public String getNameCode() {
 		return nameCode;
 	}
+	
 	public void setNameCode(String nameCode) {
 		this.nameCode = nameCode;
 	}
+	
 	public String getFullName() {
 		return fullName;
 	}
+	
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
+	
 	public int getSeats() {
 		return seats;
 	}
+	
 	public void setSeats(int seats) {
 		this.seats = seats;
 	}
+	
 	public int getVote() {
 		return vote;
 	}
+	
 	public void setVote(int vote) {
 		this.vote = vote;
 	}
 
 
+
+
+
 	@Override
 	public String toString() {
-		return "Partido [ nameCode=" + nameCode + ", fullName=" + fullName + ", seats="
-				+ seats + ", vote=" + vote + "]";
+		return "Partido [nameCode=" + nameCode + ", fullName=" + fullName + ", seats=" + seats + ", vote=" + vote
+				+ ", diputados=" + diputados + "]";
 	}
+
 
 
 	@Override

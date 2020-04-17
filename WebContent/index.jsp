@@ -12,9 +12,9 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous" />
-<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
 <!-- JS file responsible for load the partials -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/main.js?v=1"></script>
 <title>ElectoLab</title>
 </head>
 <body>
@@ -38,17 +38,13 @@
 			
 			<c:choose>
 				<c:when test="${usuarioActivo != true}">
-					<h2>Registrar analista</h2>
+
 					<%@ include file = "FormRegistro.jsp" %>
-					<h2>Acceder a cuenta existente</h2>
-						<form action="FormLoginServlet">
-						<input type="text" name="email" placeholder="Email"> 
-						<input type="password" name="password" placeholder="Password">
-						<button type="submit">Login</button>
-					</form>
+					<%@ include file = "FormLogin.jsp" %>
+					
 				</c:when>
 				<c:when test="${usuarioActivo == true}">
-					<h2>Bienvenido ${usuario.nombre}</h2>
+					<h2>Bienvenido ${nombreUsuario}</h2>
 				</c:when>
 			</c:choose>
 			
@@ -66,12 +62,12 @@
 			</c:when>
 			<c:when test="${usuarioActivo == true}">
 				<div id="btns-home">
-					<%@ include file = "FormLogout.jsp" %>
 					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
 					<a role="button" class="btn btn-info btn-home" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
 				</div>
 			</c:when>
 		</c:choose>	
+		<%@ include file = "FormLogout.jsp" %>
 
 		<div class="ver-simul">
 			<p class="index-text">¿Prefiere ver simulaciones realizadas por

@@ -15,7 +15,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
     <!-- JS file responsible for load the partials -->
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script
@@ -58,7 +58,7 @@
 
     <!-- Content -->
     <section class="container">
-      <h1 class="display-4" style="text-align: center; color: white;">
+      <h1 class="display-4" style="text-align: center; color: black;">
         Resultado de su simulación
       </h1>
       <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
@@ -90,37 +90,7 @@
       </table>
       <!--Save simulation-->
       <%@ include file="FormGuardaSimulacion.jsp"%>
-      
-      <h2 style="color: white;">Guarde su simulación</h2>
-
-      <form>
-        <label for="title" style="color: white;">Título:</label><br />
-        <input
-          type="text"
-          id="title"
-          name="title"
-          placeholder="Ley Mordaza"
-          required
-        /><br />
-        <label for="fname" style="color: white;">First name:</label><br />
-        <input
-          type="text"
-          id="fname"
-          name="fname"
-          placeholder="Leandro"
-          required
-        /><br />
-        <label for="lname" style="color: white;">Last name:</label><br />
-        <input
-          type="text"
-          id="lname"
-          name="lname"
-          placeholder="Diaz"
-          required
-        />
-        <br />
-        <a role="button" id="save-results-btn" class="btn btn-info">Guardar</a>
-      </form>
+     
       <br /><br /><br /><br /><br /><br />
     </section>
     <!-- Footer -->

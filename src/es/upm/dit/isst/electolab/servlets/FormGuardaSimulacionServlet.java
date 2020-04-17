@@ -44,23 +44,19 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		String email = (String) request.getParameter("email");
-		String password = (String) request.getParameter("password");
-		System.out.println("FormGuardaSimulacionServlet, doGet, usuario: " + email + " passw: " + password);
-
-		
+		String emailUsuario = (String) request.getSession().getAttribute("emailUsuario");
 		String name = request.getParameter("simName");
+
+		UsuarioRegistrado autor = UsuarioRegistradoDAOImplementation.getInstancia().read(emailUsuario);
+		System.out.println("Autor " + autor);
 		
-		UsuarioRegistrado autor = UsuarioRegistradoDAOImplementation.getInstancia().login(email,password); 		
-		
-		boolean ley_aprobada = true;
+
 		int id = SimulacionDAOImplementation.getInstancia().readAll().size() ;
 		
 		Simulacion simulacion = (Simulacion) request.getSession().getAttribute("simulacion");		
 
-		
-		
-		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra()+ simulacion.getVotos_abstencion())) {
+		boolean ley_aprobada = true;	
+		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
 			ley_aprobada = true;
 		}
 		else {
@@ -74,7 +70,7 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 		simulacion.setIdSimulacion(id);
 		
 		SimulacionDAOImplementation.getInstancia().create(simulacion);
-		System.out.println("FormGuardaSimulacionServlet, doGet, Autor: " + UsuarioRegistradoDAOImplementation.getInstancia().login(email,password));
+		//System.out.println("FormGuardaSimulacionServlet, doGet, Autor: " + UsuarioRegistradoDAOImplementation.getInstancia().login(email,password));
 		
 		request.getRequestDispatcher("/index.jsp").forward(request, response);
 

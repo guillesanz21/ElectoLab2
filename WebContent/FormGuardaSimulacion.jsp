@@ -1,22 +1,19 @@
 <c:choose>
-<c:when test="${usuario == null }">
+	<c:when test="${emailUsuario == null }">
 
-	<p> Muchas gracias por simular </p>
+		<p>Muchas gracias por simular</p>
 
-</c:when>
+	</c:when>
 
 
-<c:when test="${usuario != null }">
+	<c:when test="${emailUsuario != null }">
 
-<p> Guarde su simulación aquí </p>
+		<h3>Guarde su simulación aquí</h3>
 
-<form action="FormGuardaSimulacionServlet" >
+		<form action="FormGuardaSimulacionServlet">
+			<input type="text" name="simName" placeholder="nombre ley" />
+			<button type="submit">Guardar simulacion</button>
+		</form>
 
-        <input type="text" name="simName" placeholder="nombre ley"/>
-        <button type="submit"> Guardar simulacion </button>
-        
-      
-</form>
-  
-</c:when>
+	</c:when>
 </c:choose>

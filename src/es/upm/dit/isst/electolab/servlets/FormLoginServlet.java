@@ -65,7 +65,10 @@ public class FormLoginServlet extends HttpServlet {
     		*/
     	} else if ( null != usuario ) {
     		req.getSession().setAttribute("usuarioActivo", true);
-    		req.getSession().setAttribute("usuario", UsuarioRegistradoDAOImplementation.getInstancia().read(usuario.getEmail()));
+    		req.getSession().setAttribute("emailUsuario", usuario.getEmail());
+    		req.getSession().setAttribute("nombreUsuario", usuario.getNombre());
+    				// UsuarioRegistradoDAOImplementation.getInstancia().read(usuario.getEmail()) );
+    		System.out.println(req.getSession().getAttribute("usuario"));
     		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
     	} else	{
     		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);

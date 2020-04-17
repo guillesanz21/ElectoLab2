@@ -25,7 +25,6 @@
 <h2>Reset</h2>
 <%@ include file = "FormSeedBBDD.jsp" %>
 
-<h2>Registrar analista</h2>
 <%@ include file = "FormRegistro.jsp" %>
 
 <h2>Salir de la aplicación</h2>

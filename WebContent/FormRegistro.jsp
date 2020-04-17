@@ -1,3 +1,4 @@
+<h2>Registrar analista</h2>
 <form action="FormRegistroServlet">
 	<input type="text" name="email" placeholder="Email"> 
 	<input type="password" name="password" placeholder="Password"> 

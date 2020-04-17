@@ -1,9 +1,6 @@
-<form action="FormLoginServlet" method="" >
-
-        <input type="hidden" name="tfgemail" value="${tfg.email}" />
-
-       <input type="file" name="file" />
-
-        <button type="submit">Subir memoria</button>
-
+<h2>Acceder a cuenta existente</h2>
+<form action="FormLoginServlet">
+	<input type="text" name="email" placeholder="Email"> <input
+		type="password" name="password" placeholder="Password">
+	<button type="submit">Login</button>
 </form>
