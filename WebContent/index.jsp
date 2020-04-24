@@ -58,13 +58,14 @@
 				<div id="btns-home">
 					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
 					<a role="button" class="btn btn-info btn-home disabled" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
+					
 				</div>
 			</c:when>
 			<c:when test="${usuarioActivo == true}">
 				<div id="btns-home">
 					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
 					<a role="button" class="btn btn-info btn-home" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
-				</div>
+					</div>
 			</c:when>
 		</c:choose>	
 		<%@ include file = "FormLogout.jsp" %>
@@ -73,8 +74,9 @@
 			<p class="index-text">¿Prefiere ver simulaciones realizadas por
 				otras personas en vez de simular usted mismo?</p>
 			<p class="index-text">Aquí podrá encontrarlas:</p>
-			<a role="button" class="btn btn-success btn-home disabled" href="#">Ver
-				otras simulaciones</a>
+			<a role="button" class="btn btn-info btn-home "  href="ListaSimulacionesGuardadas.jsp">Ver otras simulaciones</a>
+	
+			
 		</div>
 	</section>
 	<br />

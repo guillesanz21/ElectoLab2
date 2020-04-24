@@ -99,6 +99,7 @@ public class FormAsignaVotoSimpleServlet extends HttpServlet {
 				
 				partido.setVote((int)(long)partidoJSON.get("vote"));
 				PartidoDAOImplementation.getInstancia().update(partido);
+	
 				System.out.println("FormSimulationServlet, log, partido: " + partido);
 				
 				System.out.println("--------------------------------------------------");
