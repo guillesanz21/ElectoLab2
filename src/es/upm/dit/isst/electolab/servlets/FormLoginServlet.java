@@ -42,6 +42,8 @@ public class FormLoginServlet extends HttpServlet {
     	String email = req.getParameter("email");
     	String password = req.getParameter("password");
     	
+    	
+    	
     	List<UsuarioRegistrado> usuarios =  (List<UsuarioRegistrado>) UsuarioRegistradoDAOImplementation.getInstancia().readAll();
     	List<Simulacion> simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();
     	
@@ -54,7 +56,7 @@ public class FormLoginServlet extends HttpServlet {
     	if( ADMIN_EMAIL.equals(email) && ADMIN_PASSWORD.equals(password) ) {
     		req.getSession().setAttribute("admin", true);
     		req.getSession().setAttribute("UsuariosRegistrados", usuarios);
-    		//req.getSession().setAttribute("simulacion", simulaciones);			     
+    		req.getSession().setAttribute("Simulaciones", simulaciones);			     
     		getServletContext().getRequestDispatcher("/Admin.jsp")
     		.forward(req,resp);
     		/*

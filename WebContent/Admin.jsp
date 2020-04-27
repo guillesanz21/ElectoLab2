@@ -22,6 +22,18 @@
 </c:forEach>
 </table>
 
+<p><b>Número de Simulaciones: </b>${fn:length(Simulaciones)}</p>
+
+<h2>Simulaciones</h2>
+<table border="1">
+<c:forEach items="${Simulaciones}" var="simulacioni">
+<tr>
+<td>${simulacioni.idSimulacion}</td>
+<td>${simulacioni.tituloLey}</td>
+</tr>
+</c:forEach>
+</table>
+
 <h2>Reset</h2>
 <%@ include file = "FormSeedBBDD.jsp" %>
 

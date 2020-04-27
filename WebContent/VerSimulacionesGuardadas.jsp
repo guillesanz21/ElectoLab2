@@ -28,9 +28,9 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ["Task", "Hours per Day"],
-          ["A favor", ${simulacion.votos_favor}],
-          ["En contra", ${simulacion.votos_contra}],
-          ["Abstención", ${simulacion.votos_abstencion}],
+          ["A favor", ${simulacion2.votos_favor}],
+          ["En contra", ${simulacion2.votos_contra}],
+          ["Abstención", ${simulacion2.votos_abstencion}],
         ]);
 
         var options = {
@@ -51,7 +51,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Resultados de la simulación</title>
+    <title>Resultados de la simulación </title>
 
     </head>
 <body>
@@ -60,8 +60,11 @@
     <!-- Content -->
     <section class="container">
       <h1 class="display-4" style="text-align: center; color: black;">
-        Resultado de su simulación
+        Resultado de la simulación nº ${simulacion2.idSimulacion}
       </h1>
+      <h2 class="display-4" style="text-align: center; color: black;">
+        El titulo de la ley es: ${simulacion2.tituloLey}
+      </h2>
       <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
       <table class="table table-hover" id="results-table">
         <thead>
@@ -74,28 +77,28 @@
         <tbody>
           <tr style="color: green;">
             <td>A favor</td>
-            <td>${simulacion.votos_favor}</td>
-            <td>${simulacion.votos_favor}/350</td>
+            <td>${simulacion2.votos_favor}</td>
+            <td>${simulacion2.votos_favor}/350</td>
           </tr>
           <tr style="color: rgb(139, 0, 0);">
             <td>En contra</td>
-            <td>${simulacion.votos_contra}</td>
-            <td>${simulacion.votos_contra}/350</td>
+            <td>${simulacion2.votos_contra}</td>
+            <td>${simulacion2.votos_contra}/350</td>
           </tr>
           <tr style="color: rgb(255, 140, 0);">
             <td>Abstención</td>
-            <td>${simulacion.votos_abstencion}</td>
-            <td>${simulacion.votos_abstencion}/350</td>
+            <td>${simulacion2.votos_abstencion}</td>
+            <td>${simulacion2.votos_abstencion}/350</td>
           </tr>
         </tbody>
       </table>
       
       <!--Save simulation-->
       
-       <%@ include file="FormLeyAprobada.jsp"%>
-     
-      <!--Save simulation-->
-      <%@ include file="FormGuardaSimulacion.jsp"%>
+       <%@ include file="FormLeyAprobadaGuardada.jsp"%>
+       <h3>El autor de la simulacion fue: ${simulacion2.autor.nombre} </h3>
+      
+      
      
       <br /><br /><br /><br /><br /><br />
     </section>
