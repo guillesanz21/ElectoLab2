@@ -9,34 +9,32 @@
 <title>Simulaciones guardadas</title>
 </head>
 <body>
-<h2>Simulaciones guardadas</h2>
+	<h2>Simulaciones guardadas</h2>
 
-<p><b>Número de Simulaciones: </b>${fn:length(Simulaciones)}</p>
+	<p>
+		<b>Número de Simulaciones: </b>${fn:length(Simulaciones)}</p>
 
-<h2>Simulaciones</h2>
-<table border="1"> 
-<tr>
+	<h2>Simulaciones</h2>
+	<table border="1">
+		<tr>
 
-    <th>ID de la simulacion</th>
 
-    <th>Titulo ley</th>
+			<th>Titulo ley</th>
 
-    <th>¿Aprobada?</th>
-    
-    <th>Autor</th>
+			<th>¿Aprobada?</th>
 
-  </tr>
-<c:forEach items="${Simulaciones}" var="simulacioni">
+			<th>Autor</th>
 
-<tr>
-<td>${simulacioni.idSimulacion}</td>
-<td>${simulacioni.tituloLey}</td>
-<td>${simulacioni.ley_aprobada}</td>
-<td>${simulacioni.autor.nombre}</td>
+		</tr>
+		<c:forEach items="${Simulaciones}" var="simulacioni">
+			<tr>
+				<td>${simulacioni.tituloLey}</td>
+				<td>${simulacioni.ley_aprobada}</td>
+				<td>${simulacioni.autor.nombre}</td>
+				<td>
+					<%@ include file="FormVerSimulacionGuardada.jsp"%>
+				</td>
 
-</tr>
-</c:forEach>
-</table>
-<h3>Escriba el id de la simulacion aqui abajo</h3>
-
-<%@ include file = "FormVerSimulacionGuardada.jsp" %>
+			</tr>
+		</c:forEach>
+	</table>

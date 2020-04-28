@@ -60,7 +60,7 @@
     <!-- Content -->
     <section class="container">
       <h1 class="display-4" style="text-align: center; color: black;">
-        Resultado de la simulación nº ${simulacion2.idSimulacion}
+        Resultado de la simulación nº ${simulacion2.idSimulacion +1}
       </h1>
       <h2 class="display-4" style="text-align: center; color: black;">
         El titulo de la ley es: ${simulacion2.tituloLey}

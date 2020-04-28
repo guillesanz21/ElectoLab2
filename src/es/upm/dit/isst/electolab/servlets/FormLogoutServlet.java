@@ -28,6 +28,7 @@ public class FormLogoutServlet extends HttpServlet {
 		req.getSession().removeAttribute("UsuarioRegistrado");
 		req.getSession().removeAttribute("usuario");
 		req.getSession().removeAttribute("usuarioActivo");
+		req.getSession().removeAttribute("Simulaciones");
 		req.getSession().invalidate();
 		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
 	}

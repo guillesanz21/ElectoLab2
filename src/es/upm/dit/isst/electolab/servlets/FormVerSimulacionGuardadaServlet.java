@@ -43,8 +43,10 @@ public class FormVerSimulacionGuardadaServlet extends HttpServlet {
 
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		List<Simulacion> simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();
+		request.getSession().setAttribute("Simulaciones", simulaciones);			     
+	     
+		getServletContext().getRequestDispatcher("/ListaSimulacionesGuardadas.jsp").forward(request,response);
 	}
 
 }

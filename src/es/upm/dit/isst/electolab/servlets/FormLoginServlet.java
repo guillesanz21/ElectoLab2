@@ -57,6 +57,7 @@ public class FormLoginServlet extends HttpServlet {
     		req.getSession().setAttribute("admin", true);
     		req.getSession().setAttribute("UsuariosRegistrados", usuarios);
     		req.getSession().setAttribute("Simulaciones", simulaciones);			     
+		     
     		getServletContext().getRequestDispatcher("/Admin.jsp")
     		.forward(req,resp);
     		/*
@@ -69,10 +70,14 @@ public class FormLoginServlet extends HttpServlet {
     		req.getSession().setAttribute("usuarioActivo", true);
     		req.getSession().setAttribute("emailUsuario", usuario.getEmail());
     		req.getSession().setAttribute("nombreUsuario", usuario.getNombre());
+    		req.getSession().setAttribute("Simulaciones", simulaciones);			     
+
     				// UsuarioRegistradoDAOImplementation.getInstancia().read(usuario.getEmail()) );
     		System.out.println(req.getSession().getAttribute("usuario"));
     		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
     	} else	{
+    		req.getSession().setAttribute("Simulaciones", simulaciones);			     
+
     		getServletContext().getRequestDispatcher("/index.jsp").forward(req,resp);
     	}
     }
