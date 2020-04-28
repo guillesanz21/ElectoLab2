@@ -102,40 +102,6 @@ var contra = 0;
 var diputados = 350;
 
 // ------------- VISTAS -------------
-// VISTA LISTA-PARTIDOS
-const listaPartidosView = () => {
-  let view = "";
-  for (const partido of partidos) {
-    view += `
-			<div class="asignar-voto-partido">
-				<img id="imgRedonda" src="assets/images/Partidos/${partido.nameCode}.png"> </img>
-				<p class="partido">
-					<b>${partido.fullName} </b> <i>[${partido.seats} escaños]</i>
-				</p>
-				<!-- Aqui los radio buttons -->
-        <div class="botones">
-        
-					<label for="${partido.nameCode}1" class="radio" > 
-					  <input type="radio" name="${partido.nameCode}" id="${partido.nameCode}1" class="hidden aFavor" /> 
-              <span class="label"></span>A Favor
-          </label>
-          
-          <label for="${partido.nameCode}2" class="radio" > 
-            <input type="radio" name="${partido.nameCode}" id="${partido.nameCode}2" class="hidden enContra" /> 
-              <span class="label"></span>En Contra
-          </label> 
-          
-          <label for="${partido.nameCode}3" class="radio" > 
-            <input type="radio"	name="${partido.nameCode}" id="${partido.nameCode}3" class="hidden abstencion" checked /> 
-              <span class="label"></span>Abstención
-          </label>
-          
-				</div>
-				<!-- Aqui terminan los radio buttons -->
-			</div>\n`;
-  }
-  return view;
-};
 
 // VISTA BARRA
 const barraView = () => {
@@ -169,17 +135,12 @@ const barraView = () => {
 };
 
 // ------------- CONTROLADORES -------------
-// CONTROLADOR LISTA-PARTIDOS
-const listaPartidosContr = () => {
-  document.getElementById("listaPartidos-view").innerHTML = listaPartidosView();
-};
 // CONTROLADOR BARRA
 const barraContr = () => {
   document.getElementById("barra-view").innerHTML = barraView();
 };
 
 // ------------- INICIALIZACIÓN -------------
-document.addEventListener("DOMContentLoaded", listaPartidosContr);
 document.addEventListener("DOMContentLoaded", barraContr);
 
 // ------------- EVENTOS ASOCIADOS A LA ASIGNACIÓN DE VOTO -------------

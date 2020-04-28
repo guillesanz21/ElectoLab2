@@ -27,7 +27,7 @@
 
     <!-- Content -->
     <section class="container container-simular">
-      <form action="FormAsignaVotoSimpleServlet" >
+      <form method="get" action="AsignacionSimpleServlet" >
         <input type="hidden" name="partidos" id="partidos" value="" />
 
         <button id="simular-btn-simulation" class="btn btn-info">
@@ -38,10 +38,41 @@
         <div id="barra-view">
           <!-- La vista se incluye aquí -->
         </div>
-        <div id="listaPartidos-view">
-          <!-- La vista se incluye aquí -->
-        </div>
-      </form>
+
+
+		<!-- LA LISTA DE PARTIDOS -->
+		<div id="listaPartidos-view">
+			<c:forEach items="${partidos}" var="partido">
+				<div class="asignar-voto-partido">
+					<img id="imgRedonda"
+						src="assets/images/Partidos/${partido.nameCode}.png" />
+					<p class="partido">
+						<b>${partido.fullName} </b> <i>[${partido.seats} escaños]</i>
+					</p>
+					<!-- Aqui los radio buttons -->
+					<div class="botones">
+
+						<label for="${partido.nameCode}1" class="radio"> <input
+							type="radio" name="${partido.nameCode}"
+							id="${partido.nameCode}1" class="hidden aFavor" /> <span
+							class="label"></span>A Favor
+						</label> <label for="${partido.nameCode}2" class="radio"> <input
+							type="radio" name="${partido.nameCode}"
+							id="${partido.nameCode}2" class="hidden enContra" /> <span
+							class="label"></span>En Contra
+						</label> <label for="${partido.nameCode}3" class="radio"> <input
+							type="radio" name="${partido.nameCode}"
+							id="${partido.nameCode}3" class="hidden abstencion" checked />
+							<span class="label"></span>Abstención
+						</label>
+
+					</div>
+					<!-- Aqui terminan los radio buttons -->
+				</div>
+			</c:forEach>
+		</div>
+
+		</form>
     </section>
 
     <br />

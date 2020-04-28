@@ -10,59 +10,58 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
 import es.upm.dit.isst.electolab.dao.PartidoDAOImplementation;
+import es.upm.dit.isst.electolab.model.Diputado;
 import es.upm.dit.isst.electolab.model.Partido;
 import es.upm.dit.isst.electolab.model.Simulacion;
 
 /**
- * Servlet implementation class FormSimulationServlet
+ * Servlet implementation class FormSimulacionAvanzadaServlet
  */
-@WebServlet("/FormSimulationSimpleServlet")
-public class FormSimulationSimpleServlet extends HttpServlet {
+@WebServlet("/FormSimulacionAvanzadaServlet")
+public class FormSimulacionAvanzadaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public FormSimulacionAvanzadaServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
 
 	/**
-	 * @see HttpServlet#HttpServlet()
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	public FormSimulationSimpleServlet() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
 
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
-
-		
 		// Llamo de la base de datos a la lista de partidos
-		Collection<Partido> partidos = new ArrayList<Partido>();
-		partidos = PartidoDAOImplementation.getInstancia().readAll();		
+		Collection<Diputado> diputados = new ArrayList<Diputado>();
+		diputados = DiputadoDAOImplementation.getInstancia().readAll();		
 		// Crea una nueva simulacion para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
 		boolean ley_aprobada = true;
 		int voto = 0;
 		
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
-		for (Partido partido : partidos) {
+		for (Diputado diputado : diputados) {
 			
-			voto =  partido.getVote();
+			voto =  diputado.getVoto();
 
 			if (voto == 1)
-				simulacion.setVotos_favor(simulacion.getVotos_favor() + partido.getSeats());
+				simulacion.setVotos_favor(simulacion.getVotos_favor() + 1);
 			else if (voto == -1)
-				simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats());
+				simulacion.setVotos_contra(simulacion.getVotos_contra() + 1);
 			else
-				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats());
+				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + 1);
 		
 			// Reinicia la variable voto 
 			voto = 0;
 			
 			// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
-			partido.setVote(voto);
+			diputado.setVoto(voto);
 			
 			if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
 				ley_aprobada = true;
@@ -79,13 +78,21 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 			System.out.println("FormSimulationSimpleServlet, ley aprobada: " + ley_aprobada);
 			System.out.println("--------------------------------------------------");
 			// Actualiza la bbdd dejando el partido con los valores reiniciados
-			PartidoDAOImplementation.getInstancia().update(partido);
+			DiputadoDAOImplementation.getInstancia().update(diputado);
 		}
 		
 		// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
 		request.getSession().setAttribute("simulacion", simulacion);
 		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
 	}
 
 }

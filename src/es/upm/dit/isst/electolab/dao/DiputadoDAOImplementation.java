@@ -3,9 +3,12 @@ package es.upm.dit.isst.electolab.dao;
 import java.util.Collection;
 import java.util.List;
 
+import javax.persistence.Query;
+
 import org.hibernate.Session;
 
 import es.upm.dit.isst.electolab.model.Diputado;
+
 
 public class DiputadoDAOImplementation implements DiputadoDAO {
 
@@ -71,6 +74,21 @@ public class DiputadoDAOImplementation implements DiputadoDAO {
 		session.getTransaction().commit();
 		session.close();
 		return diputado;
+	}
+	@SuppressWarnings("unchecked")
+	@Override
+	public Collection<Diputado> readProvincia(String provincia) {
+		// TODO Auto-generated method stub
+		Session session = SessionFactoryService.get().openSession();
+		session.beginTransaction();
+		// operaciones
+		Query q = session.createQuery("select * from DIPUTADO d where d.provincia = :provincia");
+		q.setParameter("provincia", provincia);
+		Collection<Diputado> diputados = q.getResultList();
+
+		session.getTransaction().commit();
+		session.close();
+		return diputados;
 	}
 
 }

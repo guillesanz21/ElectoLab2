@@ -56,17 +56,29 @@
 		<c:choose>
 			<c:when test="${usuarioActivo != true}">
 				<div id="btns-home">
-					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
-					<a role="button" class="btn btn-info btn-home disabled" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
-					
+					<form method="post" action="AsignacionSimpleServlet">
+						<button type="submit" class="btn btn-info btn-home">Simulación
+							Simple</button>
+					</form>
+					<form method="get" action="">
+						<button type="submit" class="btn btn-info btn-home disabled">Simulación
+							Avanzada</button>
+					</form>
 				</div>
+				
 			</c:when>
 			<c:when test="${usuarioActivo == true}">
 				<div id="btns-home">
-					<a role="button" class="btn btn-info btn-home" href="AsignacionSimple.jsp">Simulación Simple</a>
-					<a role="button" class="btn btn-info btn-home" href="AsignacionAvanzada.jsp">Simulación Avanzada</a>
-					</div>
-					
+					<form method="post" action="AsignacionSimpleServlet">
+						<button type="submit" class="btn btn-info btn-home">Simulación
+							Simple</button>
+					</form>
+					<form method="get" action="">
+						<button type="submit" class="btn btn-info btn-home">Simulación
+							Avanzada</button>
+					</form>
+				</div>
+
 			</c:when>
 		</c:choose>	
 		
