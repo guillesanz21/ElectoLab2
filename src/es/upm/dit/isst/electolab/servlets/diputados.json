@@ -28,7 +28,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1966,
 		"estado civil": "casado",
-		"partido":"EAJ-PNV",
+		"partido":"PNV",
 		"provincia":"Guipúzcoa"
 	},
 	{
@@ -44,7 +44,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1960,
 		"estado civil": "casado",
-		"partido":"EH Bildu",
+		"partido":"BILDU",
 		"provincia":"Guipúzcoa"
 	},
 	{
@@ -92,7 +92,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1961,
 		"estado civil": "soltero",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -188,7 +188,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1981,
 		"estado civil": "casado",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -220,7 +220,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1967,
 		"estado civil": "casado",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Madrid"
 	},
 	{
@@ -228,7 +228,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1958,
 		"estado civil": "casado",
-		"partido":"MÉS COMPROMÍS",
+		"partido":"PSOE",
 		"provincia":"Valencia"
 	},
 	{
@@ -244,7 +244,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1959,
 		"estado civil": "soltero",
-		"partido":"EAJ-PNV",
+		"partido":"PNV",
 		"provincia":"Guipúzcoa"
 	},
 	{
@@ -276,7 +276,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1965,
 		"estado civil": "casado",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Tarragona"
 	},
 	{
@@ -332,7 +332,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1979,
 		"estado civil": "soltero",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -340,7 +340,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1970,
 		"estado civil": "soltero",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -436,7 +436,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1979,
 		"estado civil": "casado",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Sevilla"
 	},
 	{
@@ -444,7 +444,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1977,
 		"estado civil": "casado",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Lleida"
 	},
 	{
@@ -592,6 +592,54 @@
 		"provincia":"Castellón"
 	},
 	{
+		"nombre":"Contreras Peláez, Francisco José",
+		"sexo": "Hombre",
+		"nacimiento":1964,
+		"estado civil": "casado",
+		"partido":"VOX",
+		"provincia":"Sevilla"
+	},
+	{
+		"nombre":"Cortés Carballo, Mario",
+		"sexo": "Hombre",
+		"nacimiento":1977,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Málaga"
+	},
+	{
+		"nombre":"Cortés Gómez, Ismael",
+		"sexo": "Hombre",
+		"nacimiento":1985,
+		"estado civil": "soltero",
+		"partido":"UP",
+		"provincia":"Castellón"
+	},
+	{
+		"nombre":"Crespín Rubio, Rafaela",
+		"sexo": "Mujer",
+		"nacimiento":1976,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Córdoba"
+	},
+	{
+		"nombre":"Cruz-Guzmán García, María Soledad",
+		"sexo": "Mujer",
+		"nacimiento":1975,
+		"estado civil": "casado",
+		"partido":"PP",
+		"provincia":"Sevilla"
+	},
+	{
+		"nombre":"Cuatrecasas Asua, Juan",
+		"sexo": "Hombre",
+		"nacimiento":1965,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"La Rioja"
+	},
+	{
 		"nombre":"De las Heras Fernández, Patricia",
 		"sexo": "Mujer",
 		"nacimiento":1988,
@@ -620,7 +668,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1958,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Madrid"
 	},
 	{
@@ -652,7 +700,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1978,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Málaga"
 	},
 	{
@@ -740,7 +788,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1976,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -756,7 +804,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1962,
 		"estado civil": "casado",
-		"partido":"EAJ-PNV",
+		"partido":"PNV",
 		"provincia":"Bizkaia"
 	},
 	{
@@ -908,7 +956,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1967,
 		"estado civil": "soltero",
-		"partido":"UPN",
+		"partido":"NA",
 		"provincia":"Navarra"
 	},
 	{
@@ -1012,7 +1060,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1985,
 		"estado civil": "soltero",
-		"partido":"IU",
+		"partido":"UP",
 		"provincia":"Málaga"
 	},
 	{
@@ -1044,7 +1092,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1977,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Madrid"
 	},
 	{
@@ -1070,6 +1118,142 @@
 		"estado civil": "soltero",
 		"partido":"PSOE",
 		"provincia":"Ciudad Real"
+	},
+	{
+		"nombre":"González Coello de Portugal, Víctor",
+		"sexo": "Hombre",
+		"nacimiento":1975,
+		"estado civil": "soltero",
+		"partido":"VOX",
+		"provincia":"Salamanca"
+	},
+	{
+		"nombre":"González Guinda, María del Carmen",
+		"sexo": "Mujer",
+		"nacimiento":1961,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"León"
+	},
+	{
+		"nombre":"González Pérez, Ariagona",
+		"sexo": "Mujer",
+		"nacimiento":1978,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Las Palmas"
+	},
+	{
+		"nombre":"González Ramos, Manuel Gabriel",
+		"sexo": "Hombre",
+		"nacimiento":1966,
+		"estado civil": "casado",
+		"partido":"PSOE",
+		"provincia":"Albacete"
+	},
+	{
+		"nombre":"González Terol, Antonio",
+		"sexo": "Hombre",
+		"nacimiento":1976,
+		"estado civil": "casado",
+		"partido":"PP",
+		"provincia":"Madrid"
+	},
+	{
+		"nombre":"González Vázquez, Marta",
+		"sexo": "Mujer",
+		"nacimiento":1965,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Coruña"
+	},
+	{
+		"nombre":"Gorospe Elezcano, Josune",
+		"sexo": "Mujer",
+		"nacimiento":1969,
+		"estado civil": "casado",
+		"partido":"PNV",
+		"provincia":"Bizkaia"
+	},
+	{
+		"nombre":"Granollers Cunillera, Inés",
+		"sexo": "Mujer",
+		"nacimiento":1970,
+		"estado civil": "soltero",
+		"partido":"ERC",
+		"provincia":"Lleida"
+	},
+	{
+		"nombre":"Guaita Esteruelas, Sandra",
+		"sexo": "Mujer",
+		"nacimiento":1976,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Tarragona"
+	},
+	{
+		"nombre":"GGuerra López, Sonia",
+		"sexo": "Mujer",
+		"nacimiento":1977,
+		"estado civil": "casado",
+		"partido":"PSOE",
+		"provincia":"Barcelona"
+	},
+	{
+		"nombre":"Guijarro Ceballos, María",
+		"sexo": "Mujer",
+		"nacimiento":1971,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Bizkaia"
+	},
+	{
+		"nombre":"Guijarro García, Txema",
+		"sexo": "Hombre",
+		"nacimiento":1975,
+		"estado civil": "soltero",
+		"partido":"UP",
+		"provincia":"Alicante"
+	},
+	{
+		"nombre":"Guinart Moreno, Lídia",
+		"sexo": "Mujer",
+		"nacimiento":1966,
+		"estado civil": "casado",
+		"partido":"PSOE",
+		"provincia":"Barcelona"
+	},
+	{
+		"nombre":"Guitarte Gimeno, Tomás",
+		"sexo": "Hombre",
+		"nacimiento":1961,
+		"estado civil": "soltero",
+		"partido":"TE",
+		"provincia":"Teruel"
+	},
+	{
+		"nombre":"Gutiérrez Díaz de Otazu, Fernando Adolfo",
+		"sexo": "Hombre",
+		"nacimiento":1957,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Melilla"
+	},
+	{
+		"nombre":"Gutiérrez Prieto, Sergio",
+		"sexo": "Hombre",
+		"nacimiento":1982,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Toledo"
+	},
+	{
+		"nombre":"Gutiérrez Salinas, Indalecio",
+		"sexo": "Hombre",
+		"nacimiento":1974,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Almería"
 	},
 	{
 		"nombre":"Hernanz Costa, Sofía",
@@ -1132,7 +1316,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1967,
 		"estado civil": "soltero",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Girona"
 	},
 	{
@@ -1140,7 +1324,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1979,
 		"estado civil": "soltero",
-		"partido":"Bildu",
+		"partido":"BILDU",
 		"provincia":"Guipúzcoa"
 	},
 	{
@@ -1228,7 +1412,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1956,
 		"estado civil": "soltero",
-		"partido":"EAJ-PNV",
+		"partido":"PNV",
 		"provincia":"Álaba"
 	},
 	{
@@ -1324,7 +1508,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1988,
 		"estado civil": "soltero",
-		"partido":"IU",
+		"partido":"UP",
 		"provincia":"Valencia"
 	},
 	{
@@ -1404,7 +1588,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1972,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Alicante"
 	},
 	{
@@ -1420,7 +1604,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1979,
 		"estado civil": "soltero",
-		"partido":"Cs",
+		"partido":"CS",
 		"provincia":"Cádiz"
 	},
 	{
@@ -1428,7 +1612,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1956,
 		"estado civil": "casado",
-		"partido":"FAC",
+		"partido":"NA",
 		"provincia":"Asturias"
 	},
 	{
@@ -1520,6 +1704,110 @@
 		"provincia":"La Rioja"
 	},
 	{
+		"nombre":"Mestre Barea, Manuel",
+		"sexo": "Hombre",
+		"nacimiento":1952,
+		"estado civil": "soltero",
+		"partido":"VOX",
+		"provincia":"Alicante"
+	},
+	{
+		"nombre":"Mínguez García, Montse",
+		"sexo": "Mujer",
+		"nacimiento":1976,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Lleida"
+	},
+	{
+		"nombre":"Miquel i Valentí, Sergi",
+		"sexo": "Hombre",
+		"nacimiento":1989,
+		"estado civil": "soltero",
+		"partido":"JxCAT-JUNTS",
+		"provincia":"Girona"
+	},
+	{
+		"nombre":"Moneo Díez, María Sandra",
+		"sexo": "Mujer",
+		"nacimiento":1969,
+		"estado civil": "casado",
+		"partido":"PP",
+		"provincia":"Burgos"
+	},
+	{
+		"nombre":"Montero Cuadrado, María Jesús",
+		"sexo": "Mujer",
+		"nacimiento":1966,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Sevilla"
+	},
+	{
+		"nombre":"Movellán Lombilla, Diego",
+		"sexo": "Hombre",
+		"nacimiento":1979,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Cantabria"
+	},
+	{
+		"nombre":"Muñoz Dalda, Lucía",
+		"sexo": "Mujer",
+		"nacimiento":1993,
+		"estado civil": "soltero",
+		"partido":"UP",
+		"provincia":"Baleares"
+	},
+	{
+		"nombre":"Muñoz Vidal, María",
+		"sexo": "Mujer",
+		"nacimiento":1978,
+		"estado civil": "soltero",
+		"partido":"CS",
+		"provincia":"Valencia"
+	},
+	{
+		"nombre":"Montero Gil, Irene María",
+		"sexo": "Mujer",
+		"nacimiento":1988,
+		"estado civil": "soltero",
+		"partido":"UP",
+		"provincia":"Madrid"
+	},
+	{
+		"nombre":"Montesinos Aguayo, Pablo",
+		"sexo": "Hombre",
+		"nacimiento":1985,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Málaga"
+	},
+	{
+		"nombre":"Montesinos de Miguel, Macarena",
+		"sexo": "Mujer",
+		"nacimiento":1961,
+		"estado civil": "casado",
+		"partido":"PP",
+		"provincia":"Alicante"
+	},
+	{
+		"nombre":"Moraleja Gómez, Tristana María",
+		"sexo": "Mujer",
+		"nacimiento":1971,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Coruña"
+	},
+	{
+		"nombre":"Moro Almaraz, María Jesús",
+		"sexo": "Mujer",
+		"nacimiento":1961,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Salamanca"
+	},
+	{
 		"nombre":"Narváez Bandera, María Dolores",
 		"sexo": "Mujer",
 		"nacimiento":1976,
@@ -1572,7 +1860,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1980,
 		"estado civil": "soltero",
-		"partido":"JxCat-JUNTS",
+		"partido":"JxCAT-JUNTS",
 		"provincia":"Barcelona"
 	},
 	{
@@ -1604,7 +1892,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1959,
 		"estado civil": "casado",
-		"partido":"CCa",
+		"partido":"PNC",
 		"provincia":"Tenerife"
 	},
 	{
@@ -1668,7 +1956,7 @@
 		"sexo": "Mujer",
 		"nacimiento":1993,
 		"estado civil": "soltero",
-			"partido":"PSOE",
+		"partido":"PSOE",
 		"provincia":"La Rioja"
 	},
 	{
@@ -1992,6 +2280,70 @@
 		"provincia":"Castellón"
 	},
 	{
+		"nombre":"Rosety Fernández de Castro, Agustín",
+		"sexo": "Hombre",
+		"nacimiento":1947,
+		"estado civil": "casado",
+		"partido":"VOX",
+		"provincia":"Cádiz"
+	},
+	{
+		"nombre":"Rosique i Saltor, Marta",
+		"sexo": "Mujer",
+		"nacimiento":1996,
+		"estado civil": "soltero",
+		"partido":"ERC",
+		"provincia":"Barcelona"
+	},
+	{
+		"nombre":"Rueda Perelló, Patricia",
+		"sexo": "Mujer",
+		"nacimiento":1976,
+		"estado civil": "casado",
+		"partido":"VOX",
+		"provincia":"Málaga"
+	},
+	{
+		"nombre":"Rufián Romero, Gabriel",
+		"sexo": "Hombre",
+		"nacimiento":1982,
+		"estado civil": "soltero",
+		"partido":"ERC",
+		"provincia":"Barcelona"
+	},
+	{
+		"nombre":"Ruiz de Pinedo Undiano, Iñaki",
+		"sexo": "Hombre",
+		"nacimiento":1954,
+		"estado civil": "casado",
+		"partido":"BILDU",
+		"provincia":"Álaba"
+	},
+	{
+		"nombre":"Ruiz i Carbonell, Joan",
+		"sexo": "Hombre",
+		"nacimiento":1954,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Tarragona"
+	},
+	{
+		"nombre":"Ruiz Navarro, Eduardo Luis",
+		"sexo": "Hombre",
+		"nacimiento":1972,
+		"estado civil": "soltero",
+		"partido":"VOX",
+		"provincia":"Alicante"
+	},
+	{
+		"nombre":"Ruiz Solás, María de la Cabeza",
+		"sexo": "Mujer",
+		"nacimiento":1970,
+		"estado civil": "soltero",
+		"partido":"VOX",
+		"provincia":"Madrid"
+	},
+	{
 		"nombre":"Saavedra Muñoz, Marisa",
 		"sexo": "Mujer",
 		"nacimiento":1962,
@@ -2132,7 +2484,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1964,
 		"estado civil": "casado",
-		"partido":"IU",
+		"partido":"UP",
 		"provincia":"Madrid"
 	},
 	{
@@ -2148,7 +2500,7 @@
 		"sexo": "Hombre",
 		"nacimiento":1979,
 		"estado civil": "soltero",
-		"partido":"UPN",
+		"partido":"NA",
 		"provincia":"Navarra"
 	},
 	{
@@ -2190,6 +2542,62 @@
 		"estado civil": "soltero",
 		"partido":"PSOE",
 		"provincia":"Jaén"
+	},
+	{
+		"nombre":"Simancas Simancas, Rafael",
+		"sexo": "Hombre",
+		"nacimiento":1966,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Madrid"
+	},
+	{
+		"nombre":"Soler Mur, Alejandro",
+		"sexo": "Hombre",
+		"nacimiento":1972,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Alicante"
+	},
+	{
+		"nombre":"Soto Burillo, Juan Luis",
+		"sexo": "Hombre",
+		"nacimiento":1978,
+		"estado civil": "casado",
+		"partido":"PSOE",
+		"provincia":"Murcia"
+	},
+	{
+		"nombre":"Steegmann Olmedillas, Juan Luis",
+		"sexo": "Hombre",
+		"nacimiento":1955,
+		"estado civil": "casado",
+		"partido":"VOX",
+		"provincia":"Madrid"
+	},
+	{
+		"nombre":"Suárez Illana, Adolfo",
+		"sexo": "Hombre",
+		"nacimiento":1964,
+		"estado civil": "casado",
+		"partido":"PP",
+		"provincia":"Madrid"
+	},
+	{
+		"nombre":"Suárez Lamata, Eloy",
+		"sexo": "Hombre",
+		"nacimiento":1962,
+		"estado civil": "soltero",
+		"partido":"PP",
+		"provincia":"Zaragoza"
+	},
+	{
+		"nombre":"Sumelzo Jordán, Susana",
+		"sexo": "Mujer",
+		"nacimiento":1969,
+		"estado civil": "soltero",
+		"partido":"PSOE",
+		"provincia":"Zaragoza"
 	},
 	{
 		"nombre":"Taibo Monelos, Diego",
@@ -2391,9 +2799,6 @@
 		"partido":"PP",
 		"provincia":"Tenerife"
 	}
-
-
-
 ]
 
 }

@@ -11,6 +11,6 @@ public interface DiputadoDAO {
 	public void update(Diputado diputado);
 	public void delete(Diputado diputado);
 	public Collection<Diputado> readAll();
-	public Collection<Diputado> readProvincia(String provincia);
+	public Collection<Diputado> readTag(String tag, String tagElement);
 
 }

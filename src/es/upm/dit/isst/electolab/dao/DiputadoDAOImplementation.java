@@ -77,13 +77,13 @@ public class DiputadoDAOImplementation implements DiputadoDAO {
 	}
 	@SuppressWarnings("unchecked")
 	@Override
-	public Collection<Diputado> readProvincia(String provincia) {
+	public Collection<Diputado> readTag(String tag, String tagElement) {
 		// TODO Auto-generated method stub
 		Session session = SessionFactoryService.get().openSession();
 		session.beginTransaction();
 		// operaciones
-		Query q = session.createQuery("select * from DIPUTADO d where d.provincia = :provincia");
-		q.setParameter("provincia", provincia);
+		Query q = session.createQuery("select d from Diputado d where d." + tag + " = :tagElement");
+		q.setParameter("tagElement", tagElement);
 		Collection<Diputado> diputados = q.getResultList();
 
 		session.getTransaction().commit();
