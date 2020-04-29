@@ -20,7 +20,21 @@
 <body>
 
 <!-- Header -->
-	<header class="header"></header>
+	<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
+		<div class="header-1"></div>
+		<ul class="navbar-nav ml-md-auto"></ul>
+		
+		<c:choose>
+			<c:when test="${usuarioActivo != true}">
+				<div style="margin-right: 10px;" ><a class="btn btn-outline-success" role="button" href="Login.jsp">Login</a></div>
+				<div ><a class="btn btn-outline-primary" role="button" href="Registro.jsp">Registro</a></div>
+			</c:when>
+			<c:when test="${usuarioActivo == true}">
+					<a class="btn btn-outline-success">Bienvenido ${nombreUsuario}</a>
+					<div style="margin-left: 10px;"><%@ include file = "FormLogout.jsp" %></div>
+			</c:when>
+			</c:choose>
+	</header>
 	<!-- Information page -->
 
 	<!-- Content -->
@@ -35,19 +49,6 @@
 				estándar del Congreso dividido por partidos políticos.</p>
 			<p class="index-text">Tras registrarse y acceder, pulse
 				simulación avanzada para votaciones más complejas.</p>
-			
-			<c:choose>
-				<c:when test="${usuarioActivo != true}">
-
-					<%@ include file = "FormRegistro.jsp" %>
-					<%@ include file = "FormLogin.jsp" %>
-					
-				</c:when>
-				<c:when test="${usuarioActivo == true}">
-					<h2>Bienvenido ${nombreUsuario}</h2>
-				</c:when>
-			</c:choose>
-			
 		</div>
 		
 		<img id="resultados" src="assets/images/resultados.png"
@@ -81,12 +82,6 @@
 
 			</c:when>
 		</c:choose>	
-		
-		
-			<c:if test="${usuarioActivo == true}">
-				<%@ include file = "FormLogout.jsp" %>
-					
-			</c:if>
 		
 
 		<div class="ver-simul">

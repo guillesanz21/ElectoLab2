@@ -2,7 +2,7 @@ const loadPartials = () => {
   // Load the header
   $(document).ready(function () {
     // $(".header").load("partials/header.html");
-    $(".header").load("./partials/header.html");
+    $(".header-1").load("./partials/header.html");
   });
 
   // Load the footer

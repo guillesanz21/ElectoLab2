@@ -1,28 +1,25 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-
+	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
-    <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script
-      type="text/javascript"
-      src="https://www.gstatic.com/charts/loader.js"
-    ></script>
-    <script type="text/javascript">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous" />
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
+<!-- JS file responsible for load the partials -->
+<script type="text/javascript" src="assets/js/main.js?v=1"></script>
+
+<script type="text/javascript"
+	src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
       google.charts.load("current", { packages: ["corechart"] });
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -44,79 +41,95 @@
         chart.draw(data, options);
       }
     </script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <title>Resultados de la simulación</title>
+<title>Resultados de la simulación</title>
 
-    </head>
+</head>
 <body>
- <header class="header"></header>
 
-    <!-- Content -->
-    <section class="container">
-      <h1 class="display-4" style="text-align: center; color: black;">
-        Resultado de su simulación
-      </h1>
-      <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
-      <table class="table table-hover" id="results-table">
-        <thead>
-          <tr style="color: white;">
-            <th>Decisión</th>
-            <th>Total votos</th>
-            <th>Porcentaje</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="color: green;">
-            <td>A favor</td>
-            <td>${simulacion.votos_favor}</td>
-            <td>${simulacion.votos_favor}/350</td>
-          </tr>
-          <tr style="color: rgb(139, 0, 0);">
-            <td>En contra</td>
-            <td>${simulacion.votos_contra}</td>
-            <td>${simulacion.votos_contra}/350</td>
-          </tr>
-          <tr style="color: rgb(255, 140, 0);">
-            <td>Abstención</td>
-            <td>${simulacion.votos_abstencion}</td>
-            <td>${simulacion.votos_abstencion}/350</td>
-          </tr>
-        </tbody>
-      </table>
-      
-      <!--Save simulation-->
-      
-       <%@ include file="FormLeyAprobada.jsp"%>
-     
-      <!--Save simulation-->
-      <%@ include file="FormGuardaSimulacion.jsp"%>
-     
-      <br /><br /><br /><br /><br /><br />
-    </section>
-    <!-- Footer -->
-    <footer class="footer"></footer>
+<!-- Header -->
+	<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
+		<div class="header-1"></div>
+		<ul class="navbar-nav ml-md-auto"></ul>
+		
+		<c:choose>
+			<c:when test="${usuarioActivo != true}">
+				<div style="margin-right: 10px;" ><a class="btn btn-outline-success" role="button" href="Login.jsp">Login</a></div>
+				<div ><a class="btn btn-outline-primary" role="button" href="Registro.jsp">Registro</a></div>
+			</c:when>
+			<c:when test="${usuarioActivo == true}">
+					<a class="btn btn-outline-success">Bienvenido ${nombreUsuario}</a>
+					<div style="margin-left: 10px;"><%@ include file = "FormLogout.jsp" %></div>
+			</c:when>
+			</c:choose>
+	</header>
 
-    <!-- Bootstrap required JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+	<!-- Content -->
+	<section class="container">
+		<h1 class="display-4" style="text-align: center; color: black;">
+			Resultado de su simulación</h1>
+		<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+
+		<!--Tabla de resultados-->
+		<table class="table" id="results-table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">Decisión</th>
+					<th scope="col">Votos</th>
+					<th scope="col">Votos/Total</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="table-success">
+					<th scope="row">A favor</th>
+					<td>${simulacion.votos_favor}</td>
+					<td>${simulacion.votos_favor}/350</td>
+				</tr>
+				<tr class="table-danger">
+					<th scope="row">En contra</th>
+					<td>${simulacion.votos_contra}</td>
+					<td>${simulacion.votos_contra}/350</td>
+				</tr>
+				<tr class="table-warning">
+					<th scope="row">Abstención</th>
+					<td>${simulacion.votos_abstencion}</td>
+					<td>${simulacion.votos_abstencion}/350</td>
+				</tr>
+
+			</tbody>
+		</table>
+
+
+		<!--Estudio de ley aprobada-->
+		<%@ include file="FormLeyAprobada.jsp"%>
+
+		<!--Save simulation-->
+		<%@ include file="FormGuardaSimulacion.jsp"%>
+
+
+	</section>
+
+
+	<!-- Footer -->
+	<footer class="footer"></footer>
+
+	<!-- Bootstrap required JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
 </body>
 </html>

@@ -15,60 +15,28 @@
 <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
 <!-- JS file responsible for load the partials -->
 <script type="text/javascript" src="assets/js/main.js?v=1"></script>
-<title>Simulaciones Guardadas</title>
+<title>ElectoLab</title>
 </head>
-<body>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
 
+<body>
 	<!-- Header -->
-	<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
+	<header
+		class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
 		<div class="header-1"></div>
 		<ul class="navbar-nav ml-md-auto"></ul>
-		
-		<c:choose>
-			<c:when test="${usuarioActivo != true}">
-				<div style="margin-right: 10px;" ><a class="btn btn-outline-success" role="button" href="Login.jsp">Login</a></div>
-				<div ><a class="btn btn-outline-primary" role="button" href="Registro.jsp">Registro</a></div>
-			</c:when>
-			<c:when test="${usuarioActivo == true}">
-					<a class="btn btn-outline-success">Bienvenido ${nombreUsuario}</a>
-					<div style="margin-left: 10px;"><%@ include file = "FormLogout.jsp" %></div>
-			</c:when>
-			</c:choose>
+		<div ><a class="btn btn-outline-success" role="button" href="Login.jsp">Login</a></div>
 	</header>
 	
+	<!-- Information page -->
+	<div class="cuadroFormulario">
+		<%@ include file="FormRegistro.jsp"%>
+	</div>
 	
 
-	<h2>Simulaciones guardadas</h2>
 
-	<p>
-		<b>Número de Simulaciones: </b>${fn:length(Simulaciones)}</p>
-
-	<h2>Simulaciones</h2>
-	<table border="1">
-		<tr>
-
-
-			<th>Titulo ley</th>
-
-			<th>¿Aprobada?</th>
-
-			<th>Autor</th>
-
-		</tr>
-		<c:forEach items="${Simulaciones}" var="simulacioni">
-			<tr>
-				<td>${simulacioni.tituloLey}</td>
-				<td>${simulacioni.ley_aprobada}</td>
-				<td>${simulacioni.autor.nombre}</td>
-				<td>
-					<%@ include file="FormVerSimulacionGuardada.jsp"%>
-				</td>
-
-			</tr>
-		</c:forEach>
-	</table>
-	
-	
 	<!-- Footer -->
 	<footer class="footer"></footer>
 
