@@ -121,6 +121,7 @@ var diputados = 350;
 
 // ------------- VISTAS -------------
 // VISTA LISTA-PARTIDOS
+/*
 const listaPartidosView = () => {
   let view = "";
   for (const partido of partidosRecibidos) {
@@ -154,6 +155,7 @@ const listaPartidosView = () => {
   }
   return view;
 };
+*/
 
 // VISTA BARRA
 const barraView = () => {
@@ -202,19 +204,19 @@ document.addEventListener("DOMContentLoaded", barraContr);
 
 // ------------- EVENTOS ASOCIADOS A LA ASIGNACIÓN DE VOTO -------------
 const loadEvents = () => {
-  for (const partido of partidosRecibidos) {
+  for (const diputado of diputados) {
     // Favor
     document
       .getElementById(partido.nameCode + "1")
       .addEventListener("click", function () {
-        if (partido.vote === -1) {
+        if (diputado.vote === -1) {
           // Si ya estaba en contra
-          contra -= partido.seats;
-          favor += partido.seats;
+          contra -= 1;
+          favor += 1;
         }
         if (partido.vote === 0) {
           // Si ya se abstenia
-          favor += partido.seats;
+          favor += 1;
         }
         // Para la condición de que estuviese a favor no hacemos nada
         partido.vote = 1; // El partido esta ahora a favor
@@ -225,14 +227,14 @@ const loadEvents = () => {
     document
       .getElementById(partido.nameCode + "2")
       .addEventListener("click", function () {
-        if (partido.vote === 1) {
+        if (diputado.vote === 1) {
           // Si ya estaba a favor
-          contra += partido.seats;
-          favor -= partido.seats;
+          contra += 1;
+          favor -= 1;
         }
         if (partido.vote === 0) {
           // Si ya se abstenia
-          contra += partido.seats;
+          contra += 1;
         }
         // Para la condición de que estuviese en contra no hacemos nada
         partido.vote = -1; // El partido esta ahora en contra
@@ -243,13 +245,13 @@ const loadEvents = () => {
     document
       .getElementById(partido.nameCode + "3")
       .addEventListener("click", function () {
-        if (partido.vote === 1) {
+        if (diputado.vote === 1) {
           // Si ya estaba a favor
-          favor -= partido.seats;
+          favor -= 1;
         }
         if (partido.vote === -1) {
           // Si ya estaba en contra
-          contra -= partido.seats;
+          contra -= 1;
         }
         // Para la condición de que se abstubiese no hacemos nada
         partido.vote = 0; // El partido ahora se abstiene
@@ -262,9 +264,9 @@ const loadEvents = () => {
   document
   .getElementById("simular-btn-simulation")
   .addEventListener("click", function () {
-	  let json = JSON.stringify(partidosRecibidos);
+	  let json = JSON.stringify(diputados);
 	 
-	  document.getElementById('partidosRecibidos').value = json;
+	  document.getElementById('diputados').value = json;
   });
 };
 

@@ -19,6 +19,7 @@ import org.json.simple.parser.JSONParser;
 import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
 import es.upm.dit.isst.electolab.dao.PartidoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Diputado;
+import es.upm.dit.isst.electolab.model.Partido;
 
 /**
  * Servlet implementation class AsigacionAvanzadaServlet
@@ -81,7 +82,13 @@ public class AsigacionAvanzadaServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+	//	doGet(request, response);
+		Collection<Diputado> diputados = new ArrayList<Diputado>();
+    	diputados = DiputadoDAOImplementation.getInstancia().readAll();
+
+    	request.getSession().setAttribute("diputados", diputados);
+
+    	getServletContext().getRequestDispatcher("/AsignacionAvanzada.jsp").forward(request, response);
 	}
 
 }
