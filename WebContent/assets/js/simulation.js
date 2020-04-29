@@ -1,4 +1,5 @@
 // ------------- MODELO DE DATOS -------------
+
 let partidos = [
   {
     nameCode: "PSOE", // Usado de cara al codigo
@@ -200,8 +201,9 @@ const loadEvents = () => {
       });
   }
   /*
-   * Crea un SON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet
-   */
+   * Crea un JSON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet
+   * 
+    */
   document
   .getElementById("simular-btn-simulation")
   .addEventListener("click", function () {
@@ -209,6 +211,8 @@ const loadEvents = () => {
 	 
 	  document.getElementById('partidos').value = json;
   });
+  
+
 };
 
 document.addEventListener("DOMContentLoaded", loadEvents);

@@ -52,7 +52,7 @@ public class FormSeedBBDD extends HttpServlet {
     	ArrayList<Diputado> diputados = new ArrayList<Diputado>();
 		JSONParser parser = new JSONParser();
         try
-        {  /*         
+        {   
         	
         	//************** DIPUTADOS **************
 
@@ -77,7 +77,7 @@ public class FormSeedBBDD extends HttpServlet {
 			 * Bucle que recorre el array y va accediendo a cada diputado, para acceder a una propiedad de un diputado:
 			 * diputadoJSON = (JSONObject)diputadosJSON.get(i)
 			 * String propiedad = (String)diputadoJSON.get("Nombre de la propiedad")
-			 
+			 */
             for(int i = 0; i<diputadosJSON.size(); i++) {
             	
             	Diputado d = new Diputado();
@@ -85,29 +85,30 @@ public class FormSeedBBDD extends HttpServlet {
             	
             	DiputadoDAOImplementation.getInstancia().delete(d);
             	
-            	d.setIdDiputado(i);
+            	d.setIdDiputado(i+1);
             	d.setNombre((String)diputadoJSON.get("nombre"));
-            	d.setPartido((String)diputadoJSON.get("partido"));
+            	d.setPartido(PartidoDAOImplementation.getInstancia().read((String)diputadoJSON.get("partido")));
             	//Genero meterlo en custom tag
+            	System.out.println((String)diputadoJSON.get("partido"));
             	d.setGenero((String)diputadoJSON.get("sexo"));
             	d.setProvincia((String)diputadoJSON.get("provincia"));
             	d.setEdad(year-(Long)diputadoJSON.get("nacimiento"));
 
                 System.out.println("FormSeedBBDDServlet, doGet, Diputado: " + d);
-                DiputadoDAOImplementation.getInstancia().create(d);
+                DiputadoDAOImplementation.getInstancia().update(d);
             	System.out.println("FormSeedBBDDServlet, doGet, base de datos Diputado: " + DiputadoDAOImplementation.getInstancia().readAll());
             }
-            */
+            
             //************** PARTIDOS **************
        
             
-        	URL url = getClass().getResource("partidos.json");
-            Object object = parser
+        	url = getClass().getResource("partidos.json");
+            object = parser
                     .parse(new FileReader(url.getPath()));
 
             
             //convert Object to JSONObject
-            JSONObject jsonObject = (JSONObject)object;
+            jsonObject = (JSONObject)object;
             
             //Reading the array
             JSONArray partidosJSON = (JSONArray)jsonObject.get("partidos");

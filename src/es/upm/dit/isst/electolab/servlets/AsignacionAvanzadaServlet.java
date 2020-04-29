@@ -24,14 +24,14 @@ import es.upm.dit.isst.electolab.model.Partido;
 /**
  * Servlet implementation class AsigacionAvanzadaServlet
  */
-@WebServlet("/AsigacionAvanzadaServlet")
-public class AsigacionAvanzadaServlet extends HttpServlet {
+@WebServlet("/AsignacionAvanzadaServlet")
+public class AsignacionAvanzadaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public AsigacionAvanzadaServlet() {
+    public AsignacionAvanzadaServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -53,9 +53,12 @@ public class AsigacionAvanzadaServlet extends HttpServlet {
     		for (int i = 0; i < (jsonArray).size(); i++) {
     			tagJSON = (JSONObject) jsonArray.get(i);
     			//System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
-    			//System.out.println();
+    			//System.out.println((String)(tagJSON.get("tag")), (String)(tagJSON.get("tagElement")));
+    			System.out.println((String)tagJSON.get("tag") + "-------------" + (String)tagJSON.get("tagElement"));
+
     			Collection<Diputado> diputados = new ArrayList<Diputado>();
-    			diputados = DiputadoDAOImplementation.getInstancia().readProvincia((String)(tagJSON.get("tag")));		
+    			diputados = DiputadoDAOImplementation.getInstancia().readTag( (String) tagJSON.get("tag"), (String) tagJSON.get("tagElement") );		
+
     			for (Diputado diputado : diputados) {
     				diputado.setVoto((int)(long)tagJSON.get("vote"));
         			DiputadoDAOImplementation.getInstancia().update(diputado);
@@ -73,7 +76,7 @@ public class AsigacionAvanzadaServlet extends HttpServlet {
     		// TODO Auto-generated catch block
     		e.printStackTrace();
     	}
-    	request.getRequestDispatcher("FormSimulationAvanzadaServlet").forward(request, response);		
+    	request.getRequestDispatcher("FormSimulacionAvanzadaServlet").forward(request, response);		
 
 	}
 
@@ -92,3 +95,4 @@ public class AsigacionAvanzadaServlet extends HttpServlet {
 	}
 
 }
+
