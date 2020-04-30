@@ -1,0 +1,100 @@
+{
+  "partidos": [
+    {
+      "nameCode": "PSOE",
+      "fullName": "PSOE",
+      "seats": "120",
+      "vote": "0"
+    },
+    {
+      "nameCode": "PP",
+      "fullName": "PP",
+      "seats": "88",
+      "vote": "0"
+    },
+    {
+      "nameCode": "VOX",
+      "fullName": "VOX",
+      "seats": "52",
+      "vote": "0"
+    },
+    {
+      "nameCode": "UP",
+      "fullName": "PODEMOS-UI",
+      "seats": "35",
+      "vote": "0"
+    },
+    {
+      "nameCode": "ERC",
+      "fullName": "ERC-SOBIRANISTES",
+      "seats": "13",
+      "vote": "0"
+    },
+    {
+      "nameCode": "CS",
+      "fullName": "CS",
+      "seats": "10",
+      "vote": "0"
+    },
+    {
+      "nameCode": "JxCAT-JUNTS",
+      "fullName": "JXCAT-JUNTS",
+      "seats": "8",
+      "vote": "0"
+    },
+    {
+      "nameCode": "PNV",
+      "fullName": "PNV",
+      "seats": "7",
+      "vote": "0"
+    },
+    {
+      "nameCode": "BILDU",
+      "fullName": "EH BILDU",
+      "seats": "5",
+      "vote": "0"
+    },
+    {
+      "nameCode": "MASPAIS",
+      "fullName": "MAS PAIS",
+      "seats": "3",
+      "vote": "0"
+    },
+    {
+      "nameCode": "CUP",
+      "fullName": "CUP-PR",
+      "seats": "2",
+      "vote": "0"
+    },
+    {
+      "nameCode": "PNC",
+      "fullName": "CCA-PNC-NC",
+      "seats": "2",
+      "vote": "0"
+    },
+    {
+      "nameCode": "NA",
+      "fullName": "NA+",
+      "seats": "2",
+      "vote": "0"
+    },
+    {
+      "nameCode": "BNG",
+      "fullName": "BNG",
+      "seats": "1",
+      "vote": "0"
+    },
+    {
+      "nameCode": "PRC",
+      "fullName": "PRC",
+      "seats": "1",
+      "vote": "0"
+    },
+    {
+      "nameCode": "TE",
+      "fullName": "Teruel Existe",
+      "seats": "1",
+      "vote": "0"
+    }
+  ]
+}
