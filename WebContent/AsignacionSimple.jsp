@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
     <!-- JS file responsible for load the partials -->
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/data.js?=v1"></script>
     <script type="text/javascript" src="assets/js/simulation.js"></script>
     <title>Simulación</title>
   </head>
