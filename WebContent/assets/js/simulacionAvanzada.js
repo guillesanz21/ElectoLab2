@@ -2826,19 +2826,26 @@ var diputados = 350;
 
 //--------------VISTA DE LOS DIPUTADOS---------
 const listaDiputadosView = () => {
-	
-//var listaDiputados = [];
-for (let i in diputados) {
-	var k = 0;
-	var diputadoA = diputados[i];
-	var valor = diputadoA.tagSeleccionado;
-	var diputadoTag = [];
-	if(diputadoTag[k] != valor){
-		diputadoTag.push(valor);
-		k++;
-	}
+const resultado = Array.from(new Set(diputados.map(s => s.tagSeleccionado))).map(tagSeleccionado =>
+{ return {
+	tag: tagSeleccionado
 
-}
+};
+	});
+
+resultado
+//	var listaDiputados = [];
+	for (let i in diputados) {
+		var k = 0;
+		var diputadoA = diputados[i];
+		var valor = diputadoA.tagSeleccionado;
+		var diputadoTag = [];
+		if(diputadoTag[k].tagSeleccionado != valor){
+			diputadoTag.push(valor);
+			k++;
+		}
+
+	}
 }
 // ------------- VISTAS -------------
 // VISTA LISTA-PARTIDOS

@@ -5,6 +5,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+table {
+  margin: 15px;
+  margin-right: 45px;
+  padding: 15px;
+  text-align: center;
+  width: 80%;
+}
+
+
+
+</style>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Bootstrap CSS -->
@@ -38,17 +50,17 @@
 	
 	
 
-	<h2>Simulaciones guardadas</h2>
+	<h2 style= "text-align: center;">Simulaciones guardadas</h2>
 
-	<p>
+	<p style= "text-align: center;">
 		<b>Número de Simulaciones: </b>${fn:length(Simulaciones)}</p>
+<div>
+	<h2 style= "text-align: center;">Simulaciones</h2>
+	<table border="1" back>
+		<tr style= "text-align: left;">
 
-	<h2>Simulaciones</h2>
-	<table border="1">
-		<tr>
 
-
-			<th>Titulo ley</th>
+			<th >Titulo ley</th>
 
 			<th>¿Aprobada?</th>
 
@@ -56,7 +68,7 @@
 
 		</tr>
 		<c:forEach items="${Simulaciones}" var="simulacioni">
-			<tr>
+			<tr style= "text-align: left;">
 				<td>${simulacioni.tituloLey}</td>
 				<td>${simulacioni.ley_aprobada}</td>
 				<td>${simulacioni.autor.nombre}</td>
@@ -67,7 +79,7 @@
 			</tr>
 		</c:forEach>
 	</table>
-	
+	</div>
 	
 	<!-- Footer -->
 	<footer class="footer"></footer>
