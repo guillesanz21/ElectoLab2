@@ -1,5 +1,16 @@
-//let partidosRecibidos = require('partidos.json');
+/*
+let listaDiputados;
+const loadPage = () => {
+	
+	$.getJSON('assets/js/json/diputados.json', data => {       
+		listaDiputados = data.diputados;
+		loadEvents(listaDiputados);
+		barraContr();
+	});
+};
 
+document.addEventListener("DOMContentLoaded", loadPage);
+ */
 
 
 function lee_json (){

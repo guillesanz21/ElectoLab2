@@ -1,5 +1,16 @@
-// ------------- MODELO DE DATOS -------------
+let listaPartidos;
+const loadPage = () => {
+	
+	$.getJSON('assets/js/json/partidos.json', data => {       
+		listaPartidos = data.partidos;
+		loadEvents(listaPartidos);
+		barraContr();
+	});
+};
 
+document.addEventListener("DOMContentLoaded", loadPage);
+
+// ------------- MODELO DE DATOS -------------
 var favor = 0;
 var contra = 0;
 var diputados = 350;
@@ -43,12 +54,12 @@ const barraContr = () => {
   document.getElementById("barra-view").innerHTML = barraView();
 };
 
-// ------------- INICIALIZACIÓN -------------
-document.addEventListener("DOMContentLoaded", barraContr);
 
 // ------------- EVENTOS ASOCIADOS A LA ASIGNACIÓN DE VOTO -------------
-const loadEvents = () => {
-  for (const partido of partidos) {
+const loadEvents = (listaPartidos) => {
+  for (const partido of listaPartidos) {
+	partido.vote = parseInt(partido.vote);
+	partido.seats = parseInt(partido.seats);
     // Favor
     document
       .getElementById(partido.nameCode + "1")
@@ -109,12 +120,10 @@ const loadEvents = () => {
   document
   .getElementById("simular-btn-simulation")
   .addEventListener("click", function () {
-	  let json = JSON.stringify(partidos);
+	  let json = JSON.stringify(listaPartidos);
 	 
 	  document.getElementById('partidos').value = json;
   });
   
 
 };
-
-document.addEventListener("DOMContentLoaded", loadEvents);

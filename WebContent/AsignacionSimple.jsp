@@ -16,16 +16,14 @@
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
-    <!-- JS file responsible for load the partials -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!-- JS files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/data.js?=v1"></script>
-    <script type="text/javascript" src="assets/js/simulation.js"></script>
+    <script type="text/javascript" src="assets/js/simulation.js?v=3"></script>
     <title>Simulación</title>
   </head>
   <body>
     <!-- Header -->
-    <header class="header"></header>
+	<%@ include file = "partials/header.jsp" %>
 
     <!-- Content -->
     <section class="container container-simular">
@@ -82,7 +80,7 @@
     <br />
 
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <%@ include file = "partials/footer.jsp" %>
 
     <!-- Bootstrap required JS -->
     <script

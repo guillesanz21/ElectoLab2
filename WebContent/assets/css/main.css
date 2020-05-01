@@ -32,6 +32,10 @@ body {
   padding-bottom: 2%;
 }
 
+.nav-item {
+	margin-left: 0.7em;
+}
+
 /*  ###################   HOME   ##################  */
 .index-text {
   color: white;

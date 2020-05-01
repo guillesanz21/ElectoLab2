@@ -1,12 +1,5 @@
-// let diputadosJSON = require("diputados.json");
-
-
-$.getJSON('partidos.json', data => {         
-    console.log(data);
-});
-
-
-let partidos = [
+/*
+let partidosa = [
 	  {
 		    nameCode: "PSOE", // Usado de cara al codigo
 		    fullName: "PSOE", // Usado de cara a los usuarios
@@ -105,7 +98,7 @@ let partidos = [
 		  },
 		];
 
-
+*/
 
 /*let diputados = [ 	{
 	"nombre":"Ábalos Meco, José Luis",

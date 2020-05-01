@@ -15,28 +15,12 @@
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
-<!-- JS file responsible for load the partials -->
-<script type="text/javascript" src="assets/js/main.js?v=1"></script>
 <title>Informacion sobre el congreso</title>
 </head>
 
 <body>
 	<!-- Header -->
-	<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
-		<div class="header-1"></div>
-		<ul class="navbar-nav ml-md-auto"></ul>
-		
-		<c:choose>
-			<c:when test="${usuarioActivo != true}">
-				<div style="margin-right: 10px;" ><a class="btn btn-outline-success" role="button" href="Login.jsp">Login</a></div>
-				<div ><a class="btn btn-outline-primary" role="button" href="Registro.jsp">Registro</a></div>
-			</c:when>
-			<c:when test="${usuarioActivo == true}">
-					<a class="btn btn-outline-success">Bienvenido ${nombreUsuario}</a>
-					<div style="margin-left: 10px;"><%@ include file = "FormLogout.jsp" %></div>
-			</c:when>
-			</c:choose>
-	</header>
+	<%@ include file = "partials/header.jsp" %>
 	
 	
 	<div class="container">
@@ -147,7 +131,8 @@
 	<br />
 	<br />
 
-	<footer class="footer"></footer>
+	<!-- Footer -->
+	<%@ include file = "partials/footer.jsp" %>
 
 	<!-- Bootstrap required JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
