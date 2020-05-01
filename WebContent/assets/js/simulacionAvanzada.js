@@ -17,7 +17,7 @@ let diputados = [ 	{
 	"nombre":"Ábalos Meco, José Luis",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Valencia"
 },
@@ -25,7 +25,7 @@ let diputados = [ 	{
 	"nombre":"Abascal Conde, Santiago",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -33,7 +33,7 @@ let diputados = [ 	{
 	"nombre":"Aceves Galindo, José Luis",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Segovia"
 },
@@ -41,7 +41,7 @@ let diputados = [ 	{
 	"nombre":"Agirretxea Urresti, Joseba Andoni",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PNV",
 	"provincia":"Guipúzcoa"
 },
@@ -49,7 +49,7 @@ let diputados = [ 	{
 	"nombre":"Aizcorbe Torra, Juan José",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Barcelona"
 },
@@ -57,7 +57,7 @@ let diputados = [ 	{
 	"nombre":"Aizpurua Arzallus, Mertxe",
 	"sexo": "Mujer",
 	"nacimiento":1960,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"BILDU",
 	"provincia":"Guipúzcoa"
 },
@@ -65,7 +65,7 @@ let diputados = [ 	{
 	"nombre":"Alcaraz Martos, Francisco José",
 	"sexo": "Hombre",
 	"nacimiento":1968,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Jaén"
 },
@@ -73,7 +73,7 @@ let diputados = [ 	{
 	"nombre":"Alfonso Cendón, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1983,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"León"
 },
@@ -81,7 +81,7 @@ let diputados = [ 	{
 	"nombre":"Almodóbar Barceló, Agustín",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Alicante"
 },
@@ -89,7 +89,7 @@ let diputados = [ 	{
 	"nombre":"Alonso Pérez, José Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1993,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Valladolid"
 },
@@ -97,7 +97,7 @@ let diputados = [ 	{
 	"nombre":"Alonso Suárez, María Olga",
 	"sexo": "Mujer",
 	"nacimiento":1962,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Pontevedra"
 },
@@ -105,7 +105,7 @@ let diputados = [ 	{
 	"nombre":"Alonso-Cuevillas i Sayrol, Jaume",
 	"sexo": "Hombre",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Barcelona"
 },
@@ -113,7 +113,7 @@ let diputados = [ 	{
 	"nombre":"Álvarez de Toledo Peralta-Ramos, Cayetana",
 	"sexo": "Mujer",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Barcelona"
 },
@@ -121,7 +121,7 @@ let diputados = [ 	{
 	"nombre":"Álvarez Fanjul, Beatriz",
 	"sexo": "Mujer",
 	"nacimiento":1991,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Bizkaia"
 },
@@ -129,7 +129,7 @@ let diputados = [ 	{
 	"nombre":"Andrés Añón, Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -137,7 +137,7 @@ let diputados = [ 	{
 	"nombre":"Andrés Barea, Josefa",
 	"sexo": "Mujer",
 	"nacimiento":1958,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Valencia"
 },
@@ -145,7 +145,7 @@ let diputados = [ 	{
 	"nombre":"Anguita Pérez, Omar",
 	"sexo": "Hombre",
 	"nacimiento":1990,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -153,7 +153,7 @@ let diputados = [ 	{
 	"nombre":"Angulo Romero, María Teresa",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Badajoz"
 },
@@ -161,7 +161,7 @@ let diputados = [ 	{
 	"nombre":"Antón Cacho, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Soria"
 },
@@ -169,7 +169,7 @@ let diputados = [ 	{
 	"nombre":"Aragonés Mendiguchía, Carlos",
 	"sexo": "Hombre",
 	"nacimiento":1956,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -177,7 +177,7 @@ let diputados = [ 	{
 	"nombre":"Aranda Vargas, Francisco",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -185,7 +185,7 @@ let diputados = [ 	{
 	"nombre":"Araujo Morales, Gemma",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cádiz"
 },
@@ -193,7 +193,7 @@ let diputados = [ 	{
 	"nombre":"Arribas Maroto, Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1986,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Ávila"
 },
@@ -201,7 +201,7 @@ let diputados = [ 	{
 	"nombre":"Arrimadas García, Inés",
 	"sexo": "Mujer",
 	"nacimiento":1981,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"CS",
 	"provincia":"Barcelona"
 },
@@ -209,7 +209,7 @@ let diputados = [ 	{
 	"nombre":"Asarta Cuevas, Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1951,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Castellón"
 },
@@ -217,7 +217,7 @@ let diputados = [ 	{
 	"nombre":"Asens Llodrà, Jaume",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Barcelona"
 },
@@ -225,7 +225,7 @@ let diputados = [ 	{
 	"nombre":"Azorín Salar, Lázaro",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Alicante"
 },
@@ -233,7 +233,7 @@ let diputados = [ 	{
 	"nombre":"Bal Francés, Edmundo",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"CS",
 	"provincia":"Madrid"
 },
@@ -241,7 +241,7 @@ let diputados = [ 	{
 	"nombre":"Baldoví Roda, Joan",
 	"sexo": "Hombre",
 	"nacimiento":1958,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Valencia"
 },
@@ -249,7 +249,7 @@ let diputados = [ 	{
 	"nombre":"Baños Ruiz, Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Murcia"
 },
@@ -257,7 +257,7 @@ let diputados = [ 	{
 	"nombre":"Barandiaran Benito, Íñigo",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PNV",
 	"provincia":"Guipúzcoa"
 },
@@ -265,7 +265,7 @@ let diputados = [ 	{
 	"nombre":"Bas Corugeira, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Pontevedra"
 },
@@ -273,7 +273,7 @@ let diputados = [ 	{
 	"nombre":"Bassa Coll, Montserrat",
 	"sexo": "Mujer",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Girona"
 },
@@ -281,7 +281,7 @@ let diputados = [ 	{
 	"nombre":"Batet Lamaña, Meritxell",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -289,7 +289,7 @@ let diputados = [ 	{
 	"nombre":"Bel Accensi, Ferran",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Tarragona"
 },
@@ -297,7 +297,7 @@ let diputados = [ 	{
 	"nombre":"Belarra Urteaga, Ione",
 	"sexo": "Mujer",
 	"nacimiento":1987,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Navarra"
 },
@@ -305,7 +305,7 @@ let diputados = [ 	{
 	"nombre":"Beltrán Villalba, Ana María",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -313,7 +313,7 @@ let diputados = [ 	{
 	"nombre":"Berja Vega, Laura",
 	"sexo": "Mujer",
 	"nacimiento":1986,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Jaén"
 },
@@ -321,7 +321,7 @@ let diputados = [ 	{
 	"nombre":"Bermúdez de Castro Fernández, José Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Salamanca"
 },
@@ -329,7 +329,7 @@ let diputados = [ 	{
 	"nombre":"Betoret Coll, Vicente",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Valencia"
 },
@@ -337,7 +337,7 @@ let diputados = [ 	{
 	"nombre":"Blanquer Alcaraz, Patricia",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Alicante"
 },
@@ -345,7 +345,7 @@ let diputados = [ 	{
 	"nombre":"Boadella Esteve, Genís",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Barcelona"
 },
@@ -353,7 +353,7 @@ let diputados = [ 	{
 	"nombre":"Borràs Castanyer, Laura",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Barcelona"
 },
@@ -361,7 +361,7 @@ let diputados = [ 	{
 	"nombre":"Borrás Pabón, Mireia",
 	"sexo": "Mujer",
 	"nacimiento":1986,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -369,7 +369,7 @@ let diputados = [ 	{
 	"nombre":"Borrego Cortés, Isabel María",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Murcia"
 },
@@ -377,7 +377,7 @@ let diputados = [ 	{
 	"nombre":"Botella Gómez, Ana María",
 	"sexo": "Mujer",
 	"nacimiento":1958,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Valencia"
 },
@@ -385,7 +385,7 @@ let diputados = [ 	{
 	"nombre":"Botran Pahissa, Albert",
 	"sexo": "Hombre",
 	"nacimiento":1984,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CUP",
 	"provincia":"Barcelona"
 },
@@ -393,7 +393,7 @@ let diputados = [ 	{
 	"nombre":"Bravo Barco, Eva",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cádiz"
 },
@@ -401,7 +401,7 @@ let diputados = [ 	{
 	"nombre":"Bueno Campanario, Eva Patricia",
 	"sexo": "Mujer",
 	"nacimiento":1971,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Sevilla"
 },
@@ -409,7 +409,7 @@ let diputados = [ 	{
 	"nombre":"Caballero Gutiérrez, Helena",
 	"sexo": "Mujer",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Valladolid"
 },
@@ -417,7 +417,7 @@ let diputados = [ 	{
 	"nombre":"Cabezón Casas, Tomás",
 	"sexo": "Hombre",
 	"nacimiento":1981,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Soria"
 },
@@ -425,7 +425,7 @@ let diputados = [ 	{
 	"nombre":"Callejas Cano, Juan Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1974,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Ciudad Real"
 },
@@ -433,7 +433,7 @@ let diputados = [ 	{
 	"nombre":"Calvo Liste, Pablo Juan",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"León"
 },
@@ -441,7 +441,7 @@ let diputados = [ 	{
 	"nombre":"Calvo Poyato, Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -449,7 +449,7 @@ let diputados = [ 	{
 	"nombre":"Cambronero Piqueras, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"CS",
 	"provincia":"Sevilla"
 },
@@ -457,7 +457,7 @@ let diputados = [ 	{
 	"nombre":"Cañadell Salvia, Concep",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Lleida"
 },
@@ -465,7 +465,7 @@ let diputados = [ 	{
 	"nombre":"Canales Duque, Mariana de Gracia",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cuenca"
 },
@@ -473,7 +473,7 @@ let diputados = [ 	{
 	"nombre":"Cancela Rodríguez, Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Coruña"
 },
@@ -481,7 +481,7 @@ let diputados = [ 	{
 	"nombre":"Cañizares Pacheco, Inés María",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Toledo"
 },
@@ -489,7 +489,7 @@ let diputados = [ 	{
 	"nombre":"Cantera de Castro, Zaida",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -497,7 +497,7 @@ let diputados = [ 	{
 	"nombre":"Capdevila i Esteve, Joan",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -505,7 +505,7 @@ let diputados = [ 	{
 	"nombre":"Carazo Hermoso, Eduardo",
 	"sexo": "Hombre",
 	"nacimiento":1990,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Valladolid"
 },
@@ -513,7 +513,7 @@ let diputados = [ 	{
 	"nombre":"Carcedo Roces, María Luisa",
 	"sexo": "Hombre",
 	"nacimiento":1953,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Asturias"
 },
@@ -521,7 +521,7 @@ let diputados = [ 	{
 	"nombre":"Carrillo de los Reyes, Beatriz Micaela",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Sevilla"
 },
@@ -529,7 +529,7 @@ let diputados = [ 	{
 	"nombre":"Carvalho Dantas, María",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -537,7 +537,7 @@ let diputados = [ 	{
 	"nombre":"Casado Blanco, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1981,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -545,7 +545,7 @@ let diputados = [ 	{
 	"nombre":"Casares Hontañón, Pedro",
 	"sexo": "Hombre",
 	"nacimiento":1983,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cantabria"
 },
@@ -553,7 +553,7 @@ let diputados = [ 	{
 	"nombre":"Casero Ávila, Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Cáceres"
 },
@@ -561,7 +561,7 @@ let diputados = [ 	{
 	"nombre":"Castellón Rubio, Miguel Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Almería"
 },
@@ -569,7 +569,7 @@ let diputados = [ 	{
 	"nombre":"Castillo López, Elena",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Cantabria"
 },
@@ -577,7 +577,7 @@ let diputados = [ 	{
 	"nombre":"Cerdán León, Santos",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Navarra"
 },
@@ -585,7 +585,7 @@ let diputados = [ 	{
 	"nombre":"Cerqueiro González, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Lugo"
 },
@@ -593,7 +593,7 @@ let diputados = [ 	{
 	"nombre":"Chamorro Delmo, Ricardo",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Ciudad Real"
 },
@@ -601,7 +601,7 @@ let diputados = [ 	{
 	"nombre":"Clavell López, Óscar",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Castellón"
 },
@@ -609,7 +609,7 @@ let diputados = [ 	{
 	"nombre":"Contreras Peláez, Francisco José",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Sevilla"
 },
@@ -617,7 +617,7 @@ let diputados = [ 	{
 	"nombre":"Cortés Carballo, Mario",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Málaga"
 },
@@ -625,7 +625,7 @@ let diputados = [ 	{
 	"nombre":"Cortés Gómez, Ismael",
 	"sexo": "Hombre",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Castellón"
 },
@@ -633,7 +633,7 @@ let diputados = [ 	{
 	"nombre":"Crespín Rubio, Rafaela",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Córdoba"
 },
@@ -641,7 +641,7 @@ let diputados = [ 	{
 	"nombre":"Cruz-Guzmán García, María Soledad",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Sevilla"
 },
@@ -649,7 +649,7 @@ let diputados = [ 	{
 	"nombre":"Cuatrecasas Asua, Juan",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"La Rioja"
 },
@@ -657,7 +657,7 @@ let diputados = [ 	{
 	"nombre":"De las Heras Fernández, Patricia",
 	"sexo": "Mujer",
 	"nacimiento":1988,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Baleares"
 },
@@ -665,7 +665,7 @@ let diputados = [ 	{
 	"nombre":"De Luna Tobarra, Llanos",
 	"sexo": "Mujer",
 	"nacimiento":1960,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Barcelona"
 },
@@ -673,7 +673,7 @@ let diputados = [ 	{
 	"nombre":"De Meer Méndez, Rocío",
 	"sexo": "Mujer",
 	"nacimiento":1989,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Almería"
 },
@@ -681,7 +681,7 @@ let diputados = [ 	{
 	"nombre":"De Quinto Romero, Marcos",
 	"sexo": "Hombre",
 	"nacimiento":1958,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Madrid"
 },
@@ -689,7 +689,7 @@ let diputados = [ 	{
 	"nombre":"Del Valle de Iscar, Julio",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Valladolid"
 },
@@ -697,7 +697,7 @@ let diputados = [ 	{
 	"nombre":"Del Valle Rodríguez, Emilio Jesús",
 	"sexo": "Hombre",
 	"nacimiento":1960,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Cantabria"
 },
@@ -705,7 +705,7 @@ let diputados = [ 	{
 	"nombre":"Delgado Arce, Celso Luis",
 	"sexo": "Hombre",
 	"nacimiento":1958,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Orense"
 },
@@ -713,7 +713,7 @@ let diputados = [ 	{
 	"nombre":"Díaz Gómez, Guillermo",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Málaga"
 },
@@ -721,7 +721,7 @@ let diputados = [ 	{
 	"nombre":"Díaz Pérez, Yolanda",
 	"sexo": "Mujer",
 	"nacimiento":1971,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Pontevedra"
 },
@@ -729,7 +729,7 @@ let diputados = [ 	{
 	"nombre":"Diouf Dioh, Luc Andre",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Las Palmas"
 },
@@ -737,7 +737,7 @@ let diputados = [ 	{
 	"nombre":"Durán Peralta, José Carlos",
 	"sexo": "Hombre",
 	"nacimiento":1987,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Málaga"
 },
@@ -745,7 +745,7 @@ let diputados = [ 	{
 	"nombre":"Echániz Salgado, José Ignacio",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Guadalajara"
 },
@@ -753,7 +753,7 @@ let diputados = [ 	{
 	"nombre":"Echenique Robba, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Zaragoza"
 },
@@ -761,7 +761,7 @@ let diputados = [ 	{
 	"nombre":"Elizo Serrano, María Gloria",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Madrid"
 },
@@ -769,7 +769,7 @@ let diputados = [ 	{
 	"nombre":"Elorza González, Odón",
 	"sexo": "Hombre",
 	"nacimiento":1955,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Guipúzcoa"
 },
@@ -777,7 +777,7 @@ let diputados = [ 	{
 	"nombre":"Eritja Ciuró, Francesc Xavier",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Lleida"
 },
@@ -785,7 +785,7 @@ let diputados = [ 	{
 	"nombre":"Errejón Galván, Íñigo",
 	"sexo": "Hombre",
 	"nacimiento":1983,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"MASPAIS",
 	"provincia":"Madrid"
 },
@@ -793,7 +793,7 @@ let diputados = [ 	{
 	"nombre":"España Reina, Carolina",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Málaga"
 },
@@ -801,7 +801,7 @@ let diputados = [ 	{
 	"nombre":"Espejo-Saavedra Conesa, José María",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Barcelona"
 },
@@ -809,7 +809,7 @@ let diputados = [ 	{
 	"nombre":"Espinosa de los Monteros de Simón, Iván",
 	"sexo": "Hombre",
 	"nacimiento":1971,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -817,7 +817,7 @@ let diputados = [ 	{
 	"nombre":"Esteban Bravo, Aitor",
 	"sexo": "Hombre",
 	"nacimiento":1962,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PNV",
 	"provincia":"Bizkaia"
 },
@@ -825,7 +825,7 @@ let diputados = [ 	{
 	"nombre":"Esteban Calonje, Cristina Alicia",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Valencia"
 },
@@ -833,7 +833,7 @@ let diputados = [ 	{
 	"nombre":"Fagúndez Campo, Antidio",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Zamora"
 },
@@ -841,7 +841,7 @@ let diputados = [ 	{
 	"nombre":"Faneca López, María Luisa",
 	"sexo": "Mujer",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Huelva"
 },
@@ -849,7 +849,7 @@ let diputados = [ 	{
 	"nombre":"Fernández Benéitez, Andrea",
 	"sexo": "Mujer",
 	"nacimiento":1992,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"León"
 },
@@ -857,7 +857,7 @@ let diputados = [ 	{
 	"nombre":"Fernández Casero, Ana Belén",
 	"sexo": "Mujer",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cáceres"
 },
@@ -865,7 +865,7 @@ let diputados = [ 	{
 	"nombre":"Fernández Castañón, Sofía",
 	"sexo": "Mujer",
 	"nacimiento":1983,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Asturias"
 },
@@ -873,7 +873,7 @@ let diputados = [ 	{
 	"nombre":"Fernández Hernández, Pedro",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Zaragoza"
 },
@@ -881,7 +881,7 @@ let diputados = [ 	{
 	"nombre":"Fernández Ríos, Tomás",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Huelva"
 },
@@ -889,15 +889,15 @@ let diputados = [ 	{
 	"nombre":"Fernández-Lomana Gutiérrez, Rafael",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
-	"provincia":"Santander"
+	"provincia":"Cantabria"
 },
 {
 	"nombre":"Fernández-Roca Suárez, Carlos Hugo",
 	"sexo": "Hombre",
 	"nacimiento":1982,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Albacete"
 },
@@ -905,7 +905,7 @@ let diputados = [ 	{
 	"nombre":"Ferrer Tesoro, Sonia",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Almería"
 },
@@ -913,7 +913,7 @@ let diputados = [ 	{
 	"nombre":"Figaredo Álvarez-Sala, José María",
 	"sexo": "Hombre",
 	"nacimiento":1988,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Asturias"
 },
@@ -921,7 +921,7 @@ let diputados = [ 	{
 	"nombre":"Franco Carmona, Isabel",
 	"sexo": "Mujer",
 	"nacimiento":1985,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"UP",
 	"provincia":"Sevilla"
 },
@@ -929,7 +929,7 @@ let diputados = [ 	{
 	"nombre":"Fuentes Curbelo, Juan Bernardo",
 	"sexo": "Hombre",
 	"nacimiento":1962,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Las Palmas"
 },
@@ -937,7 +937,7 @@ let diputados = [ 	{
 	"nombre":"Gago Bugarín, Diego",
 	"sexo": "Hombre",
 	"nacimiento":1987,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Pontevedra"
 },
@@ -945,7 +945,7 @@ let diputados = [ 	{
 	"nombre":"Gamarra Ruiz-Clavijo, Concepción",
 	"sexo": "Mujer",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"La Rioja"
 },
@@ -953,7 +953,7 @@ let diputados = [ 	{
 	"nombre":"Gamazo Micó, Óscar",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Valencia"
 },
@@ -961,7 +961,7 @@ let diputados = [ 	{
 	"nombre":"Garcés Sanagustín, Mario",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Huesca"
 },
@@ -969,7 +969,7 @@ let diputados = [ 	{
 	"nombre":"García Adanero, Carlos",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"NA",
 	"provincia":"Navarra"
 },
@@ -977,7 +977,7 @@ let diputados = [ 	{
 	"nombre":"García Chavarría, María Montserrat",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Coruña"
 },
@@ -985,7 +985,7 @@ let diputados = [ 	{
 	"nombre":"García Díez, Joaquín María",
 	"sexo": "Hombre",
 	"nacimiento":1954,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Lugo"
 },
@@ -993,7 +993,7 @@ let diputados = [ 	{
 	"nombre":"García Egea, Teodoro",
 	"sexo": "Hombre",
 	"nacimiento":1985,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Murcia"
 },
@@ -1001,7 +1001,7 @@ let diputados = [ 	{
 	"nombre":"García Gómez, Valentín",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Badajoz"
 },
@@ -1009,7 +1009,7 @@ let diputados = [ 	{
 	"nombre":"García López, Maribel",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Badajoz"
 },
@@ -1017,7 +1017,7 @@ let diputados = [ 	{
 	"nombre":"García Morís, Roberto",
 	"sexo": "Hombre",
 	"nacimiento":1982,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Asturias"
 },
@@ -1025,7 +1025,7 @@ let diputados = [ 	{
 	"nombre":"García Puig, María del Mar",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Barcelona"
 },
@@ -1033,7 +1033,7 @@ let diputados = [ 	{
 	"nombre":"García Rodríguez, Alicia",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Ávila"
 },
@@ -1041,7 +1041,7 @@ let diputados = [ 	{
 	"nombre":"García Tejerina, Isabel",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1049,7 +1049,7 @@ let diputados = [ 	{
 	"nombre":"García-Pelayo Jurado, María José",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Cádiz"
 },
@@ -1057,7 +1057,7 @@ let diputados = [ 	{
 	"nombre":"Garrido Gutiérrez, Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Guipúzcoa"
 },
@@ -1065,7 +1065,7 @@ let diputados = [ 	{
 	"nombre":"Garriga Vaz de Concicao, Ignacio",
 	"sexo": "Hombre",
 	"nacimiento":1987,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Barcelona"
 },
@@ -1073,7 +1073,7 @@ let diputados = [ 	{
 	"nombre":"Garzón Espinosa, Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Málaga"
 },
@@ -1081,7 +1081,7 @@ let diputados = [ 	{
 	"nombre":"Gázquez Collado, Paloma",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Asturias"
 },
@@ -1089,7 +1089,7 @@ let diputados = [ 	{
 	"nombre":"Gestoso de Miguel, Luis",
 	"sexo": "Hombre",
 	"nacimiento":1962,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Murcia"
 },
@@ -1097,7 +1097,7 @@ let diputados = [ 	{
 	"nombre":"Gil Lázaro, Ignacio",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Valencia"
 },
@@ -1105,7 +1105,7 @@ let diputados = [ 	{
 	"nombre":"Giménez Giménez, Sara",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Madrid"
 },
@@ -1113,7 +1113,7 @@ let diputados = [ 	{
 	"nombre":"Gómez Hernández, Héctor",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Tenerife"
 },
@@ -1121,7 +1121,7 @@ let diputados = [ 	{
 	"nombre":"Gómez-Reino Varela, Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Coruña"
 },
@@ -1129,7 +1129,7 @@ let diputados = [ 	{
 	"nombre":"González Caballero, Miguel Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1991,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Ciudad Real"
 },
@@ -1137,7 +1137,7 @@ let diputados = [ 	{
 	"nombre":"González Coello de Portugal, Víctor",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Salamanca"
 },
@@ -1145,7 +1145,7 @@ let diputados = [ 	{
 	"nombre":"González Guinda, María del Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"León"
 },
@@ -1153,7 +1153,7 @@ let diputados = [ 	{
 	"nombre":"González Pérez, Ariagona",
 	"sexo": "Mujer",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Las Palmas"
 },
@@ -1161,7 +1161,7 @@ let diputados = [ 	{
 	"nombre":"González Ramos, Manuel Gabriel",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Albacete"
 },
@@ -1169,7 +1169,7 @@ let diputados = [ 	{
 	"nombre":"González Terol, Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1177,7 +1177,7 @@ let diputados = [ 	{
 	"nombre":"González Vázquez, Marta",
 	"sexo": "Mujer",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Coruña"
 },
@@ -1185,7 +1185,7 @@ let diputados = [ 	{
 	"nombre":"Gorospe Elezcano, Josune",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PNV",
 	"provincia":"Bizkaia"
 },
@@ -1193,7 +1193,7 @@ let diputados = [ 	{
 	"nombre":"Granollers Cunillera, Inés",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Lleida"
 },
@@ -1201,7 +1201,7 @@ let diputados = [ 	{
 	"nombre":"Guaita Esteruelas, Sandra",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Tarragona"
 },
@@ -1209,7 +1209,7 @@ let diputados = [ 	{
 	"nombre":"GGuerra López, Sonia",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -1217,7 +1217,7 @@ let diputados = [ 	{
 	"nombre":"Guijarro Ceballos, María",
 	"sexo": "Mujer",
 	"nacimiento":1971,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Bizkaia"
 },
@@ -1225,7 +1225,7 @@ let diputados = [ 	{
 	"nombre":"Guijarro García, Txema",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Alicante"
 },
@@ -1233,7 +1233,7 @@ let diputados = [ 	{
 	"nombre":"Guinart Moreno, Lídia",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -1241,7 +1241,7 @@ let diputados = [ 	{
 	"nombre":"Guitarte Gimeno, Tomás",
 	"sexo": "Hombre",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"TE",
 	"provincia":"Teruel"
 },
@@ -1249,7 +1249,7 @@ let diputados = [ 	{
 	"nombre":"Gutiérrez Díaz de Otazu, Fernando Adolfo",
 	"sexo": "Hombre",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Melilla"
 },
@@ -1257,7 +1257,7 @@ let diputados = [ 	{
 	"nombre":"Gutiérrez Prieto, Sergio",
 	"sexo": "Hombre",
 	"nacimiento":1982,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Toledo"
 },
@@ -1265,7 +1265,7 @@ let diputados = [ 	{
 	"nombre":"Gutiérrez Salinas, Indalecio",
 	"sexo": "Hombre",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Almería"
 },
@@ -1273,7 +1273,7 @@ let diputados = [ 	{
 	"nombre":"Hernanz Costa, Sofía",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Baleares"
 },
@@ -1281,7 +1281,7 @@ let diputados = [ 	{
 	"nombre":"Herrero Bono, José Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Teruel"
 },
@@ -1289,7 +1289,7 @@ let diputados = [ 	{
 	"nombre":"Hispán Iglesias de Ussel, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1297,7 +1297,7 @@ let diputados = [ 	{
 	"nombre":"Honrubia Hurtado, Pedro Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Granada"
 },
@@ -1305,7 +1305,7 @@ let diputados = [ 	{
 	"nombre":"Hoyo Juliá, Belén",
 	"sexo": "Mujer",
 	"nacimiento":1984,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Valencia"
 },
@@ -1313,7 +1313,7 @@ let diputados = [ 	{
 	"nombre":"Hurtado Zurera, Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Córdoba"
 },
@@ -1321,7 +1321,7 @@ let diputados = [ 	{
 	"nombre":"Iglesias Turrión, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Madrid"
 },
@@ -1329,7 +1329,7 @@ let diputados = [ 	{
 	"nombre":"Illamola Dausà, Mariona",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Girona"
 },
@@ -1337,7 +1337,7 @@ let diputados = [ 	{
 	"nombre":"Iñarritu García, Jon",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"BILDU",
 	"provincia":"Guipúzcoa"
 },
@@ -1345,7 +1345,7 @@ let diputados = [ 	{
 	"nombre":"Jerez Juan, Miguel Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1974,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Baleares"
 },
@@ -1353,7 +1353,7 @@ let diputados = [ 	{
 	"nombre":"Jiménez Linuesa, Beatriz",
 	"sexo": "Mujer",
 	"nacimiento":1985,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Cuenca"
 },
@@ -1361,7 +1361,7 @@ let diputados = [ 	{
 	"nombre":"Jiménez Revuelta, Rodrigo",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Segovia"
 },
@@ -1369,7 +1369,7 @@ let diputados = [ 	{
 	"nombre":"Jiménez-Becerril Barrio, María Teresa",
 	"sexo": "Mujer",
 	"nacimiento":1961,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Sevilla"
 },
@@ -1377,7 +1377,7 @@ let diputados = [ 	{
 	"nombre":"José Vélez, Rafael",
 	"sexo": "Hombre",
 	"nacimiento":1954,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -1385,7 +1385,7 @@ let diputados = [ 	{
 	"nombre":"Jover Díaz, Antonia",
 	"sexo": "Mujer",
 	"nacimiento":1958,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"UP",
 	"provincia":"Baleares"
 },
@@ -1393,7 +1393,7 @@ let diputados = [ 	{
 	"nombre":"Lamuà Estañol, Marc",
 	"sexo": "Hombre",
 	"nacimiento":1980,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Girona"
 },
@@ -1401,7 +1401,7 @@ let diputados = [ 	{
 	"nombre":"Lastra Fernández, Adriana",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Asturias"
 },
@@ -1409,7 +1409,7 @@ let diputados = [ 	{
 	"nombre":"Leal Fernández, Isaura",
 	"sexo": "Mujer",
 	"nacimiento":1959,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -1417,7 +1417,7 @@ let diputados = [ 	{
 	"nombre":"Ledesma Martín, Sebastián Jesús",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Tenerife"
 },
@@ -1425,7 +1425,7 @@ let diputados = [ 	{
 	"nombre":"Legarda Uriarte, Mikel",
 	"sexo": "Hombre",
 	"nacimiento":1956,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PNV",
 	"provincia":"Álaba"
 },
@@ -1433,7 +1433,7 @@ let diputados = [ 	{
 	"nombre":"Lima Cid, Fuensanta",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Málaga"
 },
@@ -1441,7 +1441,7 @@ let diputados = [ 	{
 	"nombre":"López Álvarez, María Teresa",
 	"sexo": "Mujer",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Ceuta"
 },
@@ -1449,7 +1449,7 @@ let diputados = [ 	{
 	"nombre":"López Álvarez, Patxi",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Bizkaia"
 },
@@ -1457,7 +1457,7 @@ let diputados = [ 	{
 	"nombre":"López Cano, Ignacio",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Málaga"
 },
@@ -1465,7 +1465,7 @@ let diputados = [ 	{
 	"nombre":"López de Uralde Garmendia, Juan Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"UP",
 	"provincia":"Álaba"
 },
@@ -1473,7 +1473,7 @@ let diputados = [ 	{
 	"nombre":"López Domínguez, Laura",
 	"sexo": "Mujer",
 	"nacimiento":1983,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Girona"
 },
@@ -1481,7 +1481,7 @@ let diputados = [ 	{
 	"nombre":"López Maraver, Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1984,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Guadalajara"
 },
@@ -1489,7 +1489,7 @@ let diputados = [ 	{
 	"nombre":"López Somoza, Gema",
 	"sexo": "Mujer",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -1497,7 +1497,7 @@ let diputados = [ 	{
 	"nombre":"López Zamora, Cristina",
 	"sexo": "Mujer",
 	"nacimiento":1989,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Ciudad Real"
 },
@@ -1505,7 +1505,7 @@ let diputados = [ 	{
 	"nombre":"Lorite Lorite, Andrés",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Córdoba"
 },
@@ -1513,7 +1513,7 @@ let diputados = [ 	{
 	"nombre":"Losada Fernández, José",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Sevilla"
 },
@@ -1521,7 +1521,7 @@ let diputados = [ 	{
 	"nombre":"Maestro Moliner, Roser",
 	"sexo": "Mujer",
 	"nacimiento":1988,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Valencia"
 },
@@ -1529,7 +1529,7 @@ let diputados = [ 	{
 	"nombre":"Manso Olivar, Rubén Silvano",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Málaga"
 },
@@ -1537,7 +1537,7 @@ let diputados = [ 	{
 	"nombre":"Marcos Domínguez, Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1962,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1545,7 +1545,7 @@ let diputados = [ 	{
 	"nombre":"Marcos Ortega, Milagros",
 	"sexo": "Mujer",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Palencia"
 },
@@ -1553,7 +1553,7 @@ let diputados = [ 	{
 	"nombre":"Margall Sastre, Joan",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"ERC",
 	"provincia":"Girona"
 },
@@ -1561,7 +1561,7 @@ let diputados = [ 	{
 	"nombre":"Marí Klose, Pau",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Zaragoza"
 },
@@ -1569,7 +1569,7 @@ let diputados = [ 	{
 	"nombre":"Mariscal Anaya, Guillermo",
 	"sexo": "Hombre",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Las Palmas"
 },
@@ -1577,7 +1577,7 @@ let diputados = [ 	{
 	"nombre":"Mariscal Zabala, Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1992,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Toledo"
 },
@@ -1585,7 +1585,7 @@ let diputados = [ 	{
 	"nombre":"Márquez Guerrero, María",
 	"sexo": "Mujer",
 	"nacimiento":1960,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Sevilla"
 },
@@ -1593,7 +1593,7 @@ let diputados = [ 	{
 	"nombre":"Marra Domínguez, María Ángeles",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Pontevedra"
 },
@@ -1601,7 +1601,7 @@ let diputados = [ 	{
 	"nombre":"Martín Llaguno, Marta",
 	"sexo": "Mujer",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Alicante"
 },
@@ -1609,7 +1609,7 @@ let diputados = [ 	{
 	"nombre":"Martínez Ferro, María Valentina",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Coruña"
 },
@@ -1617,7 +1617,7 @@ let diputados = [ 	{
 	"nombre":"Martínez Granados, María Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Cádiz"
 },
@@ -1625,7 +1625,7 @@ let diputados = [ 	{
 	"nombre":"Martínez Oblanca, Isidro Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1956,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"NA",
 	"provincia":"Asturias"
 },
@@ -1633,7 +1633,7 @@ let diputados = [ 	{
 	"nombre":"Martínez Seijo, María Luz",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Palencia"
 },
@@ -1641,7 +1641,7 @@ let diputados = [ 	{
 	"nombre":"Matarí Sáez, Juan José",
 	"sexo": "Hombre",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Almería"
 },
@@ -1649,7 +1649,7 @@ let diputados = [ 	{
 	"nombre":"Mateu Istúriz, Jaime Miguel",
 	"sexo": "Hombre",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Burgos"
 },
@@ -1657,7 +1657,7 @@ let diputados = [ 	{
 	"nombre":"Matute García de Jalón, Oskar",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"BILDU",
 	"provincia":"Bizkaia"
 },
@@ -1665,7 +1665,7 @@ let diputados = [ 	{
 	"nombre":"Mayoral Perales, Rafael",
 	"sexo": "Hombre",
 	"nacimiento":1974,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Madrid"
 },
@@ -1673,7 +1673,7 @@ let diputados = [ 	{
 	"nombre":"Mazón Ramos, José María",
 	"sexo": "Hombre",
 	"nacimiento":1951,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PRC",
 	"provincia":"Cantabria"
 },
@@ -1681,7 +1681,7 @@ let diputados = [ 	{
 	"nombre":"Medel Pérez, Rosa María",
 	"sexo": "Mujer",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Valencia"
 },
@@ -1689,7 +1689,7 @@ let diputados = [ 	{
 	"nombre":"Meijón Couselo, Guillermo Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1958,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Pontevedra"
 },
@@ -1697,7 +1697,7 @@ let diputados = [ 	{
 	"nombre":"Mena Arca, Joan",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Barcelona"
 },
@@ -1705,7 +1705,7 @@ let diputados = [ 	{
 	"nombre":"Méndez Monasterio, Lourdes",
 	"sexo": "Mujer",
 	"nacimiento":1957,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Murcia"
 },
@@ -1713,7 +1713,7 @@ let diputados = [ 	{
 	"nombre":"Merino Martínez, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"La Rioja"
 },
@@ -1721,7 +1721,7 @@ let diputados = [ 	{
 	"nombre":"Mestre Barea, Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1952,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Alicante"
 },
@@ -1729,7 +1729,7 @@ let diputados = [ 	{
 	"nombre":"Mínguez García, Montse",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Lleida"
 },
@@ -1737,7 +1737,7 @@ let diputados = [ 	{
 	"nombre":"Miquel i Valentí, Sergi",
 	"sexo": "Hombre",
 	"nacimiento":1989,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Girona"
 },
@@ -1745,7 +1745,7 @@ let diputados = [ 	{
 	"nombre":"Moneo Díez, María Sandra",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Burgos"
 },
@@ -1753,7 +1753,7 @@ let diputados = [ 	{
 	"nombre":"Montero Cuadrado, María Jesús",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Sevilla"
 },
@@ -1761,7 +1761,7 @@ let diputados = [ 	{
 	"nombre":"Movellán Lombilla, Diego",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Cantabria"
 },
@@ -1769,7 +1769,7 @@ let diputados = [ 	{
 	"nombre":"Muñoz Dalda, Lucía",
 	"sexo": "Mujer",
 	"nacimiento":1993,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Baleares"
 },
@@ -1777,7 +1777,7 @@ let diputados = [ 	{
 	"nombre":"Muñoz Vidal, María",
 	"sexo": "Mujer",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CS",
 	"provincia":"Valencia"
 },
@@ -1785,7 +1785,7 @@ let diputados = [ 	{
 	"nombre":"Montero Gil, Irene María",
 	"sexo": "Mujer",
 	"nacimiento":1988,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Madrid"
 },
@@ -1793,7 +1793,7 @@ let diputados = [ 	{
 	"nombre":"Montesinos Aguayo, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Málaga"
 },
@@ -1801,7 +1801,7 @@ let diputados = [ 	{
 	"nombre":"Montesinos de Miguel, Macarena",
 	"sexo": "Mujer",
 	"nacimiento":1961,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Alicante"
 },
@@ -1809,7 +1809,7 @@ let diputados = [ 	{
 	"nombre":"Moraleja Gómez, Tristana María",
 	"sexo": "Mujer",
 	"nacimiento":1971,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Coruña"
 },
@@ -1817,7 +1817,7 @@ let diputados = [ 	{
 	"nombre":"Moro Almaraz, María Jesús",
 	"sexo": "Mujer",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Salamanca"
 },
@@ -1825,7 +1825,7 @@ let diputados = [ 	{
 	"nombre":"Narváez Bandera, María Dolores",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Málaga"
 },
@@ -1833,7 +1833,7 @@ let diputados = [ 	{
 	"nombre":"Nasarre Oliva, Begoña",
 	"sexo": "Mujer",
 	"nacimiento":1978,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Huesca"
 },
@@ -1841,7 +1841,7 @@ let diputados = [ 	{
 	"nombre":"Navalpotro Gómez, Julio",
 	"sexo": "Hombre",
 	"nacimiento":1971,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -1849,7 +1849,7 @@ let diputados = [ 	{
 	"nombre":"Navarro Lacoba, Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Albacete"
 },
@@ -1857,7 +1857,7 @@ let diputados = [ 	{
 	"nombre":"Navarro López, Pedro",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Zaragoza"
 },
@@ -1865,7 +1865,7 @@ let diputados = [ 	{
 	"nombre":"Nevado del Campo, María Magdalena",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Cáceres"
 },
@@ -1873,7 +1873,7 @@ let diputados = [ 	{
 	"nombre":"Nogueras i Camero, Míriam",
 	"sexo": "Mujer",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"JxCAT-JUNTS",
 	"provincia":"Barcelona"
 },
@@ -1881,7 +1881,7 @@ let diputados = [ 	{
 	"nombre":"Nuet Pujals, Joan Josep",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -1889,7 +1889,7 @@ let diputados = [ 	{
 	"nombre":"Olano Vela, Jaime Eduardo de",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Lugo"
 },
@@ -1897,7 +1897,7 @@ let diputados = [ 	{
 	"nombre":"Olona Choclán, Macarena",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Granada"
 },
@@ -1905,7 +1905,7 @@ let diputados = [ 	{
 	"nombre":"Oramas González-Moro, Ana María",
 	"sexo": "Mujer",
 	"nacimiento":1959,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PNC",
 	"provincia":"Tenerife"
 },
@@ -1913,7 +1913,7 @@ let diputados = [ 	{
 	"nombre":"Oria López, María Inmaculada",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Granada"
 },
@@ -1921,7 +1921,7 @@ let diputados = [ 	{
 	"nombre":"Ortega Domínguez, José Ramón",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cádiz"
 },
@@ -1929,7 +1929,7 @@ let diputados = [ 	{
 	"nombre":"Ortega Smith-Molina, Francisco Javier",
 	"sexo": "Hombre",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -1937,7 +1937,7 @@ let diputados = [ 	{
 	"nombre":"Ortiz Galván, José",
 	"sexo": "Hombre",
 	"nacimiento":1983,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Cádiz"
 },
@@ -1945,7 +1945,7 @@ let diputados = [ 	{
 	"nombre":"Padilla Ruiz, Esther",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Toledo"
 },
@@ -1953,7 +1953,7 @@ let diputados = [ 	{
 	"nombre":"Paniagua Núñez, Miguel Ángel",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Palencia"
 },
@@ -1961,7 +1961,7 @@ let diputados = [ 	{
 	"nombre":"Pastor Julián, Ana María",
 	"sexo": "Mujer",
 	"nacimiento":1957,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1969,7 +1969,7 @@ let diputados = [ 	{
 	"nombre":"Pedraja Sáinz, Raquel",
 	"sexo": "Mujer",
 	"nacimiento":1993,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"La Rioja"
 },
@@ -1977,7 +1977,7 @@ let diputados = [ 	{
 	"nombre":"Pedreño Molina, Juan Luis",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -1985,7 +1985,7 @@ let diputados = [ 	{
 	"nombre":"Peña Camarero, Esther",
 	"sexo": "Mujer",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Burgos"
 },
@@ -1993,7 +1993,7 @@ let diputados = [ 	{
 	"nombre":"Perea i Conillas, María Mercè",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -2001,7 +2001,7 @@ let diputados = [ 	{
 	"nombre":"Pérez Abellás, Adolfo",
 	"sexo": "Hombre",
 	"nacimiento":1952,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Orense"
 },
@@ -2009,7 +2009,7 @@ let diputados = [ 	{
 	"nombre":"Pérez Díaz, María Auxiliadora",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Las Palmas"
 },
@@ -2017,7 +2017,7 @@ let diputados = [ 	{
 	"nombre":"Píriz Maya, Víctor Valentín",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Badajoz"
 },
@@ -2025,7 +2025,7 @@ let diputados = [ 	{
 	"nombre":"Pisarello Prados, Gerardo",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Barcelona"
 },
@@ -2033,7 +2033,7 @@ let diputados = [ 	{
 	"nombre":"Pita Cárdenes, María del Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1958,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Las Palmas"
 },
@@ -2041,7 +2041,7 @@ let diputados = [ 	{
 	"nombre":"Pons Sampietro, Pere Joan",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Baleares"
 },
@@ -2049,7 +2049,7 @@ let diputados = [ 	{
 	"nombre":"Postigo Quintana, Jesús",
 	"sexo": "Hombre",
 	"nacimiento":1953,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Segovia"
 },
@@ -2057,7 +2057,7 @@ let diputados = [ 	{
 	"nombre":"Pozueta Fernández, Isabel",
 	"sexo": "Mujer",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"BILDU",
 	"provincia":"Navarra"
 },
@@ -2065,7 +2065,7 @@ let diputados = [ 	{
 	"nombre":"Prieto Nieto, Ana",
 	"sexo": "Mujer",
 	"nacimiento":1965,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Lugo"
 },
@@ -2073,7 +2073,7 @@ let diputados = [ 	{
 	"nombre":"Prohens Rigo, Margarita",
 	"sexo": "Mujer",
 	"nacimiento":1982,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Baleares"
 },
@@ -2081,7 +2081,7 @@ let diputados = [ 	{
 	"nombre":"Pujol i Farré, Norma",
 	"sexo": "Mujer",
 	"nacimiento":1988,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"ERC",
 	"provincia":"Tarragona"
 },
@@ -2089,7 +2089,7 @@ let diputados = [ 	{
 	"nombre":"Quevedo Iturbe, Pedro",
 	"sexo": "Hombre",
 	"nacimiento":1976,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PNC",
 	"provincia":"Las Palmas"
 },
@@ -2097,7 +2097,7 @@ let diputados = [ 	{
 	"nombre":"Ramallo Vázquez, María Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Pontevedra"
 },
@@ -2105,7 +2105,7 @@ let diputados = [ 	{
 	"nombre":"Ramírez Carner, Arnau",
 	"sexo": "Hombre",
 	"nacimiento":1989,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -2113,7 +2113,7 @@ let diputados = [ 	{
 	"nombre":"Ramírez del Río, José",
 	"sexo": "Hombre",
 	"nacimiento":1973,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Córdoba"
 },
@@ -2121,7 +2121,7 @@ let diputados = [ 	{
 	"nombre":"Ramón Utrabo, Elvira",
 	"sexo": "Mujer",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Granada"
 },
@@ -2129,7 +2129,7 @@ let diputados = [ 	{
 	"nombre":"Ramos Esteban, César Joaquín",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Cáceres"
 },
@@ -2137,7 +2137,7 @@ let diputados = [ 	{
 	"nombre":"Ramos Rodríguez, José Luis",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Huelva"
 },
@@ -2145,7 +2145,7 @@ let diputados = [ 	{
 	"nombre":"Raya Rodríguez, María Tamara",
 	"sexo": "Mujer",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Tenerife"
 },
@@ -2153,7 +2153,7 @@ let diputados = [ 	{
 	"nombre":"Redondo Calvillo, María de la O",
 	"sexo": "Mujer",
 	"nacimiento":1972,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Córdoba"
 },
@@ -2161,7 +2161,7 @@ let diputados = [ 	{
 	"nombre":"Rego Candamil, Néstor",
 	"sexo": "Hombre",
 	"nacimiento":1962,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"BNG",
 	"provincia":"Coruña"
 },
@@ -2169,7 +2169,7 @@ let diputados = [ 	{
 	"nombre":"Renau Martínez, Germán",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Castellón"
 },
@@ -2177,7 +2177,7 @@ let diputados = [ 	{
 	"nombre":"Requejo Novoa, Pedro Jesús",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Zamora"
 },
@@ -2185,7 +2185,7 @@ let diputados = [ 	{
 	"nombre":"Requena Ruiz, Juan Diego",
 	"sexo": "Hombre",
 	"nacimiento":1980,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Jaén"
 },
@@ -2193,7 +2193,7 @@ let diputados = [ 	{
 	"nombre":"Riolobos Regadera, Carmen",
 	"sexo": "Mujer",
 	"nacimiento":1963,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Toledo"
 },
@@ -2201,7 +2201,7 @@ let diputados = [ 	{
 	"nombre":"Robles López, Joaquín",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Murcia"
 },
@@ -2209,7 +2209,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Almeida, Andrés Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Las Palmas"
 },
@@ -2217,7 +2217,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Gómez, María del Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Huelva"
 },
@@ -2225,7 +2225,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Gómez de Celis, Alfonso",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Sevilla"
 },
@@ -2233,7 +2233,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Herrer, María Elvira",
 	"sexo": "Mujer",
 	"nacimiento":1949,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -2241,7 +2241,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Rodríguez, Alberto",
 	"sexo": "Hombre",
 	"nacimiento":1981,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Tenerife"
 },
@@ -2249,7 +2249,7 @@ let diputados = [ 	{
 	"nombre":"Rodríguez Salas, José Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Granada"
 },
@@ -2257,7 +2257,7 @@ let diputados = [ 	{
 	"nombre":"Rojas García, Carlos",
 	"sexo": "Hombre",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Granada"
 },
@@ -2265,7 +2265,7 @@ let diputados = [ 	{
 	"nombre":"Romero Hernández, Carmelo",
 	"sexo": "Hombre",
 	"nacimiento":1958,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Huelva"
 },
@@ -2273,7 +2273,7 @@ let diputados = [ 	{
 	"nombre":"Romero Sánchez, Rosa María",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Ciudad Real"
 },
@@ -2281,7 +2281,7 @@ let diputados = [ 	{
 	"nombre":"Romero Vilches, María de los Reyes",
 	"sexo": "Mujer",
 	"nacimiento":1967,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Sevilla"
 },
@@ -2289,7 +2289,7 @@ let diputados = [ 	{
 	"nombre":"Ros Martínez, Susana",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Castellón"
 },
@@ -2297,7 +2297,7 @@ let diputados = [ 	{
 	"nombre":"Rosety Fernández de Castro, Agustín",
 	"sexo": "Hombre",
 	"nacimiento":1947,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Cádiz"
 },
@@ -2305,7 +2305,7 @@ let diputados = [ 	{
 	"nombre":"Rosique i Saltor, Marta",
 	"sexo": "Mujer",
 	"nacimiento":1996,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -2313,7 +2313,7 @@ let diputados = [ 	{
 	"nombre":"Rueda Perelló, Patricia",
 	"sexo": "Mujer",
 	"nacimiento":1976,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Málaga"
 },
@@ -2321,7 +2321,7 @@ let diputados = [ 	{
 	"nombre":"Rufián Romero, Gabriel",
 	"sexo": "Hombre",
 	"nacimiento":1982,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -2329,7 +2329,7 @@ let diputados = [ 	{
 	"nombre":"Ruiz de Pinedo Undiano, Iñaki",
 	"sexo": "Hombre",
 	"nacimiento":1954,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"BILDU",
 	"provincia":"Álaba"
 },
@@ -2337,7 +2337,7 @@ let diputados = [ 	{
 	"nombre":"Ruiz i Carbonell, Joan",
 	"sexo": "Hombre",
 	"nacimiento":1954,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Tarragona"
 },
@@ -2345,7 +2345,7 @@ let diputados = [ 	{
 	"nombre":"Ruiz Navarro, Eduardo Luis",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Alicante"
 },
@@ -2353,7 +2353,7 @@ let diputados = [ 	{
 	"nombre":"Ruiz Solás, María de la Cabeza",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -2361,7 +2361,7 @@ let diputados = [ 	{
 	"nombre":"Saavedra Muñoz, Marisa",
 	"sexo": "Mujer",
 	"nacimiento":1962,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Castellón"
 },
@@ -2369,7 +2369,7 @@ let diputados = [ 	{
 	"nombre":"Sabanés Nadal, Inés",
 	"sexo": "Mujer",
 	"nacimiento":1953,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"MASPAIS",
 	"provincia":"Madrid"
 },
@@ -2377,7 +2377,7 @@ let diputados = [ 	{
 	"nombre":"Sáez Alonso-Muñumer, Pablo",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Valladolid"
 },
@@ -2385,7 +2385,7 @@ let diputados = [ 	{
 	"nombre":"Sagastizabal Unzetabarrenetxea, Idoia",
 	"sexo": "Mujer",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PNV",
 	"provincia":"Bizkaia"
 },
@@ -2393,7 +2393,7 @@ let diputados = [ 	{
 	"nombre":"Sahuquillo García, Luis Carlos",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Cuenca"
 },
@@ -2401,7 +2401,7 @@ let diputados = [ 	{
 	"nombre":"Salvá Verd, Antonio",
 	"sexo": "Hombre",
 	"nacimiento":1952,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Baleares"
 },
@@ -2409,7 +2409,7 @@ let diputados = [ 	{
 	"nombre":"Salvador i Duch, Jordi",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Tarragona"
 },
@@ -2417,7 +2417,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez del Real, Víctor Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Badajoz"
 },
@@ -2425,7 +2425,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez Escobar, Mariano",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Badajoz"
 },
@@ -2433,7 +2433,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez García, José María",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Alicante"
 },
@@ -2441,7 +2441,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez Jódar, Marisol",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Murcia"
 },
@@ -2449,7 +2449,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez Pérez, César",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Alicante"
 },
@@ -2457,7 +2457,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez Pérez-Castejón, Pedro",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -2465,7 +2465,7 @@ let diputados = [ 	{
 	"nombre":"Sánchez Serna, Javier",
 	"sexo": "Hombre",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Murcia"
 },
@@ -2473,7 +2473,7 @@ let diputados = [ 	{
 	"nombre":"Sancho Guardia, Alfredo",
 	"sexo": "Hombre",
 	"nacimiento":1965,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Huesca"
 },
@@ -2481,7 +2481,7 @@ let diputados = [ 	{
 	"nombre":"Sancho Íñiguez, Herminio Rufino",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Teruel"
 },
@@ -2489,7 +2489,7 @@ let diputados = [ 	{
 	"nombre":"Santamaría Ruiz, Luis",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Valencia"
 },
@@ -2497,7 +2497,7 @@ let diputados = [ 	{
 	"nombre":"Santiago Romero, Enrique Fernando",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"UP",
 	"provincia":"Madrid"
 },
@@ -2505,7 +2505,7 @@ let diputados = [ 	{
 	"nombre":"Sarrià Morell, Vicent Manuel",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Valencia"
 },
@@ -2513,7 +2513,7 @@ let diputados = [ 	{
 	"nombre":"Sayas López, Sergio",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"NA",
 	"provincia":"Navarra"
 },
@@ -2521,7 +2521,7 @@ let diputados = [ 	{
 	"nombre":"Senderos Oraá, Daniel",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Álaba"
 },
@@ -2529,7 +2529,7 @@ let diputados = [ 	{
 	"nombre":"Serrada Pariente, David",
 	"sexo": "Hombre",
 	"nacimiento":1977,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Salamanca"
 },
@@ -2537,7 +2537,7 @@ let diputados = [ 	{
 	"nombre":"Serrano Martínez, Juan Francisco",
 	"sexo": "Hombre",
 	"nacimiento":1988,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Jaén"
 },
@@ -2545,7 +2545,7 @@ let diputados = [ 	{
 	"nombre":"Seva Ruiz, Yolanda",
 	"sexo": "Mujer",
 	"nacimiento":1970,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Alicante"
 },
@@ -2553,7 +2553,7 @@ let diputados = [ 	{
 	"nombre":"Sicilia Alférez, Felipe Jesús",
 	"sexo": "Hombre",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Jaén"
 },
@@ -2561,7 +2561,7 @@ let diputados = [ 	{
 	"nombre":"Simancas Simancas, Rafael",
 	"sexo": "Hombre",
 	"nacimiento":1966,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -2569,7 +2569,7 @@ let diputados = [ 	{
 	"nombre":"Soler Mur, Alejandro",
 	"sexo": "Hombre",
 	"nacimiento":1972,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Alicante"
 },
@@ -2577,7 +2577,7 @@ let diputados = [ 	{
 	"nombre":"Soto Burillo, Juan Luis",
 	"sexo": "Hombre",
 	"nacimiento":1978,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Murcia"
 },
@@ -2585,7 +2585,7 @@ let diputados = [ 	{
 	"nombre":"Steegmann Olmedillas, Juan Luis",
 	"sexo": "Hombre",
 	"nacimiento":1955,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -2593,7 +2593,7 @@ let diputados = [ 	{
 	"nombre":"Suárez Illana, Adolfo",
 	"sexo": "Hombre",
 	"nacimiento":1964,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -2601,7 +2601,7 @@ let diputados = [ 	{
 	"nombre":"Suárez Lamata, Eloy",
 	"sexo": "Hombre",
 	"nacimiento":1962,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Zaragoza"
 },
@@ -2609,7 +2609,7 @@ let diputados = [ 	{
 	"nombre":"Sumelzo Jordán, Susana",
 	"sexo": "Mujer",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Zaragoza"
 },
@@ -2617,7 +2617,7 @@ let diputados = [ 	{
 	"nombre":"Taibo Monelos, Diego",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Coruña"
 },
@@ -2625,7 +2625,7 @@ let diputados = [ 	{
 	"nombre":"Telechea i Lozano, Carolina",
 	"sexo": "Mujer",
 	"nacimiento":1981,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -2633,7 +2633,7 @@ let diputados = [ 	{
 	"nombre":"Tirado Ochoa, Vicente",
 	"sexo": "Hombre",
 	"nacimiento":1963,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PP",
 	"provincia":"Toledo"
 },
@@ -2641,7 +2641,7 @@ let diputados = [ 	{
 	"nombre":"Tizón Vázquez, Uxía",
 	"sexo": "Mujer",
 	"nacimiento":1989,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Orense"
 },
@@ -2649,7 +2649,7 @@ let diputados = [ 	{
 	"nombre":"Toscano de Balbín, Carla",
 	"sexo": "Mujer",
 	"nacimiento":1977,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Madrid"
 },
@@ -2657,7 +2657,7 @@ let diputados = [ 	{
 	"nombre":"Trías Gil, Georgina",
 	"sexo": "Mujer",
 	"nacimiento":1973,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"VOX",
 	"provincia":"Ávila"
 },
@@ -2665,7 +2665,7 @@ let diputados = [ 	{
 	"nombre":"Uriarte Bengoechea, Edurne",
 	"sexo": "Mujer",
 	"nacimiento":1960,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Madrid"
 },
@@ -2673,7 +2673,7 @@ let diputados = [ 	{
 	"nombre":"Uriarte Torrealday, Roberto",
 	"sexo": "Hombre",
 	"nacimiento":1960,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Bizkaia"
 },
@@ -2681,7 +2681,7 @@ let diputados = [ 	{
 	"nombre":"Utrilla Cano, Julio",
 	"sexo": "Hombre",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Valencia"
 },
@@ -2689,7 +2689,7 @@ let diputados = [ 	{
 	"nombre":"Valerio Cordero, Magdalena",
 	"sexo": "Mujer",
 	"nacimiento":1959,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Guadalajara"
 },
@@ -2697,7 +2697,7 @@ let diputados = [ 	{
 	"nombre":"Vallugera Balañà, Pilar",
 	"sexo": "Mujer",
 	"nacimiento":1967,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"ERC",
 	"provincia":"Barcelona"
 },
@@ -2705,7 +2705,7 @@ let diputados = [ 	{
 	"nombre":"Vázquez Blanco, Ana Belén",
 	"sexo": "Mujer",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Orense"
 },
@@ -2713,7 +2713,7 @@ let diputados = [ 	{
 	"nombre":"Vega Arias, Rubén Darío",
 	"sexo": "Hombre",
 	"nacimiento":1960,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Tenerife"
 },
@@ -2721,7 +2721,7 @@ let diputados = [ 	{
 	"nombre":"Vehí Cantenys, Mireia",
 	"sexo": "Mujer",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"CUP",
 	"provincia":"Barcelona"
 },
@@ -2729,7 +2729,7 @@ let diputados = [ 	{
 	"nombre":"Velarde Gómez, Martina",
 	"sexo": "Mujer",
 	"nacimiento":1979,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Córdoba"
 },
@@ -2737,7 +2737,7 @@ let diputados = [ 	{
 	"nombre":"Velasco Morillo, Elvira",
 	"sexo": "Mujer",
 	"nacimiento":1968,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Zamora"
 },
@@ -2745,7 +2745,7 @@ let diputados = [ 	{
 	"nombre":"Vera Ruíz-Herrera, Noelia",
 	"sexo": "Mujer",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Cádiz"
 },
@@ -2753,7 +2753,7 @@ let diputados = [ 	{
 	"nombre":"Vicente Viondi, Daniel",
 	"sexo": "Hombre",
 	"nacimiento":1975,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Madrid"
 },
@@ -2761,7 +2761,7 @@ let diputados = [ 	{
 	"nombre":"Vidal Sáez, Aina",
 	"sexo": "Mujer",
 	"nacimiento":1985,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"UP",
 	"provincia":"Barcelona"
 },
@@ -2769,7 +2769,7 @@ let diputados = [ 	{
 	"nombre":"Vilches Ruiz, María Luisa",
 	"sexo": "Mujer",
 	"nacimiento":1982,
-	"estado civil": "casado",
+	"estado_civil": "casado",
 	"partido":"PSOE",
 	"provincia":"Albacete"
 },
@@ -2777,7 +2777,7 @@ let diputados = [ 	{
 	"nombre":"Villagrasa Quero, Noemí",
 	"sexo": "Mujer",
 	"nacimiento":1980,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Zaragoza"
 },
@@ -2785,7 +2785,7 @@ let diputados = [ 	{
 	"nombre":"Zamarrón Moreno, AgustíN",
 	"sexo": "Hombre",
 	"nacimiento":1946,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Burgos"
 },
@@ -2793,7 +2793,7 @@ let diputados = [ 	{
 	"nombre":"Zambrano García-Raez, Carlos José",
 	"sexo": "Hombre",
 	"nacimiento":1969,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"VOX",
 	"provincia":"Cádiz"
 },
@@ -2801,7 +2801,7 @@ let diputados = [ 	{
 	"nombre":"Zaragoza Alonso, José",
 	"sexo": "Hombre",
 	"nacimiento":1961,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PSOE",
 	"provincia":"Barcelona"
 },
@@ -2809,7 +2809,7 @@ let diputados = [ 	{
 	"nombre":"Zurita Expósito, Ana María",
 	"sexo": "Mujer",
 	"nacimiento":1963,
-	"estado civil": "soltero",
+	"estado_civil": "soltero",
 	"partido":"PP",
 	"provincia":"Tenerife"
 },
@@ -2824,28 +2824,78 @@ var favor = 0;
 var contra = 0;
 var diputados = 350;
 
-//--------------VISTA DE LOS DIPUTADOS---------
-const listaDiputadosView = () => {
-const resultado = Array.from(new Set(diputados.map(s => s.tagSeleccionado))).map(tagSeleccionado =>
+//--------------VISTA DE LAS PROVINCIAS---------
+const listaProvinciasView = () => {
+	//Nos saca ya un array con las provincias
+	const listaProvincias = Array.from(new Set(diputados.map(s => s.provincia))).map(provincia =>
+	{ return {
+		tag: provincia
+
+	};
+		});
+	console.log(listaProvincias);
+	console.log(listaProvincias.length);
+
+
+
+}
+//--------------VISTA DE LAS NACIMIENTO---------
+const listaNacimientosView = () => {
+	//Nos saca ya un array con las provincias
+	const listaNacimiento = Array.from(new Set(diputados.map(s => s.nacimiento))).map(nacimiento =>
+	{ return {
+		tag: nacimiento
+
+	};
+		});
+	console.log(listaNacimiento);
+	console.log(listaNacimiento.length);
+
+
+
+}
+//--------------VISTA DE LOS GENEROS---------
+const listaGeneroView = () => {
+	//Nos saca ya un array con las provincias
+	const listaGenero = Array.from(new Set(diputados.map(s => s.sexo))).map(sexo =>
+	{ return {
+		tag: sexo
+
+	};
+		});
+	console.log(listaGenero);
+	console.log(listaGenero.length);
+
+
+
+}
+
+//--------------VISTA DE LOS ESTADO---------
+const listaEstadoCivilView = () => {
+	//Nos saca ya un array con las provincias
+const listaEstado = Array.from(new Set(diputados.map(s => s.estado_civil))).map(estado_civil =>
 { return {
-	tag: tagSeleccionado
+	tag: estado_civil
 
 };
 	});
+console.log(listaEstado);
+console.log(listaEstado.length);
 
-resultado
-//	var listaDiputados = [];
-	for (let i in diputados) {
-		var k = 0;
-		var diputadoA = diputados[i];
-		var valor = diputadoA.tagSeleccionado;
-		var diputadoTag = [];
-		if(diputadoTag[k].tagSeleccionado != valor){
-			diputadoTag.push(valor);
-			k++;
-		}
+}
 
-	}
+//--------------VISTA DE LOS PARTIDO---------
+const listaPartidosView = () => {
+	//Nos saca ya un array con las provincias
+const listaPartidos = Array.from(new Set(diputados.map(s => s.partido))).map(partido =>
+{ return {
+	tag: partido
+
+};
+	});
+console.log(listaPartidos);
+console.log(listaPartidos.length);
+
 }
 // ------------- VISTAS -------------
 // VISTA LISTA-PARTIDOS
