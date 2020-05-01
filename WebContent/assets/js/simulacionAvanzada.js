@@ -2836,6 +2836,37 @@ const listaProvinciasView = () => {
 	console.log(listaProvincias);
 	console.log(listaProvincias.length);
 
+	 let view = "";
+	  for (const provincia of listaProvincias) {
+	    view += `
+				<div class="asignar-voto-partido">
+					
+					<p class="partido">
+						<b>${provincia} </b> 
+					</p>
+					<!-- Aqui los radio buttons -->
+	        <div class="botones">
+	        
+						<label for="${provincia}1" class="radio" > 
+						  <input type="radio" name="${provincia}" id="${provincia}1" class="hidden aFavor" /> 
+	              <span class="label"></span>A Favor
+	          </label>
+	          
+	          <label for="${provincia}2" class="radio" > 
+	            <input type="radio" name="${provincia}" id="${provincia}2" class="hidden enContra" /> 
+	              <span class="label"></span>En Contra
+	          </label> 
+	          
+	          <label for="${provincia}3" class="radio" > 
+	            <input type="radio"	name="${provincia}" id="${provincia}3" class="hidden abstencion" checked /> 
+	              <span class="label"></span>Abstención
+	          </label>
+	          
+					</div>
+					<!-- Aqui terminan los radio buttons -->
+				</div>\n`;
+	  }
+	  return view;
 
 
 }
@@ -2881,6 +2912,8 @@ const listaEstado = Array.from(new Set(diputados.map(s => s.estado_civil))).map(
 	});
 console.log(listaEstado);
 console.log(listaEstado.length);
+
+
 
 }
 

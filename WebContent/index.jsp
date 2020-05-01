@@ -74,7 +74,7 @@
 						<button type="submit" class="btn btn-info btn-home">Simulación
 							Simple</button>
 					</form>
-					<form method="get" action="">
+					<form method="post" action="AsignacionAvanzadaServlet">
 						<button type="submit" class="btn btn-info btn-home">Simulación
 							Avanzada</button>
 					</form>
