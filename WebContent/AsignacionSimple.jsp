@@ -67,7 +67,7 @@
 							<form class="form-inline">
 								<div class="form-group mx-sm-3 mb-2">
 									<label for="${partido.codeName}4" class="sr-only"></label> <input
-										type="text" value="0" class="form-control" id="${partido.codeName}4"
+										type="number" class="form-control" id="${partido.codeName}4"
 										placeholder="Ausentes">
 								</div>
 								<p id="${partido.codeName}4Send" class="btn btn-primary mb-2">Actualizar</p>
