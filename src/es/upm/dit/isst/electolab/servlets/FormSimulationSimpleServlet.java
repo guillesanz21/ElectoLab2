@@ -52,16 +52,15 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 
 			if (voto.equals("favor")) {
 				simulacion.setVotos_favor((int) (simulacion.getVotos_favor() + partido.getSeats() - partido.getAusentes()));
-				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
 			else if (voto.equals("contra")) {
 				simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats() - partido.getAusentes());
-				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
 			else { 
 				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats() - partido.getAusentes());
-				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
+			simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
+
 			// Reinicia la variable voto 
 			voto = "abstencion";
 			

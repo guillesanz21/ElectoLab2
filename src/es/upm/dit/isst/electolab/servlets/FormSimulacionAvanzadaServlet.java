@@ -43,23 +43,26 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 		// Crea una nueva simulacion para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
 		boolean ley_aprobada = true;
-		String voto = "ausente";
+		String voto = "abstencion";
 		
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
 		for (Diputado diputado : diputados) {
 			
 			voto =  diputado.getVote();
 
-			if (voto == "favor")
+			if (voto.equals("favor")) {
 				simulacion.setVotos_favor(simulacion.getVotos_favor() + 1);
-			else if (voto == "contra")
+			}
+			else if (voto.equals("contra"))
 				simulacion.setVotos_contra(simulacion.getVotos_contra() + 1);
-			else if (voto == "abstencion")
+			else if (voto.equals("abstencion"))
 				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + 1);
+			
 			else 
 				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + 1);
+
 			// Reinicia la variable voto 
-			voto = "ausente";
+			voto = "abstencion";
 			
 			// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
 			diputado.setVote(voto);
@@ -75,9 +78,10 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 			}
 			
 			simulacion.setLey_aprobada(ley_aprobada);
-			System.out.println("--------------------------------------------------");
+			/*System.out.println("--------------------------------------------------");
 			System.out.println("FormSimulationSimpleServlet, ley aprobada: " + ley_aprobada);
 			System.out.println("--------------------------------------------------");
+			*/
 			// Actualiza la bbdd dejando el partido con los valores reiniciados
 			DiputadoDAOImplementation.getInstancia().update(diputado);
 		}
