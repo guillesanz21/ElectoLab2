@@ -50,20 +50,17 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		for (Partido partido : partidos) {
 			voto =  partido.getVote();
 
-			if (voto == "favor") {
-				simulacion.setVotos_favor(simulacion.getVotos_favor() + partido.getSeats() - partido.getAusentes());
-				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_favor: " + simulacion.getVotos_favor());
-
+			if (voto.equals("favor")) {
+				simulacion.setVotos_favor((int) (simulacion.getVotos_favor() + partido.getSeats() - partido.getAusentes()));
+				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
-			else if (voto == "contra") {
+			else if (voto.equals("contra")) {
 				simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats() - partido.getAusentes());
-				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_contra: " + simulacion.getVotos_contra());
-
+				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
 			else { 
 				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats() - partido.getAusentes());
-				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_abstencion: " + simulacion.getVotos_abstencion());
-
+				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
 			}
 			// Reinicia la variable voto 
 			voto = "abstencion";

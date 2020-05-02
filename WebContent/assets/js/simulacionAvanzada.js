@@ -8,10 +8,10 @@ let listaEdad;
 
 const loadPage = () => {
 
-	$.getJSON('assets/js/json/partidos.json', data => {       
+	$.getJSON('assets/js/json/diputados.json', data => {       
 		listaDiputados = data.diputados;
 		prueba(listaDiputados);
-		
+		console.log(listaDiputados)
 		//loadEvents();
 		//barraContr();
 	});
@@ -39,9 +39,10 @@ var ausentes = 0;
 const listaProvinciasView = (listaProvincias) => {
 	
 	let view = "Provincias";
-	/*
+	
+	
 	for (const provincia of listaProvincias) {
-		view += `
+		/*view += `
 			<div class="asignar-voto-partido">
 
 			<p class="partido">
@@ -68,7 +69,8 @@ const listaProvinciasView = (listaProvincias) => {
 			</div>
 			<!-- Aqui terminan los radio buttons -->
 			</div>\n`;
-	}*/
+		*/
+	}
 	return view; 
 
 
@@ -165,16 +167,33 @@ const listaTagContr = () => {
 
 const getListaProvincias = () => {
 	//Nos saca ya un array con las provincias
-	return Array.from(new Set(diputados.map(s => s.provincia))).map(provincia =>
+	console.log("Entra")
+	const listaProvincia = Array.from(new Set(listaDiputados.map(s => s.provincia))).map(provincia =>
 	{ return {
-		tag: provincia
+		tag: provincia,
+		lista: [
+			{
+				"provincia": "Madrid",
+				"seats": "30",
+				"voto": "favor",
+				"ausentes": "13"
+			},
+			{
+				"provincia": "Valencia",
+				"seats": "20",
+				"voto": "contra",
+				"ausentes": "3"
+			}
+		]
+			
 	};
 	});
+	return listaProvincia
 }
 
 const getListaGenero = () => {
-	//Nos saca ya un array con las provincias
-	return Array.from(new Set(diputados.map(s => s.sexo))).map(sexo =>
+	//Nos saca ya un array con los géneros
+	const listaGenero = Array.from(new Set(listaDiputados.map(s => s.sexo))).map(sexo =>
 	{ return {
 		tag: sexo
 	};
@@ -182,8 +201,8 @@ const getListaGenero = () => {
 }
 
 const getListaEstadoCivil = () => {
-	//Nos saca ya un array con las provincias
-	return Array.from(new Set(diputados.map(s => s.estado_civil))).map(estado_civil =>
+	//Nos saca ya un array con el estado civil
+	const listaEstadoCivil = Array.from(new Set(listaDiputados.map(s => s.estado_civil))).map(estado_civil =>
 	{ return {
 		tag: estado_civil
 	};
@@ -192,7 +211,7 @@ const getListaEstadoCivil = () => {
 
 const getListaRangosEdad = () => {
 	//Nos saca ya un array con las provincias
-	return Array.from(new Set(diputados.map(s => s.nacimiento))).map(nacimiento =>
+	const listaRangoEdad = Array.from(new Set(listaDiputados.map(s => s.nacimiento))).map(nacimiento =>
 	{ return {
 		tag: nacimiento
 	};
@@ -200,8 +219,8 @@ const getListaRangosEdad = () => {
 }
 
 const getListaPartidos = () => {
-	//Nos saca ya un array con las provincias
-	return Array.from(new Set(diputados.map(s => s.partido))).map(partido =>
+	//Nos saca ya un array con los partidos
+	const listaPartidos = Array.from(new Set(listaDiputados.map(s => s.partido))).map(partido =>
 	{ return {
 		tag: partido
 	};

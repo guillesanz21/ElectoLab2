@@ -140,6 +140,8 @@ const loadEvents = (listaPartidos) => {
 			console.log(partido);
 			barraContr();
 		});
+		partido.seats = partido.seats.toString();
+		partido.ausentes = partido.ausentes.toString();
 	}
 	/*
 	 * Crea un JSON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet
