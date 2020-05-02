@@ -41,6 +41,8 @@ const listaProvinciasView = (listaProvincias) => {
 	let view = "Provincias";
 	
 	
+	
+	
 	for (const provincia of listaProvincias) {
 		view += `
 			<div class="asignar-voto-provincia">
@@ -85,24 +87,203 @@ const listaProvinciasView = (listaProvincias) => {
 
 
 }
+
 //--------------VISTA DE LOS RANGOS DE EDAD ---------
 const listaRangoEdadView = (listaRangoEdad) => {
+let view = "Edad";
+	
+	
+	for (const edad of listaRangoEdad) {
+		view += `
+			<div class="asignar-voto-provincia">
+
+			<p class="edad">
+			
+			<b>${edad.tag} </b> 
+			</p>
+			
+			<!-- Aqui los radio buttons -->
+			<div class="botones">
+
+			<label for="${edad}1" class="radio" > 
+			<input type="radio" name="${edad}" id="${edad}1" class="hidden aFavor" /> 
+			<span class="label"></span>A Favor
+			</label>
+
+			<label for="${edad}2" class="radio" > 
+			<input type="radio" name="${edad}" id="${edad}2" class="hidden enContra" /> 
+			<span class="label"></span>En Contra
+			</label> 
+
+			<label for="${edad}3" class="radio" > 
+			<input type="radio"	name="${edad}" id="${edad}3" class="hidden abstencion" checked /> 
+			<span class="label"></span>Abstención
+			</label>
+			<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+			<label for="${edad}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${edad}4"
+			placeholder="Ausentes">
+			</div>
+			<p id="${edad}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			</form>
+
+			</div>
+			<!-- Aqui terminan los radio buttons -->
+			</div>\n`;
+		
+	}
+	return view; 
+
+
 	
 }
 
 //--------------VISTA DE LOS GENEROS---------
 const listaGeneroView = (listaGenero) => {
-	return "Genero";
+let view = "Genero";
+	
+	
+	for (const genero of listaGenero) {
+		view += `
+			<div class="asignar-voto-provincia">
+
+			<p class="genero">
+			
+			<b>${genero.tag} </b> 
+			</p>
+			
+			<!-- Aqui los radio buttons -->
+			<div class="botones">
+
+			<label for="${genero}1" class="radio" > 
+			<input type="radio" name="${genero}" id="${genero}1" class="hidden aFavor" /> 
+			<span class="label"></span>A Favor
+			</label>
+
+			<label for="${genero}2" class="radio" > 
+			<input type="radio" name="${genero}" id="${genero}2" class="hidden enContra" /> 
+			<span class="label"></span>En Contra
+			</label> 
+
+			<label for="${genero}3" class="radio" > 
+			<input type="radio"	name="${genero}" id="${genero}3" class="hidden abstencion" checked /> 
+			<span class="label"></span>Abstención
+			</label>
+			<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+			<label for="${genero}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${genero}4"
+			placeholder="Ausentes">
+			</div>
+			<p id="${genero}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			</form>
+
+			</div>
+			<!-- Aqui terminan los radio buttons -->
+			</div>\n`;
+		
+	}
+	return view; 
 }
 
 //--------------VISTA DE LOS ESTADO---------
 const listaEstadoCivilView = (listaEstadoCivil) => {
-	return "Estado Civil";
+	
+let view = "Estado Civil";
+	
+	
+	for (const estado of listaEstadoCivil) {
+		view += `
+			<div class="asignar-voto-provincia">
+
+			<p class="estado">
+			
+			<b>${estado.tag} </b> 
+			</p>
+			
+			<!-- Aqui los radio buttons -->
+			<div class="botones">
+
+			<label for="${estado}1" class="radio" > 
+			<input type="radio" name="${estado}" id="${estado}1" class="hidden aFavor" /> 
+			<span class="label"></span>A Favor
+			</label>
+
+			<label for="${estado}2" class="radio" > 
+			<input type="radio" name="${estado}" id="${estado}2" class="hidden enContra" /> 
+			<span class="label"></span>En Contra
+			</label> 
+
+			<label for="${estado}3" class="radio" > 
+			<input type="radio"	name="${estado}" id="${estado}3" class="hidden abstencion" checked /> 
+			<span class="label"></span>Abstención
+			</label>
+			<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+			<label for="${estado}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${estado}4"
+			placeholder="Ausentes">
+			</div>
+			<p id="${estado}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			</form>
+
+			</div>
+			<!-- Aqui terminan los radio buttons -->
+			</div>\n`;
+		
+	}
+	return view; 
+
 }
 
 //--------------VISTA DE LOS PARTIDO---------
 const listaPartidosView = (listaPartidos) => {
-	return "Partidos";
+let view = "Partidos";
+	
+	
+	for (const partidos of listaPartidos) {
+		view += `
+			<div class="asignar-voto-provincia">
+
+			<p class="partidos">
+			
+			<b>${partidos.tag} </b> 
+			</p>
+			
+			<!-- Aqui los radio buttons -->
+			<div class="botones">
+
+			<label for="${partidos}1" class="radio" > 
+			<input type="radio" name="${partidos}" id="${partidos}1" class="hidden aFavor" /> 
+			<span class="label"></span>A Favor
+			</label>
+
+			<label for="${partidos}2" class="radio" > 
+			<input type="radio" name="${partidos}" id="${partidos}2" class="hidden enContra" /> 
+			<span class="label"></span>En Contra
+			</label> 
+
+			<label for="${partidos}3" class="radio" > 
+			<input type="radio"	name="${partidos}" id="${partidos}3" class="hidden abstencion" checked /> 
+			<span class="label"></span>Abstención
+			</label>
+			<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+			<label for="${partidos}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${partidos}4"
+			placeholder="Ausentes">
+			</div>
+			<p id="${partidos}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			</form>
+
+			</div>
+			<!-- Aqui terminan los radio buttons -->
+			</div>\n`;
+		
+	}
+	return view; 
+
 }
 
 
@@ -181,7 +362,7 @@ const getListaProvincias = () => {
 	const listaProvincia = Array.from(new Set(listaDiputados.map(s => s.provincia))).map(provincia =>
 	{ return {
 		tag: provincia,
-		lista: [
+		/*lista: [
 			{
 				"provincia": "Madrid",
 				"seats": "30",
@@ -194,7 +375,7 @@ const getListaProvincias = () => {
 				"voto": "contra",
 				"ausentes": "3"
 			}
-		]
+		*/
 			
 	};
 	});
@@ -208,6 +389,7 @@ const getListaGenero = () => {
 		tag: sexo
 	};
 	});
+	return listaGenero
 }
 
 const getListaEstadoCivil = () => {
@@ -217,6 +399,7 @@ const getListaEstadoCivil = () => {
 		tag: estado_civil
 	};
 	});
+	return listaEstadoCivil
 }
 
 const getListaRangosEdad = () => {
@@ -226,6 +409,7 @@ const getListaRangosEdad = () => {
 		tag: nacimiento
 	};
 	});
+	return listaRangoEdad
 }
 
 const getListaPartidos = () => {
@@ -235,6 +419,8 @@ const getListaPartidos = () => {
 		tag: partido
 	};
 	});
+
+return listaPartidos
 }
 
 

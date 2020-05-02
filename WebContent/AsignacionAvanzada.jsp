@@ -42,10 +42,24 @@
           <input type="text" id="tagSelection" placeholder="Pon el tag aquí" />
           <p class="btn btn-success" id="botonTag">Seleccionar</p>
         </div>
-        
-        
-        
-         <div id="listaTag-view">
+			<!-- Default dropright button -->
+			<div class="btn-group dropright">
+				<button type="button" class="btn btn-secondary dropdown-toggle"
+					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropright</button>
+				<div class="dropdown-menu">
+					<!-- Dropdown menu links -->
+					<a class="dropdown-item" id="tagSelection" value = "provincias">Provincias</a> 
+					<a class="dropdown-item" id="tagSelection" href="#">Genero</a> 
+					<a class="dropdown-item" id="tagSelection" href="#">Año de nacimiento</a>
+					<a class="dropdown-item" id="tagSelection" href="#">Estado civil</a>
+					<a class="dropdown-item" id="tagSelection" href="#">Partidos</a>
+				</div>
+			</div>
+
+
+
+			<div id="listaTag-view">
           <!-- La vista se incluye aquí -->
         </div>
         
