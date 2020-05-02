@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css?v=1" />
     <!-- JS files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/simulation.js?v=3"></script>
@@ -45,25 +45,30 @@
 			<c:forEach items="${partidos}" var="partido">
 				<div class="asignar-voto-partido">
 					<img id="imgRedonda"
-						src="assets/images/Partidos/${partido.nameCode}.png" />
+						src="assets/images/Partidos/${partido.codeName}.png" />
 					<p class="partido">
 						<b>${partido.fullName} </b> <i>[${partido.seats} escaños]</i>
 					</p>
 					<!-- Aqui los radio buttons -->
 					<div class="botones">
 
-						<label for="${partido.nameCode}1" class="radio"> <input
-							type="radio" name="${partido.nameCode}"
-							id="${partido.nameCode}1" class="hidden aFavor" /> <span
+						<label for="${partido.codeName}1" class="radio"> <input
+							type="radio" name="${partido.codeName}"
+							id="${partido.codeName}1" class="hidden aFavor" /> <span
 							class="label"></span>A Favor
-						</label> <label for="${partido.nameCode}2" class="radio"> <input
-							type="radio" name="${partido.nameCode}"
-							id="${partido.nameCode}2" class="hidden enContra" /> <span
+						</label> <label for="${partido.codeName}2" class="radio"> <input
+							type="radio" name="${partido.codeName}"
+							id="${partido.codeName}2" class="hidden enContra" /> <span
 							class="label"></span>En Contra
-						</label> <label for="${partido.nameCode}3" class="radio"> <input
-							type="radio" name="${partido.nameCode}"
-							id="${partido.nameCode}3" class="hidden abstencion" checked />
+						</label> <label for="${partido.codeName}3" class="radio"> <input
+							type="radio" name="${partido.codeName}"
+							id="${partido.codeName}3" class="hidden abstencion" />
 							<span class="label"></span>Abstención
+						</label>
+						<label for="${partido.codeName}4" class="radio"> <input
+							type="radio" name="${partido.codeName}"
+							id="${partido.codeName}4" class="hidden ausente" checked />
+							<span class="label"></span>Ausente
 						</label>
 
 					</div>

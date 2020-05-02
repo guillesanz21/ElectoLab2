@@ -48,6 +48,10 @@ input[type="radio"].abstencion + .label:after {
   border-color: coral; /* Radio de fuera del botón */
   background: coral; /* Círculo interior del botón */
 }
+input[type="radio"].ausente + .label:after {
+  border-color: #17a2b8; /* Radio de fuera del botón */
+  background: #17a2b8; /* Círculo interior del botón */
+}
 
 input[type="radio"]:checked + .label:after {
   transform: scale(1);

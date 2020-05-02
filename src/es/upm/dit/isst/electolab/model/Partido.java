@@ -1,7 +1,7 @@
 package es.upm.dit.isst.electolab.model;
 
 import java.io.Serializable;
-import java.util.Collection;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -13,33 +13,33 @@ public class Partido implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	private String nameCode;
+	private String codeName;
 	private String fullName;
+	private String vote;
 	private int seats;
-	private int vote;
 	
 	@OneToMany(mappedBy = "partido", fetch = FetchType.EAGER)
-	private Collection<Diputado> diputados;
+	private List<Diputado> diputados;
 	
 	public Partido() {
 		super();
 	}
 	
 	
-	public Collection<Diputado> getDiputados() {
+	public List<Diputado> getDiputados() {
 		return diputados;
 	}
 
-	public void setDiputados(Collection<Diputado> diputados) {
+	public void setDiputados(List<Diputado> diputados) {
 		this.diputados = diputados;
 	}
 
-	public String getNameCode() {
-		return nameCode;
+	public String getCodeName() {
+		return codeName;
 	}
 	
-	public void setNameCode(String nameCode) {
-		this.nameCode = nameCode;
+	public void setCodeName(String codeName) {
+		this.codeName = codeName;
 	}
 	
 	public String getFullName() {
@@ -58,11 +58,11 @@ public class Partido implements Serializable{
 		this.seats = seats;
 	}
 	
-	public int getVote() {
+	public String getVote() {
 		return vote;
 	}
 	
-	public void setVote(int vote) {
+	public void setVote(String vote) {
 		this.vote = vote;
 	}
 
@@ -72,21 +72,20 @@ public class Partido implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Partido [nameCode=" + nameCode + ", fullName=" + fullName + ", seats=" + seats + ", vote=" + vote
+		return "Partido [codeName=" + codeName + ", fullName=" + fullName + ", seats=" + seats + ", vote=" + vote
 				+ ", diputados=" + diputados + "]";
 	}
-
 
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ((codeName == null) ? 0 : codeName.hashCode());
+		result = prime * result + ((diputados == null) ? 0 : diputados.hashCode());
 		result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
-	
-		result = prime * result + ((nameCode == null) ? 0 : nameCode.hashCode());
 		result = prime * result + seats;
-		result = prime * result + vote;
+		result = prime * result + ((vote == null) ? 0 : vote.hashCode());
 		return result;
 	}
 
@@ -100,20 +99,27 @@ public class Partido implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Partido other = (Partido) obj;
+		if (codeName == null) {
+			if (other.codeName != null)
+				return false;
+		} else if (!codeName.equals(other.codeName))
+			return false;
+		if (diputados == null) {
+			if (other.diputados != null)
+				return false;
+		} else if (!diputados.equals(other.diputados))
+			return false;
 		if (fullName == null) {
 			if (other.fullName != null)
 				return false;
 		} else if (!fullName.equals(other.fullName))
 			return false;
-	
-		if (nameCode == null) {
-			if (other.nameCode != null)
-				return false;
-		} else if (!nameCode.equals(other.nameCode))
-			return false;
 		if (seats != other.seats)
 			return false;
-		if (vote != other.vote)
+		if (vote == null) {
+			if (other.vote != null)
+				return false;
+		} else if (!vote.equals(other.vote))
 			return false;
 		return true;
 	}

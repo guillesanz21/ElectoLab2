@@ -43,25 +43,26 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 		// Crea una nueva simulacion para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
 		boolean ley_aprobada = true;
-		int voto = 0;
+		String voto = "ausente";
 		
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
 		for (Diputado diputado : diputados) {
 			
-			voto =  diputado.getVoto();
+			voto =  diputado.getVote();
 
-			if (voto == 1)
+			if (voto == "favor")
 				simulacion.setVotos_favor(simulacion.getVotos_favor() + 1);
-			else if (voto == -1)
+			else if (voto == "contra")
 				simulacion.setVotos_contra(simulacion.getVotos_contra() + 1);
-			else
+			else if (voto == "abstencion")
 				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + 1);
-		
+			else 
+				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + 1);
 			// Reinicia la variable voto 
-			voto = 0;
+			voto = "ausente";
 			
 			// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
-			diputado.setVoto(voto);
+			diputado.setVote(voto);
 			
 			if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
 				ley_aprobada = true;

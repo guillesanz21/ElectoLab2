@@ -26,6 +26,7 @@
           ["A favor", ${simulacion.votos_favor}],
           ["En contra", ${simulacion.votos_contra}],
           ["Abstención", ${simulacion.votos_abstencion}],
+          ["Ausentes", ${simulacion.votos_ausente}]
         ]);
 
         var options = {

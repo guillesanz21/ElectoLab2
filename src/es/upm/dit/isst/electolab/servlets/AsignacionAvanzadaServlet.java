@@ -60,7 +60,7 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
     			diputados = DiputadoDAOImplementation.getInstancia().readTag( (String) tagJSON.get("tag"), (String) tagJSON.get("tagElement") );		
 
     			for (Diputado diputado : diputados) {
-    				diputado.setVoto((int)(long)tagJSON.get("vote"));
+    				diputado.setVote((String)tagJSON.get("vote"));
         			DiputadoDAOImplementation.getInstancia().update(diputado);
 
 				}

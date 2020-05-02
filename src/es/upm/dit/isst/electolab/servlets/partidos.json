@@ -1,100 +1,100 @@
 {
   "partidos": [
     {
-      "nameCode": "PSOE",
+      "codeName": "PSOE",
       "fullName": "PSOE",
       "seats": "120",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "PP",
+      "codeName": "PP",
       "fullName": "PP",
       "seats": "88",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "VOX",
+      "codeName": "VOX",
       "fullName": "VOX",
       "seats": "52",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "UP",
+      "codeName": "UP",
       "fullName": "PODEMOS-UI",
       "seats": "35",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "ERC",
+      "codeName": "ERC",
       "fullName": "ERC-SOBIRANISTES",
       "seats": "13",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "CS",
+      "codeName": "CS",
       "fullName": "CS",
       "seats": "10",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "JxCAT-JUNTS",
+      "codeName": "JxCAT-JUNTS",
       "fullName": "JXCAT-JUNTS",
       "seats": "8",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "PNV",
+      "codeName": "PNV",
       "fullName": "PNV",
       "seats": "7",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "BILDU",
+      "codeName": "BILDU",
       "fullName": "EH BILDU",
       "seats": "5",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "MASPAIS",
+      "codeName": "MASPAIS",
       "fullName": "MAS PAIS",
       "seats": "3",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "CUP",
+      "codeName": "CUP",
       "fullName": "CUP-PR",
       "seats": "2",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "PNC",
+      "codeName": "PNC",
       "fullName": "CCA-PNC-NC",
       "seats": "2",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "NA",
+      "codeName": "NA",
       "fullName": "NA+",
       "seats": "2",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "BNG",
+      "codeName": "BNG",
       "fullName": "BNG",
       "seats": "1",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "PRC",
+      "codeName": "PRC",
       "fullName": "PRC",
       "seats": "1",
-      "vote": "0"
+      "vote": "ausente"
     },
     {
-      "nameCode": "TE",
+      "codeName": "TE",
       "fullName": "Teruel Existe",
       "seats": "1",
-      "vote": "0"
+      "vote": "ausente"
     }
   ]
 }

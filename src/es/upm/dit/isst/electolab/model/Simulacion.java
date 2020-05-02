@@ -18,6 +18,7 @@ public class Simulacion implements Serializable {
 	private long votos_favor;
 	private long votos_contra;
 	private long votos_abstencion;
+	private long votos_ausente;
 
 	
 	private String tituloLey;
@@ -88,7 +89,13 @@ public class Simulacion implements Serializable {
 		this.autor = autor;
 	}
 	
-	
+	public long getVotos_ausente() {
+		return votos_ausente;
+	}
+
+	public void setVotos_ausente(long votos_ausente) {
+		this.votos_ausente = votos_ausente;
+	}
 
 	@Override
 	public String toString() {
@@ -142,6 +149,5 @@ public class Simulacion implements Serializable {
 			return false;
 		return true;
 	}
-
 
 }

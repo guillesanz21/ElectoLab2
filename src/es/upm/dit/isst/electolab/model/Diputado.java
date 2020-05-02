@@ -21,8 +21,9 @@ public class Diputado implements Serializable {
 	private long edad;
 	private String provincia;
 	private String genero;
+	private String estado_civil;
+	private String vote;  
 	private String customTags;
-	private int voto;   //-1 contra, 0 abs, 1 a favor
 	
 	@ManyToOne
 	private Partido partido;
@@ -102,14 +103,24 @@ public class Diputado implements Serializable {
 	}
 
 
-	public int getVoto() {
-		return voto;
+	public String getVote() {
+		return vote;
 	}
 
 
-	public void setVoto(int voto) {
-		this.voto = voto;
+	public void setVote(String vote) {
+		this.vote = vote;
 	}
+	
+	public String getEstado_civil() {
+		return estado_civil;
+	}
+
+
+	public void setEstado_civil(String estado_civil) {
+		this.estado_civil = estado_civil;
+	}
+
 
 
 	@Override
@@ -134,8 +145,5 @@ public class Diputado implements Serializable {
 			return false;
 		return true;
 	}
-
-	
-	
 
 }

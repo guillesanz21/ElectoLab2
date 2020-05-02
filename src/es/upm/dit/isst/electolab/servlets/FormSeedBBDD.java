@@ -92,7 +92,9 @@ public class FormSeedBBDD extends HttpServlet {
             	System.out.println((String)diputadoJSON.get("partido"));
             	d.setGenero((String)diputadoJSON.get("sexo"));
             	d.setProvincia((String)diputadoJSON.get("provincia"));
+            	d.setEstado_civil((String)diputadoJSON.get("estado_civil"));
             	d.setEdad(year-(Long)diputadoJSON.get("nacimiento"));
+            	d.setVote((String)diputadoJSON.get("vote"));
 
                 System.out.println("FormSeedBBDDServlet, doGet, Diputado: " + d);
                 DiputadoDAOImplementation.getInstancia().update(d);
@@ -128,11 +130,11 @@ public class FormSeedBBDD extends HttpServlet {
             	partidoJSON = (JSONObject)partidosJSON.get(i);
             	
             	//p.setIdPartido(i);
-            	p.setNameCode((String)partidoJSON.get("nameCode"));
+            	p.setCodeName((String)partidoJSON.get("codeName"));
             	p.setFullName((String)partidoJSON.get("fullName"));
             	//Genero meterlo en custom tag
             	p.setSeats(Integer.parseInt((String) partidoJSON.get("seats")));
-            	p.setVote(Integer.parseInt((String) partidoJSON.get("vote")));
+            	p.setVote((String)partidoJSON.get("vote"));
             	System.out.println("FormSeedBBDDServlet, doGet, Partido: " + p);
             	PartidoDAOImplementation.getInstancia().update(p);
             

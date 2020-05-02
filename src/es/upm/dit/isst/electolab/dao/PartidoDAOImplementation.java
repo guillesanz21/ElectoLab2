@@ -1,6 +1,5 @@
 package es.upm.dit.isst.electolab.dao;
 
-import java.util.Collection;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -66,7 +65,7 @@ public class PartidoDAOImplementation implements PartidoDAO {
 	}
 
 	@Override
-	public Collection<Partido> readAll() {
+	public List<Partido> readAll() {
 		Session session = SessionFactoryService.get().openSession();
 		session.beginTransaction();
 		// operaciones
