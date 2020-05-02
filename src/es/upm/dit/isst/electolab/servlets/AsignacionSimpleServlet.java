@@ -58,11 +58,11 @@ public class AsignacionSimpleServlet extends HttpServlet {
     			partido.setAusentes ((int) (long) partidoJSON.get("ausentes") ) ;
     			PartidoDAOImplementation.getInstancia().update(partido);
     			/*
-								System.out.println("FormSimulationServlet, log, partido: " + partido);
-								System.out.println("--------------------------------------------------");
-								System.out.println("FormSimulationServlet, log, ArrayJSON: " + jsonArray);
-								System.out.println("FormSimulationServlet, log, readAll: " + PartidoDAOImplementation.getInstancia().readAll());
-								System.out.println("--------------------------------------------------");
+					System.out.println("FormSimulationServlet, log, partido: " + partido);
+					System.out.println("--------------------------------------------------");
+					System.out.println("FormSimulationServlet, log, ArrayJSON: " + jsonArray);
+					System.out.println("FormSimulationServlet, log, readAll: " + PartidoDAOImplementation.getInstancia().readAll());
+					System.out.println("--------------------------------------------------");
     			 */
     		}
     	} catch (org.json.simple.parser.ParseException e) {

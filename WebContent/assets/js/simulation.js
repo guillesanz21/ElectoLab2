@@ -151,6 +151,7 @@ const loadEvents = (listaPartidos) => {
 		let json = JSON.stringify(listaPartidos);
 
 		document.getElementById('partidos').value = json;
+		console.log(json);
 	});
 
 

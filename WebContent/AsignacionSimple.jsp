@@ -27,7 +27,7 @@
 
 	<!-- Content -->
 	<section class="container container-simular">
-		<form method="get" action="AsignacionSimpleServlet">
+		<form method="get" action="">
 			<input type="hidden" name="partidos" id="partidos" value="" />
 
 			<button id="simular-btn-simulation" class="btn btn-info">

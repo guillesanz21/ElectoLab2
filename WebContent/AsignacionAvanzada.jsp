@@ -36,33 +36,19 @@
         <div id="barra-view">
           <!-- La vista se incluye aquí -->
         </div>
-        <div id="listaPartidos-view">
-			<c:forEach items="${diputados}" var="partido">
-				<div class="asignar-voto-partido">
-					<p class="partido">
-						<b>${diputado.nombre} </b> <i>[${diputado.partido} escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">
-
-						<label for="${diputado.nombre}1" class="radio"> <input
-							type="radio" name="${diputado.nombre}"
-							id="${diputado.nombre}1" class="hidden aFavor" /> <span
-							class="label"></span>A Favor
-						</label> <label for="${diputado.nombre}2" class="radio"> <input
-							type="radio" name="${diputado.nombre}"
-							id="${diputado.nombre}2" class="hidden enContra" /> <span
-							class="label"></span>En Contra
-						</label> <label for="${partido.nameCode}3" class="radio"> <input
-							type="radio" name="${diputado.nombre}"
-							id="${diputado.nombre}3" class="hidden abstencion" checked />
-							<span class="label"></span>Abstención
-						</label>
-
-					</div>
-						</div>
-			</c:forEach>
-				</div>
+        
+        
+        <div>
+          <input type="text" id="tagSelection" placeholder="Pon el tag aquí" />
+          <p class="btn btn-success" id="botonTag">Seleccionar</p>
+        </div>
+        
+        
+        
+         <div id="listaTag-view">
+          <!-- La vista se incluye aquí -->
+        </div>
+        
       </form>
     </section>
 
