@@ -12,7 +12,7 @@ const loadPage = () => {
 		listaDiputados = data.diputados;
 		prueba(listaDiputados);
 		console.log(listaDiputados)
-		//loadEvents();
+		loadEvents();
 		//barraContr();
 	});
 };
@@ -42,12 +42,14 @@ const listaProvinciasView = (listaProvincias) => {
 	
 	
 	for (const provincia of listaProvincias) {
-		/*view += `
-			<div class="asignar-voto-partido">
+		view += `
+			<div class="asignar-voto-provincia">
 
-			<p class="partido">
-			<b>${provincia} </b> 
+			<p class="provincia">
+			
+			<b>${provincia.tag} </b> 
 			</p>
+			
 			<!-- Aqui los radio buttons -->
 			<div class="botones">
 
@@ -65,11 +67,19 @@ const listaProvinciasView = (listaProvincias) => {
 			<input type="radio"	name="${provincia}" id="${provincia}3" class="hidden abstencion" checked /> 
 			<span class="label"></span>Abstención
 			</label>
+			<form class="form-inline">
+			<div class="form-group mx-sm-3 mb-2">
+			<label for="${provincia}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${provincia}4"
+			placeholder="Ausentes">
+			</div>
+			<p id="${provincia}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			</form>
 
 			</div>
 			<!-- Aqui terminan los radio buttons -->
 			</div>\n`;
-		*/
+		
 	}
 	return view; 
 
