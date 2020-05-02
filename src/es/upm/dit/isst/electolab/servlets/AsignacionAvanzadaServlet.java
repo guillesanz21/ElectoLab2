@@ -43,26 +43,53 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
 		// TODO Auto-generated method stub
     	JSONParser parser = new JSONParser();
     	Object object;
-    	
+    	/*
+    	 {
+		"tag": "provincia",
+		"lista": [
+			{
+				"provincia": "Madrid",
+				"seats": "30",
+				"voto": "favor",
+				"ausentes": "13"
+			},
+			...
+			{
+				"provincia": "Valencia",
+				"seats": "20",
+				"voto": "contra",
+				"ausentes": "3"
+			}
+			
+		]
+			
+	}; */
 
     	// Coge el parametro partidos de simulacion.js y va contando los votos
     	try {
-    		object = parser.parse(request.getParameter("tagVote"));
-    		JSONArray jsonArray = (JSONArray) object;		// convert Object to JSONObject
-    		JSONObject tagJSON;
+    		System.out.println("Hola" + request.getParameter("partidos"));
+    		object = parser.parse(request.getParameter("partidos"));
+    		JSONObject tagJSON = (JSONObject) object;
+    		JSONArray jsonArray = (JSONArray) tagJSON.get("lista");		// convert Object to JSONObject
+    		JSONObject listaJSON;
     		for (int i = 0; i < (jsonArray).size(); i++) {
-    			tagJSON = (JSONObject) jsonArray.get(i);
+    			listaJSON = (JSONObject) jsonArray.get(i);
     			//System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
     			//System.out.println((String)(tagJSON.get("tag")), (String)(tagJSON.get("tagElement")));
-    			System.out.println((String)tagJSON.get("tag") + "-------------" + (String)tagJSON.get("tagElement"));
+    			System.out.println((String) tagJSON.get("tag")  + "-------------" + (String) listaJSON.get("tagElement"));
 
     			Collection<Diputado> diputados = new ArrayList<Diputado>();
-    			diputados = DiputadoDAOImplementation.getInstancia().readTag( (String) tagJSON.get("tag"), (String) tagJSON.get("tagElement") );		
-
+    			diputados = DiputadoDAOImplementation.getInstancia().readTag( (String) tagJSON.get("tag"), (String) listaJSON.get("tagElement") );		
+    			System.out.println(diputados);
+    			int nAusentes = Integer.parseInt( (String) listaJSON.get("ausentes"));
     			for (Diputado diputado : diputados) {
-    				diputado.setVote((String)tagJSON.get("vote"));
+    				if (nAusentes != 0) {
+        				diputado.setVote("ausente");
+        				nAusentes--;
+    				} else
+    					diputado.setVote((String)listaJSON.get("voto"));
+    				
         			DiputadoDAOImplementation.getInstancia().update(diputado);
-
 				}
     			/*
 								System.out.println("FormSimulationServlet, log, partido: " + partido);

@@ -168,11 +168,13 @@ const listaTagContr = () => {
 const getListaProvincias = () => {
 	//Nos saca ya un array con las provincias
 	console.log("Entra")
+	
 	const listaProvincia = Array.from(new Set(listaDiputados.map(s => s.provincia))).map(provincia =>
-	{ return {
+	{ 
+		return {
 		tag: provincia,
 		lista: [
-			{
+			{   
 				"provincia": "Madrid",
 				"seats": "30",
 				"voto": "favor",
