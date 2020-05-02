@@ -16,6 +16,7 @@ public class Partido implements Serializable{
 	private String codeName;
 	private String fullName;
 	private String vote;
+	private int ausentes;   // numero de diputados ausentes
 	private int seats;
 	
 	@OneToMany(mappedBy = "partido", fetch = FetchType.EAGER)
@@ -68,12 +69,13 @@ public class Partido implements Serializable{
 
 
 
+	public int getAusentes() {
+		return ausentes;
+	}
 
 
-	@Override
-	public String toString() {
-		return "Partido [codeName=" + codeName + ", fullName=" + fullName + ", seats=" + seats + ", vote=" + vote
-				+ ", diputados=" + diputados + "]";
+	public void setAusentes(int ausentes) {
+		this.ausentes = ausentes;
 	}
 
 
@@ -81,6 +83,7 @@ public class Partido implements Serializable{
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
+		result = prime * result + ausentes;
 		result = prime * result + ((codeName == null) ? 0 : codeName.hashCode());
 		result = prime * result + ((diputados == null) ? 0 : diputados.hashCode());
 		result = prime * result + ((fullName == null) ? 0 : fullName.hashCode());
@@ -99,6 +102,8 @@ public class Partido implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Partido other = (Partido) obj;
+		if (ausentes!= other.ausentes)
+			return false;
 		if (codeName == null) {
 			if (other.codeName != null)
 				return false;
@@ -123,6 +128,14 @@ public class Partido implements Serializable{
 			return false;
 		return true;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Partido [codeName=" + codeName + ", fullName=" + fullName + ", vote=" + vote + ", ausentes=" + ausentes
+				+ ", seats=" + seats + ", diputados=" + diputados + "]";
+	}
 	
+
 	
 }

@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", loadPage);
 //------------- MODELO DE DATOS -------------
 var favor = 0;
 var contra = 0;
-var abstencion = 0;
 var diputados = 350;
-var ausente = diputados;
+var abstencion = diputados;
+var ausentes = 0;
 
 //------------- VISTAS -------------
 
@@ -68,7 +68,9 @@ const barraContr = () => {
 const loadEvents = (listaPartidos) => {
 	for (const partido of listaPartidos) {
 		console.log(partido);
-		partido.seats = parseInt(partido.seats);
+		//partido.ausentes = parseInt(partido.ausentes);
+		//partido.ausentes = document.getElementById("");
+		partido.seats = parseInt(partido.seats) - ausentes;
 		// ###### Favor ###### 
 		document
 		.getElementById(partido.codeName + "1")
@@ -141,27 +143,14 @@ const loadEvents = (listaPartidos) => {
 			barraContr();
 		});
 		
-	//  ###### Abstencion ###### 
+	//  ###### Para los ausentes ###### 
 		document
-		.getElementById(partido.codeName + "4")
+		.getElementById(partido.codeName + "4Send")
 		.addEventListener("click", function () {
-			if (partido.vote === "favor") {
-				// Si ya estaba a favor
-				favor -= partido.seats;
-				ausente += partidos.seats;
-			}
-			if (partido.vote === "contra") {
-				// Si ya estaba en contra
-				contra -= partido.seats;
-				ausente += partidos.seats;
-			}
-			if (partido.vote === "abstencion") {
-				// Si ya se abstenia
-				abstencion -= partido.seats;
-				ausente += partido.seats;
-			}
-			// Para la condición de que ya estubiese ausente no hacemos nada
-			partido.vote = "ausente"; // El partido ahora esta ausente
+			
+			partido.ausentes = document.getElementById(partido.codeName + "4").value; // El partido ahora esta ausente
+			console.log(partido.ausentes);
+			console.log("Tipo: " + typeof partido.ausentes);
 			barraContr();
 		});
 	}

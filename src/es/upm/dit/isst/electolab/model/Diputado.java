@@ -22,7 +22,7 @@ public class Diputado implements Serializable {
 	private String provincia;
 	private String genero;
 	private String estado_civil;
-	private String vote;  
+	private String vote;  // se quita?
 	private String customTags;
 	
 	@ManyToOne

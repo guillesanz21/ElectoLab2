@@ -54,15 +54,56 @@ public class FormSeedBBDD extends HttpServlet {
         try
         {   
         	
-        	//************** DIPUTADOS **************
-
-            URL url = getClass().getResource("diputados.json");
+//************** PARTIDOS **************
+       
+            
+        	URL url = getClass().getResource("partidos.json");
             Object object = parser
                     .parse(new FileReader(url.getPath()));
 
             
             //convert Object to JSONObject
             JSONObject jsonObject = (JSONObject)object;
+            
+            //Reading the array
+            JSONArray partidosJSON = (JSONArray)jsonObject.get("partidos");
+
+            //Printing all the values
+            //JSONObject partido = ((JSONArray) partidos).getJSONObject(0);
+          
+            JSONObject partidoJSON;
+        	Partido p = new Partido();
+
+			/*
+			 * Bucle que recorre el array y va accediendo a cada partido, para acceder a una propiedad de un partido:
+			 * partidoJSON = (JSONObject)partidosJSON.get(i)
+			 * String proiedad = (String)partidoJSON.get("Nombre de la propiedad")
+			 */
+            for(int i = 0; i<partidosJSON.size(); i++) {
+            	partidoJSON = (JSONObject)partidosJSON.get(i);
+            	//p.setIdPartido(i);
+            	p.setCodeName((String)partidoJSON.get("codeName"));
+            	p.setFullName((String)partidoJSON.get("fullName"));
+            	//Genero meterlo en custom tag
+            	p.setSeats(Integer.parseInt((String) partidoJSON.get("seats")));
+            	p.setVote((String)partidoJSON.get("vote"));
+            	
+            	p.setAusentes(Integer.parseInt((String) partidoJSON.get("ausentes")));
+            	System.out.println("FormSeedBBDDServlet, doGet, Partido: " + p);
+            	PartidoDAOImplementation.getInstancia().update(p);
+            
+            }
+        	System.out.println("FormSeedBBDDServlet, doGet, base de datos Partido: " + PartidoDAOImplementation.getInstancia().readAll());
+        	
+        	//************** DIPUTADOS **************
+
+            url = getClass().getResource("diputados.json");
+            object = parser
+                    .parse(new FileReader(url.getPath()));
+
+            
+            //convert Object to JSONObject
+            jsonObject = (JSONObject)object;
             
             //Reading the array
             JSONArray diputadosJSON = (JSONArray)jsonObject.get("diputados");
@@ -101,45 +142,7 @@ public class FormSeedBBDD extends HttpServlet {
             	System.out.println("FormSeedBBDDServlet, doGet, base de datos Diputado: " + DiputadoDAOImplementation.getInstancia().readAll());
             }
             
-            //************** PARTIDOS **************
-       
             
-        	url = getClass().getResource("partidos.json");
-            object = parser
-                    .parse(new FileReader(url.getPath()));
-
-            
-            //convert Object to JSONObject
-            jsonObject = (JSONObject)object;
-            
-            //Reading the array
-            JSONArray partidosJSON = (JSONArray)jsonObject.get("partidos");
-
-            //Printing all the values
-            //JSONObject partido = ((JSONArray) partidos).getJSONObject(0);
-          
-            JSONObject partidoJSON;
-        	Partido p = new Partido();
-
-			/*
-			 * Bucle que recorre el array y va accediendo a cada partido, para acceder a una propiedad de un partido:
-			 * partidoJSON = (JSONObject)partidosJSON.get(i)
-			 * String proiedad = (String)partidoJSON.get("Nombre de la propiedad")
-			 */
-            for(int i = 0; i<partidosJSON.size(); i++) {
-            	partidoJSON = (JSONObject)partidosJSON.get(i);
-            	
-            	//p.setIdPartido(i);
-            	p.setCodeName((String)partidoJSON.get("codeName"));
-            	p.setFullName((String)partidoJSON.get("fullName"));
-            	//Genero meterlo en custom tag
-            	p.setSeats(Integer.parseInt((String) partidoJSON.get("seats")));
-            	p.setVote((String)partidoJSON.get("vote"));
-            	System.out.println("FormSeedBBDDServlet, doGet, Partido: " + p);
-            	PartidoDAOImplementation.getInstancia().update(p);
-            
-            }
-        	System.out.println("FormSeedBBDDServlet, doGet, base de datos Partido: " + PartidoDAOImplementation.getInstancia().readAll());
         }
         catch(FileNotFoundException fe)
         {
