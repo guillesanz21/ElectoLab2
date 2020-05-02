@@ -67,8 +67,6 @@ public class Partido implements Serializable{
 		this.vote = vote;
 	}
 
-
-
 	public int getAusentes() {
 		return ausentes;
 	}
@@ -76,6 +74,14 @@ public class Partido implements Serializable{
 
 	public void setAusentes(int ausentes) {
 		this.ausentes = ausentes;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Partido [codeName=" + codeName + ", fullName=" + fullName + ", vote=" + vote + ", ausentes=" + ausentes
+				+ ", seats=" + seats + ", diputados=" + diputados + "]";
 	}
 
 
@@ -102,7 +108,7 @@ public class Partido implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Partido other = (Partido) obj;
-		if (ausentes!= other.ausentes)
+		if (ausentes != other.ausentes)
 			return false;
 		if (codeName == null) {
 			if (other.codeName != null)
@@ -130,12 +136,6 @@ public class Partido implements Serializable{
 	}
 
 
-	@Override
-	public String toString() {
-		return "Partido [codeName=" + codeName + ", fullName=" + fullName + ", vote=" + vote + ", ausentes=" + ausentes
-				+ ", seats=" + seats + ", diputados=" + diputados + "]";
-	}
-	
 
 	
 }

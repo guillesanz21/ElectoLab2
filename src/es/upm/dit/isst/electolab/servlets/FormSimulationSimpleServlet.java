@@ -44,23 +44,29 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		// Crea una nueva simulacion para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
 		boolean ley_aprobada = true;
-		String voto = "ausente";
+		String voto = "abstencion";
 		
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
 		for (Partido partido : partidos) {
-			
 			voto =  partido.getVote();
 
-			if (voto == "favor")
-				simulacion.setVotos_favor(simulacion.getVotos_favor() + partido.getSeats());
-			else if (voto == "contra")
-				simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats());
-			else if (voto == "abstencion")
-				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats());
-			else
-				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getSeats());
+			if (voto == "favor") {
+				simulacion.setVotos_favor(simulacion.getVotos_favor() + partido.getSeats() - partido.getAusentes());
+				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_favor: " + simulacion.getVotos_favor());
+
+			}
+			else if (voto == "contra") {
+				simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats() - partido.getAusentes());
+				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_contra: " + simulacion.getVotos_contra());
+
+			}
+			else { 
+				simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats() - partido.getAusentes());
+				System.out.println("FormSimulationSimpleServlet, doGet, simulacións.getVotos_abstencion: " + simulacion.getVotos_abstencion());
+
+			}
 			// Reinicia la variable voto 
-			voto = "ausente";
+			voto = "abstencion";
 			
 			// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
 			partido.setVote(voto);
@@ -84,6 +90,7 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		}
 		
 		// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
+		System.out.println("FormSimulationSimpleServlet ,doGet, Simulación: " + simulacion);
 		request.getSession().setAttribute("simulacion", simulacion);
 		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 

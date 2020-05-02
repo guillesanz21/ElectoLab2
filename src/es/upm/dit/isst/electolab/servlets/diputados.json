@@ -7,7 +7,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Abascal Conde, Santiago",
@@ -16,7 +16,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aceves Galindo, José Luis",
@@ -25,7 +25,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Agirretxea Urresti, Joseba Andoni",
@@ -34,7 +34,7 @@
       "estado_civil": "casado",
       "partido": "PNV",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aizcorbe Torra, Juan José",
@@ -43,7 +43,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aizpurua Arzallus, Mertxe",
@@ -52,7 +52,7 @@
       "estado_civil": "casado",
       "partido": "BILDU",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alcaraz Martos, Francisco José",
@@ -61,7 +61,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Jaén",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alfonso Cendón, Javier",
@@ -70,7 +70,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "León",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Almodóbar Barceló, Agustín",
@@ -79,7 +79,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alonso Pérez, José Ángel",
@@ -88,7 +88,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alonso Suárez, María Olga",
@@ -97,7 +97,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alonso-Cuevillas i Sayrol, Jaume",
@@ -106,7 +106,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Álvarez de Toledo Peralta-Ramos, Cayetana",
@@ -115,7 +115,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Álvarez Fanjul, Beatriz",
@@ -124,7 +124,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Andrés Añón, Carmen",
@@ -133,7 +133,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Andrés Barea, Josefa",
@@ -142,7 +142,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Anguita Pérez, Omar",
@@ -151,7 +151,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Angulo Romero, María Teresa",
@@ -160,7 +160,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Antón Cacho, Javier",
@@ -169,7 +169,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Soria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aragonés Mendiguchía, Carlos",
@@ -178,7 +178,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aranda Vargas, Francisco",
@@ -187,7 +187,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Araujo Morales, Gemma",
@@ -196,7 +196,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Arribas Maroto, Manuel",
@@ -205,7 +205,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Ávila",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Arrimadas García, Inés",
@@ -214,7 +214,7 @@
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Asarta Cuevas, Alberto",
@@ -223,7 +223,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Asens Llodrà, Jaume",
@@ -232,7 +232,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Azorín Salar, Lázaro",
@@ -241,7 +241,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bal Francés, Edmundo",
@@ -250,7 +250,7 @@
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Baldoví Roda, Joan",
@@ -259,7 +259,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Baños Ruiz, Carmen",
@@ -268,7 +268,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Barandiaran Benito, Íñigo",
@@ -277,7 +277,7 @@
       "estado_civil": "soltero",
       "partido": "PNV",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bas Corugeira, Javier",
@@ -286,7 +286,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bassa Coll, Montserrat",
@@ -295,7 +295,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Batet Lamaña, Meritxell",
@@ -304,7 +304,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bel Accensi, Ferran",
@@ -313,7 +313,7 @@
       "estado_civil": "casado",
       "partido": "JxCAT-JUNTS",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Belarra Urteaga, Ione",
@@ -322,7 +322,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Beltrán Villalba, Ana María",
@@ -331,7 +331,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Berja Vega, Laura",
@@ -340,7 +340,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Jaén",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bermúdez de Castro Fernández, José Antonio",
@@ -349,7 +349,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Betoret Coll, Vicente",
@@ -358,7 +358,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Blanquer Alcaraz, Patricia",
@@ -367,7 +367,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Boadella Esteve, Genís",
@@ -376,7 +376,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Borràs Castanyer, Laura",
@@ -385,7 +385,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Borrás Pabón, Mireia",
@@ -394,7 +394,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Borrego Cortés, Isabel María",
@@ -403,7 +403,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Botella Gómez, Ana María",
@@ -412,7 +412,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Botran Pahissa, Albert",
@@ -421,7 +421,7 @@
       "estado_civil": "soltero",
       "partido": "CUP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bravo Barco, Eva",
@@ -430,7 +430,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bueno Campanario, Eva Patricia",
@@ -439,7 +439,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Caballero Gutiérrez, Helena",
@@ -448,7 +448,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cabezón Casas, Tomás",
@@ -457,7 +457,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Soria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Callejas Cano, Juan Antonio",
@@ -466,7 +466,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Calvo Liste, Pablo Juan",
@@ -475,7 +475,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "León",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Calvo Poyato, Carmen",
@@ -484,7 +484,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cambronero Piqueras, Pablo",
@@ -493,7 +493,7 @@
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cañadell Salvia, Concep",
@@ -502,7 +502,7 @@
       "estado_civil": "casado",
       "partido": "JxCAT-JUNTS",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Canales Duque, Mariana de Gracia",
@@ -511,7 +511,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cancela Rodríguez, Pilar",
@@ -520,7 +520,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cañizares Pacheco, Inés María",
@@ -529,7 +529,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cantera de Castro, Zaida",
@@ -538,7 +538,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Capdevila i Esteve, Joan",
@@ -547,7 +547,7 @@
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carazo Hermoso, Eduardo",
@@ -556,7 +556,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carcedo Roces, María Luisa",
@@ -565,7 +565,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carrillo de los Reyes, Beatriz Micaela",
@@ -574,7 +574,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carvalho Dantas, María",
@@ -583,7 +583,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Casado Blanco, Pablo",
@@ -592,7 +592,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Casares Hontañón, Pedro",
@@ -601,7 +601,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Casero Ávila, Alberto",
@@ -610,7 +610,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Cáceres",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Castellón Rubio, Miguel Ángel",
@@ -619,7 +619,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Almería",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Castillo López, Elena",
@@ -628,7 +628,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cerdán León, Santos",
@@ -637,7 +637,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cerqueiro González, Javier",
@@ -646,7 +646,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Chamorro Delmo, Ricardo",
@@ -655,7 +655,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Clavell López, Óscar",
@@ -664,7 +664,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Contreras Peláez, Francisco José",
@@ -673,7 +673,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cortés Carballo, Mario",
@@ -682,7 +682,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cortés Gómez, Ismael",
@@ -691,7 +691,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Crespín Rubio, Rafaela",
@@ -700,7 +700,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cruz-Guzmán García, María Soledad",
@@ -709,7 +709,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cuatrecasas Asua, Juan",
@@ -718,7 +718,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "De las Heras Fernández, Patricia",
@@ -727,7 +727,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "De Luna Tobarra, Llanos",
@@ -736,7 +736,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "De Meer Méndez, Rocío",
@@ -745,7 +745,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Almería",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "De Quinto Romero, Marcos",
@@ -754,7 +754,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Del Valle de Iscar, Julio",
@@ -763,7 +763,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Del Valle Rodríguez, Emilio Jesús",
@@ -772,7 +772,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Delgado Arce, Celso Luis",
@@ -781,7 +781,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Díaz Gómez, Guillermo",
@@ -790,7 +790,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Díaz Pérez, Yolanda",
@@ -799,7 +799,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Diouf Dioh, Luc Andre",
@@ -808,7 +808,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Durán Peralta, José Carlos",
@@ -817,7 +817,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Echániz Salgado, José Ignacio",
@@ -826,7 +826,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Echenique Robba, Pablo",
@@ -835,7 +835,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Elizo Serrano, María Gloria",
@@ -844,7 +844,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Elorza González, Odón",
@@ -853,7 +853,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Eritja Ciuró, Francesc Xavier",
@@ -862,7 +862,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Errejón Galván, Íñigo",
@@ -871,7 +871,7 @@
       "estado_civil": "soltero",
       "partido": "MASPAIS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "España Reina, Carolina",
@@ -880,7 +880,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Espejo-Saavedra Conesa, José María",
@@ -889,7 +889,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Espinosa de los Monteros de Simón, Iván",
@@ -898,7 +898,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Esteban Bravo, Aitor",
@@ -907,7 +907,7 @@
       "estado_civil": "casado",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Esteban Calonje, Cristina Alicia",
@@ -916,7 +916,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fagúndez Campo, Antidio",
@@ -925,7 +925,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Faneca López, María Luisa",
@@ -934,7 +934,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández Benéitez, Andrea",
@@ -943,7 +943,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "León",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández Casero, Ana Belén",
@@ -952,7 +952,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cáceres",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández Castañón, Sofía",
@@ -961,7 +961,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández Hernández, Pedro",
@@ -970,7 +970,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández Ríos, Tomás",
@@ -979,7 +979,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández-Lomana Gutiérrez, Rafael",
@@ -988,7 +988,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Santander",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fernández-Roca Suárez, Carlos Hugo",
@@ -997,7 +997,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ferrer Tesoro, Sonia",
@@ -1006,7 +1006,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Almería",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Figaredo Álvarez-Sala, José María",
@@ -1015,7 +1015,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Franco Carmona, Isabel",
@@ -1024,7 +1024,7 @@
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fuentes Curbelo, Juan Bernardo",
@@ -1033,7 +1033,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gago Bugarín, Diego",
@@ -1042,7 +1042,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gamarra Ruiz-Clavijo, Concepción",
@@ -1051,7 +1051,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gamazo Micó, Óscar",
@@ -1060,7 +1060,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Garcés Sanagustín, Mario",
@@ -1069,7 +1069,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Adanero, Carlos",
@@ -1078,7 +1078,7 @@
       "estado_civil": "soltero",
       "partido": "NA",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Chavarría, María Montserrat",
@@ -1087,7 +1087,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Díez, Joaquín María",
@@ -1096,7 +1096,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Egea, Teodoro",
@@ -1105,7 +1105,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Gómez, Valentín",
@@ -1114,7 +1114,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García López, Maribel",
@@ -1123,7 +1123,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Morís, Roberto",
@@ -1132,7 +1132,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Puig, María del Mar",
@@ -1141,7 +1141,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Rodríguez, Alicia",
@@ -1150,7 +1150,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Ávila",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García Tejerina, Isabel",
@@ -1159,7 +1159,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "García-Pelayo Jurado, María José",
@@ -1168,7 +1168,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Garrido Gutiérrez, Pilar",
@@ -1177,7 +1177,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Garriga Vaz de Concicao, Ignacio",
@@ -1186,7 +1186,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Garzón Espinosa, Alberto",
@@ -1195,7 +1195,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gázquez Collado, Paloma",
@@ -1204,7 +1204,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gestoso de Miguel, Luis",
@@ -1213,7 +1213,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gil Lázaro, Ignacio",
@@ -1222,7 +1222,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Giménez Giménez, Sara",
@@ -1231,7 +1231,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gómez Hernández, Héctor",
@@ -1240,7 +1240,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gómez-Reino Varela, Antonio",
@@ -1249,7 +1249,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Caballero, Miguel Ángel",
@@ -1258,7 +1258,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Coello de Portugal, Víctor",
@@ -1267,7 +1267,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Guinda, María del Carmen",
@@ -1276,7 +1276,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "León",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Pérez, Ariagona",
@@ -1285,7 +1285,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Ramos, Manuel Gabriel",
@@ -1294,7 +1294,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Terol, Antonio",
@@ -1303,7 +1303,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "González Vázquez, Marta",
@@ -1312,7 +1312,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gorospe Elezcano, Josune",
@@ -1321,7 +1321,7 @@
       "estado_civil": "casado",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Granollers Cunillera, Inés",
@@ -1330,7 +1330,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guaita Esteruelas, Sandra",
@@ -1339,7 +1339,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "GGuerra López, Sonia",
@@ -1348,7 +1348,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guijarro Ceballos, María",
@@ -1357,7 +1357,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guijarro García, Txema",
@@ -1366,7 +1366,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guinart Moreno, Lídia",
@@ -1375,7 +1375,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guitarte Gimeno, Tomás",
@@ -1384,7 +1384,7 @@
       "estado_civil": "soltero",
       "partido": "TE",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gutiérrez Díaz de Otazu, Fernando Adolfo",
@@ -1393,7 +1393,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Melilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gutiérrez Prieto, Sergio",
@@ -1402,7 +1402,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gutiérrez Salinas, Indalecio",
@@ -1411,7 +1411,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Almería",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Hernanz Costa, Sofía",
@@ -1420,7 +1420,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Herrero Bono, José Alberto",
@@ -1429,7 +1429,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Hispán Iglesias de Ussel, Pablo",
@@ -1438,7 +1438,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Honrubia Hurtado, Pedro Antonio",
@@ -1447,7 +1447,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Hoyo Juliá, Belén",
@@ -1456,7 +1456,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Hurtado Zurera, Antonio",
@@ -1465,7 +1465,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Iglesias Turrión, Pablo",
@@ -1474,7 +1474,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Illamola Dausà, Mariona",
@@ -1483,7 +1483,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Iñarritu García, Jon",
@@ -1492,7 +1492,7 @@
       "estado_civil": "soltero",
       "partido": "BILDU",
       "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Jerez Juan, Miguel Ángel",
@@ -1501,7 +1501,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Jiménez Linuesa, Beatriz",
@@ -1510,7 +1510,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Jiménez Revuelta, Rodrigo",
@@ -1519,7 +1519,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Jiménez-Becerril Barrio, María Teresa",
@@ -1528,7 +1528,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "José Vélez, Rafael",
@@ -1537,7 +1537,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Jover Díaz, Antonia",
@@ -1546,7 +1546,7 @@
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Lamuà Estañol, Marc",
@@ -1555,7 +1555,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Lastra Fernández, Adriana",
@@ -1564,7 +1564,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Leal Fernández, Isaura",
@@ -1573,7 +1573,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ledesma Martín, Sebastián Jesús",
@@ -1582,7 +1582,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Legarda Uriarte, Mikel",
@@ -1591,7 +1591,7 @@
       "estado_civil": "soltero",
       "partido": "PNV",
       "provincia": "Álaba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Lima Cid, Fuensanta",
@@ -1600,7 +1600,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Álvarez, María Teresa",
@@ -1609,7 +1609,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Ceuta",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Álvarez, Patxi",
@@ -1618,7 +1618,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Cano, Ignacio",
@@ -1627,7 +1627,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López de Uralde Garmendia, Juan Antonio",
@@ -1636,7 +1636,7 @@
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Álaba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Domínguez, Laura",
@@ -1645,7 +1645,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Maraver, Ángel",
@@ -1654,7 +1654,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Somoza, Gema",
@@ -1663,7 +1663,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "López Zamora, Cristina",
@@ -1672,7 +1672,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Lorite Lorite, Andrés",
@@ -1681,7 +1681,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Losada Fernández, José",
@@ -1690,7 +1690,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Maestro Moliner, Roser",
@@ -1699,7 +1699,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Manso Olivar, Rubén Silvano",
@@ -1708,7 +1708,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Marcos Domínguez, Pilar",
@@ -1717,7 +1717,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Marcos Ortega, Milagros",
@@ -1726,7 +1726,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Margall Sastre, Joan",
@@ -1735,7 +1735,7 @@
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Marí Klose, Pau",
@@ -1744,7 +1744,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mariscal Anaya, Guillermo",
@@ -1753,7 +1753,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mariscal Zabala, Manuel",
@@ -1762,7 +1762,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Márquez Guerrero, María",
@@ -1771,7 +1771,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Marra Domínguez, María Ángeles",
@@ -1780,7 +1780,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Martín Llaguno, Marta",
@@ -1789,7 +1789,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Martínez Ferro, María Valentina",
@@ -1798,7 +1798,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Martínez Granados, María Carmen",
@@ -1807,7 +1807,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Martínez Oblanca, Isidro Manuel",
@@ -1816,7 +1816,7 @@
       "estado_civil": "casado",
       "partido": "NA",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Martínez Seijo, María Luz",
@@ -1825,7 +1825,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Matarí Sáez, Juan José",
@@ -1834,7 +1834,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Almería",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mateu Istúriz, Jaime Miguel",
@@ -1843,7 +1843,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Matute García de Jalón, Oskar",
@@ -1852,7 +1852,7 @@
       "estado_civil": "soltero",
       "partido": "BILDU",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mayoral Perales, Rafael",
@@ -1861,7 +1861,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mazón Ramos, José María",
@@ -1870,7 +1870,7 @@
       "estado_civil": "soltero",
       "partido": "PRC",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Medel Pérez, Rosa María",
@@ -1879,7 +1879,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Meijón Couselo, Guillermo Antonio",
@@ -1888,7 +1888,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mena Arca, Joan",
@@ -1897,7 +1897,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Méndez Monasterio, Lourdes",
@@ -1906,7 +1906,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Merino Martínez, Javier",
@@ -1915,7 +1915,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mestre Barea, Manuel",
@@ -1924,7 +1924,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mínguez García, Montse",
@@ -1933,7 +1933,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Miquel i Valentí, Sergi",
@@ -1942,7 +1942,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Moneo Díez, María Sandra",
@@ -1951,7 +1951,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Montero Cuadrado, María Jesús",
@@ -1960,7 +1960,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Movellán Lombilla, Diego",
@@ -1969,7 +1969,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Muñoz Dalda, Lucía",
@@ -1978,7 +1978,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Muñoz Vidal, María",
@@ -1987,7 +1987,7 @@
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Montero Gil, Irene María",
@@ -1996,7 +1996,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Montesinos Aguayo, Pablo",
@@ -2005,7 +2005,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Montesinos de Miguel, Macarena",
@@ -2014,7 +2014,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Moraleja Gómez, Tristana María",
@@ -2023,7 +2023,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Moro Almaraz, María Jesús",
@@ -2032,7 +2032,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Narváez Bandera, María Dolores",
@@ -2041,7 +2041,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Nasarre Oliva, Begoña",
@@ -2050,7 +2050,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Navalpotro Gómez, Julio",
@@ -2059,7 +2059,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Navarro Lacoba, Carmen",
@@ -2068,7 +2068,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Navarro López, Pedro",
@@ -2077,7 +2077,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Nevado del Campo, María Magdalena",
@@ -2086,7 +2086,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Cáceres",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Nogueras i Camero, Míriam",
@@ -2095,7 +2095,7 @@
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Nuet Pujals, Joan Josep",
@@ -2104,7 +2104,7 @@
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Olano Vela, Jaime Eduardo de",
@@ -2113,7 +2113,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Olona Choclán, Macarena",
@@ -2122,7 +2122,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Oramas González-Moro, Ana María",
@@ -2131,7 +2131,7 @@
       "estado_civil": "casado",
       "partido": "PNC",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Oria López, María Inmaculada",
@@ -2140,7 +2140,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ortega Domínguez, José Ramón",
@@ -2149,7 +2149,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ortega Smith-Molina, Francisco Javier",
@@ -2158,7 +2158,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ortiz Galván, José",
@@ -2167,7 +2167,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Padilla Ruiz, Esther",
@@ -2176,7 +2176,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Paniagua Núñez, Miguel Ángel",
@@ -2185,7 +2185,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pastor Julián, Ana María",
@@ -2194,7 +2194,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pedraja Sáinz, Raquel",
@@ -2203,7 +2203,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pedreño Molina, Juan Luis",
@@ -2212,7 +2212,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Peña Camarero, Esther",
@@ -2221,7 +2221,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Perea i Conillas, María Mercè",
@@ -2230,7 +2230,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pérez Abellás, Adolfo",
@@ -2239,7 +2239,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pérez Díaz, María Auxiliadora",
@@ -2248,7 +2248,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Píriz Maya, Víctor Valentín",
@@ -2257,7 +2257,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pisarello Prados, Gerardo",
@@ -2266,7 +2266,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pita Cárdenes, María del Carmen",
@@ -2275,7 +2275,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pons Sampietro, Pere Joan",
@@ -2284,7 +2284,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Postigo Quintana, Jesús",
@@ -2293,7 +2293,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pozueta Fernández, Isabel",
@@ -2302,7 +2302,7 @@
       "estado_civil": "soltero",
       "partido": "BILDU",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Prieto Nieto, Ana",
@@ -2311,7 +2311,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Prohens Rigo, Margarita",
@@ -2320,7 +2320,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pujol i Farré, Norma",
@@ -2329,7 +2329,7 @@
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Quevedo Iturbe, Pedro",
@@ -2338,7 +2338,7 @@
       "estado_civil": "soltero",
       "partido": "PNC",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramallo Vázquez, María Pilar",
@@ -2347,7 +2347,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramírez Carner, Arnau",
@@ -2356,7 +2356,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramírez del Río, José",
@@ -2365,7 +2365,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramón Utrabo, Elvira",
@@ -2374,7 +2374,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramos Esteban, César Joaquín",
@@ -2383,7 +2383,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Cáceres",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ramos Rodríguez, José Luis",
@@ -2392,7 +2392,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Raya Rodríguez, María Tamara",
@@ -2401,7 +2401,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Redondo Calvillo, María de la O",
@@ -2410,7 +2410,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rego Candamil, Néstor",
@@ -2419,7 +2419,7 @@
       "estado_civil": "soltero",
       "partido": "BNG",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Renau Martínez, Germán",
@@ -2428,7 +2428,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Requejo Novoa, Pedro Jesús",
@@ -2437,7 +2437,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Requena Ruiz, Juan Diego",
@@ -2446,7 +2446,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Jaén",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Riolobos Regadera, Carmen",
@@ -2455,7 +2455,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Robles López, Joaquín",
@@ -2464,7 +2464,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Almeida, Andrés Alberto",
@@ -2473,7 +2473,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Gómez, María del Pilar",
@@ -2482,7 +2482,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Gómez de Celis, Alfonso",
@@ -2491,7 +2491,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Herrer, María Elvira",
@@ -2500,7 +2500,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Rodríguez, Alberto",
@@ -2509,7 +2509,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rodríguez Salas, José Antonio",
@@ -2518,7 +2518,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rojas García, Carlos",
@@ -2527,7 +2527,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Romero Hernández, Carmelo",
@@ -2536,7 +2536,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Romero Sánchez, Rosa María",
@@ -2545,7 +2545,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Romero Vilches, María de los Reyes",
@@ -2554,7 +2554,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ros Martínez, Susana",
@@ -2563,7 +2563,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rosety Fernández de Castro, Agustín",
@@ -2572,7 +2572,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rosique i Saltor, Marta",
@@ -2581,7 +2581,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rueda Perelló, Patricia",
@@ -2590,7 +2590,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Málaga",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Rufián Romero, Gabriel",
@@ -2599,7 +2599,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz de Pinedo Undiano, Iñaki",
@@ -2608,7 +2608,7 @@
       "estado_civil": "casado",
       "partido": "BILDU",
       "provincia": "Álaba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz i Carbonell, Joan",
@@ -2617,7 +2617,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz Navarro, Eduardo Luis",
@@ -2626,7 +2626,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz Solás, María de la Cabeza",
@@ -2635,7 +2635,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Saavedra Muñoz, Marisa",
@@ -2644,7 +2644,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Castellón",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sabanés Nadal, Inés",
@@ -2653,7 +2653,7 @@
       "estado_civil": "soltero",
       "partido": "MASPAIS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sáez Alonso-Muñumer, Pablo",
@@ -2662,7 +2662,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sagastizabal Unzetabarrenetxea, Idoia",
@@ -2671,7 +2671,7 @@
       "estado_civil": "soltero",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sahuquillo García, Luis Carlos",
@@ -2680,7 +2680,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Salvá Verd, Antonio",
@@ -2689,7 +2689,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Salvador i Duch, Jordi",
@@ -2698,7 +2698,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez del Real, Víctor Manuel",
@@ -2707,7 +2707,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez Escobar, Mariano",
@@ -2716,7 +2716,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez García, José María",
@@ -2725,7 +2725,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez Jódar, Marisol",
@@ -2734,7 +2734,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez Pérez, César",
@@ -2743,7 +2743,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez Pérez-Castejón, Pedro",
@@ -2752,7 +2752,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sánchez Serna, Javier",
@@ -2761,7 +2761,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sancho Guardia, Alfredo",
@@ -2770,7 +2770,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sancho Íñiguez, Herminio Rufino",
@@ -2779,7 +2779,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Santamaría Ruiz, Luis",
@@ -2788,7 +2788,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Santiago Romero, Enrique Fernando",
@@ -2797,7 +2797,7 @@
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sarrià Morell, Vicent Manuel",
@@ -2806,7 +2806,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sayas López, Sergio",
@@ -2815,7 +2815,7 @@
       "estado_civil": "soltero",
       "partido": "NA",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Senderos Oraá, Daniel",
@@ -2824,7 +2824,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Álaba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Serrada Pariente, David",
@@ -2833,7 +2833,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Serrano Martínez, Juan Francisco",
@@ -2842,7 +2842,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Jaén",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Seva Ruiz, Yolanda",
@@ -2851,7 +2851,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sicilia Alférez, Felipe Jesús",
@@ -2860,7 +2860,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Jaén",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Simancas Simancas, Rafael",
@@ -2869,7 +2869,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Soler Mur, Alejandro",
@@ -2878,7 +2878,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Soto Burillo, Juan Luis",
@@ -2887,7 +2887,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Steegmann Olmedillas, Juan Luis",
@@ -2896,7 +2896,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Suárez Illana, Adolfo",
@@ -2905,7 +2905,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Suárez Lamata, Eloy",
@@ -2914,7 +2914,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sumelzo Jordán, Susana",
@@ -2923,7 +2923,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Taibo Monelos, Diego",
@@ -2932,7 +2932,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Coruña",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Telechea i Lozano, Carolina",
@@ -2941,7 +2941,7 @@
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Tirado Ochoa, Vicente",
@@ -2950,7 +2950,7 @@
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Tizón Vázquez, Uxía",
@@ -2959,7 +2959,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Toscano de Balbín, Carla",
@@ -2968,7 +2968,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Trías Gil, Georgina",
@@ -2977,7 +2977,7 @@
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Ávila",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Uriarte Bengoechea, Edurne",
@@ -2986,7 +2986,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Uriarte Torrealday, Roberto",
@@ -2995,7 +2995,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Utrilla Cano, Julio",
@@ -3004,7 +3004,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Valerio Cordero, Magdalena",
@@ -3013,7 +3013,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vallugera Balañà, Pilar",
@@ -3022,7 +3022,7 @@
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vázquez Blanco, Ana Belén",
@@ -3031,7 +3031,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vega Arias, Rubén Darío",
@@ -3040,7 +3040,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vehí Cantenys, Mireia",
@@ -3049,7 +3049,7 @@
       "estado_civil": "soltero",
       "partido": "CUP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Velarde Gómez, Martina",
@@ -3058,7 +3058,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Córdoba",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Velasco Morillo, Elvira",
@@ -3067,7 +3067,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vera Ruíz-Herrera, Noelia",
@@ -3076,7 +3076,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vicente Viondi, Daniel",
@@ -3085,7 +3085,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vidal Sáez, Aina",
@@ -3094,7 +3094,7 @@
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Vilches Ruiz, María Luisa",
@@ -3103,7 +3103,7 @@
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Villagrasa Quero, Noemí",
@@ -3112,7 +3112,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Zamarrón Moreno, AgustíN",
@@ -3121,7 +3121,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Zambrano García-Raez, Carlos José",
@@ -3130,7 +3130,7 @@
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Cádiz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Zaragoza Alonso, José",
@@ -3139,7 +3139,7 @@
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Zurita Expósito, Ana María",
@@ -3148,7 +3148,7 @@
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     }
   ]
 }

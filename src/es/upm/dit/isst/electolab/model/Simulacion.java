@@ -15,10 +15,10 @@ public class Simulacion implements Serializable {
 	@Id
 	private int idSimulacion;
 	
-	private long votos_favor;
-	private long votos_contra;
-	private long votos_abstencion;
-	private long votos_ausente;
+	private int votos_favor;
+	private int votos_contra;
+	private int votos_abstencion;
+	private int votos_ausente;
 
 	
 	private String tituloLey;
@@ -37,15 +37,15 @@ public class Simulacion implements Serializable {
 		return idSimulacion;
 	}
 
-	public long getVotos_favor() {
+	public int getVotos_favor() {
 		return votos_favor;
 	}
 
-	public long getVotos_contra() {
+	public int getVotos_contra() {
 		return votos_contra;
 	}
 
-	public long getVotos_abstencion() {
+	public int getVotos_abstencion() {
 		return votos_abstencion;
 	}
 
@@ -65,15 +65,15 @@ public class Simulacion implements Serializable {
 		this.idSimulacion = idSimulacion;
 	}
 
-	public void setVotos_favor(long votos_favor) {
+	public void setVotos_favor(int votos_favor) {
 		this.votos_favor = votos_favor;
 	}
 
-	public void setVotos_contra(long votos_contra) {
+	public void setVotos_contra(int votos_contra) {
 		this.votos_contra = votos_contra;
 	}
 
-	public void setVotos_abstencion(long votos_abstencion) {
+	public void setVotos_abstencion(int votos_abstencion) {
 		this.votos_abstencion = votos_abstencion;
 	}
 
@@ -89,11 +89,11 @@ public class Simulacion implements Serializable {
 		this.autor = autor;
 	}
 	
-	public long getVotos_ausente() {
+	public int getVotos_ausente() {
 		return votos_ausente;
 	}
 
-	public void setVotos_ausente(long votos_ausente) {
+	public void setVotos_ausente(int votos_ausente) {
 		this.votos_ausente = votos_ausente;
 	}
 

@@ -49,10 +49,13 @@ public class AsignacionSimpleServlet extends HttpServlet {
     		JSONObject partidoJSON;
     		for (int i = 0; i < (jsonArray).size(); i++) {
     			partidoJSON = (JSONObject) jsonArray.get(i);
-    			//System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
+    			System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
     			//System.out.println();
     			partido = PartidoDAOImplementation.getInstancia().read((String)partidoJSON.get("codeName"));
-    			partido.setVote((String)partidoJSON.get("vote"));
+    			partido.setVote( (String)partidoJSON.get("vote") );
+    			System.out.println("FormSimulationServlet, log, partidoJSON.get(\"ausentes\"): " + partidoJSON.get("ausentes"));
+
+    			partido.setAusentes ((int) (long) partidoJSON.get("ausentes") ) ;
     			PartidoDAOImplementation.getInstancia().update(partido);
     			/*
 								System.out.println("FormSimulationServlet, log, partido: " + partido);
