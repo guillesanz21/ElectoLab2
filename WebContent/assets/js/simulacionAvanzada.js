@@ -21,10 +21,40 @@ document.addEventListener("DOMContentLoaded", loadPage);
  
 
 const prueba = (listaDiputados) => {
+	//<----- TAG PROVINCIA ----->
 	document
-	.getElementById("botonTag")
+	.getElementById("tagProvincia")
 	.addEventListener("click", function () {
-		tagSeleccionado = document.getElementById("tagSelection").value;
+		tagSeleccionado = "provincia";
+		listaTagContr(listaDiputados);
+	});
+	//<----- TAG GENERO ----->
+	document
+	.getElementById("tagGenero")
+	.addEventListener("click", function () {
+		tagSeleccionado = "genero";
+		listaTagContr(listaDiputados);
+	});
+	
+	//<----- TAG ESTADO CIVIL ----->
+	document
+	.getElementById("tagEstado")
+	.addEventListener("click", function () {
+		tagSeleccionado = "estadoCivil";
+		listaTagContr(listaDiputados);
+	});
+	//<----- TAG FECHA NACIMIENTO ----->
+	document
+	.getElementById("tagFecha")
+	.addEventListener("click", function () {
+		tagSeleccionado = "rangoEdad";
+		listaTagContr(listaDiputados);
+	});
+	//<----- TAG PARTIDO POLITICO ----->
+	document
+	.getElementById("tagPartidos")
+	.addEventListener("click", function () {
+		tagSeleccionado = "partido";
 		listaTagContr(listaDiputados);
 	});
 }
@@ -38,9 +68,12 @@ var ausentes = 0;
 //--------------VISTA DE LAS PROVINCIAS---------
 const listaProvinciasView = (listaProvincias) => {
 	
-	let view = "Provincias";
 	
+	let view =`
+	<div>
+	<p class = "btn btn-light"> <b> PROVINCIAS </b> </p>
 	
+	</div>`
 	
 	
 	for (const provincia of listaProvincias) {
@@ -90,7 +123,11 @@ const listaProvinciasView = (listaProvincias) => {
 
 //--------------VISTA DE LOS RANGOS DE EDAD ---------
 const listaRangoEdadView = (listaRangoEdad) => {
-let view = "Edad";
+	let view =`
+		<div>
+		<p class = "btn btn-light"> <b> EDAD </b> </p>
+		
+		</div>`
 	
 	
 	for (const edad of listaRangoEdad) {
@@ -141,8 +178,11 @@ let view = "Edad";
 
 //--------------VISTA DE LOS GENEROS---------
 const listaGeneroView = (listaGenero) => {
-let view = "Genero";
-	
+	let view =`
+		<div>
+		<p class = "btn btn-light"> <b> GENERO </b> </p>
+		
+		</div>`
 	
 	for (const genero of listaGenero) {
 		view += `
@@ -190,8 +230,11 @@ let view = "Genero";
 //--------------VISTA DE LOS ESTADO---------
 const listaEstadoCivilView = (listaEstadoCivil) => {
 	
-let view = "Estado Civil";
-	
+	let view =`
+		<div>
+		<p class = "btn btn-light"> <b> ESTADO CIVIL </b> </p>
+		
+		</div>`	
 	
 	for (const estado of listaEstadoCivil) {
 		view += `
@@ -239,8 +282,11 @@ let view = "Estado Civil";
 
 //--------------VISTA DE LOS PARTIDO---------
 const listaPartidosView = (listaPartidos) => {
-let view = "Partidos";
-	
+	let view =`
+		<div>
+		<p class = "btn btn-light"> <b> PARTIDOS </b> </p>
+		
+		</div>`	
 	
 	for (const partidos of listaPartidos) {
 		view += `
@@ -364,7 +410,7 @@ const getListaProvincias = () => {
 	{ 
 		return {
 		tag: provincia,
-<<<<<<< HEAD
+
 		/*lista: [
 			{
 =======

@@ -46,6 +46,7 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 		boolean ley_aprobada = true;
 		String voto = "abstencion";
 		
+		
 		// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
 		for (Partido partido : partidos) {
 			voto =  partido.getVote();

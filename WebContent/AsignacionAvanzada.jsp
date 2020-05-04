@@ -37,27 +37,29 @@
           <!-- La vista se incluye aquí -->
         </div>
         
-        
+     <!--  
         <div>
           <input type="text" id="tagSelection" placeholder="Pon el tag aquí" />
           <p class="btn btn-success" id="botonTag">Seleccionar</p>
         </div>
+       
 			<!-- Default dropright button -->
+			<div id= "vistaSeleccion" >
 			<div class="btn-group dropright">
 				<button type="button" class="btn btn-secondary dropdown-toggle"
 					data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Dropright</button>
-				<div class="dropdown-menu">
+					Desplegar</button>
+				<div class="dropdown-menu" id = "tagVista">
 					<!-- Dropdown menu links -->
-					<a class="dropdown-item" id="tagSelection" value = "provincias">Provincias</a> 
-					<a class="dropdown-item" id="tagSelection" href="#">Genero</a> 
-					<a class="dropdown-item" id="tagSelection" href="#">Año de nacimiento</a>
-					<a class="dropdown-item" id="tagSelection" href="#">Estado civil</a>
-					<a class="dropdown-item" id="tagSelection" href="#">Partidos</a>
+					<p class="dropdown-item" id="tagProvincia">	Provincias </p> 
+					<p class="dropdown-item" id="tagGenero">	Genero </p> 
+					<p class="dropdown-item" id="tagFecha">		Año de nacimiento</p>
+					<p class="dropdown-item" id="tagEstado">	Estado civil</p>
+					<p class="dropdown-item" id="tagPartidos">	Partidos</p>
 				</div>
 			</div>
 
-
+</div>
 
 			<div id="listaTag-view">
           <!-- La vista se incluye aquí -->

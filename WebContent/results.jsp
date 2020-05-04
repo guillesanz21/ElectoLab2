@@ -23,10 +23,10 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ["Task", "Hours per Day"],
-          ["A favor", ${simulacion.votos_favor}],
+          ["Ausentes", ${simulacion.votos_ausente}],  
           ["En contra", ${simulacion.votos_contra}],
           ["Abstención", ${simulacion.votos_abstencion}],
-          ["Ausentes", ${simulacion.votos_ausente}]
+          ["A favor", ${simulacion.votos_favor}]
         ]);
 
         var options = {
@@ -86,7 +86,11 @@
 					<td>${simulacion.votos_abstencion}</td>
 					<td>${simulacion.votos_abstencion}/350</td>
 				</tr>
-
+				<tr class="table-primary">
+					<th scope="row">Ausentes</th>
+					<td>${simulacion.votos_ausente}</td>
+					<td>${simulacion.votos_ausente}/350</td>
+				</tr>
 			</tbody>
 		</table>
 

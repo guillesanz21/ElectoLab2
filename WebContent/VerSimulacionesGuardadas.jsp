@@ -26,9 +26,10 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ["Task", "Hours per Day"],
-          ["A favor", ${simulacion2.votos_favor}],
-          ["En contra", ${simulacion2.votos_contra}],
-          ["Abstención", ${simulacion2.votos_abstencion}],
+          ["Ausentes", ${simulacion.votos_ausente}],  
+          ["En contra", ${simulacion.votos_contra}],
+          ["Abstención", ${simulacion.votos_abstencion}],
+          ["A favor", ${simulacion.votos_favor}]
         ]);
 
         var options = {
@@ -68,27 +69,34 @@
       <table class="table table-hover" id="results-table">
         <thead>
           <tr style="color: white;">
-            <th>Decisión</th>
-            <th>Total votos</th>
-            <th>Porcentaje</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr style="color: green;">
-            <td>A favor</td>
-            <td>${simulacion2.votos_favor}</td>
-            <td>${simulacion2.votos_favor}/350</td>
-          </tr>
-          <tr style="color: rgb(139, 0, 0);">
-            <td>En contra</td>
-            <td>${simulacion2.votos_contra}</td>
-            <td>${simulacion2.votos_contra}/350</td>
-          </tr>
-          <tr style="color: rgb(255, 140, 0);">
-            <td>Abstención</td>
-            <td>${simulacion2.votos_abstencion}</td>
-            <td>${simulacion2.votos_abstencion}/350</td>
-          </tr>
+         	<thead class="thead-dark">
+				<tr>
+					<th scope="col">Decisión</th>
+					<th scope="col">Votos</th>
+					<th scope="col">Votos/Total</th>
+				</tr>
+			</thead>
+			<tbody>
+         	<tr class="table-success">
+					<th scope="row">A favor</th>
+					<td>${simulacion.votos_favor}</td>
+					<td>${simulacion.votos_favor}/350</td>
+				</tr>
+				<tr class="table-danger">
+					<th scope="row">En contra</th>
+					<td>${simulacion.votos_contra}</td>
+					<td>${simulacion.votos_contra}/350</td>
+				</tr>
+				<tr class="table-warning">
+					<th scope="row">Abstención</th>
+					<td>${simulacion.votos_abstencion}</td>
+					<td>${simulacion.votos_abstencion}/350</td>
+				</tr>
+				<tr class="table-primary">
+					<th scope="row">Ausentes</th>
+					<td>${simulacion.votos_ausente}</td>
+					<td>${simulacion.votos_ausente}/350</td>
+				</tr>
         </tbody>
       </table>
       
