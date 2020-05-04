@@ -11,9 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
-import es.upm.dit.isst.electolab.dao.PartidoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Diputado;
-import es.upm.dit.isst.electolab.model.Partido;
 import es.upm.dit.isst.electolab.model.Simulacion;
 
 /**

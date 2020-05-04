@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,9 +15,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
-import es.upm.dit.isst.electolab.dao.PartidoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Diputado;
-import es.upm.dit.isst.electolab.model.Partido;
 
 /**
  * Servlet implementation class AsigacionAvanzadaServlet

@@ -150,26 +150,6 @@ const loadEvents = (listaPartidos) => {
 	document
 	.getElementById("simular-btn-simulation")
 	.addEventListener("click", function () {
-		let tagVote =  {
-				tag: "provincia",
-				lista: [
-					{
-						"tagElement": "Madrid",
-						"seats": "30",
-						"voto": "favor",
-						"ausentes": "13"
-					},
-					
-					{
-						"tagElement": "Valencia",
-						"seats": "20",
-						"voto": "contra",
-						"ausentes": "3"
-					}
-					
-				]
-					
-			};
 		let json = JSON.stringify(listaPartidos);
 
 		document.getElementById('partidos').value = json;

@@ -25,8 +25,8 @@
 
     <!-- Content -->
     <section class="container container-simular">
-      <form action="FormAsignaVotoSimpleServlet" >
-        <input type="hidden" name="partidos" id="partidos" value="" />
+      <form action="AsignacionAvanzadaServlet" >
+        <input type="hidden" name="partidos" id="tagJSON" value="" />
 
         <button id="simular-btn-simulation" class="btn btn-info">
           Simular

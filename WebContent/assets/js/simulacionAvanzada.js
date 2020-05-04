@@ -1,63 +1,20 @@
 let listaDiputados;
 let tagSeleccionado;
 // tags
-let listaProvincias;
-let listaGenero;
-let listaEstado_civil;
-let listaEdad;
+let listaTag;
 
 const loadPage = () => {
 
 	$.getJSON('assets/js/json/diputados.json', data => {       
 		listaDiputados = data.diputados;
-		prueba(listaDiputados);
-		console.log(listaDiputados)
-		loadEvents();
-		//barraContr();
+		desplegableTags();
+		console.log(listaDiputados);
+		barraContr();
 	});
 };
 
 document.addEventListener("DOMContentLoaded", loadPage);
  
-
-const prueba = (listaDiputados) => {
-	//<----- TAG PROVINCIA ----->
-	document
-	.getElementById("tagProvincia")
-	.addEventListener("click", function () {
-		tagSeleccionado = "provincia";
-		listaTagContr(listaDiputados);
-	});
-	//<----- TAG GENERO ----->
-	document
-	.getElementById("tagGenero")
-	.addEventListener("click", function () {
-		tagSeleccionado = "genero";
-		listaTagContr(listaDiputados);
-	});
-	
-	//<----- TAG ESTADO CIVIL ----->
-	document
-	.getElementById("tagEstado")
-	.addEventListener("click", function () {
-		tagSeleccionado = "estadoCivil";
-		listaTagContr(listaDiputados);
-	});
-	//<----- TAG FECHA NACIMIENTO ----->
-	document
-	.getElementById("tagFecha")
-	.addEventListener("click", function () {
-		tagSeleccionado = "rangoEdad";
-		listaTagContr(listaDiputados);
-	});
-	//<----- TAG PARTIDO POLITICO ----->
-	document
-	.getElementById("tagPartidos")
-	.addEventListener("click", function () {
-		tagSeleccionado = "partido";
-		listaTagContr(listaDiputados);
-	});
-}
 
 //------------- MODELO DE DATOS -------------
 var favor = 0;
@@ -65,210 +22,51 @@ var contra = 0;
 var diputados = 350;
 var ausentes = 0;
 
-//--------------VISTA DE LAS PROVINCIAS---------
-const listaProvinciasView = (listaProvincias) => {
-	
-	
-	let view =`
-	<div>
-	<p class = "btn btn-light"> <b> PROVINCIAS </b> </p>
-	
-	</div>`
-	
-	
-	for (const provincia of listaProvincias) {
-		view += `
-			<div class="asignar-voto-provincia">
 
-			<p class="provincia">
-			
-			<b>${provincia.tag} </b> 
-			</p>
-			
-			<!-- Aqui los radio buttons -->
-			<div class="botones">
-
-			<label for="${provincia}1" class="radio" > 
-			<input type="radio" name="${provincia}" id="${provincia}1" class="hidden aFavor" /> 
-			<span class="label"></span>A Favor
-			</label>
-
-			<label for="${provincia}2" class="radio" > 
-			<input type="radio" name="${provincia}" id="${provincia}2" class="hidden enContra" /> 
-			<span class="label"></span>En Contra
-			</label> 
-
-			<label for="${provincia}3" class="radio" > 
-			<input type="radio"	name="${provincia}" id="${provincia}3" class="hidden abstencion" checked /> 
-			<span class="label"></span>Abstención
-			</label>
-			<form class="form-inline">
-			<div class="form-group mx-sm-3 mb-2">
-			<label for="${provincia}4" class="sr-only"></label> <input
-			type="number" class="form-control" id="${provincia}4"
-			placeholder="Ausentes">
-			</div>
-			<p id="${provincia}4Send" class="btn btn-primary mb-2">Actualizar</p>
-			</form>
-
-			</div>
-			<!-- Aqui terminan los radio buttons -->
-			</div>\n`;
-		
-	}
-	return view; 
-
-
-}
-
-//--------------VISTA DE LOS RANGOS DE EDAD ---------
-const listaRangoEdadView = (listaRangoEdad) => {
+//-------------- VISTA DE LOS TAGs ---------
+const listaTagView = (listaTag) => {
 	let view =`
 		<div>
-		<p class = "btn btn-light"> <b> EDAD </b> </p>
-		
-		</div>`
-	
-	
-	for (const edad of listaRangoEdad) {
-		view += `
-			<div class="asignar-voto-provincia">
-
-			<p class="edad">
-			
-			<b>${edad.tag} </b> 
-			</p>
-			
-			<!-- Aqui los radio buttons -->
-			<div class="botones">
-
-			<label for="${edad}1" class="radio" > 
-			<input type="radio" name="${edad}" id="${edad}1" class="hidden aFavor" /> 
-			<span class="label"></span>A Favor
-			</label>
-
-			<label for="${edad}2" class="radio" > 
-			<input type="radio" name="${edad}" id="${edad}2" class="hidden enContra" /> 
-			<span class="label"></span>En Contra
-			</label> 
-
-			<label for="${edad}3" class="radio" > 
-			<input type="radio"	name="${edad}" id="${edad}3" class="hidden abstencion" checked /> 
-			<span class="label"></span>Abstención
-			</label>
-			<form class="form-inline">
-			<div class="form-group mx-sm-3 mb-2">
-			<label for="${edad}4" class="sr-only"></label> <input
-			type="number" class="form-control" id="${edad}4"
-			placeholder="Ausentes">
-			</div>
-			<p id="${edad}4Send" class="btn btn-primary mb-2">Actualizar</p>
-			</form>
-
-			</div>
-			<!-- Aqui terminan los radio buttons -->
-			</div>\n`;
-		
-	}
-	return view; 
-
-
-	
-}
-
-//--------------VISTA DE LOS GENEROS---------
-const listaGeneroView = (listaGenero) => {
-	let view =`
-		<div>
-		<p class = "btn btn-light"> <b> GENERO </b> </p>
-		
-		</div>`
-	
-	for (const genero of listaGenero) {
-		view += `
-			<div class="asignar-voto-provincia">
-
-			<p class="genero">
-			
-			<b>${genero.tag} </b> 
-			</p>
-			
-			<!-- Aqui los radio buttons -->
-			<div class="botones">
-
-			<label for="${genero}1" class="radio" > 
-			<input type="radio" name="${genero}" id="${genero}1" class="hidden aFavor" /> 
-			<span class="label"></span>A Favor
-			</label>
-
-			<label for="${genero}2" class="radio" > 
-			<input type="radio" name="${genero}" id="${genero}2" class="hidden enContra" /> 
-			<span class="label"></span>En Contra
-			</label> 
-
-			<label for="${genero}3" class="radio" > 
-			<input type="radio"	name="${genero}" id="${genero}3" class="hidden abstencion" checked /> 
-			<span class="label"></span>Abstención
-			</label>
-			<form class="form-inline">
-			<div class="form-group mx-sm-3 mb-2">
-			<label for="${genero}4" class="sr-only"></label> <input
-			type="number" class="form-control" id="${genero}4"
-			placeholder="Ausentes">
-			</div>
-			<p id="${genero}4Send" class="btn btn-primary mb-2">Actualizar</p>
-			</form>
-
-			</div>
-			<!-- Aqui terminan los radio buttons -->
-			</div>\n`;
-		
-	}
-	return view; 
-}
-
-//--------------VISTA DE LOS ESTADO---------
-const listaEstadoCivilView = (listaEstadoCivil) => {
-	
-	let view =`
-		<div>
-		<p class = "btn btn-light"> <b> ESTADO CIVIL </b> </p>
+		<p class = "btn btn-light"> <b> ${tagSeleccionado} </b> </p>
 		
 		</div>`	
 	
-	for (const estado of listaEstadoCivil) {
+	for (const tagObject of listaTag.lista) {
+		tag = tagObject.tagElement;
 		view += `
 			<div class="asignar-voto-provincia">
 
-			<p class="estado">
+			<p class="partido">
+				<b>${tag} </b> <i>[${tagObject.seats} escaños]</i>
+			</p>
 			
-			<b>${estado.tag} </b> 
+			<b>${tag} </b> 
 			</p>
 			
 			<!-- Aqui los radio buttons -->
 			<div class="botones">
 
-			<label for="${estado}1" class="radio" > 
-			<input type="radio" name="${estado}" id="${estado}1" class="hidden aFavor" /> 
+			<label for="${tag}1" class="radio" > 
+			<input type="radio" name="${tag}" id="${tag}1" class="hidden aFavor" /> 
 			<span class="label"></span>A Favor
 			</label>
 
-			<label for="${estado}2" class="radio" > 
-			<input type="radio" name="${estado}" id="${estado}2" class="hidden enContra" /> 
+			<label for="${tag}2" class="radio" > 
+			<input type="radio" name="${tag}" id="${tag}2" class="hidden enContra" /> 
 			<span class="label"></span>En Contra
 			</label> 
 
-			<label for="${estado}3" class="radio" > 
-			<input type="radio"	name="${estado}" id="${estado}3" class="hidden abstencion" checked /> 
+			<label for="${tag}3" class="radio" > 
+			<input type="radio"	name="${tag}" id="${tag}3" class="hidden abstencion" checked /> 
 			<span class="label"></span>Abstención
 			</label>
 			<form class="form-inline">
 			<div class="form-group mx-sm-3 mb-2">
-			<label for="${estado}4" class="sr-only"></label> <input
-			type="number" class="form-control" id="${estado}4"
+			<label for="${tag}4" class="sr-only"></label> <input
+			type="number" class="form-control" id="${tag}4"
 			placeholder="Ausentes">
 			</div>
-			<p id="${estado}4Send" class="btn btn-primary mb-2">Actualizar</p>
+			<p id="${tag}4Send" class="btn btn-primary mb-2">Actualizar</p>
 			</form>
 
 			</div>
@@ -277,62 +75,7 @@ const listaEstadoCivilView = (listaEstadoCivil) => {
 		
 	}
 	return view; 
-
 }
-
-//--------------VISTA DE LOS PARTIDO---------
-const listaPartidosView = (listaPartidos) => {
-	let view =`
-		<div>
-		<p class = "btn btn-light"> <b> PARTIDOS </b> </p>
-		
-		</div>`	
-	
-	for (const partidos of listaPartidos) {
-		view += `
-			<div class="asignar-voto-provincia">
-
-			<p class="partidos">
-			
-			<b>${partidos.tag} </b> 
-			</p>
-			
-			<!-- Aqui los radio buttons -->
-			<div class="botones">
-
-			<label for="${partidos}1" class="radio" > 
-			<input type="radio" name="${partidos}" id="${partidos}1" class="hidden aFavor" /> 
-			<span class="label"></span>A Favor
-			</label>
-
-			<label for="${partidos}2" class="radio" > 
-			<input type="radio" name="${partidos}" id="${partidos}2" class="hidden enContra" /> 
-			<span class="label"></span>En Contra
-			</label> 
-
-			<label for="${partidos}3" class="radio" > 
-			<input type="radio"	name="${partidos}" id="${partidos}3" class="hidden abstencion" checked /> 
-			<span class="label"></span>Abstención
-			</label>
-			<form class="form-inline">
-			<div class="form-group mx-sm-3 mb-2">
-			<label for="${partidos}4" class="sr-only"></label> <input
-			type="number" class="form-control" id="${partidos}4"
-			placeholder="Ausentes">
-			</div>
-			<p id="${partidos}4Send" class="btn btn-primary mb-2">Actualizar</p>
-			</form>
-
-			</div>
-			<!-- Aqui terminan los radio buttons -->
-			</div>\n`;
-		
-	}
-	return view; 
-
-}
-
-
 
 
 //VISTA BARRA
@@ -357,128 +100,66 @@ const barraView = () => {
 
 	<div class="progress-bar bg-warning" 
 	role="progressbar" 
-	style="width: ${((diputados - favor - contra) / diputados) * 100}%" 
+	style="width: ${((diputados - favor - contra - ausentes) / diputados) * 100}%" 
 	aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-	${Math.round(((diputados - favor - contra) / diputados) * 100)}%
+	${Math.round(((diputados - favor - contra - ausentes) / diputados) * 100)}%
+	</div>
+
+	<div class="progress-bar bg-secondary" 
+	role="progressbar" 
+	style="width: ${(ausentes / diputados) * 100}%" 
+	aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+	${Math.round((ausentes / diputados) * 100)}%
 	</div>
 
 	</div>
 	</div>\n`;
 };
 
+
 //------------- CONTROLADORES -------------
 //CONTROLADOR LISTA-TAG
 const listaTagContr = () => {
 	//Cojo el valor del tag seleccionado (sexo,provincia) y con este valor intentare recorrer el array y haciendo una lista.
-	if (tagSeleccionado === "provincia") {
-		listaProvincias = getListaProvincias();
-		console.log(listaProvincias);
-		console.log(listaProvincias.length);
-		document.getElementById("listaTag-view").innerHTML = listaProvinciasView(listaProvincias);
-	}
-	else if (tagSeleccionado === "genero") {
-		listaGenero = getListaGenero();
-		console.log(listaGenero);
-		console.log(listaGenero.length);
-		document.getElementById("listaTag-view").innerHTML = listaGeneroView(listaGenero);
-	}
-	else if (tagSeleccionado === "estadoCivil") {
-		listaEstadoCivil = getListaEstadoCivil();
-		console.log(listaEstadoCivil);
-		console.log(listaEstadoCivil.length);
-		document.getElementById("listaTag-view").innerHTML = listaEstadoCivilView(listaEstadoCivil);
-	}
-	else if (tagSeleccionado === "rangoEdad") {
-		listaRangoEdad = getListaRangosEdad();
-		console.log(listaRangoEdad);
-		console.log(listaRangoEdad.length);
-		document.getElementById("listaTag-view").innerHTML = listaRangoEdadView(listaRangoEdad);
-	}
-	else if (tagSeleccionado === "partido") {
-		listaPartidos = getListaPartidos();
-		console.log(listaPartidos);
-		console.log(listaPartidos.length);
-		document.getElementById("listaTag-view").innerHTML = listaPartidosView(listaPartidos);
-	}
+	listaTag = getTagJSON (listaDiputados, tagSeleccionado);
+	document.getElementById("listaTag-view").innerHTML = listaTagView(listaTag);
+	loadEvents();
 };
 
-const getListaProvincias = () => {
-	//Nos saca ya un array con las provincias
-	console.log("Entra")
-	
-	const listaProvincia = Array.from(new Set(listaDiputados.map(s => s.provincia))).map(provincia =>
-	{ 
-		return {
-		tag: provincia,
 
-		/*lista: [
-			{
-=======
-		lista: [
-			{   
->>>>>>> 62c556ec3d7fc645ada7a66f12a2d34083570eeb
-				"provincia": "Madrid",
-				"seats": "30",
-				"voto": "favor",
-				"ausentes": "13"
-			},
-			{
-				"provincia": "Valencia",
-				"seats": "20",
-				"voto": "contra",
-				"ausentes": "3"
+const getTagJSON = (original, tagName) => {
+	let compressed = [];
+
+	// make a copy of the input array
+	let copy = original.slice(0);
+
+	// first loop goes over every element
+	for (const originalTag of original) {
+		let myCount = 0;
+		// loop over every element in the copy and see if it's the same
+		for (const w in copy) {
+			if (originalTag[tagName] == copy[w][tagName]) {
+				// increase amount of times duplicate is found
+				myCount++;
+				// sets item to undefined
+				delete copy[w];
 			}
-		*/
-			
-	};
-	});
-	return listaProvincia
-}
+		}
 
-const getListaGenero = () => {
-	//Nos saca ya un array con los géneros
-	const listaGenero = Array.from(new Set(listaDiputados.map(s => s.sexo))).map(sexo =>
-	{ return {
-		tag: sexo
-	};
-	});
-	return listaGenero
-}
-
-const getListaEstadoCivil = () => {
-	//Nos saca ya un array con el estado civil
-	const listaEstadoCivil = Array.from(new Set(listaDiputados.map(s => s.estado_civil))).map(estado_civil =>
-	{ return {
-		tag: estado_civil
-	};
-	});
-	return listaEstadoCivil
-}
-
-const getListaRangosEdad = () => {
-	//Nos saca ya un array con las provincias
-	const listaRangoEdad = Array.from(new Set(listaDiputados.map(s => s.nacimiento))).map(nacimiento =>
-	{ return {
-		tag: nacimiento
-	};
-	});
-	return listaRangoEdad
-}
-
-const getListaPartidos = () => {
-	//Nos saca ya un array con los partidos
-	const listaPartidos = Array.from(new Set(listaDiputados.map(s => s.partido))).map(partido =>
-	{ return {
-		tag: partido
-	};
-	});
-
-return listaPartidos
-}
-
-
-
-
+		if (myCount > 0) {
+			let tagArray = {};
+			tagArray.tagElement = originalTag[tagName];
+			tagArray.seats = myCount;
+			tagArray.vote = "abstencion";
+			tagArray.ausentes = 0;
+			compressed.push(tagArray);
+		}
+	}
+	let tagVote = {};
+	tagVote.tag = tagName;
+	tagVote.lista = compressed;
+	return tagVote;
+};
 
 
 //CONTROLADOR BARRA
@@ -489,117 +170,137 @@ const barraContr = () => {
 
 
 
-
-
 //------------- EVENTOS ASOCIADOS A LA ASIGNACIÓN DE VOTO -------------
+
+const desplegableTags = () => {
+	//<----- TAG PROVINCIA ----->
+	document
+	.getElementById("tagProvincia")
+	.addEventListener("click", function () {
+		tagSeleccionado = "provincia";
+		listaTagContr();
+	});
+	//<----- TAG GENERO ----->
+	document
+	.getElementById("tagGenero")
+	.addEventListener("click", function () {
+		tagSeleccionado = "genero";
+		listaTagContr();
+	});
+	
+	//<----- TAG ESTADO CIVIL ----->
+	document
+	.getElementById("tagEstado")
+	.addEventListener("click", function () {
+		tagSeleccionado = "estado_civil";
+		listaTagContr();
+	});
+	//<----- TAG FECHA NACIMIENTO ----->
+	document
+	.getElementById("tagFecha")
+	.addEventListener("click", function () {
+		tagSeleccionado = "rangoEdad";
+		listaTagContr();
+	});
+	//<----- TAG PARTIDO POLITICO ----->
+	/*document
+	.getElementById("tagPartidos")
+	.addEventListener("click", function () {
+		tagSeleccionado = "partido_codename";
+		listaTagContr();
+	}); */
+}
+
 const loadEvents = () => {
-	for (const diputado of diputados) {
-		// Favor
+	for (const tag of listaTag.lista) {
+		tag.seats = parseInt(tag.seats);
+		tag.ausentes = parseInt(tag.ausentes);
+		console.log("INICIO: presentes " + parseInt(parseInt(tag.seats) - parseInt(tag.ausentes)) + ", seats: " + tag.seats + ", ausentes: " + tag.ausentes);
+		
+	
+		// ###### Favor ###### 
 		document
-		.getElementById(partido.nameCode + "1")
+		.getElementById(tag.tagElement + "1")
 		.addEventListener("click", function () {
-			if (diputado.vote === -1) {
+			if (tag.vote === "contra") {
 				// Si ya estaba en contra
-				contra -= 1;
-				favor += 1;
+				contra -= parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
+				favor += parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
-			if (partido.vote === 0) {
+			if (tag.vote === "abstencion") {
 				// Si ya se abstenia
-				favor += 1;
+				favor += parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
 			// Para la condición de que estuviese a favor no hacemos nada
-			partido.vote = 1; // El partido esta ahora a favor
+			tag.vote = "favor"; // El tag esta ahora a favor
+			console.log("Favor presentes " + parseInt(parseInt(tag.seats) - parseInt(tag.ausentes)) + ", seats: " + tag.seats + ", ausentes: " + tag.ausentes);
 			barraContr();
 		});
 
-		// Contra
+		// ###### Contra ###### 
 		document
-		.getElementById(partido.nameCode + "2")
+		.getElementById(tag.tagElement + "2")
 		.addEventListener("click", function () {
-			if (diputado.vote === 1) {
+			if (tag.vote === "favor") {
 				// Si ya estaba a favor
-				contra += 1;
-				favor -= 1;
+				favor -= parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
+				contra += parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
-			if (partido.vote === 0) {
+			if (tag.vote === "abstencion") {
 				// Si ya se abstenia
-				contra += 1;
+				contra += parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
 			// Para la condición de que estuviese en contra no hacemos nada
-			partido.vote = -1; // El partido esta ahora en contra
+			tag.vote = "contra"; // El tag esta ahora en contra
+			console.log("Contra presentes " + parseInt(parseInt(tag.seats) - parseInt(tag.ausentes)) + ", seats: " + tag.seats + ", ausentes: " + tag.ausentes);
 			barraContr();
 		});
 
-		// Abstención
+		//  ###### Abstencion ###### 
 		document
-		.getElementById(partido.nameCode + "3")
+		.getElementById(tag.tagElement + "3")
 		.addEventListener("click", function () {
-			if (diputado.vote === 1) {
+			console.log(tag);
+			if (tag.vote === "favor") {
 				// Si ya estaba a favor
-				favor -= 1;
+				favor -= parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
-			if (partido.vote === -1) {
+			if (tag.vote === "contra") {
 				// Si ya estaba en contra
-				contra -= 1;
+				contra -= parseInt(parseInt(tag.seats) - parseInt(tag.ausentes));
 			}
 			// Para la condición de que se abstubiese no hacemos nada
-			partido.vote = 0; // El partido ahora se abstiene
+			tag.vote = "abstencion"; // El tag ahora se abstiene
+			console.log("Abs presentes " + parseInt(parseInt(tag.seats) - parseInt(tag.ausentes)) + ", seats: " + tag.seats + ", ausentes: " + tag.ausentes);
 			barraContr();
 		});
+		
+	//  ###### Para los ausentes ###### 
+		document
+		.getElementById(tag.tagElement + "4Send")
+		.addEventListener("click", function () {
+			numAusentes =  document.getElementById(tag.tagElement + "4").value;
+			if (numAusentes <= tag.seats) {
+				tag.ausentes = numAusentes; // El tag ahora esta ausente
+				ausentes = numAusentes;
+			}
+			barraContr();
+		});
+		tag.seats = tag.seats.toString();
+		tag.ausentes = tag.ausentes.toString();
 	}
 	/*
-	 * Crea un SON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet
+	 * Crea un JSON con tags en el momento en el que se pulsa el boton simuar y lo envia al servlet
+	 * 
 	 */
 	document
 	.getElementById("simular-btn-simulation")
 	.addEventListener("click", function () {
-		let json = JSON.stringify(diputados);
-
-		document.getElementById('diputados').value = json;
+		let json = JSON.stringify(listaTag);
+		document.getElementById('tagJSON').value = json;
+		console.log(json);
 	});
+
+
 };
 
-
-
-/*
-<div id="listaPartidos-view">
-			<c:forEach items="${diputados}" var="partido">
-				<div class="asignar-voto-partido">
-					<p class="partido">
-						<b>${diputado.nombre} </b> <i>[${diputado.partido} escaños]</i>
-					</p>
-					<!-- Aqui los radio buttons -->
-					<div class="botones">			
-							
-						<label for="${diputado.nombre}1" class="radio">
-								<input type="radio" name="${diputado.nombre}"
-								id="${diputado.nombre}1" class="hidden aFavor" /> <span
-								class="label"></span>A Favor
-							</label> 
-							
-							<label for="${diputado.nombre}2" class="radio">
-								<input type="radio" name="${diputado.nombre}"
-								id="${diputado.nombre}2" class="hidden enContra" /> <span
-								class="label"></span>En Contra
-							</label> 
-							
-							<label for="${diputado.nombre}3" class="radio">
-								<input type="radio" name="${diputado.nombre}"
-								id="${diputado.nombre}3" class="hidden abstencion" checked />
-								<span class="label"></span>Abstención
-							</label>
-							<form class="form-inline">
-								<div class="form-group mx-sm-3 mb-2">
-									<label for="${diputado.nombre}4" class="sr-only"></label> <input
-										type="number" class="form-control" id="${diputado.nombre}4"
-										placeholder="Ausentes">
-								</div>
-								<p id="${diputado.nombre}4Send" class="btn btn-primary mb-2">Actualizar</p>
-							</form>
-
-						</div>
-						</div>
-			</c:forEach>
-				</div>
-				
-*/
