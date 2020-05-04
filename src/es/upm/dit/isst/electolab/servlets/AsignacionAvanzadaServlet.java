@@ -46,14 +46,14 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
 			{
 				"provincia": "Madrid",
 				"seats": "30",
-				"voto": "favor",
+				"vote": "favor",
 				"ausentes": "13"
 			},
 			...
 			{
 				"provincia": "Valencia",
 				"seats": "20",
-				"voto": "contra",
+				"vote": "contra",
 				"ausentes": "3"
 			}
 			
@@ -63,15 +63,14 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
 
     	// Coge el parametro partidos de simulacion.js y va contando los votos
     	try {
-    		System.out.println("Hola" + request.getParameter("partidos"));
-    		object = parser.parse(request.getParameter("partidos"));
+    		System.out.println("tagJSON" + request.getParameter("tagJSON"));
+    		object = parser.parse(request.getParameter("tagJSON"));
     		JSONObject tagJSON = (JSONObject) object;
     		JSONArray jsonArray = (JSONArray) tagJSON.get("lista");		// convert Object to JSONObject
     		JSONObject listaJSON;
+    		request.getSession().setAttribute("tipoSimulacion", tagJSON.get("tag"));
     		for (int i = 0; i < (jsonArray).size(); i++) {
     			listaJSON = (JSONObject) jsonArray.get(i);
-    			//System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
-    			//System.out.println((String)(tagJSON.get("tag")), (String)(tagJSON.get("tagElement")));
     			System.out.println((String) tagJSON.get("tag")  + "-------------" + (String) listaJSON.get("tagElement"));
 
     			Collection<Diputado> diputados = new ArrayList<Diputado>();
@@ -83,17 +82,10 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
         				diputado.setVote("ausente");
         				nAusentes--;
     				} else
-    					diputado.setVote((String)listaJSON.get("voto"));
+    					diputado.setVote((String)listaJSON.get("vote"));
     				
         			DiputadoDAOImplementation.getInstancia().update(diputado);
 				}
-    			/*
-								System.out.println("FormSimulationServlet, log, partido: " + partido);
-								System.out.println("--------------------------------------------------");
-								System.out.println("FormSimulationServlet, log, ArrayJSON: " + jsonArray);
-								System.out.println("FormSimulationServlet, log, readAll: " + PartidoDAOImplementation.getInstancia().readAll());
-								System.out.println("--------------------------------------------------");
-    			 */
     		}
     	} catch (org.json.simple.parser.ParseException e) {
     		// TODO Auto-generated catch block

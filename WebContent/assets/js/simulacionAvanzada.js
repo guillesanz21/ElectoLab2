@@ -40,9 +40,6 @@ const listaTagView = (listaTag) => {
 				<b>${tag} </b> <i>[${tagObject.seats} escaños]</i>
 			</p>
 			
-			<b>${tag} </b> 
-			</p>
-			
 			<!-- Aqui los radio buttons -->
 			<div class="botones">
 
@@ -128,6 +125,7 @@ const listaTagContr = () => {
 
 
 const getTagJSON = (original, tagName) => {
+
 	let compressed = [];
 
 	// make a copy of the input array
@@ -280,9 +278,18 @@ const loadEvents = () => {
 		.getElementById(tag.tagElement + "4Send")
 		.addEventListener("click", function () {
 			numAusentes =  document.getElementById(tag.tagElement + "4").value;
-			if (numAusentes <= tag.seats) {
+			if (numAusentes <= tag.seats && numAusentes >= 0) { 
 				tag.ausentes = numAusentes; // El tag ahora esta ausente
 				ausentes = numAusentes;
+			} else if (numAusentes > tag.seats) {
+				tag.ausentes = tag.seats;
+				ausentes = tag.seats;
+				console.log(tag.ausentes)
+			
+			} else if (numAusentes < 0) {
+				tag.ausentes = 0; // El tag ahora esta ausente
+				ausentes = 0;
+				alert("Has puesto un número negativo");
 			}
 			barraContr();
 		});

@@ -42,9 +42,11 @@ public class AsignacionSimpleServlet extends HttpServlet {
     	JSONParser parser = new JSONParser();
     	Object object;
     	Partido partido;
+    	
     	// Coge el parametro partidos de simulacion.js y va contando los votos
     	try {
     		object = parser.parse(request.getParameter("partidos"));
+    		
     		JSONArray jsonArray = (JSONArray) object;		// convert Object to JSONObject
     		JSONObject partidoJSON;
     		for (int i = 0; i < (jsonArray).size(); i++) {

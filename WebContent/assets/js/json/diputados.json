@@ -1,3154 +1,3154 @@
 {
   "diputados": [
     {
-      "nombre": "Ábalos Meco, José Luis",
-      "sexo": "Hombre",
+      "nombre": "Abalos Meco, Jose Luis",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Abascal Conde, Santiago",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Aceves Galindo, José Luis",
-      "sexo": "Hombre",
+      "nombre": "Aceves Galindo, Jose Luis",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Agirretxea Urresti, Joseba Andoni",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PNV",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Aizcorbe Torra, Juan José",
-      "sexo": "Hombre",
+      "nombre": "Aizcorbe Torra, Juan Jose",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aizpurua Arzallus, Mertxe",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1960,
       "estado_civil": "casado",
       "partido": "BILDU",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Alcaraz Martos, Francisco José",
-      "sexo": "Hombre",
+      "nombre": "Alcaraz Martos, Francisco Jose",
+      "genero": "Hombre",
       "nacimiento": 1968,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Jaén",
-      "vote": "ausente"
+      "provincia": "Jaen",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Alfonso Cendón, Javier",
-      "sexo": "Hombre",
+      "nombre": "Alfonso Cendon, Javier",
+      "genero": "Hombre",
       "nacimiento": 1983,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "León",
-      "vote": "ausente"
+      "provincia": "Leon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Almodóbar Barceló, Agustín",
-      "sexo": "Hombre",
+      "nombre": "Almodobar Barcelo, Agustin",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Alonso Pérez, José Ángel",
-      "sexo": "Hombre",
+      "nombre": "Alonso Perez, Jose Angel",
+      "genero": "Hombre",
       "nacimiento": 1993,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Alonso Suárez, María Olga",
-      "sexo": "Mujer",
+      "nombre": "Alonso Suarez, Maria Olga",
+      "genero": "Mujer",
       "nacimiento": 1962,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Alonso-Cuevillas i Sayrol, Jaume",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Álvarez de Toledo Peralta-Ramos, Cayetana",
-      "sexo": "Mujer",
+      "nombre": "Alvarez de Toledo Peralta-Ramos, Cayetana",
+      "genero": "Mujer",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Álvarez Fanjul, Beatriz",
-      "sexo": "Mujer",
+      "nombre": "Alvarez Fanjul, Beatriz",
+      "genero": "Mujer",
       "nacimiento": 1991,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Andrés Añón, Carmen",
-      "sexo": "Mujer",
+      "nombre": "Andres Anon, Carmen",
+      "genero": "Mujer",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Andrés Barea, Josefa",
-      "sexo": "Mujer",
+      "nombre": "Andres Barea, Josefa",
+      "genero": "Mujer",
       "nacimiento": 1958,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Anguita Pérez, Omar",
-      "sexo": "Hombre",
+      "nombre": "Anguita Perez, Omar",
+      "genero": "Hombre",
       "nacimiento": 1990,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Angulo Romero, María Teresa",
-      "sexo": "Mujer",
+      "nombre": "Angulo Romero, Maria Teresa",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Antón Cacho, Javier",
-      "sexo": "Hombre",
+      "nombre": "Anton Cacho, Javier",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Soria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Aragonés Mendiguchía, Carlos",
-      "sexo": "Hombre",
+      "nombre": "Aragones Mendiguchia, Carlos",
+      "genero": "Hombre",
       "nacimiento": 1956,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Aranda Vargas, Francisco",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Araujo Morales, Gemma",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Arribas Maroto, Manuel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1986,
       "estado_civil": "soltero",
-      "partido": "VOX",
-      "provincia": "Ávila",
-      "vote": "ausente"
+      "partido": "PSOE",
+      "provincia": "Avila",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Arrimadas García, Inés",
-      "sexo": "Mujer",
+      "nombre": "Arrimadas Garcia, Ines",
+      "genero": "Mujer",
       "nacimiento": 1981,
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Asarta Cuevas, Alberto",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1951,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
       "nombre": "Asens Llodrà, Jaume",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Azorín Salar, Lázaro",
-      "sexo": "Hombre",
+      "nombre": "Azorin Salar, Lazaro",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Bal Francés, Edmundo",
-      "sexo": "Hombre",
+      "nombre": "Bal Frances, Edmundo",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Baldoví Roda, Joan",
-      "sexo": "Hombre",
+      "nombre": "Baldovi Roda, Joan",
+      "genero": "Hombre",
       "nacimiento": 1958,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Baños Ruiz, Carmen",
-      "sexo": "Mujer",
+      "nombre": "Banos Ruiz, Carmen",
+      "genero": "Mujer",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Barandiaran Benito, Íñigo",
-      "sexo": "Hombre",
+      "nombre": "Barandiaran Benito, Inigo",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "soltero",
       "partido": "PNV",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
       "nombre": "Bas Corugeira, Javier",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bassa Coll, Montserrat",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Batet Lamaña, Meritxell",
-      "sexo": "Mujer",
+      "nombre": "Batet Lamana, Meritxell",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bel Accensi, Ferran",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "JxCAT-JUNTS",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Belarra Urteaga, Ione",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1987,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Beltrán Villalba, Ana María",
-      "sexo": "Mujer",
+      "nombre": "Beltran Villalba, Ana Maria",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Berja Vega, Laura",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1986,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "Jaén",
-      "vote": "ausente"
+      "provincia": "Jaen",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Bermúdez de Castro Fernández, José Antonio",
-      "sexo": "Hombre",
+      "nombre": "Bermudez de Castro Fernandez, Jose Antonio",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Betoret Coll, Vicente",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Blanquer Alcaraz, Patricia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Boadella Esteve, Genís",
-      "sexo": "Hombre",
+      "nombre": "Boadella Esteve, Genis",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Borràs Castanyer, Laura",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Borrás Pabón, Mireia",
-      "sexo": "Mujer",
+      "nombre": "Borras Pabon, Mireia",
+      "genero": "Mujer",
       "nacimiento": 1986,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Borrego Cortés, Isabel María",
-      "sexo": "Mujer",
+      "nombre": "Borrego Cortes, Isabel Maria",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Botella Gómez, Ana María",
-      "sexo": "Mujer",
+      "nombre": "Botella Gomez, Ana Maria",
+      "genero": "Mujer",
       "nacimiento": 1958,
       "estado_civil": "casado",
-      "partido": "VOX",
+      "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Botran Pahissa, Albert",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1984,
       "estado_civil": "soltero",
       "partido": "CUP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Bravo Barco, Eva",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Bueno Campanario, Eva Patricia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1971,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Caballero Gutiérrez, Helena",
-      "sexo": "Mujer",
+      "nombre": "Caballero Gutierrez, Helena",
+      "genero": "Mujer",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cabezón Casas, Tomás",
-      "sexo": "Hombre",
+      "nombre": "Cabezon Casas, Tomas",
+      "genero": "Hombre",
       "nacimiento": 1981,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Soria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Callejas Cano, Juan Antonio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1974,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Calvo Liste, Pablo Juan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "León",
-      "vote": "ausente"
+      "provincia": "Leon",
+      "vote": "abstencion"
     },
     {
       "nombre": "Calvo Poyato, Carmen",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cambronero Piqueras, Pablo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "casado",
       "partido": "CS",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cañadell Salvia, Concep",
-      "sexo": "Mujer",
+      "nombre": "Canadell Salvia, Concep",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "JxCAT-JUNTS",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Canales Duque, Mariana de Gracia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cancela Rodríguez, Pilar",
-      "sexo": "Mujer",
+      "nombre": "Cancela Rodriguez, Pilar",
+      "genero": "Mujer",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cañizares Pacheco, Inés María",
-      "sexo": "Mujer",
+      "nombre": "Canizares Pacheco, Ines Maria",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cantera de Castro, Zaida",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Capdevila i Esteve, Joan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carazo Hermoso, Eduardo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1990,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Carcedo Roces, María Luisa",
-      "sexo": "Hombre",
+      "nombre": "Carcedo Roces, Maria Luisa",
+      "genero": "Hombre",
       "nacimiento": 1953,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Carrillo de los Reyes, Beatriz Micaela",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Carvalho Dantas, María",
-      "sexo": "Mujer",
+      "nombre": "Carvalho Dantas, Maria",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Casado Blanco, Pablo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1981,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Casares Hontañón, Pedro",
-      "sexo": "Hombre",
+      "nombre": "Casares Hontanon, Pedro",
+      "genero": "Hombre",
       "nacimiento": 1983,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Casero Ávila, Alberto",
-      "sexo": "Hombre",
+      "nombre": "Casero Avila, Alberto",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Cáceres",
-      "vote": "ausente"
+      "provincia": "Caceres",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Castellón Rubio, Miguel Ángel",
-      "sexo": "Hombre",
+      "nombre": "Castellon Rubio, Miguel Angel",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Almería",
-      "vote": "ausente"
+      "provincia": "Almeria",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Castillo López, Elena",
-      "sexo": "Mujer",
+      "nombre": "Castillo Lopez, Elena",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cerdán León, Santos",
-      "sexo": "Hombre",
+      "nombre": "Cerdan Leon, Santos",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cerqueiro González, Javier",
-      "sexo": "Hombre",
+      "nombre": "Cerqueiro Gonzalez, Javier",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Chamorro Delmo, Ricardo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Clavell López, Óscar",
-      "sexo": "Hombre",
+      "nombre": "Clavell Lopez, Oscar",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Contreras Peláez, Francisco José",
-      "sexo": "Hombre",
+      "nombre": "Contreras Pelaez, Francisco Jose",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cortés Carballo, Mario",
-      "sexo": "Hombre",
+      "nombre": "Cortes Carballo, Mario",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cortés Gómez, Ismael",
-      "sexo": "Hombre",
+      "nombre": "Cortes Gomez, Ismael",
+      "genero": "Hombre",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Crespín Rubio, Rafaela",
-      "sexo": "Mujer",
+      "nombre": "Crespin Rubio, Rafaela",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Cruz-Guzmán García, María Soledad",
-      "sexo": "Mujer",
+      "nombre": "Cruz-Guzman Garcia, Maria Soledad",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Cuatrecasas Asua, Juan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "De las Heras Fernández, Patricia",
-      "sexo": "Mujer",
+      "nombre": "De las Heras Fernandez, Patricia",
+      "genero": "Mujer",
       "nacimiento": 1988,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "De Luna Tobarra, Llanos",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1960,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "De Meer Méndez, Rocío",
-      "sexo": "Mujer",
+      "nombre": "De Meer Mendez, Rocio",
+      "genero": "Mujer",
       "nacimiento": 1989,
       "estado_civil": "soltero",
       "partido": "VOX",
-      "provincia": "Almería",
-      "vote": "ausente"
+      "provincia": "Almeria",
+      "vote": "abstencion"
     },
     {
       "nombre": "De Quinto Romero, Marcos",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1958,
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Del Valle de Iscar, Julio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Del Valle Rodríguez, Emilio Jesús",
-      "sexo": "Hombre",
+      "nombre": "Del Valle Rodriguez, Emilio Jesus",
+      "genero": "Hombre",
       "nacimiento": 1960,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Delgado Arce, Celso Luis",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1958,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Díaz Gómez, Guillermo",
-      "sexo": "Hombre",
+      "nombre": "Diaz Gomez, Guillermo",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "CS",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Díaz Pérez, Yolanda",
-      "sexo": "Mujer",
+      "nombre": "Diaz Perez, Yolanda",
+      "genero": "Mujer",
       "nacimiento": 1971,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Diouf Dioh, Luc Andre",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Durán Peralta, José Carlos",
-      "sexo": "Hombre",
+      "nombre": "Duran Peralta, Jose Carlos",
+      "genero": "Hombre",
       "nacimiento": 1987,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Echániz Salgado, José Ignacio",
-      "sexo": "Hombre",
+      "nombre": "Echaniz Salgado, Jose Ignacio",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Echenique Robba, Pablo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Elizo Serrano, María Gloria",
-      "sexo": "Mujer",
+      "nombre": "Elizo Serrano, Maria Gloria",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Elorza González, Odón",
-      "sexo": "Hombre",
+      "nombre": "Elorza Gonzalez, Odon",
+      "genero": "Hombre",
       "nacimiento": 1955,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Eritja Ciuró, Francesc Xavier",
-      "sexo": "Hombre",
+      "nombre": "Eritja Ciuro, Francesc Xavier",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Errejón Galván, Íñigo",
-      "sexo": "Hombre",
+      "nombre": "Errejon Galvan, Inigo",
+      "genero": "Hombre",
       "nacimiento": 1983,
       "estado_civil": "soltero",
       "partido": "MASPAIS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "España Reina, Carolina",
-      "sexo": "Mujer",
+      "nombre": "Espana Reina, Carolina",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Espejo-Saavedra Conesa, José María",
-      "sexo": "Hombre",
+      "nombre": "Espejo-Saavedra Conesa, Jose Maria",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Espinosa de los Monteros de Simón, Iván",
-      "sexo": "Hombre",
+      "nombre": "Espinosa de los Monteros de Simon, Ivan",
+      "genero": "Hombre",
       "nacimiento": 1971,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Esteban Bravo, Aitor",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1962,
       "estado_civil": "casado",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Esteban Calonje, Cristina Alicia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fagúndez Campo, Antidio",
-      "sexo": "Hombre",
+      "nombre": "Fagundez Campo, Antidio",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Faneca López, María Luisa",
-      "sexo": "Mujer",
+      "nombre": "Faneca Lopez, Maria Luisa",
+      "genero": "Mujer",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández Benéitez, Andrea",
-      "sexo": "Mujer",
+      "nombre": "Fernandez Beneitez, Andrea",
+      "genero": "Mujer",
       "nacimiento": 1992,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "León",
-      "vote": "ausente"
+      "provincia": "Leon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández Casero, Ana Belén",
-      "sexo": "Mujer",
+      "nombre": "Fernandez Casero, Ana Belen",
+      "genero": "Mujer",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Cáceres",
-      "vote": "ausente"
+      "provincia": "Caceres",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández Castañón, Sofía",
-      "sexo": "Mujer",
+      "nombre": "Fernandez Castanon, Sofia",
+      "genero": "Mujer",
       "nacimiento": 1983,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández Hernández, Pedro",
-      "sexo": "Hombre",
+      "nombre": "Fernandez Hernandez, Pedro",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández Ríos, Tomás",
-      "sexo": "Hombre",
+      "nombre": "Fernandez Rios, Tomas",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández-Lomana Gutiérrez, Rafael",
-      "sexo": "Hombre",
+      "nombre": "Fernandez-Lomana Gutierrez, Rafael",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "VOX",
-      "provincia": "Santander",
-      "vote": "ausente"
+      "provincia": "Cantabria",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Fernández-Roca Suárez, Carlos Hugo",
-      "sexo": "Hombre",
+      "nombre": "Fernandez-Roca Suarez, Carlos Hugo",
+      "genero": "Hombre",
       "nacimiento": 1982,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ferrer Tesoro, Sonia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Almería",
-      "vote": "ausente"
+      "provincia": "Almeria",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Figaredo Álvarez-Sala, José María",
-      "sexo": "Hombre",
+      "nombre": "Figaredo Alvarez-Sala, Jose Maria",
+      "genero": "Hombre",
       "nacimiento": 1988,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Franco Carmona, Isabel",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1985,
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Fuentes Curbelo, Juan Bernardo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1962,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gago Bugarín, Diego",
-      "sexo": "Hombre",
+      "nombre": "Gago Bugarin, Diego",
+      "genero": "Hombre",
       "nacimiento": 1987,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gamarra Ruiz-Clavijo, Concepción",
-      "sexo": "Mujer",
+      "nombre": "Gamarra Ruiz-Clavijo, Concepcion",
+      "genero": "Mujer",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gamazo Micó, Óscar",
-      "sexo": "Hombre",
+      "nombre": "Gamazo Mico, Oscar",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Garcés Sanagustín, Mario",
-      "sexo": "Hombre",
+      "nombre": "Garces Sanagustin, Mario",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Adanero, Carlos",
-      "sexo": "Hombre",
+      "nombre": "Garcia Adanero, Carlos",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "NA",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Chavarría, María Montserrat",
-      "sexo": "Mujer",
+      "nombre": "Garcia Chavarria, Maria Montserrat",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Díez, Joaquín María",
-      "sexo": "Hombre",
+      "nombre": "Garcia Diez, Joaquin Maria",
+      "genero": "Hombre",
       "nacimiento": 1954,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Egea, Teodoro",
-      "sexo": "Hombre",
+      "nombre": "Garcia Egea, Teodoro",
+      "genero": "Hombre",
       "nacimiento": 1985,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Gómez, Valentín",
-      "sexo": "Hombre",
+      "nombre": "Garcia Gomez, Valentin",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García López, Maribel",
-      "sexo": "Mujer",
+      "nombre": "Garcia Lopez, Maribel",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Morís, Roberto",
-      "sexo": "Hombre",
+      "nombre": "Garcia Moris, Roberto",
+      "genero": "Hombre",
       "nacimiento": 1982,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Puig, María del Mar",
-      "sexo": "Mujer",
+      "nombre": "Garcia Puig, Maria del Mar",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Rodríguez, Alicia",
-      "sexo": "Mujer",
+      "nombre": "Garcia Rodriguez, Alicia",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Ávila",
-      "vote": "ausente"
+      "provincia": "Avila",
+      "vote": "abstencion"
     },
     {
-      "nombre": "García Tejerina, Isabel",
-      "sexo": "Mujer",
+      "nombre": "Garcia Tejerina, Isabel",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "García-Pelayo Jurado, María José",
-      "sexo": "Mujer",
+      "nombre": "Garcia-Pelayo Jurado, Maria Jose",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Garrido Gutiérrez, Pilar",
-      "sexo": "Mujer",
+      "nombre": "Garrido Gutierrez, Pilar",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
       "nombre": "Garriga Vaz de Concicao, Ignacio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1987,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Garzón Espinosa, Alberto",
-      "sexo": "Hombre",
+      "nombre": "Garzon Espinosa, Alberto",
+      "genero": "Hombre",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gázquez Collado, Paloma",
-      "sexo": "Mujer",
+      "nombre": "Gazquez Collado, Paloma",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Gestoso de Miguel, Luis",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1962,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gil Lázaro, Ignacio",
-      "sexo": "Hombre",
+      "nombre": "Gil Lazaro, Ignacio",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Giménez Giménez, Sara",
-      "sexo": "Mujer",
+      "nombre": "Gimenez Gimenez, Sara",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gómez Hernández, Héctor",
-      "sexo": "Hombre",
+      "nombre": "Gomez Hernandez, Hector",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gómez-Reino Varela, Antonio",
-      "sexo": "Hombre",
+      "nombre": "Gomez-Reino Varela, Antonio",
+      "genero": "Hombre",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Caballero, Miguel Ángel",
-      "sexo": "Hombre",
+      "nombre": "Gonzalez Caballero, Miguel Angel",
+      "genero": "Hombre",
       "nacimiento": 1991,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Coello de Portugal, Víctor",
-      "sexo": "Hombre",
+      "nombre": "Gonzalez Coello de Portugal, Victor",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Guinda, María del Carmen",
-      "sexo": "Mujer",
+      "nombre": "Gonzalez Guinda, Maria del Carmen",
+      "genero": "Mujer",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "León",
-      "vote": "ausente"
+      "provincia": "Leon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Pérez, Ariagona",
-      "sexo": "Mujer",
+      "nombre": "Gonzalez Perez, Ariagona",
+      "genero": "Mujer",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Ramos, Manuel Gabriel",
-      "sexo": "Hombre",
+      "nombre": "Gonzalez Ramos, Manuel Gabriel",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Terol, Antonio",
-      "sexo": "Hombre",
+      "nombre": "Gonzalez Terol, Antonio",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "González Vázquez, Marta",
-      "sexo": "Mujer",
+      "nombre": "Gonzalez Vazquez, Marta",
+      "genero": "Mujer",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
       "nombre": "Gorospe Elezcano, Josune",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "casado",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Granollers Cunillera, Inés",
-      "sexo": "Mujer",
+      "nombre": "Granollers Cunillera, Ines",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Guaita Esteruelas, Sandra",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "GGuerra López, Sonia",
-      "sexo": "Mujer",
+      "nombre": "GGuerra Lopez, Sonia",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Guijarro Ceballos, María",
-      "sexo": "Mujer",
+      "nombre": "Guijarro Ceballos, Maria",
+      "genero": "Mujer",
       "nacimiento": 1971,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Guijarro García, Txema",
-      "sexo": "Hombre",
+      "nombre": "Guijarro Garcia, Txema",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Guinart Moreno, Lídia",
-      "sexo": "Mujer",
+      "nombre": "Guinart Moreno, Lidia",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Guitarte Gimeno, Tomás",
-      "sexo": "Hombre",
+      "nombre": "Guitarte Gimeno, Tomas",
+      "genero": "Hombre",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "TE",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gutiérrez Díaz de Otazu, Fernando Adolfo",
-      "sexo": "Hombre",
+      "nombre": "Gutierrez Diaz de Otazu, Fernando Adolfo",
+      "genero": "Hombre",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Melilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gutiérrez Prieto, Sergio",
-      "sexo": "Hombre",
+      "nombre": "Gutierrez Prieto, Sergio",
+      "genero": "Hombre",
       "nacimiento": 1982,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Gutiérrez Salinas, Indalecio",
-      "sexo": "Hombre",
+      "nombre": "Gutierrez Salinas, Indalecio",
+      "genero": "Hombre",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Almería",
-      "vote": "ausente"
+      "provincia": "Almeria",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Hernanz Costa, Sofía",
-      "sexo": "Mujer",
+      "nombre": "Hernanz Costa, Sofia",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Herrero Bono, José Alberto",
-      "sexo": "Hombre",
+      "nombre": "Herrero Bono, Jose Alberto",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Hispán Iglesias de Ussel, Pablo",
-      "sexo": "Hombre",
+      "nombre": "Hispan Iglesias de Ussel, Pablo",
+      "genero": "Hombre",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Honrubia Hurtado, Pedro Antonio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Hoyo Juliá, Belén",
-      "sexo": "Mujer",
+      "nombre": "Hoyo Julia, Belen",
+      "genero": "Mujer",
       "nacimiento": 1984,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Hurtado Zurera, Antonio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Iglesias Turrión, Pablo",
-      "sexo": "Hombre",
+      "nombre": "Iglesias Turrion, Pablo",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Illamola Dausà, Mariona",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Iñarritu García, Jon",
-      "sexo": "Hombre",
+      "nombre": "Inarritu Garcia, Jon",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "BILDU",
-      "provincia": "Guipúzcoa",
-      "vote": "ausente"
+      "provincia": "Guipuzcoa",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Jerez Juan, Miguel Ángel",
-      "sexo": "Hombre",
+      "nombre": "Jerez Juan, Miguel Angel",
+      "genero": "Hombre",
       "nacimiento": 1974,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Jiménez Linuesa, Beatriz",
-      "sexo": "Mujer",
+      "nombre": "Jimenez Linuesa, Beatriz",
+      "genero": "Mujer",
       "nacimiento": 1985,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Jiménez Revuelta, Rodrigo",
-      "sexo": "Hombre",
+      "nombre": "Jimenez Revuelta, Rodrigo",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Jiménez-Becerril Barrio, María Teresa",
-      "sexo": "Mujer",
+      "nombre": "Jimenez-Becerril Barrio, Maria Teresa",
+      "genero": "Mujer",
       "nacimiento": 1961,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "José Vélez, Rafael",
-      "sexo": "Hombre",
+      "nombre": "Jose Velez, Rafael",
+      "genero": "Hombre",
       "nacimiento": 1954,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Jover Díaz, Antonia",
-      "sexo": "Mujer",
+      "nombre": "Jover Diaz, Antonia",
+      "genero": "Mujer",
       "nacimiento": 1958,
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Lamuà Estañol, Marc",
-      "sexo": "Hombre",
+      "nombre": "Lamuà Estanol, Marc",
+      "genero": "Hombre",
       "nacimiento": 1980,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Lastra Fernández, Adriana",
-      "sexo": "Mujer",
+      "nombre": "Lastra Fernandez, Adriana",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Leal Fernández, Isaura",
-      "sexo": "Mujer",
+      "nombre": "Leal Fernandez, Isaura",
+      "genero": "Mujer",
       "nacimiento": 1959,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ledesma Martín, Sebastián Jesús",
-      "sexo": "Hombre",
+      "nombre": "Ledesma Martin, Sebastian Jesus",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Legarda Uriarte, Mikel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1956,
       "estado_civil": "soltero",
       "partido": "PNV",
-      "provincia": "Álaba",
-      "vote": "ausente"
+      "provincia": "Alaba",
+      "vote": "abstencion"
     },
     {
       "nombre": "Lima Cid, Fuensanta",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Álvarez, María Teresa",
-      "sexo": "Mujer",
+      "nombre": "Lopez Alvarez, Maria Teresa",
+      "genero": "Mujer",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Ceuta",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Álvarez, Patxi",
-      "sexo": "Hombre",
+      "nombre": "Lopez Alvarez, Patxi",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Cano, Ignacio",
-      "sexo": "Hombre",
+      "nombre": "Lopez Cano, Ignacio",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "López de Uralde Garmendia, Juan Antonio",
-      "sexo": "Hombre",
+      "nombre": "Lopez de Uralde Garmendia, Juan Antonio",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "casado",
       "partido": "UP",
-      "provincia": "Álaba",
-      "vote": "ausente"
+      "provincia": "Alaba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Domínguez, Laura",
-      "sexo": "Mujer",
+      "nombre": "Lopez Dominguez, Laura",
+      "genero": "Mujer",
       "nacimiento": 1983,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Maraver, Ángel",
-      "sexo": "Hombre",
+      "nombre": "Lopez Maraver, Angel",
+      "genero": "Hombre",
       "nacimiento": 1984,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Somoza, Gema",
-      "sexo": "Mujer",
+      "nombre": "Lopez Somoza, Gema",
+      "genero": "Mujer",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "López Zamora, Cristina",
-      "sexo": "Mujer",
+      "nombre": "Lopez Zamora, Cristina",
+      "genero": "Mujer",
       "nacimiento": 1989,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Lorite Lorite, Andrés",
-      "sexo": "Hombre",
+      "nombre": "Lorite Lorite, Andres",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Losada Fernández, José",
-      "sexo": "Hombre",
+      "nombre": "Losada Fernandez, Jose",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Maestro Moliner, Roser",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1988,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Manso Olivar, Rubén Silvano",
-      "sexo": "Hombre",
+      "nombre": "Manso Olivar, Ruben Silvano",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "VOX",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Marcos Domínguez, Pilar",
-      "sexo": "Mujer",
+      "nombre": "Marcos Dominguez, Pilar",
+      "genero": "Mujer",
       "nacimiento": 1962,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Marcos Ortega, Milagros",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Margall Sastre, Joan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Marí Klose, Pau",
-      "sexo": "Hombre",
+      "nombre": "Mari Klose, Pau",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mariscal Anaya, Guillermo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mariscal Zabala, Manuel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1992,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Márquez Guerrero, María",
-      "sexo": "Mujer",
+      "nombre": "Marquez Guerrero, Maria",
+      "genero": "Mujer",
       "nacimiento": 1960,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Marra Domínguez, María Ángeles",
-      "sexo": "Mujer",
+      "nombre": "Marra Dominguez, Maria Angeles",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Martín Llaguno, Marta",
-      "sexo": "Mujer",
+      "nombre": "Martin Llaguno, Marta",
+      "genero": "Mujer",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Martínez Ferro, María Valentina",
-      "sexo": "Mujer",
+      "nombre": "Martinez Ferro, Maria Valentina",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Martínez Granados, María Carmen",
-      "sexo": "Mujer",
+      "nombre": "Martinez Granados, Maria Carmen",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "CS",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Martínez Oblanca, Isidro Manuel",
-      "sexo": "Hombre",
+      "nombre": "Martinez Oblanca, Isidro Manuel",
+      "genero": "Hombre",
       "nacimiento": 1956,
       "estado_civil": "casado",
       "partido": "NA",
       "provincia": "Asturias",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Martínez Seijo, María Luz",
-      "sexo": "Mujer",
+      "nombre": "Martinez Seijo, Maria Luz",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Matarí Sáez, Juan José",
-      "sexo": "Hombre",
+      "nombre": "Matari Saez, Juan Jose",
+      "genero": "Hombre",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Almería",
-      "vote": "ausente"
+      "provincia": "Almeria",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Mateu Istúriz, Jaime Miguel",
-      "sexo": "Hombre",
+      "nombre": "Mateu Isturiz, Jaime Miguel",
+      "genero": "Hombre",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Matute García de Jalón, Oskar",
-      "sexo": "Hombre",
+      "nombre": "Matute Garcia de Jalon, Oskar",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "BILDU",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mayoral Perales, Rafael",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1974,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Mazón Ramos, José María",
-      "sexo": "Hombre",
+      "nombre": "Mazon Ramos, Jose Maria",
+      "genero": "Hombre",
       "nacimiento": 1951,
       "estado_civil": "soltero",
       "partido": "PRC",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Medel Pérez, Rosa María",
-      "sexo": "Mujer",
+      "nombre": "Medel Perez, Rosa Maria",
+      "genero": "Mujer",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Meijón Couselo, Guillermo Antonio",
-      "sexo": "Hombre",
+      "nombre": "Meijon Couselo, Guillermo Antonio",
+      "genero": "Hombre",
       "nacimiento": 1958,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mena Arca, Joan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Méndez Monasterio, Lourdes",
-      "sexo": "Mujer",
+      "nombre": "Mendez Monasterio, Lourdes",
+      "genero": "Mujer",
       "nacimiento": 1957,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Merino Martínez, Javier",
-      "sexo": "Hombre",
+      "nombre": "Merino Martinez, Javier",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Mestre Barea, Manuel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1952,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Mínguez García, Montse",
-      "sexo": "Mujer",
+      "nombre": "Minguez Garcia, Montse",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lleida",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Miquel i Valentí, Sergi",
-      "sexo": "Hombre",
+      "nombre": "Miquel i Valenti, Sergi",
+      "genero": "Hombre",
       "nacimiento": 1989,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Girona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Moneo Díez, María Sandra",
-      "sexo": "Mujer",
+      "nombre": "Moneo Diez, Maria Sandra",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Montero Cuadrado, María Jesús",
-      "sexo": "Mujer",
+      "nombre": "Montero Cuadrado, Maria Jesus",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Movellán Lombilla, Diego",
-      "sexo": "Hombre",
+      "nombre": "Movellan Lombilla, Diego",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Cantabria",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Muñoz Dalda, Lucía",
-      "sexo": "Mujer",
+      "nombre": "Munoz Dalda, Lucia",
+      "genero": "Mujer",
       "nacimiento": 1993,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Muñoz Vidal, María",
-      "sexo": "Mujer",
+      "nombre": "Munoz Vidal, Maria",
+      "genero": "Mujer",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "CS",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Montero Gil, Irene María",
-      "sexo": "Mujer",
+      "nombre": "Montero Gil, Irene Maria",
+      "genero": "Mujer",
       "nacimiento": 1988,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Montesinos Aguayo, Pablo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
       "nombre": "Montesinos de Miguel, Macarena",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1961,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Moraleja Gómez, Tristana María",
-      "sexo": "Mujer",
+      "nombre": "Moraleja Gomez, Tristana Maria",
+      "genero": "Mujer",
       "nacimiento": 1971,
       "estado_civil": "soltero",
       "partido": "PP",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Moro Almaraz, María Jesús",
-      "sexo": "Mujer",
+      "nombre": "Moro Almaraz, Maria Jesus",
+      "genero": "Mujer",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Narváez Bandera, María Dolores",
-      "sexo": "Mujer",
+      "nombre": "Narvaez Bandera, Maria Dolores",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Nasarre Oliva, Begoña",
-      "sexo": "Mujer",
+      "nombre": "Nasarre Oliva, Begona",
+      "genero": "Mujer",
       "nacimiento": 1978,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Navalpotro Gómez, Julio",
-      "sexo": "Hombre",
+      "nombre": "Navalpotro Gomez, Julio",
+      "genero": "Hombre",
       "nacimiento": 1971,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Navarro Lacoba, Carmen",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Navarro López, Pedro",
-      "sexo": "Hombre",
+      "nombre": "Navarro Lopez, Pedro",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Nevado del Campo, María Magdalena",
-      "sexo": "Mujer",
+      "nombre": "Nevado del Campo, Maria Magdalena",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "VOX",
-      "provincia": "Cáceres",
-      "vote": "ausente"
+      "provincia": "Caceres",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Nogueras i Camero, Míriam",
-      "sexo": "Mujer",
+      "nombre": "Nogueras i Camero, Miriam",
+      "genero": "Mujer",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "JxCAT-JUNTS",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Nuet Pujals, Joan Josep",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Olano Vela, Jaime Eduardo de",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Olona Choclán, Macarena",
-      "sexo": "Mujer",
+      "nombre": "Olona Choclan, Macarena",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Oramas González-Moro, Ana María",
-      "sexo": "Mujer",
+      "nombre": "Oramas Gonzalez-Moro, Ana Maria",
+      "genero": "Mujer",
       "nacimiento": 1959,
       "estado_civil": "casado",
       "partido": "PNC",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Oria López, María Inmaculada",
-      "sexo": "Mujer",
+      "nombre": "Oria Lopez, Maria Inmaculada",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ortega Domínguez, José Ramón",
-      "sexo": "Hombre",
+      "nombre": "Ortega Dominguez, Jose Ramon",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Ortega Smith-Molina, Francisco Javier",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ortiz Galván, José",
-      "sexo": "Hombre",
+      "nombre": "Ortiz Galvan, Jose",
+      "genero": "Hombre",
       "nacimiento": 1983,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Padilla Ruiz, Esther",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Paniagua Núñez, Miguel Ángel",
-      "sexo": "Hombre",
+      "nombre": "Paniagua Nunez, Miguel Angel",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Palencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pastor Julián, Ana María",
-      "sexo": "Mujer",
+      "nombre": "Pastor Julian, Ana Maria",
+      "genero": "Mujer",
       "nacimiento": 1957,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pedraja Sáinz, Raquel",
-      "sexo": "Mujer",
+      "nombre": "Pedraja Sainz, Raquel",
+      "genero": "Mujer",
       "nacimiento": 1993,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "La Rioja",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pedreño Molina, Juan Luis",
-      "sexo": "Hombre",
+      "nombre": "Pedreno Molina, Juan Luis",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Peña Camarero, Esther",
-      "sexo": "Mujer",
+      "nombre": "Pena Camarero, Esther",
+      "genero": "Mujer",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Perea i Conillas, María Mercè",
-      "sexo": "Mujer",
+      "nombre": "Perea i Conillas, Maria Mercè",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pérez Abellás, Adolfo",
-      "sexo": "Hombre",
+      "nombre": "Perez Abellas, Adolfo",
+      "genero": "Hombre",
       "nacimiento": 1952,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pérez Díaz, María Auxiliadora",
-      "sexo": "Mujer",
+      "nombre": "Perez Diaz, Maria Auxiliadora",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Píriz Maya, Víctor Valentín",
-      "sexo": "Hombre",
+      "nombre": "Piriz Maya, Victor Valentin",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pisarello Prados, Gerardo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pita Cárdenes, María del Carmen",
-      "sexo": "Mujer",
+      "nombre": "Pita Cardenes, Maria del Carmen",
+      "genero": "Mujer",
       "nacimiento": 1958,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Pons Sampietro, Pere Joan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Postigo Quintana, Jesús",
-      "sexo": "Hombre",
+      "nombre": "Postigo Quintana, Jesus",
+      "genero": "Hombre",
       "nacimiento": 1953,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Segovia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pozueta Fernández, Isabel",
-      "sexo": "Mujer",
+      "nombre": "Pozueta Fernandez, Isabel",
+      "genero": "Mujer",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "BILDU",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Prieto Nieto, Ana",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1965,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Lugo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Prohens Rigo, Margarita",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1982,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Pujol i Farré, Norma",
-      "sexo": "Mujer",
+      "nombre": "Pujol i Farre, Norma",
+      "genero": "Mujer",
       "nacimiento": 1988,
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Quevedo Iturbe, Pedro",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1976,
       "estado_civil": "soltero",
       "partido": "PNC",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramallo Vázquez, María Pilar",
-      "sexo": "Mujer",
+      "nombre": "Ramallo Vazquez, Maria Pilar",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Pontevedra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramírez Carner, Arnau",
-      "sexo": "Hombre",
+      "nombre": "Ramirez Carner, Arnau",
+      "genero": "Hombre",
       "nacimiento": 1989,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramírez del Río, José",
-      "sexo": "Hombre",
+      "nombre": "Ramirez del Rio, Jose",
+      "genero": "Hombre",
       "nacimiento": 1973,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramón Utrabo, Elvira",
-      "sexo": "Mujer",
+      "nombre": "Ramon Utrabo, Elvira",
+      "genero": "Mujer",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramos Esteban, César Joaquín",
-      "sexo": "Hombre",
+      "nombre": "Ramos Esteban, Cesar Joaquin",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "Cáceres",
-      "vote": "ausente"
+      "provincia": "Caceres",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ramos Rodríguez, José Luis",
-      "sexo": "Hombre",
+      "nombre": "Ramos Rodriguez, Jose Luis",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Raya Rodríguez, María Tamara",
-      "sexo": "Mujer",
+      "nombre": "Raya Rodriguez, Maria Tamara",
+      "genero": "Mujer",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Redondo Calvillo, María de la O",
-      "sexo": "Mujer",
+      "nombre": "Redondo Calvillo, Maria de la O",
+      "genero": "Mujer",
       "nacimiento": 1972,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rego Candamil, Néstor",
-      "sexo": "Hombre",
+      "nombre": "Rego Candamil, Nestor",
+      "genero": "Hombre",
       "nacimiento": 1962,
       "estado_civil": "soltero",
       "partido": "BNG",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Renau Martínez, Germán",
-      "sexo": "Hombre",
+      "nombre": "Renau Martinez, German",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Requejo Novoa, Pedro Jesús",
-      "sexo": "Hombre",
+      "nombre": "Requejo Novoa, Pedro Jesus",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Requena Ruiz, Juan Diego",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1980,
       "estado_civil": "casado",
       "partido": "PP",
-      "provincia": "Jaén",
-      "vote": "ausente"
+      "provincia": "Jaen",
+      "vote": "abstencion"
     },
     {
       "nombre": "Riolobos Regadera, Carmen",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1963,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Robles López, Joaquín",
-      "sexo": "Hombre",
+      "nombre": "Robles Lopez, Joaquin",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Almeida, Andrés Alberto",
-      "sexo": "Hombre",
+      "nombre": "Rodriguez Almeida, Andres Alberto",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Las Palmas",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Gómez, María del Pilar",
-      "sexo": "Mujer",
+      "nombre": "Rodriguez Gomez, Maria del Pilar",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Gómez de Celis, Alfonso",
-      "sexo": "Hombre",
+      "nombre": "Rodriguez Gomez de Celis, Alfonso",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Herrer, María Elvira",
-      "sexo": "Mujer",
+      "nombre": "Rodriguez Herrer, Maria Elvira",
+      "genero": "Mujer",
       "nacimiento": 1949,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Rodríguez, Alberto",
-      "sexo": "Hombre",
+      "nombre": "Rodriguez Rodriguez, Alberto",
+      "genero": "Hombre",
       "nacimiento": 1981,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rodríguez Salas, José Antonio",
-      "sexo": "Hombre",
+      "nombre": "Rodriguez Salas, Jose Antonio",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rojas García, Carlos",
-      "sexo": "Hombre",
+      "nombre": "Rojas Garcia, Carlos",
+      "genero": "Hombre",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Granada",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Romero Hernández, Carmelo",
-      "sexo": "Hombre",
+      "nombre": "Romero Hernandez, Carmelo",
+      "genero": "Hombre",
       "nacimiento": 1958,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Huelva",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Romero Sánchez, Rosa María",
-      "sexo": "Mujer",
+      "nombre": "Romero Sanchez, Rosa Maria",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Ciudad Real",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Romero Vilches, María de los Reyes",
-      "sexo": "Mujer",
+      "nombre": "Romero Vilches, Maria de los Reyes",
+      "genero": "Mujer",
       "nacimiento": 1967,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Sevilla",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ros Martínez, Susana",
-      "sexo": "Mujer",
+      "nombre": "Ros Martinez, Susana",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rosety Fernández de Castro, Agustín",
-      "sexo": "Hombre",
+      "nombre": "Rosety Fernandez de Castro, Agustin",
+      "genero": "Hombre",
       "nacimiento": 1947,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Rosique i Saltor, Marta",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1996,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rueda Perelló, Patricia",
-      "sexo": "Mujer",
+      "nombre": "Rueda Perello, Patricia",
+      "genero": "Mujer",
       "nacimiento": 1976,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Málaga",
-      "vote": "ausente"
+      "provincia": "Malaga",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Rufián Romero, Gabriel",
-      "sexo": "Hombre",
+      "nombre": "Rufian Romero, Gabriel",
+      "genero": "Hombre",
       "nacimiento": 1982,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ruiz de Pinedo Undiano, Iñaki",
-      "sexo": "Hombre",
+      "nombre": "Ruiz de Pinedo Undiano, Inaki",
+      "genero": "Hombre",
       "nacimiento": 1954,
       "estado_civil": "casado",
       "partido": "BILDU",
-      "provincia": "Álaba",
-      "vote": "ausente"
+      "provincia": "Alaba",
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz i Carbonell, Joan",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1954,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Ruiz Navarro, Eduardo Luis",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Ruiz Solás, María de la Cabeza",
-      "sexo": "Mujer",
+      "nombre": "Ruiz Solas, Maria de la Cabeza",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Saavedra Muñoz, Marisa",
-      "sexo": "Mujer",
+      "nombre": "Saavedra Munoz, Marisa",
+      "genero": "Mujer",
       "nacimiento": 1962,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Castellón",
-      "vote": "ausente"
+      "provincia": "Castellon",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sabanés Nadal, Inés",
-      "sexo": "Mujer",
+      "nombre": "Sabanes Nadal, Ines",
+      "genero": "Mujer",
       "nacimiento": 1953,
       "estado_civil": "soltero",
       "partido": "MASPAIS",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sáez Alonso-Muñumer, Pablo",
-      "sexo": "Hombre",
+      "nombre": "Saez Alonso-Munumer, Pablo",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Valladolid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sagastizabal Unzetabarrenetxea, Idoia",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PNV",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sahuquillo García, Luis Carlos",
-      "sexo": "Hombre",
+      "nombre": "Sahuquillo Garcia, Luis Carlos",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Cuenca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Salvá Verd, Antonio",
-      "sexo": "Hombre",
+      "nombre": "Salva Verd, Antonio",
+      "genero": "Hombre",
       "nacimiento": 1952,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Baleares",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Salvador i Duch, Jordi",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Tarragona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez del Real, Víctor Manuel",
-      "sexo": "Hombre",
+      "nombre": "Sanchez del Real, Victor Manuel",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez Escobar, Mariano",
-      "sexo": "Hombre",
+      "nombre": "Sanchez Escobar, Mariano",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Badajoz",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez García, José María",
-      "sexo": "Hombre",
+      "nombre": "Sanchez Garcia, Jose Maria",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez Jódar, Marisol",
-      "sexo": "Mujer",
+      "nombre": "Sanchez Jodar, Marisol",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez Pérez, César",
-      "sexo": "Hombre",
+      "nombre": "Sanchez Perez, Cesar",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez Pérez-Castejón, Pedro",
-      "sexo": "Hombre",
+      "nombre": "Sanchez Perez-Castejon, Pedro",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sánchez Serna, Javier",
-      "sexo": "Hombre",
+      "nombre": "Sanchez Serna, Javier",
+      "genero": "Hombre",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sancho Guardia, Alfredo",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1965,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Huesca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sancho Íñiguez, Herminio Rufino",
-      "sexo": "Hombre",
+      "nombre": "Sancho Iniguez, Herminio Rufino",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Teruel",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Santamaría Ruiz, Luis",
-      "sexo": "Hombre",
+      "nombre": "Santamaria Ruiz, Luis",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Santiago Romero, Enrique Fernando",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "UP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Sarrià Morell, Vicent Manuel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sayas López, Sergio",
-      "sexo": "Hombre",
+      "nombre": "Sayas Lopez, Sergio",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "NA",
       "provincia": "Navarra",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Senderos Oraá, Daniel",
-      "sexo": "Hombre",
+      "nombre": "Senderos Oraa, Daniel",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "PSOE",
-      "provincia": "Álaba",
-      "vote": "ausente"
+      "provincia": "Alaba",
+      "vote": "abstencion"
     },
     {
       "nombre": "Serrada Pariente, David",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1977,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Salamanca",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Serrano Martínez, Juan Francisco",
-      "sexo": "Hombre",
+      "nombre": "Serrano Martinez, Juan Francisco",
+      "genero": "Hombre",
       "nacimiento": 1988,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Jaén",
-      "vote": "ausente"
+      "provincia": "Jaen",
+      "vote": "abstencion"
     },
     {
       "nombre": "Seva Ruiz, Yolanda",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1970,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sicilia Alférez, Felipe Jesús",
-      "sexo": "Hombre",
+      "nombre": "Sicilia Alferez, Felipe Jesus",
+      "genero": "Hombre",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Jaén",
-      "vote": "ausente"
+      "provincia": "Jaen",
+      "vote": "abstencion"
     },
     {
       "nombre": "Simancas Simancas, Rafael",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1966,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Soler Mur, Alejandro",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1972,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Alicante",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Soto Burillo, Juan Luis",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1978,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Murcia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Steegmann Olmedillas, Juan Luis",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1955,
       "estado_civil": "casado",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Suárez Illana, Adolfo",
-      "sexo": "Hombre",
+      "nombre": "Suarez Illana, Adolfo",
+      "genero": "Hombre",
       "nacimiento": 1964,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Suárez Lamata, Eloy",
-      "sexo": "Hombre",
+      "nombre": "Suarez Lamata, Eloy",
+      "genero": "Hombre",
       "nacimiento": 1962,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Sumelzo Jordán, Susana",
-      "sexo": "Mujer",
+      "nombre": "Sumelzo Jordan, Susana",
+      "genero": "Mujer",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Taibo Monelos, Diego",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PSOE",
-      "provincia": "Coruña",
-      "vote": "ausente"
+      "provincia": "Coruna",
+      "vote": "abstencion"
     },
     {
       "nombre": "Telechea i Lozano, Carolina",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1981,
       "estado_civil": "casado",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Tirado Ochoa, Vicente",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1963,
       "estado_civil": "casado",
       "partido": "PP",
       "provincia": "Toledo",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Tizón Vázquez, Uxía",
-      "sexo": "Mujer",
+      "nombre": "Tizon Vazquez, Uxia",
+      "genero": "Mujer",
       "nacimiento": 1989,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Toscano de Balbín, Carla",
-      "sexo": "Mujer",
+      "nombre": "Toscano de Balbin, Carla",
+      "genero": "Mujer",
       "nacimiento": 1977,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Trías Gil, Georgina",
-      "sexo": "Mujer",
+      "nombre": "Trias Gil, Georgina",
+      "genero": "Mujer",
       "nacimiento": 1973,
       "estado_civil": "casado",
       "partido": "VOX",
-      "provincia": "Ávila",
-      "vote": "ausente"
+      "provincia": "Avila",
+      "vote": "abstencion"
     },
     {
       "nombre": "Uriarte Bengoechea, Edurne",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1960,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Uriarte Torrealday, Roberto",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1960,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Bizkaia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Utrilla Cano, Julio",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Valencia",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
       "nombre": "Valerio Cordero, Magdalena",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1959,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Guadalajara",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vallugera Balañà, Pilar",
-      "sexo": "Mujer",
+      "nombre": "Vallugera Balanà, Pilar",
+      "genero": "Mujer",
       "nacimiento": 1967,
       "estado_civil": "soltero",
       "partido": "ERC",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vázquez Blanco, Ana Belén",
-      "sexo": "Mujer",
+      "nombre": "Vazquez Blanco, Ana Belen",
+      "genero": "Mujer",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Orense",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vega Arias, Rubén Darío",
-      "sexo": "Hombre",
+      "nombre": "Vega Arias, Ruben Dario",
+      "genero": "Hombre",
       "nacimiento": 1960,
       "estado_civil": "soltero",
       "partido": "VOX",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vehí Cantenys, Mireia",
-      "sexo": "Mujer",
+      "nombre": "Vehi Cantenys, Mireia",
+      "genero": "Mujer",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "CUP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Velarde Gómez, Martina",
-      "sexo": "Mujer",
+      "nombre": "Velarde Gomez, Martina",
+      "genero": "Mujer",
       "nacimiento": 1979,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Córdoba",
-      "vote": "ausente"
+      "provincia": "Cordoba",
+      "vote": "abstencion"
     },
     {
       "nombre": "Velasco Morillo, Elvira",
-      "sexo": "Mujer",
+      "genero": "Mujer",
       "nacimiento": 1968,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Zamora",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vera Ruíz-Herrera, Noelia",
-      "sexo": "Mujer",
+      "nombre": "Vera Ruiz-Herrera, Noelia",
+      "genero": "Mujer",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "UP",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
       "nombre": "Vicente Viondi, Daniel",
-      "sexo": "Hombre",
+      "genero": "Hombre",
       "nacimiento": 1975,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Madrid",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vidal Sáez, Aina",
-      "sexo": "Mujer",
+      "nombre": "Vidal Saez, Aina",
+      "genero": "Mujer",
       "nacimiento": 1985,
       "estado_civil": "soltero",
       "partido": "UP",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Vilches Ruiz, María Luisa",
-      "sexo": "Mujer",
+      "nombre": "Vilches Ruiz, Maria Luisa",
+      "genero": "Mujer",
       "nacimiento": 1982,
       "estado_civil": "casado",
       "partido": "PSOE",
       "provincia": "Albacete",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Villagrasa Quero, Noemí",
-      "sexo": "Mujer",
+      "nombre": "Villagrasa Quero, Noemi",
+      "genero": "Mujer",
       "nacimiento": 1980,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Zaragoza",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Zamarrón Moreno, AgustíN",
-      "sexo": "Hombre",
+      "nombre": "Zamarron Moreno, AgustiN",
+      "genero": "Hombre",
       "nacimiento": 1946,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Burgos",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Zambrano García-Raez, Carlos José",
-      "sexo": "Hombre",
+      "nombre": "Zambrano Garcia-Raez, Carlos Jose",
+      "genero": "Hombre",
       "nacimiento": 1969,
       "estado_civil": "soltero",
       "partido": "VOX",
-      "provincia": "Cádiz",
-      "vote": "ausente"
+      "provincia": "Cadiz",
+      "vote": "abstencion"
     },
     {
-      "nombre": "Zaragoza Alonso, José",
-      "sexo": "Hombre",
+      "nombre": "Zaragoza Alonso, Jose",
+      "genero": "Hombre",
       "nacimiento": 1961,
       "estado_civil": "soltero",
       "partido": "PSOE",
       "provincia": "Barcelona",
-      "vote": "ausente"
+      "vote": "abstencion"
     },
     {
-      "nombre": "Zurita Expósito, Ana María",
-      "sexo": "Mujer",
+      "nombre": "Zurita Exposito, Ana Maria",
+      "genero": "Mujer",
       "nacimiento": 1963,
       "estado_civil": "soltero",
       "partido": "PP",
       "provincia": "Tenerife",
-      "vote": "ausente"
+      "vote": "abstencion"
     }
   ]
 }

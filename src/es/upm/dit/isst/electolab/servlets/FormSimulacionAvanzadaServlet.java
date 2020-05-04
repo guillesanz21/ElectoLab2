@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Diputado;
+import es.upm.dit.isst.electolab.model.Partido;
 import es.upm.dit.isst.electolab.model.Simulacion;
 
 /**
@@ -40,6 +41,9 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 		diputados = DiputadoDAOImplementation.getInstancia().readAll();		
 		// Crea una nueva simulacion para guardar los resultados 
 		Simulacion simulacion = new Simulacion();
+		System.out.println("SKUDJHGF KJDSHFG" + (String)request.getParameter("tipoSimulacion"));
+		simulacion.setTipoSimulacion((String)request.getSession().getAttribute("tipoSimulacion"));
+		ArrayList<Diputado> votoDiputado = new ArrayList<Diputado>();
 		boolean ley_aprobada = true;
 		String voto = "abstencion";
 		
@@ -47,7 +51,7 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 		for (Diputado diputado : diputados) {
 			
 			voto =  diputado.getVote();
-
+			votoDiputado.add(diputado);
 			if (voto.equals("favor")) {
 				simulacion.setVotos_favor(simulacion.getVotos_favor() + 1);
 			}
@@ -83,7 +87,8 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 			// Actualiza la bbdd dejando el partido con los valores reiniciados
 			DiputadoDAOImplementation.getInstancia().update(diputado);
 		}
-		
+		simulacion.setVotoDiputado(votoDiputado);
+
 		// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
 		request.getSession().setAttribute("simulacion", simulacion);
 		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);

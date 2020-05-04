@@ -100,7 +100,9 @@
 
 		<!--Save simulation-->
 		<%@ include file="FormGuardaSimulacion.jsp"%>
-
+		<br>
+		<br>
+		
 
 	</section>
 
