@@ -18,70 +18,70 @@
 <body>
 
 	<!-- Header -->
-	<%@ include file = "partials/header.jsp" %>
+	<%@ include file="partials/header.jsp"%>
 	<!-- Information page -->
 
 	<!-- Content -->
-	<section class="container container-index">
-		<h1 class="display-2 screenHeader">ElectoLab Parte II</h1>
-		<div>
-			<p class="index-text">Página web dedicada a la simulacion de
-				votaciones de leyes en el Congreso de los Diputados, pensada tanto
-				como para el público general como para un público con más
-				conocimiento, como pueden ser analistas o periodistas.</p>
-			<p class="index-text">Pulse simulación sencilla para una votación
-				estándar del Congreso dividido por partidos políticos.</p>
-			<p class="index-text">Tras registrarse y acceder, pulse
-				simulación avanzada para votaciones más complejas.</p>
-		</div>
-		
-		<img id="resultados" src="assets/images/resultados.png"
-			alt="resultados de las elecciones generales de 2019" />
+	<main role="main" class="flex-shrink-0">
+		<section class="container container-index">
+			<h1 class="display-2 screenHeader">ElectoLab Parte II</h1>
+			<div>
+				<p class="index-text">Página web dedicada a la simulacion de
+					votaciones de leyes en el Congreso de los Diputados, pensada tanto
+					como para el público general como para un público con más
+					conocimiento, como pueden ser analistas o periodistas.</p>
+				<p class="index-text">Pulse simulación sencilla para una
+					votación estándar del Congreso dividido por partidos políticos.</p>
+				<p class="index-text">Tras registrarse y acceder, pulse
+					simulación avanzada para votaciones más complejas.</p>
+			</div>
 
-		<c:choose>
-			<c:when test="${usuarioActivo != true}">
-				<div id="btns-home">
-					<form method="post" action="AsignacionSimpleServlet">
-						<button type="submit" class="btn btn-info btn-home">Simulación
-							Simple</button>
-					</form>
-					<form method="get" action="">
-						<button type="submit" class="btn btn-info btn-home disabled">Simulación
-							Avanzada</button>
-					</form>
-				</div>
-				
-			</c:when>
-			<c:when test="${usuarioActivo == true}">
-				<div id="btns-home">
-					<form method="post" action="AsignacionSimpleServlet">
-						<button type="submit" class="btn btn-info btn-home">Simulación
-							Simple</button>
-					</form>
-					<form method="post" action="AsignacionAvanzadaServlet">
-						<button type="submit" class="btn btn-info btn-home">Simulación
-							Avanzada</button>
-					</form>
-				</div>
+			<img id="resultados" src="assets/images/resultados.png"
+				alt="resultados de las elecciones generales de 2019" />
 
-			</c:when>
-		</c:choose>	
-		
+			<c:choose>
+				<c:when test="${usuarioActivo != true}">
+					<div id="btns-home">
+						<form method="post" action="AsignacionSimpleServlet">
+							<button type="submit" class="btn btn-info btn-home">Simulación
+								Simple</button>
+						</form>
+						<form method="get" action="">
+							<button type="submit" class="btn btn-info btn-home disabled">Simulación
+								Avanzada</button>
+						</form>
+					</div>
 
-		<div class="ver-simul">
-			<p class="index-text">¿Prefiere ver simulaciones realizadas por
-				otras personas en vez de simular usted mismo?</p>
-			<p class="index-text">Aquí podrá encontrarlas:</p>
-			<%@ include file = "FormVerSimulacionesGuardadas.jsp" %>
-			
-			
-		</div>
-	</section>
-	<br />
-	<br />
-	<br />
+				</c:when>
+				<c:when test="${usuarioActivo == true}">
+					<div id="btns-home">
+						<form method="post" action="AsignacionSimpleServlet">
+							<button type="submit" class="btn btn-info btn-home">Simulación
+								Simple</button>
+						</form>
+						<form method="post" action="AsignacionAvanzadaServlet">
+							<button type="submit" class="btn btn-info btn-home">Simulación
+								Avanzada</button>
+						</form>
+					</div>
+
+				</c:when>
+			</c:choose>
+
+			<div class="ver-simul">
+				<p class="index-text">¿Prefiere ver simulaciones realizadas por
+					otras personas en vez de simular usted mismo?</p>
+				<p class="index-text">Aquí podrá encontrarlas:</p>
+				<%@ include file="FormVerSimulacionesGuardadas.jsp"%>
+
+
+			</div>
+		</section>
+	</main>
+
+
 	<!-- Footer -->
-	<%@ include file = "partials/footer.jsp" %>
+	<%@ include file="partials/footer.jsp"%>
 
 	<!-- Bootstrap required JS -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
