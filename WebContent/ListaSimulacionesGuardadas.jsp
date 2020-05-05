@@ -28,7 +28,7 @@
 			class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
 			<h1 class="display-4">Simulaciones guardadas</h1>
-			<p class="lead">
+			<p class="lead container">
 				Aquí puede encontrar una lista con todas las simulaciones guardadas
 				por los analistas, ahora mismo contamos con un total de <b>${fn:length(Simulaciones)}</b>
 				simulaciones. Estudie la simulación creada por alguno de ellos y no

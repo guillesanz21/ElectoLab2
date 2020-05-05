@@ -18,7 +18,7 @@
 				<li class="nav-item"><a class="btn btn-outline-info"
 					href="index.jsp"> Home <span class="sr-only">(current)</span></a></li>
 				<li class="nav-item">
-				<form method="post" action="FormVerSimulacionGuardadaServlet">
+				<form action="FormVerListaSimulacionesGuardadasServlet">
 						<button type="submit" class="btn btn-outline-info">Ver
 							otras simulaciones</button>
 					</form>

@@ -73,7 +73,7 @@
 					<p class="index-text">¿Prefiere ver simulaciones realizadas por
 						otras personas en vez de simular usted mismo?</p>
 					<p class="index-text">Aquí podrá encontrarlas:</p>
-					<%@ include file="FormVerSimulacionesGuardadas.jsp"%>
+					<%@ include file="FormVerListaSimulacionesGuardadas.jsp"%>
 
 
 				</div>
