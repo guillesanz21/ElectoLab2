@@ -83,7 +83,10 @@
 				Resultado de la simulación nº ${simulacion.idSimulacion +1}</h1>
 			<h2 class="display-4" style="text-align: center">
 				El titulo de la ley es: ${simulacion.tituloLey}</h2>
-			<h3 style="text-align: center">El autor de la simulacion fue: ${simulacion.autor.nombre} </h3>
+		</c:if>
+		<c:if test="${verSimulacion == false}">
+			<h3 style="text-align: center">El autor de la simulacion fue:
+				${simulacion.autor.nombre}</h3>
 		</c:if>
 
 		<h1 class="display-4" style="text-align: center;">Resultado de su
@@ -123,6 +126,8 @@
 			</tbody>
 		</table>
 
+		<p>Se ha realizado una votación de tipo ${simulacion.tipoSimulacion}</p>
+
 
 		<!-- ################## Tabla de partidos/diputados ########################-->
 		<c:choose>
@@ -131,7 +136,7 @@
 				<!-- Partidos -->
 
 				<div class="container">
-					<h2>Lista de Partidos</h2>
+					<h2 class="h3Info">Lista de Partidos</h2>
 					<table class="table table-fluid" id="myTable">
 						<thead>
 							<tr>
@@ -159,7 +164,7 @@
 			<c:otherwise>
 				<!-- Diputados -->
 				<div class="container">
-					<h2>Lista de Diputados</h2>
+					<h2 class="h3Info">Lista de Diputados</h2>
 					<table class="table table-fluid" id="myTable">
 						<thead>
 							<tr>
@@ -194,8 +199,11 @@
 		<!--Estudio de ley aprobada-->
 		<%@ include file="FormLeyAprobada.jsp"%>
 
-		<!--Save simulation-->
+		<c:if test="${verSimulacion == false}">
+			<!--Save simulation-->
 		<%@ include file="FormGuardaSimulacion.jsp"%>
+		</c:if>
+		
 		<br> <br>
 	</section>
 

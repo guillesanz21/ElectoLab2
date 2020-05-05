@@ -43,6 +43,8 @@ public class FormSimulacionAvanzadaServlet extends HttpServlet {
 		 * Crea un ArrayList auxiliar donde irá metiendo los partidos
 		 * que luego asignara al atributo votoPartido de simulación.
 		 */
+		request.getSession().removeAttribute("simulacion");
+		request.getSession().setAttribute("verSimulacion", false);
 		Simulacion simulacion = new Simulacion();
 		ArrayList<Diputado> votoDiputado = new ArrayList<Diputado>();
 		JSONParser parser = new JSONParser();

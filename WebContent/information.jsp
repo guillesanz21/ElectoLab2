@@ -14,7 +14,32 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous" />
-<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1" />
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+
+<!-- Bootstrap required JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script>
+   $(document).ready( function () {
+   	     $('#myTable').DataTable();
+	} )
+</script>
 <title>Informacion sobre el congreso</title>
 </head>
 
@@ -112,8 +137,33 @@
 		<!-- /.carousel -->
 
 		<!-- ################## LISTA/TABLA DIPUTADOS ################### -->
-		<h3 class="h3Info">Diputados que componen el Congreso:</h3>
-		<!-- Hacer con JSP leyendo de la BBDD ===> diseñar la celda de 1 solo diputado y hacer bucle for sobre esta -->
+			<div class="container">
+					<h3 class="h3Info">Diputados que componen el Congreso:</h3>
+					<table class="table table-fluid" id="myTable">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>Edad</th>
+								<th>Provincia</th>
+								<th>Género</th>
+								<th>Partido</th>
+								<th>Estado Civil</th>
+							</tr>
+						</thead>
+						<tbody>
+							<c:forEach items="${diputados}" var="diputado">
+								<tr>
+									<td>${diputado.nombre}</td>
+									<td>${diputado.edad}</td>
+									<td>${diputado.provincia}</td>
+									<td>${diputado.genero}</td>
+									<td>${diputado.partido.fullName}</td>
+									<td>${diputado.estado_civil}</td>
+								</tr>
+							</c:forEach>
+						</tbody>
+					</table>
+				</div>
 
 		<!-- ################## PERIODICOS ################### -->
 		<h3 class="h3Info">Periódicos con mayor relevancia nacional:</h3>
@@ -134,17 +184,5 @@
 	<!-- Footer -->
 	<%@ include file = "partials/footer.jsp" %>
 
-	<!-- Bootstrap required JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
 </body>
 </html>

@@ -23,8 +23,11 @@
 							otras simulaciones</button>
 					</form>
 				</li>
-				<li class="nav-item"><a class="btn btn-outline-info"
-					href="information.jsp">Información <span class="sr-only"></span></a></li>
+				<li class="nav-item">
+				<form method="get" action="InformationServlet">
+						<button type="submit" class="btn btn-outline-info">Información</button>
+					</form>
+				</li>
 			</ul>
 		</div>
 	</div>

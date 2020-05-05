@@ -10,6 +10,8 @@
   </label>
 </div>
 
+<br><br>
+
 <input type="hidden" name="SimulationFavor" id="SimulationFavor" value="${simulacion.votos_favor}" />
 <input type="hidden" name="SimulationContra" id="SimulationContra" value="${simulacion.votos_contra}" />
 <input type="hidden" name="SimulationAbstencion" id="SimulationAbstencion" value="${simulacion.votos_abstencion}" />

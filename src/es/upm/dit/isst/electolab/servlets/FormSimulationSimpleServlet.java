@@ -39,7 +39,8 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+		request.getSession().removeAttribute("simulacion");
+		request.getSession().setAttribute("verSimulacion", false);
 		/*
 		 * Parsea el JSON que proviene de la vista.
 		 * Crea el objeto simulación y le asigna el tipo simulación.
