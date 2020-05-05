@@ -28,19 +28,30 @@ public class FormVerSimulacionGuardadaServlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		List<Simulacion> Simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();
-		
-		String idForm = request.getParameter("idVerSimulacion");
-		int idS = Integer.parseInt(idForm);
-		
-		Simulacion simulacion2 = Simulaciones.get(idS);
-		
-		request.getSession().setAttribute("simulacion2", simulacion2);
-		
-		getServletContext().getRequestDispatcher("/VerSimulacionesGuardadas.jsp").forward(request, response);
+		request.getSession().removeAttribute("simulacion");
+		request.getSession().setAttribute("verSimulacion", true);
 
+		Simulacion simulacion = SimulacionDAOImplementation.getInstancia().read(Integer.parseInt(request.getParameter("idVerSimulacion")));
+
+		request.getSession().setAttribute("simulacion", simulacion);
+		
+		//getServletContext().getRequestDispatcher("/VerSimulacionesGuardadas.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		List<Simulacion> simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();

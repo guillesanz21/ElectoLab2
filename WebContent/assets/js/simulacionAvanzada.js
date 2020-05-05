@@ -192,7 +192,8 @@ const desplegableTags = () => {
 	.addEventListener("click", function () {
 		tagSeleccionado = "estado_civil";
 		listaTagContr();
-	});
+	}); 
+	/*
 	//<----- TAG FECHA NACIMIENTO ----->
 	document
 	.getElementById("tagFecha")
@@ -201,7 +202,7 @@ const desplegableTags = () => {
 		listaTagContr();
 	});
 	//<----- TAG PARTIDO POLITICO ----->
-	/*document
+	document
 	.getElementById("tagPartidos")
 	.addEventListener("click", function () {
 		tagSeleccionado = "partido_codename";

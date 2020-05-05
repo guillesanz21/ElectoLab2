@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/radioButtons.css" />
     <script type="text/javascript" src="assets/js/simulacionAvanzada.js"></script>
-    <title>Simulación Avanzadan</title>
+    <title>Simulación Avanzada</title>
   </head>
   <body>
    <!-- Header -->
@@ -53,9 +53,7 @@
 					<!-- Dropdown menu links -->
 					<p class="dropdown-item" id="tagProvincia">	Provincias </p> 
 					<p class="dropdown-item" id="tagGenero">	Genero </p> 
-					<p class="dropdown-item" id="tagFecha">		Año de nacimiento</p>
 					<p class="dropdown-item" id="tagEstado">	Estado civil</p>
-					<p class="dropdown-item" id="tagPartidos">	Partidos</p>
 				</div>
 			</div>
 

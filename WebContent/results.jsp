@@ -12,6 +12,8 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	crossorigin="anonymous" />
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 
 <script type="text/javascript"
@@ -40,18 +42,29 @@
         chart.draw(data, options);
       }
     </script>
-    <script type="text/javascript" src="assets/js/ley_aprobada.js?v=1"></script>
-
-<!-- bootstrap 3 version antigua
-	<link rel="stylesheet"
-		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-		
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	 -->
-
+<script type="text/javascript" src="assets/js/ley_aprobada.js?v=1"></script>
+<!-- Bootstrap required JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
 <script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script>
+   $(document).ready( function () {
+   	     $('#myTable').DataTable();
+	} )
+</script>
 
 
 <title>Resultados de la simulación</title>
@@ -60,24 +73,24 @@
 <body>
 
 	<!-- Header -->
-	<%@ include file = "partials/header.jsp" %>
-	<table border="1">
-			<c:forEach items="${simulacion.votoPartido}" var="partido">
-					<tr>
-						<td>Nombre: ${partido.fullName}</td>
-						<td>Voto: ${partido.vote}</td>
-						<td>Escaños: ${partido.seats} </td>
-						<td>Ausentes: ${partido.ausentes}</td>
-					</tr>
-			</c:forEach>
-	</table>
+	<%@ include file="partials/header.jsp"%>
+
 	<!-- Content -->
 	<section class="container">
-		<h1 class="display-4" style="text-align: center; color: black;">
-			Resultado de su simulación</h1>
-		<div id="piechart_3d" style="width: 900px; height: 500px;"></div>
 
-		<!--Tabla de resultados-->
+		<c:if test="${verSimulacion == true}">
+			<h1 class="display-4" style="text-align: center">
+				Resultado de la simulación nº ${simulacion.idSimulacion +1}</h1>
+			<h2 class="display-4" style="text-align: center">
+				El titulo de la ley es: ${simulacion.tituloLey}</h2>
+			<h3 style="text-align: center">El autor de la simulacion fue: ${simulacion.autor.nombre} </h3>
+		</c:if>
+
+		<h1 class="display-4" style="text-align: center;">Resultado de su
+			simulación</h1>
+		<div id="piechart_3d" style="width: auto; height: 500px;"></div>
+
+		<!-- ################## Tabla de resultados ########################-->
 		<table class="table" id="results-table">
 			<thead class="thead-dark">
 				<tr>
@@ -111,32 +124,84 @@
 		</table>
 
 
+		<!-- ################## Tabla de partidos/diputados ########################-->
+		<c:choose>
+
+			<c:when test="${simulacion.tipoSimulacion == 'simple'}">
+				<!-- Partidos -->
+
+				<div class="container">
+					<h2>Lista de Partidos</h2>
+					<table class="table table-fluid" id="myTable">
+						<thead>
+							<tr>
+								<th class="th-sm">Nombre</th>
+								<th class="th-sm">Voto</th>
+								<th class="th-sm">Escaños</th>
+								<th class="th-sm">Ausentes</th>
+							</tr>
+						</thead>
+						<tbody>
+							<c:forEach items="${simulacion.votoPartido}" var="partido">
+								<tr>
+									<td>${partido.fullName}</td>
+									<td>${partido.vote}</td>
+									<td>${partido.seats}</td>
+									<td>${partido.ausentes}</td>
+								</tr>
+							</c:forEach>
+						</tbody>
+					</table>
+				</div>
+			</c:when>
+
+
+			<c:otherwise>
+				<!-- Diputados -->
+				<div class="container">
+					<h2>Lista de Diputados</h2>
+					<table class="table table-fluid" id="myTable">
+						<thead>
+							<tr>
+								<th>Nombre</th>
+								<th>Voto</th>
+								<th>Edad</th>
+								<th>Provincia</th>
+								<th>Género</th>
+								<th>Partido</th>
+								<th>Estado Civil</th>
+							</tr>
+						</thead>
+						<tbody>
+							<c:forEach items="${simulacion.votoDiputado}" var="diputado">
+								<tr>
+									<td>${diputado.nombre}</td>
+									<td>${diputado.vote}</td>
+									<td>${diputado.edad}</td>
+									<td>${diputado.provincia}</td>
+									<td>${diputado.genero}</td>
+									<td>${diputado.partido.fullName}</td>
+									<td>${diputado.estado_civil}</td>
+								</tr>
+							</c:forEach>
+						</tbody>
+					</table>
+				</div>
+			</c:otherwise>
+
+		</c:choose>
+
 		<!--Estudio de ley aprobada-->
 		<%@ include file="FormLeyAprobada.jsp"%>
 
 		<!--Save simulation-->
 		<%@ include file="FormGuardaSimulacion.jsp"%>
-		<br>
-		<br>
-		
-
+		<br> <br>
 	</section>
 
 
 	<!-- Footer -->
-	<%@ include file = "partials/footer.jsp" %>
+	<%@ include file="partials/footer.jsp"%>
 
-	<!-- Bootstrap required JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-		crossorigin="anonymous"></script>
-	<script
-		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script
-		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-		crossorigin="anonymous"></script>
 </body>
 </html>
