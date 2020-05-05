@@ -61,7 +61,16 @@
 
 	<!-- Header -->
 	<%@ include file = "partials/header.jsp" %>
-
+	<table border="1">
+			<c:forEach items="${simulacion.votoPartido}" var="partido">
+					<tr>
+						<td>Nombre: ${partido.fullName}</td>
+						<td>Voto: ${partido.vote}</td>
+						<td>Escaños: ${partido.seats} </td>
+						<td>Ausentes: ${partido.ausentes}</td>
+					</tr>
+			</c:forEach>
+	</table>
 	<!-- Content -->
 	<section class="container">
 		<h1 class="display-4" style="text-align: center; color: black;">

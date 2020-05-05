@@ -35,35 +35,28 @@ public class FormGuardaSimulacionServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		List<Simulacion> Simulaciones = (List<Simulacion>) SimulacionDAOImplementation.getInstancia().readAll();
 		String emailUsuario = (String) request.getSession().getAttribute("emailUsuario");
 		String name = request.getParameter("simName");
 
 		UsuarioRegistrado autor = UsuarioRegistradoDAOImplementation.getInstancia().read(emailUsuario);
 		System.out.println("Autor " + autor);
-		
 
 		int id = SimulacionDAOImplementation.getInstancia().readAll().size() ;
 		
 		Simulacion simulacion = (Simulacion) request.getSession().getAttribute("simulacion");
 		
-		//Simulaciones.add(simulacion);
-		
-		boolean ley_aprobada = true;	
-		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
-			ley_aprobada = true;
-		}
-		else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
-			ley_aprobada = true;
-		}
-		else {
-			ley_aprobada = false;
-		}
+	
+		String tipoMayoria = (String) request.getParameter("TipoMayoria");
+		String leyAprobada = (String) request.getParameter("LeyAprobada");
 
-		
+		if (leyAprobada.equals("aprobada"))
+			simulacion.setLey_aprobada(true);
+		else 
+			simulacion.setLey_aprobada(false);
+
+		simulacion.setTipoMayoria(tipoMayoria);
 		simulacion.setTituloLey(name);
 		simulacion.setAutor(autor);
-		simulacion.setLey_aprobada(ley_aprobada);
 		simulacion.setIdSimulacion(id);
 		
 		//request.getSession().setAttribute("Simulaciones", simulacion);

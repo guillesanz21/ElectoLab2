@@ -2,7 +2,6 @@ package es.upm.dit.isst.electolab.servlets;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -53,7 +52,6 @@ public class FormSimulationSimpleServlet extends HttpServlet {
     	Simulacion simulacion = new Simulacion();
 		simulacion.setTipoSimulacion("simple");
 		ArrayList<Partido> votoPartido = new ArrayList<Partido>();
-		boolean ley_aprobada = true;
 		String voto = "abstencion";
 		
 		
@@ -75,7 +73,16 @@ public class FormSimulationSimpleServlet extends HttpServlet {
     			voto = (String)partidoJSON.get("vote");
     			seats = Integer.parseInt((String)partidoJSON.get("seats")) ;
     			ausentes = Integer.parseInt((String)partidoJSON.get("ausentes")) ;
+    			// Añade el partido con el voto asignado al atributo de simulación
+				partido = new Partido();
+    			partido.setVote( voto );
+    			partido.setAusentes(Integer.parseInt((String)partidoJSON.get("ausentes")) ) ;
+    			partido.setSeats(Integer.parseInt((String)partidoJSON.get("seats")));
+    			partido.setCodeName((String)partidoJSON.get("codeName"));
+    			partido.setFullName((String)partidoJSON.get("fullName"));
+
     			
+				votoPartido.add(partido);
     		
 				// Acumula los votos en el tipo de voto correspondiente
 				if (voto.equals("favor")) {
@@ -92,37 +99,14 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 				// Reinicia la variable voto 
 				voto = "abstencion";
 				
-				// Añade el partido con el voto asignado al atributo de simulación
-				partido = new Partido();
-    			partido.setVote( voto );
-    			partido.setAusentes(Integer.parseInt((String)partidoJSON.get("ausentes")) ) ;
-    			partido.setSeats(Integer.parseInt((String)partidoJSON.get("seats")));
-    			partido.setCodeName((String)partidoJSON.get("codeName"));
-    			partido.setCodeName((String)partidoJSON.get("fullName"));
-
-    			
-				votoPartido.add(partido);
+				
 				
     		}
     	} catch (org.json.simple.parser.ParseException e) {
     		// TODO Auto-generated catch block
     		e.printStackTrace();
     	}
-		/*
-		 * Comprueba si la ley ha sido aprobada
-		 */
-    	
-		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
-			ley_aprobada = true;
-		}
-		else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
-			ley_aprobada = true;
-		}
-		else {
-			ley_aprobada = false;
-		}
-		// Actualiza atributos de simulación
-		simulacion.setLey_aprobada(ley_aprobada);
+
 		
 		simulacion.setVotoPartido(votoPartido);
 		

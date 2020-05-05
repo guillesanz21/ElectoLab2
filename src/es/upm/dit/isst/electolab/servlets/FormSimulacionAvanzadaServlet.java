@@ -16,7 +16,6 @@ import org.json.simple.parser.JSONParser;
 
 import es.upm.dit.isst.electolab.dao.DiputadoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Diputado;
-import es.upm.dit.isst.electolab.model.Partido;
 import es.upm.dit.isst.electolab.model.Simulacion;
 
 /**

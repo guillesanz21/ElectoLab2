@@ -15,6 +15,8 @@
 <input type="hidden" name="SimulationAbstencion" id="SimulationAbstencion" value="${simulacion.votos_abstencion}" />
 <input type="hidden" name="SimulationAusentes" id="SimulationAusentes" value="${simulacion.votos_ausente}" />
 
+
+
 <div id="SimulationLeyAprobada">
 <!-- ESTA VISTA SE GENERA EN EL JS-->
 </div>

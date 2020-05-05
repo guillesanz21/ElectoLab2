@@ -24,12 +24,15 @@ const calculoAprobacion = () => {
 	} else if (tipoMayoria === "mayoria_simple") {
 		mayoriaSimple();
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistaSimple();
+		
 	
 	} else if (tipoMayoria === "mayoria_condicionada") {
 		mayoriaCondicionada();
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistaCondicionada();
 		
 	}
+	document.getElementById("TipoMayoria").value = tipoMayoria;
+	document.getElementById("LeyAprobada").value = leyAprobada === true ? "aprobada" : "rechazada";
 
 	
 };

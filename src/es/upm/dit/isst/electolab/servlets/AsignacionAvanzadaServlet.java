@@ -37,10 +37,10 @@ public class AsignacionAvanzadaServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		Collection<Diputado> diputados = new ArrayList<Diputado>();
+		/*Collection<Diputado> diputados = new ArrayList<Diputado>();
     	diputados = DiputadoDAOImplementation.getInstancia().readAll();
 
-    	request.getSession().setAttribute("diputados", diputados);
+    	request.getSession().setAttribute("diputados", diputados);*/
 
     	getServletContext().getRequestDispatcher("/AsignacionAvanzada.jsp").forward(request, response);
 	

@@ -15,6 +15,8 @@
 
 		<form action="FormGuardaSimulacionServlet">
 			<input type="text" name="simName" placeholder="nombre ley" />
+			<input type="hidden" name="TipoMayoria" id="TipoMayoria" value="" />
+			<input type="hidden" name="LeyAprobada" id="LeyAprobada" value="" />
 			<button type="submit">Guardar simulacion</button>
 		</form>
 
