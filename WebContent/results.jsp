@@ -40,6 +40,7 @@
         chart.draw(data, options);
       }
     </script>
+    <script type="text/javascript" src="assets/js/ley_aprobada.js?v=1"></script>
 
 <!-- bootstrap 3 version antigua
 	<link rel="stylesheet"
