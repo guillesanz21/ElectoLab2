@@ -40,69 +40,98 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		/*
+		 * Parsea el JSON que proviene de la vista.
+		 * Crea el objeto simulación y le asigna el tipo simulación.
+		 * Crea un ArrayList auxiliar donde irá metiendo los partidos
+		 * que luego asignara al atributo votoPartido de simulación.
+		 */
 
-		// Llamo de la base de datos a la lista de partidos
-				Collection<Partido> partidos = new ArrayList<Partido>();
-				partidos = PartidoDAOImplementation.getInstancia().readAll();		
-				// Crea una nueva simulacion para guardar los resultados 
-				Simulacion simulacion = new Simulacion();
-				simulacion.setTipoSimulacion("simple");
-				ArrayList<Partido> votoPartido = new ArrayList<Partido>();
+    	JSONParser parser = new JSONParser();
+    	Object object; Partido partido;
+    	Simulacion simulacion = new Simulacion();
+		simulacion.setTipoSimulacion("simple");
+		ArrayList<Partido> votoPartido = new ArrayList<Partido>();
+		boolean ley_aprobada = true;
+		String voto = "abstencion";
+		
+		
+		try {
+    		object = parser.parse(request.getParameter("partidos"));
+    		
+    		JSONArray jsonArray = (JSONArray) object;		// convert Object to JSONObject
+    		JSONObject partidoJSON;
+    		int seats = 0;
+    		int ausentes = 0;
+    		/* 
+    		 * Recorre el array parseado de partidos, asigna los atributos correspondientes 
+    		 * a los objetos de partidos, va sumando votos en el objeto simulación
+    		 */
+    		
+    		for (int i = 0; i < (jsonArray).size(); i++) {
+    			partidoJSON = (JSONObject) jsonArray.get(i);
+    			System.out.println("LOG , FormSimulationSimpleServlet, doGet(), partidoJSON: " + partidoJSON);
+    			voto = (String)partidoJSON.get("vote");
+    			seats = Integer.parseInt((String)partidoJSON.get("seats")) ;
+    			ausentes = Integer.parseInt((String)partidoJSON.get("ausentes")) ;
+    			
+    		
+				// Acumula los votos en el tipo de voto correspondiente
+				if (voto.equals("favor")) {
+					simulacion.setVotos_favor((int) (simulacion.getVotos_favor() + seats - ausentes));
+				}
+				else if (voto.equals("contra")) {
+					simulacion.setVotos_contra(simulacion.getVotos_contra() + seats - ausentes);
+				}
+				else { 
+					simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + seats - ausentes);
+				}
+				simulacion.setVotos_ausente(simulacion.getVotos_ausente() + ausentes);
 
-				boolean ley_aprobada = true;
-				String voto = "abstencion";
+				// Reinicia la variable voto 
+				voto = "abstencion";
 				
-				
-				// Recorre la lista de partidos sumando el numero de escaños en el atributo de simulacion que corresponde
-				for (Partido partido : partidos) {
-					voto =  partido.getVote();
-					votoPartido.add(partido);
-					if (voto.equals("favor")) {
-						simulacion.setVotos_favor((int) (simulacion.getVotos_favor() + partido.getSeats() - partido.getAusentes()));
-					}
-					else if (voto.equals("contra")) {
-						simulacion.setVotos_contra(simulacion.getVotos_contra() + partido.getSeats() - partido.getAusentes());
-					}
-					else { 
-						simulacion.setVotos_abstencion(simulacion.getVotos_abstencion() + partido.getSeats() - partido.getAusentes());
-					}
-					simulacion.setVotos_ausente(simulacion.getVotos_ausente() + partido.getAusentes());
+				// Añade el partido con el voto asignado al atributo de simulación
+				partido = new Partido();
+    			partido.setVote( voto );
+    			partido.setAusentes(Integer.parseInt((String)partidoJSON.get("ausentes")) ) ;
+    			partido.setSeats(Integer.parseInt((String)partidoJSON.get("seats")));
+    			partido.setCodeName((String)partidoJSON.get("codeName"));
+    			partido.setCodeName((String)partidoJSON.get("fullName"));
 
-					// Reinicia la variable voto 
-					voto = "abstencion";
-					
-					// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
-					partido.setVote(voto);
-					
-					
-					// Actualiza la bbdd dejando el partido con los valores reiniciados
-					PartidoDAOImplementation.getInstancia().update(partido);
-				}
+    			
+				votoPartido.add(partido);
 				
-				if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
-					ley_aprobada = true;
-				}
-				else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
-					ley_aprobada = true;
-				}
-				else {
-					ley_aprobada = false;
-				}
-				
-				simulacion.setLey_aprobada(ley_aprobada);
-				System.out.println("--------------------------------------------------");
-				System.out.println("FormSimulationSimpleServlet, ley aprobada: " + ley_aprobada);
-				System.out.println("--------------------------------------------------");
-				simulacion.setVotoPartido(votoPartido);
-				// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
-				System.out.println("FormSimulationSimpleServlet ,doGet, Simulación: " + simulacion);
-				request.getSession().setAttribute("simulacion", simulacion);
-				
-				getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
+    		}
+    	} catch (org.json.simple.parser.ParseException e) {
+    		// TODO Auto-generated catch block
+    		e.printStackTrace();
+    	}
+		/*
+		 * Comprueba si la ley ha sido aprobada
+		 */
+    	
+		if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
+			ley_aprobada = true;
+		}
+		else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
+			ley_aprobada = true;
+		}
+		else {
+			ley_aprobada = false;
+		}
+		// Actualiza atributos de simulación
+		simulacion.setLey_aprobada(ley_aprobada);
+		
+		simulacion.setVotoPartido(votoPartido);
+		
+		// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
+		
+		System.out.println("FormSimulationSimpleServlet ,doGet, Simulación: " + simulacion);
+		request.getSession().setAttribute("simulacion", simulacion);
+		getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 
-				
-				
-				
 	}
 
 }

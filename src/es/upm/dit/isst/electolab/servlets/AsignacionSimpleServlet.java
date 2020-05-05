@@ -37,52 +37,6 @@ public class AsignacionSimpleServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		//System.out.println(request.getParameter("partidos"));
-
-    	JSONParser parser = new JSONParser();
-    	Object object;
-    	Partido partido;
-    	
-    	// Coge el parametro partidos de simulacion.js y va contando los votos
-    	try {
-    		object = parser.parse(request.getParameter("partidos"));
-    		
-    		JSONArray jsonArray = (JSONArray) object;		// convert Object to JSONObject
-    		JSONObject partidoJSON;
-    		for (int i = 0; i < (jsonArray).size(); i++) {
-    			System.out.println("Partido: " + jsonArray.get(i));
-    			partidoJSON = (JSONObject) jsonArray.get(i);
-    			System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
-    			//System.out.println();
-    			partido = PartidoDAOImplementation.getInstancia().read((String)partidoJSON.get("codeName"));
-    			partido.setVote( (String)partidoJSON.get("vote") );
-    			System.out.println("FormSimulationServlet, log, partidoJSON.get(\"ausentes\"): " + partidoJSON.get("ausentes"));
-
-    			partido.setAusentes (Integer.parseInt((String)partidoJSON.get("ausentes")) ) ;
-    			PartidoDAOImplementation.getInstancia().update(partido);
-    			/*
-					System.out.println("FormSimulationServlet, log, partido: " + partido);
-					System.out.println("--------------------------------------------------");
-					System.out.println("FormSimulationServlet, log, ArrayJSON: " + jsonArray);
-					System.out.println("FormSimulationServlet, log, readAll: " + PartidoDAOImplementation.getInstancia().readAll());
-					System.out.println("--------------------------------------------------");
-    			 */
-    		}
-    	} catch (org.json.simple.parser.ParseException e) {
-    		// TODO Auto-generated catch block
-    		e.printStackTrace();
-    	}
-    	request.getRequestDispatcher("FormSimulationSimpleServlet").forward(request, response);		
-
-    
-    }
-
-
-    /**
-     * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-     */
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	// Llamo de la base de datos a la lista de partidos
 
     	List<Partido> partidos = new ArrayList<Partido>();
@@ -91,6 +45,14 @@ public class AsignacionSimpleServlet extends HttpServlet {
     	request.getSession().setAttribute("partidos", partidos);
 
     	getServletContext().getRequestDispatcher("/AsignacionSimple.jsp").forward(request, response);
+    
     }
+
+
+    /**
+     * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+     */
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    	}
 
 }

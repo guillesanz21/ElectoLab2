@@ -131,7 +131,7 @@ public class FormSeedBBDD extends HttpServlet {
             	d.setPartido(PartidoDAOImplementation.getInstancia().read((String)diputadoJSON.get("partido")));
             	//Genero meterlo en custom tag
             	System.out.println((String)diputadoJSON.get("partido"));
-            	d.setGenero((String)diputadoJSON.get("sexo"));
+            	d.setGenero((String)diputadoJSON.get("genero"));
             	d.setProvincia((String)diputadoJSON.get("provincia"));
             	d.setEstado_civil((String)diputadoJSON.get("estado_civil"));
             	d.setEdad(year-(Long)diputadoJSON.get("nacimiento"));

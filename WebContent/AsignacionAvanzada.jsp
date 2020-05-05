@@ -25,7 +25,7 @@
 
     <!-- Content -->
     <section class="container container-simular">
-      <form action="AsignacionAvanzadaServlet" >
+      <form action="FormSimulacionAvanzadaServlet" >
         <input type="hidden" name="tagJSON" id="tagJSON" value="" />
 
         <button id="simular-btn-simulation" class="btn btn-info">

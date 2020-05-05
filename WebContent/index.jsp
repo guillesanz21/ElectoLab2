@@ -42,11 +42,11 @@
 			<c:choose>
 				<c:when test="${usuarioActivo != true}">
 					<div id="btns-home">
-						<form method="post" action="AsignacionSimpleServlet">
+						<form action="AsignacionSimpleServlet">
 							<button type="submit" class="btn btn-info btn-home">Simulación
 								Simple</button>
 						</form>
-						<form method="get" action="">
+						<form action="">
 							<button type="submit" class="btn btn-info btn-home disabled">Simulación
 								Avanzada</button>
 						</form>
@@ -55,11 +55,11 @@
 				</c:when>
 				<c:when test="${usuarioActivo == true}">
 					<div id="btns-home">
-						<form method="post" action="AsignacionSimpleServlet">
+						<form action="AsignacionSimpleServlet">
 							<button type="submit" class="btn btn-info btn-home">Simulación
 								Simple</button>
 						</form>
-						<form method="post" action="AsignacionAvanzadaServlet">
+						<form action="AsignacionAvanzadaServlet">
 							<button type="submit" class="btn btn-info btn-home">Simulación
 								Avanzada</button>
 						</form>
