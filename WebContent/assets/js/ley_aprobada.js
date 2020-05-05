@@ -46,10 +46,12 @@ const vistaAbsoluta = () => {
 		if (leyAprobada) {
 			view += `
 				<p>La ley ha sido aprobada por mayoría absoluta, dado que los votos a favor superan el 50% (176 escaños) de la cámara.</p>\n
+					
 				`
 		} else {
 			view += `
 				<p>La ley ha sido rechazada por mayoría absoluta, dado que los votos a favor no superan el 50% (176 escaños) de la cámara.</p>\n
+						
 				`
 		}
 		view += `</div>`	
@@ -65,10 +67,12 @@ const vistaSimple = () => {
 		if (leyAprobada) {
 			view += `
 				<p>La ley ha sido aprobada por mayoría simple, dado que los votos a favor superan a los votos en contra.</p>\n
+						
 				`
 		} else {
 			view += `
 				<p>La ley ha sido rechazada por mayoría simple, dado que los votos a favor no superan a los votos en contra.</p>\n
+					
 				`
 		}
 		view += `</div>`	
@@ -84,11 +88,13 @@ const vistaCondicionada = () => {
 			view += `
 				<p>La ley ha sido aprobada por mayoría condicionada, dado que se supera la mínima participación que ha 
 				especificado el usuario, y que los votos a favor superan los votos en contra.</p>\n
+						
 				`
 		} else {
 			view += `
 				<p>La ley ha sido aprobada por mayoría condicionada, dado que no se supera la mínima participación que ha 
 				especificado el usuario, o que los votos a favor no superan los votos en contra.</p>\n
+						
 				`
 		}
 		view += `</div>`	

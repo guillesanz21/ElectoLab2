@@ -168,13 +168,13 @@
 		<!-- ################## PERIODICOS ################### -->
 		<h3 class="h3Info">Periódicos con mayor relevancia nacional:</h3>
 		<ul class="periodicos">
-			<li><a href="https://www.elmundo.es/">El mundo</a></li>
-			<li><a href="https://www.larazon.es/">La razón</a></li>
-			<li><a href="https://www.abc.es/">ABC</a></li>
-			<li><a href="https://elpais.com/">El país</a></li>
-			<li><a href="https://www.elconfidencial.com/">El
+			<li><a href="https://www.elmundo.es/" target="_blank">Elmundo</a></li>
+			<li><a href="https://www.larazon.es/" target="_blank">La razón</a></li>
+			<li><a href="https://www.abc.es/" target="_blank">ABC</a></li>
+			<li><a href="https://elpais.com/" target="_blank">El país</a></li>
+			<li><a href="https://www.elconfidencial.com/" target="_blank">El
 					confidencial</a></li>
-			<li><a href="https://www.lavanguardia.com/">La Vanguardia</a></li>
+			<li><a href="https://www.lavanguardia.com/" target="_blank">La Vanguardia</a></li>
 		</ul>
 	</div>
 
