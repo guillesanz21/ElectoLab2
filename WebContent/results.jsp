@@ -83,14 +83,14 @@
 				Resultado de la simulación nº ${simulacion.idSimulacion +1}</h1>
 			<h2 class="display-4" style="text-align: center">
 				El titulo de la ley es: ${simulacion.tituloLey}</h2>
-		</c:if>
-		<c:if test="${verSimulacion == false}">
 			<h3 style="text-align: center">El autor de la simulacion fue:
 				${simulacion.autor.nombre}</h3>
 		</c:if>
-
-		<h1 class="display-4" style="text-align: center;">Resultado de su
+		<c:if test="${verSimulacion == false}">
+			<h1 class="display-4" style="text-align: center;">Resultado de su
 			simulación</h1>
+		</c:if>
+
 		<div id="piechart_3d" style="width: auto; height: 500px;"></div>
 
 		<!-- ################## Tabla de resultados ########################-->
@@ -195,15 +195,23 @@
 			</c:otherwise>
 
 		</c:choose>
-
-		<!--Estudio de ley aprobada-->
-		<%@ include file="FormLeyAprobada.jsp"%>
-
 		<c:if test="${verSimulacion == false}">
+			<!--Estudio de ley aprobada-->
+			<%@ include file="FormLeyAprobada.jsp"%>
+
+
 			<!--Save simulation-->
-		<%@ include file="FormGuardaSimulacion.jsp"%>
+			<%@ include file="FormGuardaSimulacion.jsp"%>
 		</c:if>
-		
+		<c:if test="${verSimulacion == true && simulacion.ley_aprobada == false}">
+			<p>La ley ha sido rechazada</p>
+			<p>El tipo de votación se realizó por "${simulacion.tipoMayoria}"</p>
+		</c:if>
+		<c:if test="${verSimulacion == true && simulacion.ley_aprobada == true}">
+			<p>La ley ha sido aprobada</p>
+			<p>El tipo de votación se realizó por "${simulacion.tipoMayoria}"</p>
+		</c:if>
+
 		<br> <br>
 	</section>
 

@@ -42,7 +42,7 @@
 				<table class="table table-striped" id="results-table">
 					<thead>
 						<tr>
-							<th class="table-success" scop="col" colspan="4">Numero de
+							<th class="table-success" scop="col" colspan="4">Número de
 								simulaciones guardadas: ${fn:length(Simulaciones)}</th>
 						</tr>
 						<tr class="thead-dark text-center">
