@@ -4,8 +4,6 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
-<!DOCTYPE html>
-<html>
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -137,8 +135,8 @@
 		<!-- /.carousel -->
 
 		<!-- ################## LISTA/TABLA DIPUTADOS ################### -->
-			<div class="container">
-					<h3 class="h3Info">Diputados que componen el Congreso:</h3>
+			<div class="p-1 mb-1 bg-light rounded">
+					<h3 class="h3Info text-dark">Diputados que componen el Congreso:</h3>
 					<table class="table table-fluid" id="myTable">
 						<thead>
 							<tr>

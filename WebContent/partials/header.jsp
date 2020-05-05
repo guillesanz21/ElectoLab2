@@ -44,7 +44,7 @@
 			</div>
 		</c:when>
 		<c:when test="${usuarioActivo == true}">
-			<a class="btn btn-outline-success">Bienvenido ${nombreUsuario}</a>
+			<a class="btn btn-outline-success text-white">Bienvenido ${nombreUsuario}</a>
 			<div style="margin-left: 10px;"><%@ include
 					file="../FormLogout.jsp"%></div>
 		</c:when>

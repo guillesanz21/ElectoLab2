@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,15 +19,19 @@
 <title>Login</title>
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 	<!-- Header -->
 	<%@ include file = "partials/header.jsp" %>
-	
-	<!-- Information page -->
-	<div class="cuadroFormulario">
-		<%@ include file="FormRegistro.jsp"%>
-	</div>
-	
+
+
+	<!-- Content -->
+	<main role="main" class="flex-shrink-0">
+		<!-- formulario de registro -->
+		<div class="cuadroFormulario">
+			<%@ include file="FormRegistro.jsp"%>
+		</div>
+		</div>
+	</main>
 
 
 	<!-- Footer -->

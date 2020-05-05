@@ -70,7 +70,7 @@
 <title>Resultados de la simulación</title>
 
 </head>
-<body>
+<body class="bodyResultados">
 
 	<!-- Header -->
 	<%@ include file="partials/header.jsp"%>
@@ -79,55 +79,57 @@
 	<section class="container">
 
 		<c:if test="${verSimulacion == true}">
-			<h1 class="display-4" style="text-align: center">
-				Resultado de la simulación nº ${simulacion.idSimulacion +1}</h1>
-			<h2 class="display-4" style="text-align: center">
+			<h2 class="display-4" style="text-align: center; margin-top: 40px">
 				El titulo de la ley es: ${simulacion.tituloLey}</h2>
-			<h3 style="text-align: center">El autor de la simulacion fue:
-				${simulacion.autor.nombre}</h3>
 		</c:if>
 		<c:if test="${verSimulacion == false}">
-			<h1 class="display-4" style="text-align: center;">Resultado de su
-			simulación</h1>
+			<h1 class="display-4" style="text-align: center; margin-top: 40px;">Resultado
+				de su simulación</h1>
 		</c:if>
 
 		<div id="piechart_3d" style="width: auto; height: 500px;"></div>
 
 		<!-- ################## Tabla de resultados ########################-->
-		<table class="table" id="results-table">
-			<thead class="thead-dark">
+		<table class="table shadow-lg p-3 mb-5 rounded border border-dark"
+			id="results-table">
+			<caption class="text-right">
+				Tipo de votación realizada: <b>${simulacion.tipoSimulacion}</b>
+			</caption>
+			<thead>
 				<tr>
+					<th class="border border-dark bg- text-center" scop="col"
+						colspan="3">Tabla de la simulación tipo
+						${simulacion.tipoSimulacion}</th>
+				</tr>
+				<tr class="thead-dark">
 					<th scope="col">Decisión</th>
-					<th scope="col">Votos</th>
-					<th scope="col">Votos/Total</th>
+					<th class="text-center" scope="col">Votos</th>
+					<th class="text-center" scope="col">Votos/Total</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr class="table-success">
 					<th scope="row">A favor</th>
-					<td>${simulacion.votos_favor}</td>
-					<td>${simulacion.votos_favor}/350</td>
+					<td class="text-center">${simulacion.votos_favor}</td>
+					<td class="text-center">${simulacion.votos_favor}/350</td>
 				</tr>
 				<tr class="table-danger">
 					<th scope="row">En contra</th>
-					<td>${simulacion.votos_contra}</td>
-					<td>${simulacion.votos_contra}/350</td>
+					<td class="text-center">${simulacion.votos_contra}</td>
+					<td class="text-center">${simulacion.votos_contra}/350</td>
 				</tr>
 				<tr class="table-warning">
 					<th scope="row">Abstención</th>
-					<td>${simulacion.votos_abstencion}</td>
-					<td>${simulacion.votos_abstencion}/350</td>
+					<td class="text-center">${simulacion.votos_abstencion}</td>
+					<td class="text-center">${simulacion.votos_abstencion}/350</td>
 				</tr>
 				<tr class="table-primary">
 					<th scope="row">Ausentes</th>
-					<td>${simulacion.votos_ausente}</td>
-					<td>${simulacion.votos_ausente}/350</td>
+					<td class="text-center">${simulacion.votos_ausente}</td>
+					<td class="text-center">${simulacion.votos_ausente}/350</td>
 				</tr>
 			</tbody>
 		</table>
-
-		<p>Se ha realizado una votación de tipo ${simulacion.tipoSimulacion}</p>
-
 
 		<!-- ################## Tabla de partidos/diputados ########################-->
 		<c:choose>
@@ -135,8 +137,10 @@
 			<c:when test="${simulacion.tipoSimulacion == 'simple'}">
 				<!-- Partidos -->
 
-				<div class="container">
-					<h2 class="h3Info">Lista de Partidos</h2>
+				<div
+					class="shadow-lg p-3 mb-5 rounded border border-dark p-1 mb-1 bg-light rounded">
+					<h3 class="h3Info text-dark">Lista de Partidos que componen el
+						Congreso:</h3>
 					<table class="table table-fluid" id="myTable">
 						<thead>
 							<tr>
@@ -163,8 +167,11 @@
 
 			<c:otherwise>
 				<!-- Diputados -->
-				<div class="container">
-					<h2 class="h3Info">Lista de Diputados</h2>
+
+				<div
+					class="shadow-lg p-3 mb-5 rounded border border-dark p-1 mb-1 bg-light rounded">
+					<h3 class="h3Info text-dark">Diputados que componen el
+						Congreso:</h3>
 					<table class="table table-fluid" id="myTable">
 						<thead>
 							<tr>
@@ -193,27 +200,97 @@
 					</table>
 				</div>
 			</c:otherwise>
-
 		</c:choose>
-		<c:if test="${verSimulacion == false}">
-			<!--Estudio de ley aprobada-->
-			<%@ include file="FormLeyAprobada.jsp"%>
 
+		<div class="card-deck mb-3">
+			<c:if test="${verSimulacion == false}">
+				<div
+					class="instruccionesGuardaSimu card mb-4 shadow-sm rounded alert-success">
+					<h4>Para saber si la ley es aprobada o rechazada</h4>
+					<ul class="list">
+						<li>Escoge el tipo de mayoria que necesita cumplir la ley</li>
+						<ul>
+							<li>Mayoría absoluta: la ley se aprueba con 176 votos a
+								favor</li>
+							<li>Mayoría simple: la ley se aprueba con más votos a favor
+								que en contra</li>
+							<li>Mayoría condicionada</li>
+							<ul>
+								<li>Escriba en el cuadro que aparece un porcentaje de
+									participación mínima</li>
+								<li>La ley se aprueba con más votos a favor que en contra
+									siempre que se cumpla el porcentaje de participación mínima</li>
+							</ul>
+						</ul>
+					</ul>
+					<h4>Para guardar la simulación</h4>
+					<ul class="list">
+						<li>Después de realizar los pasos anteriores</li>
+						<li>Escriba el nombre de la ley simulada</li>
+						<li>Pulse el botón guardar</li>
+					</ul>
+				</div>
+			</c:if>
+			<div class="card mb-4 shadow-sm rounded">
 
-			<!--Save simulation-->
-			<%@ include file="FormGuardaSimulacion.jsp"%>
-		</c:if>
-		<c:if test="${verSimulacion == true && simulacion.ley_aprobada == false}">
-			<p>La ley ha sido rechazada</p>
-			<p>El tipo de votación se realizó por "${simulacion.tipoMayoria}"</p>
-		</c:if>
-		<c:if test="${verSimulacion == true && simulacion.ley_aprobada == true}">
-			<p>La ley ha sido aprobada</p>
-			<p>El tipo de votación se realizó por "${simulacion.tipoMayoria}"</p>
-		</c:if>
+				<c:if test="${verSimulacion == false}">
+					<div class="card-body">
+						<div class="botonesTipoMayoria">
+							<!--Estudio de ley aprobada-->
+							<%@ include file="FormLeyAprobada.jsp"%>
+						</div>
 
-		<br> <br>
+						<!--Save simulation-->
+						<%@ include file="FormGuardaSimulacion.jsp"%>
+					</div>
+				</c:if>
+
+				<c:if
+					test="${verSimulacion == true && simulacion.ley_aprobada == false}">
+					<div class="card-header text-uppercase table-info text-center">
+						<h3>Información de la Ley</h3>
+					</div>
+					<div class="card-body">
+						<ul class="list">
+							<li>La ley ha sido <mark>rechazada</mark></li>
+							<li>El tipo de votación se realizó por <mark>${simulacion.tipoMayoria}</mark>
+							</li>
+						</ul>
+					</div>
+
+				</c:if>
+				<c:if
+					test="${verSimulacion == true && simulacion.ley_aprobada == true}">
+					<div class="card-header text-uppercase table-info text-center">
+						<h3>Información de la Ley</h3>
+					</div>
+					<div class="card-body">
+						<ul class="list">
+							<li>La ley ha sido <mark>aprobada</mark></li>
+							<li>El tipo de votación se realizó por <mark>${simulacion.tipoMayoria}</mark>
+							</li>
+						</ul>
+					</div>
+				</c:if>
+			</div>
+			<c:if test="${verSimulacion == true}">
+				<div class="card mb-4 shadow-sm rounded">
+					<div class="card-header text-uppercase table-info text-center">
+						<h3>Información de la simulación</h3>
+					</div>
+					<div class="card-body">
+						<ul class="list">
+							<li>Resultado de la simulación <mark>nº ${simulacion.idSimulacion +1}</mark></li>
+							<li>El autor de la simulacion fue: <mark>${simulacion.autor.nombre}</mark>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</c:if>
+		</div>
 	</section>
+	
+	
 
 
 	<!-- Footer -->

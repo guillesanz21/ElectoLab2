@@ -57,14 +57,15 @@ const listaTagView = (listaTag) => {
 			<input type="radio"	name="${tag}" id="${tag}3" class="hidden abstencion" checked /> 
 			<span class="label"></span>Abstención
 			</label>
-			<form class="form-inline">
+			
+			<div class="form-inline">
 			<div class="form-group mx-sm-3 mb-2">
 			<label for="${tag}4" class="sr-only"></label> <input
 			type="number" class="form-control" id="${tag}4"
 			placeholder="Ausentes">
 			</div>
 			<p id="${tag}4Send" class="btn btn-primary mb-2">Actualizar</p>
-			</form>
+			</div>
 
 			</div>
 			<!-- Aqui terminan los radio buttons -->
