@@ -26,7 +26,7 @@ public class Simulacion implements Serializable {
 	private String tituloLey;
 	private boolean ley_aprobada;
 	
-
+	private String tipoMayoria;
 	private String tipoSimulacion;
 	
 	@Lob
@@ -126,12 +126,13 @@ public class Simulacion implements Serializable {
 	public void setVotoPartido(ArrayList<Partido> votoPartido) {
 		this.votoPartido = votoPartido;
 	}
-	
-	@Override
-	public String toString() {
-		return "Simulacion [idSimulacion=" + idSimulacion + ", votos_favor=" + votos_favor + ", votos_contra="
-				+ votos_contra + ", votos_abstencion=" + votos_abstencion + ", tituloLey=" + tituloLey + 
-				", ley_aprobada=" + ley_aprobada + ", autor=" + autor + "]";
+
+	public String getTipoMayoria() {
+		return tipoMayoria;
+	}
+
+	public void setTipoMayoria(String tipoMayoria) {
+		this.tipoMayoria = tipoMayoria;
 	}
 
 	@Override
@@ -141,10 +142,15 @@ public class Simulacion implements Serializable {
 		result = prime * result + ((autor == null) ? 0 : autor.hashCode());
 		result = prime * result + idSimulacion;
 		result = prime * result + (ley_aprobada ? 1231 : 1237);
+		result = prime * result + ((tipoMayoria == null) ? 0 : tipoMayoria.hashCode());
+		result = prime * result + ((tipoSimulacion == null) ? 0 : tipoSimulacion.hashCode());
 		result = prime * result + ((tituloLey == null) ? 0 : tituloLey.hashCode());
-		result = prime * result + (int) (votos_abstencion ^ (votos_abstencion >>> 32));
-		result = prime * result + (int) (votos_contra ^ (votos_contra >>> 32));
-		result = prime * result + (int) (votos_favor ^ (votos_favor >>> 32));
+		result = prime * result + ((votoDiputado == null) ? 0 : votoDiputado.hashCode());
+		result = prime * result + ((votoPartido == null) ? 0 : votoPartido.hashCode());
+		result = prime * result + votos_abstencion;
+		result = prime * result + votos_ausente;
+		result = prime * result + votos_contra;
+		result = prime * result + votos_favor;
 		return result;
 	}
 
@@ -166,12 +172,34 @@ public class Simulacion implements Serializable {
 			return false;
 		if (ley_aprobada != other.ley_aprobada)
 			return false;
+		if (tipoMayoria == null) {
+			if (other.tipoMayoria != null)
+				return false;
+		} else if (!tipoMayoria.equals(other.tipoMayoria))
+			return false;
+		if (tipoSimulacion == null) {
+			if (other.tipoSimulacion != null)
+				return false;
+		} else if (!tipoSimulacion.equals(other.tipoSimulacion))
+			return false;
 		if (tituloLey == null) {
 			if (other.tituloLey != null)
 				return false;
 		} else if (!tituloLey.equals(other.tituloLey))
 			return false;
+		if (votoDiputado == null) {
+			if (other.votoDiputado != null)
+				return false;
+		} else if (!votoDiputado.equals(other.votoDiputado))
+			return false;
+		if (votoPartido == null) {
+			if (other.votoPartido != null)
+				return false;
+		} else if (!votoPartido.equals(other.votoPartido))
+			return false;
 		if (votos_abstencion != other.votos_abstencion)
+			return false;
+		if (votos_ausente != other.votos_ausente)
 			return false;
 		if (votos_contra != other.votos_contra)
 			return false;
@@ -179,5 +207,16 @@ public class Simulacion implements Serializable {
 			return false;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Simulacion [idSimulacion=" + idSimulacion + ", votos_favor=" + votos_favor + ", votos_contra="
+				+ votos_contra + ", votos_abstencion=" + votos_abstencion + ", votos_ausente=" + votos_ausente
+				+ ", tituloLey=" + tituloLey + ", ley_aprobada=" + ley_aprobada + ", tipoMayoria=" + tipoMayoria
+				+ ", tipoSimulacion=" + tipoSimulacion + ", votoDiputado=" + votoDiputado + ", votoPartido="
+				+ votoPartido + ", autor=" + autor + "]";
+	}
+	
+	
 
 }

@@ -37,7 +37,8 @@ public class AsignacionSimpleServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    	//System.out.println(request.getParameter("partidos"));
+
+		//System.out.println(request.getParameter("partidos"));
 
     	JSONParser parser = new JSONParser();
     	Object object;
@@ -50,6 +51,7 @@ public class AsignacionSimpleServlet extends HttpServlet {
     		JSONArray jsonArray = (JSONArray) object;		// convert Object to JSONObject
     		JSONObject partidoJSON;
     		for (int i = 0; i < (jsonArray).size(); i++) {
+    			System.out.println("Partido: " + jsonArray.get(i));
     			partidoJSON = (JSONObject) jsonArray.get(i);
     			System.out.println("FormSimulationServlet, log, partidoJSON: " + partidoJSON);
     			//System.out.println();
@@ -73,6 +75,7 @@ public class AsignacionSimpleServlet extends HttpServlet {
     	}
     	request.getRequestDispatcher("FormSimulationSimpleServlet").forward(request, response);		
 
+    
     }
 
 
@@ -81,6 +84,7 @@ public class AsignacionSimpleServlet extends HttpServlet {
      */
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	// Llamo de la base de datos a la lista de partidos
+
     	List<Partido> partidos = new ArrayList<Partido>();
     	partidos = PartidoDAOImplementation.getInstancia().readAll();
 

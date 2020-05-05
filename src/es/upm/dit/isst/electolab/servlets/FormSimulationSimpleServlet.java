@@ -10,6 +10,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
 import es.upm.dit.isst.electolab.dao.PartidoDAOImplementation;
 import es.upm.dit.isst.electolab.model.Partido;
 import es.upm.dit.isst.electolab.model.Simulacion;
@@ -70,30 +74,35 @@ public class FormSimulationSimpleServlet extends HttpServlet {
 					// Reinicia el atributo voto del partido en concreto para actualizarlo en la bbdd
 					partido.setVote(voto);
 					
-					if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
-						ley_aprobada = true;
-					}
-					else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
-						ley_aprobada = true;
-					}
-					else {
-						ley_aprobada = false;
-					}
 					
-					simulacion.setLey_aprobada(ley_aprobada);
-					System.out.println("--------------------------------------------------");
-					System.out.println("FormSimulationSimpleServlet, ley aprobada: " + ley_aprobada);
-					System.out.println("--------------------------------------------------");
 					// Actualiza la bbdd dejando el partido con los valores reiniciados
 					PartidoDAOImplementation.getInstancia().update(partido);
 				}
+				
+				if (simulacion.getVotos_favor() > (simulacion.getVotos_contra() + simulacion.getVotos_abstencion())) {
+					ley_aprobada = true;
+				}
+				else if (simulacion.getVotos_favor() > (simulacion.getVotos_contra())) {
+					ley_aprobada = true;
+				}
+				else {
+					ley_aprobada = false;
+				}
+				
+				simulacion.setLey_aprobada(ley_aprobada);
+				System.out.println("--------------------------------------------------");
+				System.out.println("FormSimulationSimpleServlet, ley aprobada: " + ley_aprobada);
+				System.out.println("--------------------------------------------------");
 				simulacion.setVotoPartido(votoPartido);
 				// Mete en la sesion el objeto simulacion y devuelve la vista a results.jsp
 				System.out.println("FormSimulationSimpleServlet ,doGet, Simulación: " + simulacion);
 				request.getSession().setAttribute("simulacion", simulacion);
+				
 				getServletContext().getRequestDispatcher("/results.jsp").forward(request, response);
 
-
+				
+				
+				
 	}
 
 }

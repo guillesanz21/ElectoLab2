@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", loadPage);
 //------------- MODELO DE DATOS -------------
 var favor = 0;
 var contra = 0;
+var abstencion = 0;
 var diputados = 350;
 var ausentes = 0;
 
@@ -26,14 +27,14 @@ const barraView = () => {
 
 	<div class="progress-bar bg-success" 
 	role="progressbar" 
-	style="width: ${(favor / diputados) * 100}%" 
+	style="width: ${((favor) / diputados) * 100}%" 
 	aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
 	${Math.round((favor / diputados) * 100)}%
 	</div>
 
 	<div class="progress-bar bg-danger" 
 	role="progressbar" 
-	style="width: ${(contra / diputados) * 100}%" 
+	style="width: ${((contra) / diputados) * 100}%" 
 	aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
 	${Math.round((contra / diputados) * 100)}%
 	</div>
@@ -84,6 +85,8 @@ const loadEvents = (listaPartidos) => {
 			if (partido.vote === "abstencion") {
 				// Si ya se abstenia
 				favor += parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
+				abstencion -= parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
+
 			}
 			// Para la condición de que estuviese a favor no hacemos nada
 			partido.vote = "favor"; // El partido esta ahora a favor
@@ -103,6 +106,8 @@ const loadEvents = (listaPartidos) => {
 			if (partido.vote === "abstencion") {
 				// Si ya se abstenia
 				contra += parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
+				abstencion -= parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
+
 			}
 			// Para la condición de que estuviese en contra no hacemos nada
 			partido.vote = "contra"; // El partido esta ahora en contra
@@ -116,10 +121,12 @@ const loadEvents = (listaPartidos) => {
 		.addEventListener("click", function () {
 			if (partido.vote === "favor") {
 				// Si ya estaba a favor
+				abstencion += parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
 				favor -= parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
 			}
 			if (partido.vote === "contra") {
 				// Si ya estaba en contra
+				abstencion += parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
 				contra -= parseInt(parseInt(partido.seats) - parseInt(partido.ausentes));
 			}
 			// Para la condición de que se abstubiese no hacemos nada
@@ -132,16 +139,31 @@ const loadEvents = (listaPartidos) => {
 		document
 		.getElementById(partido.codeName + "4Send")
 		.addEventListener("click", function () {
-			numAusentes =  document.getElementById(partido.codeName + "4").value;
-			if (numAusentes <= partido.seats) {
+			numAusentes = parseInt( document.getElementById(partido.codeName + "4").value );
+			
+			if (parseInt(numAusentes) <= parseInt(partido.seats) && parseInt(numAusentes) > 0) { 
 				partido.ausentes = numAusentes; // El partido ahora esta ausente
-				ausentes = numAusentes;
+				ausentes = parseInt(numAusentes);
+			} else if (parseInt(numAusentes) > parseInt(partido.seats)) {
+				partido.ausentes = partido.seats;
+				ausentes = parseInt(partido.seats);
+				alert("Partido: " + partido.codeName + " Escaños: " + partido.seats + " Ausentes: " + partido.ausentes);
+				//alert("Número de ausentes demasiado grande, se asignan: " + partido.seats + " ausentes");
+			} else {
+				partido.ausentes = "0"; // El partido ahora esta ausente
+				ausentes = "0";
+				alert("Introduce un número de ausentes correcto");
 			}
+			partido.seats = partido.seats.toString();
+			partido.ausentes = partido.ausentes.toString();
 			console.log(partido);
 			barraContr();
+			
 		});
 		partido.seats = partido.seats.toString();
 		partido.ausentes = partido.ausentes.toString();
+		console.log(partido)
+
 	}
 	/*
 	 * Crea un JSON con partidos en el momento en el que se pulsa el boton simuar y lo envia al servlet

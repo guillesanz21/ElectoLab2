@@ -278,18 +278,18 @@ const loadEvents = () => {
 		.getElementById(tag.tagElement + "4Send")
 		.addEventListener("click", function () {
 			numAusentes =  document.getElementById(tag.tagElement + "4").value;
-			if (numAusentes <= tag.seats && numAusentes >= 0) { 
+			if (parseInt(numAusentes) <= parseInt(tag.seats) && parseInt(numAusentes) > 0) { 
 				tag.ausentes = numAusentes; // El tag ahora esta ausente
 				ausentes = numAusentes;
-			} else if (numAusentes > tag.seats) {
+			} else if ( parseInt(numAusentes) > parseInt(tag.seats) ) {
 				tag.ausentes = tag.seats;
 				ausentes = tag.seats;
-				console.log(tag.ausentes)
+				alert("Número de ausentes demasiado grande, se asignan: " + tag.seats + " ausentes");
 			
-			} else if (numAusentes < 0) {
-				tag.ausentes = 0; // El tag ahora esta ausente
-				ausentes = 0;
-				alert("Has puesto un número negativo");
+			} else {
+				tag.ausentes = "0"; // El tag ahora esta ausente
+				ausentes = "0";
+				alert("Introduce un número de ausentes correcto");
 			}
 			barraContr();
 		});
