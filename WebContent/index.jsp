@@ -3,7 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
 <!DOCTYPE html>
-<html>
+<html class="h-100">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=6" />
 <title>ElectoLab</title>
 </head>
-<body>
+<body  class="d-flex flex-column h-100">
 
 	<!-- Header -->
 	<%@ include file="partials/header.jsp"%>
@@ -23,60 +23,62 @@
 
 	<!-- Content -->
 	<main role="main" class="flex-shrink-0">
-		<section class="container container-index">
-			<h1 class="display-2 screenHeader">ElectoLab Parte II</h1>
-			<div>
-				<p class="index-text">Página web dedicada a la simulacion de
-					votaciones de leyes en el Congreso de los Diputados, pensada tanto
-					como para el público general como para un público con más
-					conocimiento, como pueden ser analistas o periodistas.</p>
-				<p class="index-text">Pulse simulación sencilla para una
-					votación estándar del Congreso dividido por partidos políticos.</p>
-				<p class="index-text">Tras registrarse y acceder, pulse
-					simulación avanzada para votaciones más complejas.</p>
-			</div>
+		<div class="container">
+			<section class="container container-index">
+				<h1 class="display-2 screenHeader">ElectoLab Parte II</h1>
+				<div>
+					<p class="index-text">Página web dedicada a la simulacion de
+						votaciones de leyes en el Congreso de los Diputados, pensada tanto
+						como para el público general como para un público con más
+						conocimiento, como pueden ser analistas o periodistas.</p>
+					<p class="index-text">Pulse simulación sencilla para una
+						votación estándar del Congreso dividido por partidos políticos.</p>
+					<p class="index-text">Tras registrarse y acceder, pulse
+						simulación avanzada para votaciones más complejas.</p>
+				</div>
 
-			<img id="resultados" src="assets/images/resultados.png"
-				alt="resultados de las elecciones generales de 2019" />
+				<img id="resultados" src="assets/images/resultados.png"
+					alt="resultados de las elecciones generales de 2019" />
 
-			<c:choose>
-				<c:when test="${usuarioActivo != true}">
-					<div id="btns-home">
-						<form action="AsignacionSimpleServlet">
-							<button type="submit" class="btn btn-info btn-home">Simulación
-								Simple</button>
-						</form>
-						<form action="">
-							<button type="submit" class="btn btn-info btn-home disabled">Simulación
-								Avanzada</button>
-						</form>
-					</div>
+				<c:choose>
+					<c:when test="${usuarioActivo != true}">
+						<div id="btns-home">
+							<form action="AsignacionSimpleServlet">
+								<button type="submit" class="btn btn-info btn-home">Simulación
+									Simple</button>
+							</form>
+							<form action="">
+								<button type="submit" class="btn btn-info btn-home disabled">Simulación
+									Avanzada</button>
+							</form>
+						</div>
 
-				</c:when>
-				<c:when test="${usuarioActivo == true}">
-					<div id="btns-home">
-						<form action="AsignacionSimpleServlet">
-							<button type="submit" class="btn btn-info btn-home">Simulación
-								Simple</button>
-						</form>
-						<form action="AsignacionAvanzadaServlet">
-							<button type="submit" class="btn btn-info btn-home">Simulación
-								Avanzada</button>
-						</form>
-					</div>
+					</c:when>
+					<c:when test="${usuarioActivo == true}">
+						<div id="btns-home">
+							<form action="AsignacionSimpleServlet">
+								<button type="submit" class="btn btn-info btn-home">Simulación
+									Simple</button>
+							</form>
+							<form action="AsignacionAvanzadaServlet">
+								<button type="submit" class="btn btn-info btn-home">Simulación
+									Avanzada</button>
+							</form>
+						</div>
 
-				</c:when>
-			</c:choose>
+					</c:when>
+				</c:choose>
 
-			<div class="ver-simul">
-				<p class="index-text">¿Prefiere ver simulaciones realizadas por
-					otras personas en vez de simular usted mismo?</p>
-				<p class="index-text">Aquí podrá encontrarlas:</p>
-				<%@ include file="FormVerSimulacionesGuardadas.jsp"%>
+				<div class="ver-simul">
+					<p class="index-text">¿Prefiere ver simulaciones realizadas por
+						otras personas en vez de simular usted mismo?</p>
+					<p class="index-text">Aquí podrá encontrarlas:</p>
+					<%@ include file="FormVerSimulacionesGuardadas.jsp"%>
 
 
-			</div>
-		</section>
+				</div>
+			</section>
+		</div>
 	</main>
 
 

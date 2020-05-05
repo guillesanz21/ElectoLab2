@@ -10,14 +10,18 @@ body {
   color: white;
 }
 
+main > .container {
+  padding: 60px 15px 0;
+}
+
 .footer {
-  position: absolute;
-  bottom: 0.5%;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 35px;
   background-color: #e0e0e0;
-  padding-left: 1rem;
+}
+
+.footer > .containerFooter {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
 }
 
 .screenHeader {
@@ -146,7 +150,7 @@ body {
 /*  ###################   RESULTADOS   ##################  */
 #results-table {
   margin: 3% 0;
-  width: 90%;
+  width: 100%;
 }
 #save-results-btn {
   align-self: auto;
