@@ -4,6 +4,8 @@ let favor;
 let contra;
 let abstencion;
 let ausentes;
+let situacionDeLaPropuestaDeLey;
+
 
 const loadPage = () => {
 	loadEvents();
@@ -17,21 +19,52 @@ const loadPage = () => {
 const calculoAprobacion = () => {
 	if (tipoMayoria === "mayoria_absoluta") {
 		mayoriaAbsoluta();
+		document.getElementById("SimulationLeyAprobada").innerHTML = vistaAbsoluta();
+		
 	} else if (tipoMayoria === "mayoria_simple") {
 		mayoriaSimple();
+		document.getElementById("SimulationLeyAprobada").innerHTML = vistaSimple();
+	
 	} else if (tipoMayoria === "mayoria_condicionada") {
 		mayoriaCondicionada();
+		document.getElementById("SimulationLeyAprobada").innerHTML = vistaCondicionada();
+		
 	}
-	let SimulationLeyAprobada = document.getElementById("SimulationLeyAprobada");
-	if (leyAprobada) {
-		SimulationLeyAprobada.textContent = "Aprobada";
-	} else {
-		SimulationLeyAprobada.textContent = "Rechazada";
-	}
+
 	
 };
 
+const vistaAbsoluta = () => {
+	let situacionDeLaPropuestaDeLey = leyAprobada ? "Ley aprobada" : "Ley rechazada";
+	let view =`
+		<div>
+		<p><b>${situacionDeLaPropuestaDeLey} </b></p>
+		
+		</div>`
+	
 
+return view;
+}
+const vistaSimple = () => {
+	let situacionDeLaPropuestaDeLey = leyAprobada ? "Ley aprobada" : "Ley rechazada";
+
+	let view =`
+		<div>
+		<p><b>${situacionDeLaPropuestaDeLey} </b></p>
+		
+		</div>`	
+		return view;
+}
+const vistaCondicionada = () => {
+	let situacionDeLaPropuestaDeLey = leyAprobada ? "Ley aprobada" : "Ley rechazada";
+
+	let view =`
+		<div>
+		<p><b>${situacionDeLaPropuestaDeLey} </b></p>
+		
+		</div>`	
+		return view;
+}
 const mayoriaSimple = () => {
 	if (favor > contra) {
 		leyAprobada = true;
