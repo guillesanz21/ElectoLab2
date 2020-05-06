@@ -27,23 +27,23 @@
 		<!-- Cuadro con las instrucciones -->
 		<div class="instrucciones rounded alert-success">
 			<h4>
-				Para realizar una simulacion siga los siguientes pasos:
+				Para realizar una simulación siga los siguientes pasos:
 				</h1>
 				<ul class="list">
-					<li>Escoge en la lista desplegable el tipo de filtro para la
+					<li>Escoge en la lista desplegable el tipo de filtro (atributo) para la
 						simulación</li>
 					<ul>
 						<li>Provincias</li>
 						<li>Genero</li>
 						<li>Estado civil</li>
 					</ul>
-					<li>Selecciona el voto de cada partido</li>
+					<li>Selecciona el voto de cada atributo del diputado seleccionado</li>
 					<ul>
 						<li>A favor, en contra o abstención</li>
 					</ul>
-					<li>Si lo desea complete el numero de ausentes de cada partido</li>
+					<li>Si lo desea complete el número de ausentes de cada atributo seleccionado</li>
 					<ul>
-						<li>Rellene la casilla con el numero elegido y pulse
+						<li>Rellene la casilla con el número elegido y pulse
 							actualizar</li>
 					</ul>
 				</ul>

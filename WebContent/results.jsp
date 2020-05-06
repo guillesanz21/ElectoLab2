@@ -214,7 +214,7 @@
 								favor</li>
 							<li>Mayoría simple: la ley se aprueba con más votos a favor
 								que en contra</li>
-							<li>Mayoría condicionada</li>
+							<li>Mayoría cualificada</li>
 							<ul>
 								<li>Escriba en el cuadro que aparece un porcentaje de
 									participación mínima</li>
@@ -223,12 +223,14 @@
 							</ul>
 						</ul>
 					</ul>
-					<h4>Para guardar la simulación</h4>
-					<ul class="list">
-						<li>Después de realizar los pasos anteriores</li>
-						<li>Escriba el nombre de la ley simulada</li>
-						<li>Pulse el botón guardar</li>
-					</ul>
+					<c:if test="${emailUsuario != null }">
+						<h4>Para guardar la simulación</h4>
+						<ul class="list">
+							<li>Después de realizar los pasos anteriores</li>
+							<li>Escriba el nombre de la ley simulada</li>
+							<li>Pulse el botón guardar</li>
+						</ul>
+					</c:if>
 				</div>
 			</c:if>
 			<div class="card mb-4 shadow-sm rounded">

@@ -199,6 +199,11 @@ main > .instrucciones {
   height: 50%;
 }
 
+.letras_thankyou {
+	margin-top: 2.5555em;
+}
+
+
 /*  ###################   INFORMACION   ##################  */
 .h3Info {
   color: #efefef;

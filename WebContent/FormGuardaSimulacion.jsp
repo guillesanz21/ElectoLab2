@@ -1,7 +1,7 @@
 <c:choose>
 
 	<c:when test="${emailUsuario == null }">
-		<div>
+		<div class="letras_thankyou">
 			<h3>Muchas gracias por simular</h3>
 		</div>
 	</c:when>

@@ -8,7 +8,7 @@
 		Simple
 	</label> <label class="btn btn-info"> <input type="radio"
 		name="options" id="mayoria3" autocomplete="off"> Mayoría
-		Condicionada
+		Cualificada
 	</label>
 </div>
 

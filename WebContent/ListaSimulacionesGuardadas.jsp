@@ -42,12 +42,13 @@
 				<table class="table table-striped" id="results-table">
 					<thead>
 						<tr>
-							<th class="table-success" scop="col" colspan="4">Número de
+							<th class="table-success" scop="col" colspan="5">Número de
 								simulaciones guardadas: ${fn:length(Simulaciones)}</th>
 						</tr>
 						<tr class="thead-dark text-center">
 							<th scope="col">Titulo ley</th>
 							<th scope="col">¿Aprobada?</th>
+							<th scope="col">Tipo de simulación</th>
 							<th scope="col">Autor</th>
 							<th scope="col">Obtener simulación</th>
 						</tr>
@@ -57,6 +58,7 @@
 							<tr>
 								<th scope="row">${simulacioni.tituloLey}</th>
 								<td>${simulacioni.ley_aprobada}</td>
+								<td>${simulacioni.tipoSimulacion}</td>
 								<td>${simulacioni.autor.nombre}</td>
 								<td><%@ include file="FormVerSimulacionGuardada.jsp"%></td>
 							</tr>

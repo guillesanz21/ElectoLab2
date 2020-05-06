@@ -26,9 +26,9 @@ const calculoAprobacion = () => {
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistaSimple();
 		
 	
-	} else if (tipoMayoria === "mayoria_condicionada") {
-		mayoriaCondicionada();
-		document.getElementById("SimulationLeyAprobada").innerHTML = vistaCondicionada();
+	} else if (tipoMayoria === "mayoria_cualificada") {
+		mayoriacualificada();
+		document.getElementById("SimulationLeyAprobada").innerHTML = vistacualificada();
 		
 	}
 
@@ -78,7 +78,7 @@ const vistaSimple = () => {
 		view += `</div>`	
 		return view;
 }
-const vistaCondicionada = () => {
+const vistacualificada = () => {
 	let situacionDeLaPropuestaDeLey = leyAprobada ? "Ley aprobada" : "Ley rechazada";
 
 	let view =`
@@ -86,13 +86,13 @@ const vistaCondicionada = () => {
 		<p><b>${situacionDeLaPropuestaDeLey} </b></p>\n`
 		if (leyAprobada) {
 			view += `
-				<p>La ley ha sido aprobada por mayoría condicionada, dado que se supera la mínima participación que ha 
+				<p>La ley ha sido aprobada por mayoría cualificada, dado que se supera la mínima participación que ha 
 				especificado el usuario, y que los votos a favor superan los votos en contra.</p>\n
 						
 				`
 		} else {
 			view += `
-				<p>La ley ha sido aprobada por mayoría condicionada, dado que no se supera la mínima participación que ha 
+				<p>La ley ha sido aprobada por mayoría cualificada, dado que no se supera la mínima participación que ha 
 				especificado el usuario, o que los votos a favor no superan los votos en contra.</p>\n
 						
 				`
@@ -118,7 +118,7 @@ const mayoriaAbsoluta = () => {
 };
 
 
-const mayoriaCondicionada = () => {
+const mayoriacualificada = () => {
 	let participacionMinima = Math.round(parseInt(prompt("Introduzca el porcentaje mínimo de participación: ")));
 	if (participacionMinima < 0 || participacionMinima > 100) {
 		participacionMinima = 75;
@@ -144,7 +144,7 @@ const loadEvents = () => {
 		calculoAprobacion();
 	});
 	document.getElementById("mayoria3").addEventListener("click", function () {
-		tipoMayoria = "mayoria_condicionada";
+		tipoMayoria = "mayoria_cualificada";
 		calculoAprobacion();
 	});
 };
