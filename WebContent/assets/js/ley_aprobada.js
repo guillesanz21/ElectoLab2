@@ -50,7 +50,7 @@ const vistaAbsoluta = () => {
 				`
 		} else {
 			view += `
-				<p>La ley ha sido rechazada por mayoría absoluta, dado que los votos a favor no superan el 50% (176 escaños) de la cámara.</p>\n
+				<p>La ley ha sido rechazada, dado que los votos a favor no superan el 50% (176 escaños) de la cámara.</p>\n
 						
 				`
 		}
@@ -71,7 +71,7 @@ const vistaSimple = () => {
 				`
 		} else {
 			view += `
-				<p>La ley ha sido rechazada por mayoría simple, dado que los votos a favor no superan a los votos en contra.</p>\n
+				<p>La ley ha sido rechazada, dado que los votos a favor no superan a los votos en contra.</p>\n
 					
 				`
 		}
@@ -92,7 +92,7 @@ const vistacualificada = () => {
 				`
 		} else {
 			view += `
-				<p>La ley ha sido aprobada por mayoría cualificada, dado que no se supera la mínima participación que ha 
+				<p>La ley ha sido rechazada, dado que no se supera la mínima participación que ha 
 				especificado el usuario, o que los votos a favor no superan los votos en contra.</p>\n
 						
 				`
