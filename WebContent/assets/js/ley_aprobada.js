@@ -20,22 +20,22 @@ const calculoAprobacion = () => {
 	if (tipoMayoria === "mayoria_absoluta") {
 		mayoriaAbsoluta();
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistaAbsoluta();
-		
+
 	} else if (tipoMayoria === "mayoria_simple") {
 		mayoriaSimple();
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistaSimple();
-		
-	
+
+
 	} else if (tipoMayoria === "mayoria_cualificada") {
 		mayoriacualificada();
 		document.getElementById("SimulationLeyAprobada").innerHTML = vistacualificada();
-		
+
 	}
 
 	document.getElementById("LeyAprobada").value = leyAprobada === true ? "aprobada" : "rechazada";
 	document.getElementById("TipoMayoria").value = tipoMayoria;
 
-	
+
 };
 
 const vistaAbsoluta = () => {
@@ -46,15 +46,15 @@ const vistaAbsoluta = () => {
 		if (leyAprobada) {
 			view += `
 				<p>La ley ha sido aprobada por mayoría absoluta, dado que los votos a favor superan el 50% (176 escaños) de la cámara.</p>\n
-					
+
 				`
 		} else {
 			view += `
 				<p>La ley ha sido rechazada, dado que los votos a favor no superan el 50% (176 escaños) de la cámara.</p>\n
-						
+
 				`
 		}
-		view += `</div>`	
+	view += `</div>`	
 		return view;
 }
 
@@ -67,15 +67,15 @@ const vistaSimple = () => {
 		if (leyAprobada) {
 			view += `
 				<p>La ley ha sido aprobada por mayoría simple, dado que los votos a favor superan a los votos en contra.</p>\n
-						
+
 				`
 		} else {
 			view += `
 				<p>La ley ha sido rechazada, dado que los votos a favor no superan a los votos en contra.</p>\n
-					
+
 				`
 		}
-		view += `</div>`	
+	view += `</div>`	
 		return view;
 }
 const vistacualificada = () => {
@@ -86,18 +86,16 @@ const vistacualificada = () => {
 		<p><b>${situacionDeLaPropuestaDeLey} </b></p>\n`
 		if (leyAprobada) {
 			view += `
-				<p>La ley ha sido aprobada por mayoría cualificada, dado que se supera la mínima participación que ha 
-				especificado el usuario, y que los votos a favor superan los votos en contra.</p>\n
-						
+				<p>La ley ha sido aprobada por mayoría cualificada, dado que los votos a favor superan el porcentaje cualificado especificado por el usuario.</p>\n
+
 				`
 		} else {
 			view += `
-				<p>La ley ha sido rechazada, dado que no se supera la mínima participación que ha 
-				especificado el usuario, o que los votos a favor no superan los votos en contra.</p>\n
-						
+				<p>La ley ha sido rechazada, dado que los votos a favor no superan el porcentaje cualificado especificado por el usuario.</p>\n
+
 				`
 		}
-		view += `</div>`	
+	view += `</div>`	
 		return view;
 }
 const mayoriaSimple = () => {
@@ -117,7 +115,7 @@ const mayoriaAbsoluta = () => {
 	}
 };
 
-
+/*
 const mayoriacualificada = () => {
 	let participacionMinima = Math.round(parseInt(prompt("Introduzca el porcentaje mínimo de participación: ")));
 	if (participacionMinima < 0 || participacionMinima > 100) {
@@ -131,7 +129,21 @@ const mayoriacualificada = () => {
 		mayoriaSimple();
 	}
 };
+ */
 
+const mayoriacualificada = () => {
+	let porcentajeMinimoCualificada = Math.round(parseInt(prompt("Introduzca el porcentaje mínimo de votos a favor para aprobar la ley: ")));
+	if (porcentajeMinimoCualificada < 0 || porcentajeMinimoCualificada > 100) {
+		porcentajeMinimoCualificada = 75;
+		porcentajeMinimoCualificada = prompt("Por favor, introduzca un valor correcto: ")
+	}
+	const votos_FavorMinimos = Math.round((350*porcentajeMinimoCualificada)/100);
+	if (favor < votos_FavorMinimos) {
+		leyAprobada = false;
+	} else {
+		leyAprobada = true;
+	}
+};
 
 
 const loadEvents = () => {

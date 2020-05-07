@@ -216,10 +216,8 @@
 								que en contra</li>
 							<li>Mayoría cualificada</li>
 							<ul>
-								<li>Escriba en el cuadro que aparece un porcentaje de
-									participación mínima</li>
-								<li>La ley se aprueba con más votos a favor que en contra
-									siempre que se cumpla el porcentaje de participación mínima</li>
+								<li>Introduzca en el cuadro que aparece el porcentaje mínimo de votos que requiere la ley</li>
+								<li>La ley se aprueba siempre que los votos a favor superen el porcentaje especificado por el usuario</li>
 							</ul>
 						</ul>
 					</ul>
